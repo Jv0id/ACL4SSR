@@ -1,5 +1,5 @@
-# 1.10
-# 2017年2月14日11:30:32 02.13
+# 1.12
+# 2017年2月14日15:23:12 02.14
 #leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -588,7 +588,6 @@
 (^|\.)cmcore\.com$
 (^|\.)cms\.laifeng\.com$
 (^|\.)cn\.wifi\.com$
-(^|\.)cntv\.wrating\.com$
 (^|\.)cnzz\.com$
 (^|\.)cnzz\.net$
 (^|\.)cocounion\.com$
@@ -670,7 +669,6 @@
 (^|\.)fastclick\.net$
 (^|\.)fastlylb\.net$
 (^|\.)feih\.com\.cn$
-(^|\.)file\.market\.xiaomi\.com$
 (^|\.)findjapan\.cn$
 (^|\.)flurry\.com$
 (^|\.)forjs\.net$
@@ -821,7 +819,6 @@
 (^|\.)majorserving\.com$
 (^|\.)manager\.channel\.aliyun\.com$
 (^|\.)map\.dxpmedia\.com$
-(^|\.)market\.xiaomi\.com$
 (^|\.)mathtag\.com$
 (^|\.)mct01\.com$
 (^|\.)media8\.cn$
@@ -950,7 +947,6 @@
 (^|\.)smartadserver\.com$
 (^|\.)smartmad\.com$
 (^|\.)so\.hexun\.com$
-(^|\.)sohu\.wrating\.com$
 (^|\.)somecoding\.com$
 (^|\.)souluo\.net$
 (^|\.)sp\.qf\.56\.com$
@@ -6292,6 +6288,7 @@
 (^|\.)usercdn\.com$
 (^|\.)userscloud\.com$
 (^|\.)xn--i2ru8q2qg\.com$
+(^|\.)gvt1\.com$
 
 # 特殊域名全部代理 通用规则
 ^(.*\.)?jp$
