@@ -241,11 +241,7 @@
 # Kakao Talk
 (^|\.)kakao\.com$
 
-# Line
-(^|\.)line\-cdn\.net$
-(^|\.)line\-apps\.com$
-(^|\.)line\.me$
-(^|\.)line\.naver\.jp$
+
 
 # Ads in Video apps********************下面都是
 
@@ -5801,6 +5797,12 @@
 (^|\.)\w*twimg\w*\.\w*$
 (^|\.)\w*twitter\w*\.\w*$
 (^|\.)\w*youtube\w*\.\w*$
+
+# Line
+(^|\.)line\-cdn\.net$
+(^|\.)line\-apps\.com$
+(^|\.)line\.me$
+(^|\.)line\.naver\.jp$
 
 # Telegram / LINE / Kakao Talk, Workaround for some apps
 1.201.0.0/24
