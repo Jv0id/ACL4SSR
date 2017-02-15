@@ -30,3 +30,7 @@ WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 * 有问题telegram找我@leosam1995
 
 * temp文件夹为历史存档 要找以前的版本可以下那个
+
+# License
+
+* 可以拷贝、转发，但是必须提供原作者信息，同时也不能将本项目用于商业用途。
