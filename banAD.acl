@@ -5,7 +5,9 @@
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
 #屏蔽部分运营商劫持网页弹出的漂浮球广告&流量统计
 #拦截常用应用程序的隐私跟踪&行为分析&数据统计&开屏广告
-#已有问题：爱奇艺因版权问题，网页用国外vps播放，可使用https、电脑版和app解决
+
+#已有问题：自定义ACL文件强制远程DNS解析
+#所以会因解析问题导致：爱奇艺因版权问题，网页用国外vps无法播放，可使用https、电脑版和app解决
 
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 #参照scomper大神的surge规则改编，致谢!!https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
@@ -62,7 +64,7 @@
 
 # Baidu
 (^|\.)(a|adm|as|baichuan|baidutv|bar|bce|c|cbjs|cbjslog|cjhq|cpro|crs|datax|dj1|drmcmm|dxp|e|eclick|eiv|entry)\.baidu\.com$
-(^|\.)(hc|hm|hmma|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
+(^|\.)(hc|hm|hmma|imageplus|ma|mobads\-logs|mobads|mtj|nsclick)\.baidu\.com$
 (^|\.)(pos|pups|rj|rp|sp1|spcode|t12|tk|tuisong|ucstat|ufosdk|union|utility|utk|wangmeng|wm|zhanzhang|znsv)\.baidu\.com$
 (^|\.)api\.youqian\.baidu\.com$
 (^|\.)ashifen\.com$
@@ -104,8 +106,8 @@
 (^|\.)\w*adash\w*\.\w*$
 (^|\.)(acs4baichuan|adash|adashbc|adashx|adashx4yt|amdc|apoll|huodong|rj|simaba)\.m\.taobao\.com$
 (^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
-(^|\.)(afp|atanx|atanx2|dorangesource|gma|nbsdk-baichuan)\.alicdn\.com$
-(^|\.)(nbsdk-baichuan|sdkinit|simaba)\.taobao\.com$
+(^|\.)(afp|atanx|atanx2|dorangesource|gma|nbsdk\-baichuan)\.alicdn\.com$
+(^|\.)(nbsdk\-baichuan|sdkinit|simaba)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
@@ -162,7 +164,7 @@
 (^|\.)wanproxy\.127\.net$
 
 # JD
-(^|\.)(im-x|jzt|kepler|keplerapi|policy|x)\.jd\.com$
+(^|\.)(im\-x|jzt|kepler|keplerapi|policy|x)\.jd\.com$
 (^|\.)(stat|union)\.m\.jd\.com$
 
 # sogou
@@ -193,7 +195,7 @@
 
 # Wi-Fi key
 (^|\.)(wifiapi01|wifiapi02)\.51y5\.net$
-(^|\.)(c|cds|news-img)\.51y5\.net$
+(^|\.)(c|cds|news\-img)\.51y5\.net$
 (^|\.)wkanc\.com$
 
 # shumilou
@@ -231,7 +233,7 @@
 (^|\.)googlecommerce\.com$
 (^|\.)googletagmanager\.com$
 (^|\.)mobileads\.google\.com$
-(^|\.)pagead-tpc\.l\.google\.com$
+(^|\.)pagead\-tpc\.l\.google\.com$
 (^|\.)pagead\.google\.com$
 (^|\.)pagead\.l\.google\.com$
 (^|\.)service\.urchin\.com$
@@ -240,8 +242,8 @@
 (^|\.)kakao\.com$
 
 # Line
-(^|\.)line-cdn\.net$
-(^|\.)line-apps\.com$
+(^|\.)line\-cdn\.net$
+(^|\.)line\-apps\.com$
 (^|\.)line\.me$
 (^|\.)line\.naver\.jp$
 
@@ -253,14 +255,14 @@
 (^|\.)ad\.m\.iqiyi\.com$
 
 # Youku & Tudou
-(^|\.)(actives|atm|hz|lstat|lvip|mobilemsg|msg|stat|ssl-comments|ykatr|ykrectab)\.youku\.com$
+(^|\.)(actives|atm|hz|lstat|lvip|mobilemsg|msg|stat|ssl\-comments|ykatr|ykrectab)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\.tudou\.com$
 (^|\.)(ad|das|api|statis)\.mobile\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
 (^|\.)c\.yes\.youku\.com$
 (^|\.)hudong\.pl\.youku\.com$
-(^|\.)p-log\.ykimg\.com$
+(^|\.)p\-log\.ykimg\.com$
 (^|\.)ssl\.danmu\.youku\.com$
 
 # letv
@@ -310,15 +312,15 @@
 
 # Youtube
 (^|\.)ads\.youtube\.com$
-(^|\.)azabu-u\.ac\.jp$
+(^|\.)azabu\-u\.ac\.jp$
 (^|\.)couchcoaster\.jp$
 (^|\.)crt\.comodoca\.com$
-(^|\.)delivery\.dmkt-sp\.jp$
+(^|\.)delivery\.dmkt\-sp\.jp$
 (^|\.)files\.adform\.net$
 (^|\.)nicorette\.co\.kr$
 (^|\.)nichibenren\.or\.jp$
-(^|\.)m-78\.jp$
-(^|\.)shizen-no-megumi\.com$
+(^|\.)m\-78\.jp$
+(^|\.)shizen\-no\-megumi\.com$
 
 # Others ads in Video apps
 (^|\.)(acsystem|ads|afp)\.wasu\.tv$
@@ -327,17 +329,17 @@
 (^|\.)cc\.xtgreat\.com$
 (^|\.)d\.dsp\.imageter\.com$
 (^|\.)gg\.jtertp\.com$
-(^|\.)gridsum-vd\.cntv\.cn$
+(^|\.)gridsum\-vd\.cntv\.cn$
 (^|\.)kwflvcdn\.000dn\.com$
 (^|\.)logger\.baofeng\.com$
 (^|\.)logstat\.t\.sfht\.com$
 (^|\.)match\.rtbidder\.net$
-(^|\.)n-st\.vip\.com$
+(^|\.)n\-st\.vip\.com$
 (^|\.)pop\.uusee\.com$
 (^|\.)rtb\.behe\.com$
 (^|\.)static\.bshare\.cn$
 (^|\.)static\.duoshuo\.com$
-(^|\.)t\.cr-nielsen\.com$
+(^|\.)t\.cr\-nielsen\.com$
 (^|\.)terren\.cntv\.cn$
 (^|\.)xs\.houyi\.baofeng\.net$
 # Ads in Video apps end ********************上面都是
@@ -404,12 +406,12 @@
 (^|\.)ajapk\.com$
 (^|\.)allyes\.cn$
 (^|\.)allyes\.com$
-(^|\.)amazon-adsystem\.com$
+(^|\.)amazon\-adsystem\.com$
 (^|\.)angsrvr\.com$
 (^|\.)anquan\.org$
 (^|\.)anysdk\.com$
 (^|\.)aoodoo\.feng\.com$
-(^|\.)app-measurement\.com$
+(^|\.)app\-measurement\.com$
 (^|\.)appads\.com$
 (^|\.)appboy\.com$
 (^|\.)applifier\.com$
@@ -418,7 +420,7 @@
 (^|\.)atdmt\.com$
 (^|\.)audience\.network$
 (^|\.)baifendian\.com$
-(^|\.)bam\.nr-data\.net$
+(^|\.)bam\.nr\-data\.net$
 (^|\.)baycode\.cn$
 (^|\.)beacon\.tingyun\.com$
 (^|\.)biddingx\.com$
@@ -428,7 +430,7 @@
 (^|\.)c0563\.com$
 (^|\.)cbsistatic\.com$
 (^|\.)cdn\.jiuzhilan\.com$
-(^|\.)chance-ad\.com$
+(^|\.)chance\-ad\.com$
 (^|\.)chartbeat\.com$
 (^|\.)chartboost\.com$
 (^|\.)chmae\.com$
@@ -440,7 +442,7 @@
 (^|\.)coremetrics\.com$
 (^|\.)cps\.360buy\.com$
 (^|\.)crunchyroll\.com$
-(^|\.)customer-security\.online$
+(^|\.)customer\-security\.online$
 (^|\.)ddapp\.cn$
 (^|\.)dianru\.com$
 (^|\.)dotcounter\.douyutv\.com$
@@ -455,7 +457,7 @@
 (^|\.)fastapi\.net$
 (^|\.)fastclick\.net$
 (^|\.)flurry\.com$
-(^|\.)go-mpulse$
+(^|\.)go\-mpulse$
 (^|\.)growingio\.com$
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
@@ -473,7 +475,7 @@
 (^|\.)irs01\.net$
 (^|\.)irs09\.com$
 (^|\.)istreamsche\.com$
-(^|\.)js-agent\.newrelic\.com$
+(^|\.)js\-agent\.newrelic\.com$
 (^|\.)jusha\.com$
 (^|\.)kejet\.net$
 (^|\.)kmd365\.com$
@@ -490,9 +492,8 @@
 (^|\.)miidi\.net$
 (^|\.)mixpanel\.com$
 (^|\.)mmstat\.com$
-(^|\.)mng-ads\.com$
+(^|\.)mng\-ads\.com$
 (^|\.)moatads\.com$
-(^|\.)mob\.com$
 (^|\.)mobclix\.com$
 (^|\.)mobfox\.com$
 (^|\.)mobisage\.cn$
@@ -522,8 +523,7 @@
 (^|\.)responsys\.net$
 (^|\.)revsci\.net$
 (^|\.)rlcdn\.com$
-(^|\.)scorecardresearch\.com$
-(^|\.)serving-sys\.com$
+(^|\.)serving\-sys\.com$
 (^|\.)shuiguo\.com$
 (^|\.)sitemeter\.com$
 (^|\.)sitescout\.com$
@@ -531,19 +531,17 @@
 (^|\.)smartmad\.com$
 (^|\.)somecoding\.com$
 (^|\.)sponsorpay\.com$
-(^|\.)ssp\.kssws\.ks-cdn\.com$
+(^|\.)ssp\.kssws\.ks\-cdn\.com$
 (^|\.)stats\.chinaz\.com$
 (^|\.)stats\.developingperspective\.com$
 (^|\.)stats\.jpush\.cn$
 (^|\.)switchadhub\.com$
-(^|\.)synacast\.com$
 (^|\.)sysdig\.com$
 (^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
 (^|\.)tiqcdn\.com$
 (^|\.)tjlog\.easou\.com$
 (^|\.)tjlog\.ps\.easou\.com$
-(^|\.)tongbu\.com$
 (^|\.)tracker\.yhd\.com$
 (^|\.)trafficmp\.com$
 (^|\.)ugvip\.com$
@@ -678,25 +676,6 @@
 # 中国CN域名直连
 ^(.*\.)?cn$
 
-# TaoBao
-(^|\.)alibaba\.com$
-(^|\.)alicdn\.com$
-(^|\.)aliexpress\.com$
-(^|\.)aliimg\.com$
-(^|\.)alikunlun\.com$
-(^|\.)alipay\.com$
-(^|\.)alisoft\.com$
-(^|\.)aliyun\.com$
-(^|\.)aliyuncdn\.com$
-(^|\.)aliyuncs\.com$
-(^|\.)intl\.taobao\.com$
-(^|\.)m\.taobao\.com$
-(^|\.)taobao\.com$
-(^|\.)taobaocdn\.com$
-(^|\.)tbcache\.com$
-(^|\.)tbcdn\.com$
-
-
 # 中国国内域名关键词直连
 (^|\.)\w*\-cn\w*\.\w*$
 (^|\.)\w*0x\w*\.\w*$
@@ -718,6 +697,23 @@
 (^|\.)\w*xiami\w*\.\w*$
 (^|\.)\w*xiaomi\w*\.\w*$
 
+# TaoBao
+(^|\.)alibaba\.com$
+(^|\.)alicdn\.com$
+(^|\.)aliexpress\.com$
+(^|\.)aliimg\.com$
+(^|\.)alikunlun\.com$
+(^|\.)alipay\.com$
+(^|\.)alisoft\.com$
+(^|\.)aliyun\.com$
+(^|\.)aliyuncdn\.com$
+(^|\.)aliyuncs\.com$
+(^|\.)intl\.taobao\.com$
+(^|\.)m\.taobao\.com$
+(^|\.)taobao\.com$
+(^|\.)taobaocdn\.com$
+(^|\.)tbcache\.com$
+(^|\.)tbcdn\.com$
 
 # Accelerate direct sites
 (^|\.)10010\.com$
@@ -763,7 +759,7 @@
 (^|\.)5d6d\.com$
 (^|\.)5d6d\.net$
 (^|\.)5wei\.com$
-(^|\.)6-10010\.com$
+(^|\.)6\-10010\.com$
 (^|\.)61\.com$
 (^|\.)6600\.org$
 (^|\.)6rooms\.com$
@@ -782,8 +778,8 @@
 (^|\.)acgvideo\.com$
 (^|\.)adobesc\.com$
 (^|\.)aicdn\.com$
-(^|\.)air-matters\.com$
-(^|\.)air-matters\.io$
+(^|\.)air\-matters\.com$
+(^|\.)air\-matters\.io$
 (^|\.)aixifan\.com$
 (^|\.)aiyiqu\.com$
 (^|\.)ali213\.net$
@@ -928,7 +924,7 @@
 (^|\.)font\.fonts\.googleapis\.com$
 (^|\.)footprint\.net$
 (^|\.)frdic\.com$
-(^|\.)fresh-ideas\.cc$
+(^|\.)fresh\-ideas\.cc$
 (^|\.)ganji\.com$
 (^|\.)gaopeng\.com$
 (^|\.)geekpark\.net$
@@ -956,7 +952,7 @@
 (^|\.)hdslb\.net$
 (^|\.)helpshift\.com$
 (^|\.)hexun\.com$
-(^|\.)hi-pda\.com$
+(^|\.)hi\-pda\.com$
 (^|\.)hiapk\.com$
 (^|\.)hichina\.com$
 (^|\.)highbd\.net$
@@ -984,8 +980,8 @@
 (^|\.)ifengimg\.com$
 (^|\.)iheart\.com$
 (^|\.)ijinshan\.com$
-(^|\.)images-amazon\.com$
-(^|\.)img-space\.com$
+(^|\.)images\-amazon\.com$
+(^|\.)img\-space\.com$
 (^|\.)infzm\.com$
 (^|\.)iqiyi\.com$
 (^|\.)iqshw\.com$
@@ -1071,7 +1067,7 @@
 (^|\.)moke\.com$
 (^|\.)mop\.com$
 (^|\.)mtime\.com$
-(^|\.)my-card\.in$
+(^|\.)my\-card\.in$
 (^|\.)mydrivers\.com$
 (^|\.)myqcloud\.com$
 (^|\.)myunlu\.com$
@@ -1148,7 +1144,7 @@
 (^|\.)rrimg\.com$
 (^|\.)rrmj\.tv$
 (^|\.)ruguoapp\.com$
-(^|\.)s-microsoft\.com$
+(^|\.)s\-microsoft\.com$
 (^|\.)same\.com$
 (^|\.)sandai\.net$
 (^|\.)sanguosha\.com$
@@ -1156,7 +1152,7 @@
 (^|\.)sdo\.com$
 (^|\.)seekingalpha\.com$
 (^|\.)serverspeeder\.com$
-(^|\.)sf-express\.com$
+(^|\.)sf\-express\.com$
 (^|\.)sfbest\.com$
 (^|\.)sfbuy\.com$
 (^|\.)shijue\.me$
@@ -1207,7 +1203,7 @@
 (^|\.)tmcdn\.net$
 (^|\.)to$
 (^|\.)tom\.com$
-(^|\.)tomonline-inc\.com$
+(^|\.)tomonline\-inc\.com$
 (^|\.)toutiao\.com$
 (^|\.)travelrely\.com$
 (^|\.)ttmeiju\.com$
@@ -1223,7 +1219,7 @@
 (^|\.)ubuntu\.com$
 (^|\.)ucjoy\.com$
 (^|\.)udache\.com$
-(^|\.)uni-marketers\.com$
+(^|\.)uni\-marketers\.com$
 (^|\.)unionpay\.com$
 (^|\.)unionpaysecure\.com$
 (^|\.)upaiyun\.com$
@@ -5779,8 +5775,8 @@
 (^|\.)twdvd\.com$
 (^|\.)usercdn\.com$
 (^|\.)userscloud\.com$
-(^|\.)xn--i2ru8q2qg\.com$
-(^|\.)gvt1\.com$
+(^|\.)xn\-\-i2ru8q2qg\.com$
+(^|\.)gvt\w\.com$
 
 # 特殊域名全部代理 通用规则
 ^(.*\.)?jp$
