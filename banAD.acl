@@ -1,5 +1,5 @@
-# 1.13
-# 2017年2月15日08:09:16 02.15
+# 1.14
+# 2017年2月15日19:45:36 02.15
 #leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -147,7 +147,7 @@
 (^|\.)promote\.biz\.weibo\.cn$
 (^|\.)static\.g\.ppstream\.com$
 (^|\.)traffic\.uusee\.com$
-(^|\.)u1\.img\.mobile\.sina\.cn$
+(^|\.)u\d\.img\.mobile\.sina\.cn$
 (^|\.)zymo\.mps\.weibo\.com$
 
 # 163
@@ -218,6 +218,12 @@
 (^|\.)twcczhu\.com$
 (^|\.)youle55\.com$
 
+# 喜马拉雅
+(^|\.)adse\.ximalaya\.com$
+(^|\.)linkeye\.ximalaya\.com$
+(^|\.)location\.ximalaya\.com$
+(^|\.)xdcs-collector\.ximalaya\.com$
+
 # Google
 (^|\.)2mdn\.net$
 (^|\.)admob\.com$
@@ -238,10 +244,6 @@
 (^|\.)pagead\.l\.google\.com$
 (^|\.)service\.urchin\.com$
 
-# Kakao Talk
-(^|\.)kakao\.com$
-
-
 
 # Ads in Video apps********************下面都是
 
@@ -249,6 +251,7 @@
 (^|\.)(afp|ckm|cupid|ifacelog|paopao|rcd)\.qiyi\.com$
 (^|\.)(data|msg|msg2)\.video\.qiyi\.com$
 (^|\.)ad\.m\.iqiyi\.com$
+(^|\.)msg\.71\.am$
 
 # Youku & Tudou
 (^|\.)(actives|atm|hz|lstat|lvip|mobilemsg|msg|stat|ssl\-comments|ykatr|ykrectab)\.youku\.com$
@@ -258,7 +261,7 @@
 (^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
 (^|\.)c\.yes\.youku\.com$
 (^|\.)hudong\.pl\.youku\.com$
-(^|\.)p\-log\.ykimg\.com$
+(^|\.)(p\-log|l)\.ykimg\.com$
 (^|\.)ssl\.danmu\.youku\.com$
 
 # letv
@@ -324,6 +327,7 @@
 (^|\.)c\.algovid\.com$
 (^|\.)cc\.xtgreat\.com$
 (^|\.)d\.dsp\.imageter\.com$
+(^|\.)dotcounter\.douyutv\.com$
 (^|\.)gg\.jtertp\.com$
 (^|\.)gridsum\-vd\.cntv\.cn$
 (^|\.)kwflvcdn\.000dn\.com$
@@ -387,7 +391,6 @@
 (^|\.)ads\.mobclix\.com$
 (^|\.)ads\.yahoo\.com$
 (^|\.)adsame\.com$
-(^|\.)adse\.ximalaya\.com$
 (^|\.)adsunflower\.com$
 (^|\.)adsunion\.com$
 (^|\.)adups\.com$
@@ -419,6 +422,7 @@
 (^|\.)bam\.nr\-data\.net$
 (^|\.)baycode\.cn$
 (^|\.)beacon\.tingyun\.com$
+(^|\.)behe\.com$
 (^|\.)biddingx\.com$
 (^|\.)bsdev\.cn$
 (^|\.)btyou\.com$
@@ -601,6 +605,7 @@
 # Wuhan Unicom Float
 113.57.230.88/32
 # HangZhou Unicom Float
+119.4.249.166/32
 124.160.194.11/32
 # HangZhou Telecom Float
 61.160.200.252/32
@@ -5803,6 +5808,21 @@
 (^|\.)line\-apps\.com$
 (^|\.)line\.me$
 (^|\.)line\.naver\.jp$
+
+# MytvSUPER & Netflix
+(^|\.)\w*nowtv100\w*\.\w*$
+(^|\.)\w*rthklive\w*\.\w*$
+(^|\.)mytvsuper\.com$
+(^|\.)netflix\.com$
+(^|\.)netflix\.net$
+(^|\.)nflxext\.com$
+(^|\.)nflximg\.com$
+(^|\.)nflximg\.net$
+(^|\.)nflxvideo\.net$
+(^|\.)tvb\.com$
+
+# Kakao Talk
+(^|\.)kakao\.com$
 
 # Telegram / LINE / Kakao Talk, Workaround for some apps
 1.201.0.0/24
