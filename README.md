@@ -1,6 +1,6 @@
 # SSR_ACL_Rules
 安卓 SSR 去广告ACL规则
-# 重新建立了一个
+
 * 屏蔽常用视频网站广告
 * 屏蔽常用网站广告、其他流媒体网站广告
 * 屏蔽部分应用程序开屏广告
@@ -23,4 +23,9 @@ WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 
 安卓SSR去广告ACL下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 
-# temp文件夹为历史存档
+
+# 注：
+* 浏览器内部广告太多了，单凭几百条规则可能过滤不过来。少许遗漏，请谅解
+* 有问题telegram找我@leosam1995
+
+* temp文件夹为历史存档 要找以前的版本可以下那个
