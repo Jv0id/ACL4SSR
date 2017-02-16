@@ -678,22 +678,13 @@
 
 # 中国国内域名关键词直连
 (^|\.)\w*\-cn\w*\.\w*$
-(^|\.)\w*0x\w*\.\w*$
-(^|\.)\w*360buy\w*\.\w*$
-(^|\.)\w*alimama\w*\.\w*$
-(^|\.)\w*alipay\w*\.\w*$
 (^|\.)\w*appzapp\w*\.\w*$
 (^|\.)\w*baidupcs\w*\.\w*$
-(^|\.)\w*ccgslb\w*\.\w*$
-(^|\.)\w*chinacache\w*\.\w*$
-(^|\.)\w*douyu\w*\.\w*$
 (^|\.)\w*duobao\w*\.\w*$
 (^|\.)\w*duolingo\w*\.\w*$
 (^|\.)\w*jdpay\w*\.\w*$
 (^|\.)\w*moke\w*\.\w*$
 (^|\.)\w*sinaimg\w*\.\w*$
-(^|\.)\w*steam\w*\.\w*$
-(^|\.)\w*taobao\w*\.\w*$
 (^|\.)\w*xiami\w*\.\w*$
 (^|\.)\w*xiaomi\w*\.\w*$
 
@@ -803,7 +794,6 @@
 (^|\.)baixing\.com$
 (^|\.)bankcomm\.com$
 (^|\.)battle\.net$
-(^|\.)bbs\.feng\.com$
 (^|\.)bdimg\.com$
 (^|\.)bdstatic\.com$
 (^|\.)benlai\.com$
@@ -923,7 +913,6 @@
 (^|\.)fenzhi\.com$
 (^|\.)fhldns\.com$
 (^|\.)fir\.im$
-(^|\.)font\.fonts\.googleapis\.com$
 (^|\.)footprint\.net$
 (^|\.)frdic\.com$
 (^|\.)fresh\-ideas\.cc$
@@ -984,7 +973,6 @@
 (^|\.)images\-amazon\.com$
 (^|\.)img\-space\.com$
 (^|\.)infzm\.com$
-(^|\.)ipip\.net$
 (^|\.)iqiyi\.com$
 (^|\.)it168\.com$
 (^|\.)itcpn\.net$
