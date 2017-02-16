@@ -1,5 +1,5 @@
-# 1.15
-# 2017年2月16日08:38:00 02.16
+# 1.16
+# 2017年2月16日20:27:39 02.16
 #leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -254,33 +254,16 @@
 (^|\.)msg\.71\.am$
 
 # Youku & Tudou
-(^|\.)actives\.youku\.com$
-(^|\.)ad\.api\.3g\.tudou\.com$
-(^|\.)ad\.api\.3g\.youku\.com$
-(^|\.)ad\.mobile\.youku\.com$
-(^|\.)adcontrol\.tudou\.com$
-(^|\.)adplay\.tudou\.com$
-(^|\.)atm\.youku\.com$
+(^|\.)(actives|atm|hz|lstat|lvip|mobilemsg|msg|stat|ssl-comments|ykatr|ykrectab)\.youku\.com$
+(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
+(^|\.)(ad|das)\.mobile\.youku\.com$
+(^|\.)(p|r|v)\.l\.youku\.com$
+(^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)das\.mobile\.youku\.com$
-(^|\.)e\.stat\.ykimg\.com$
-(^|\.)goods\.tudou\.com$
 (^|\.)hudong\.pl\.youku\.com$
-(^|\.)hz\.youku\.com$
-(^|\.)iwstat\.tudou\.com$
-(^|\.)lstat\.youku\.com$
-(^|\.)lvip\.youku\.com$
-(^|\.)msg\.youku\.com$
-(^|\.)nstat\.tudou\.com$
-(^|\.)p\.l\.ykimg\.com$
-(^|\.)p\.l\.youku\.com$
 (^|\.)p-log\.ykimg\.com$
-(^|\.)r\.l\.youku\.com$
-(^|\.)stat\.tudou\.com$
-(^|\.)stat\.youku\.com$
-(^|\.)v\.l\.youku\.com$
-(^|\.)ykatr\.youku\.com$
-(^|\.)ykrectab\.youku\.com$
+(^|\.)ssl\.danmu\.youku\.com$
+(^|\.)das\.api\.mobile\.youku\.com$
 
 # letv
 # (^|\.)ark\.letv\.com$
@@ -354,7 +337,6 @@
 (^|\.)match\.rtbidder\.net$
 (^|\.)n\-st\.vip\.com$
 (^|\.)pop\.uusee\.com$
-(^|\.)rtb\.behe\.com$
 (^|\.)static\.bshare\.cn$
 (^|\.)static\.duoshuo\.com$
 (^|\.)t\.cr\-nielsen\.com$
@@ -481,7 +463,6 @@
 (^|\.)guomob\.com$
 (^|\.)haoghost\.com$
 (^|\.)hosting\.miarroba\.info$
-(^|\.)iadsdk\.apple\.com$
 (^|\.)image\.gentags\.com$
 (^|\.)immob\.cn$
 (^|\.)inmobi\.com$
@@ -778,9 +759,9 @@
 (^|\.)5d6d\.com$
 (^|\.)5d6d\.net$
 (^|\.)5wei\.com$
-(^|\.)6\-10010\.com$
 (^|\.)61\.com$
 (^|\.)6600\.org$
+(^|\.)6\-10010\.com$
 (^|\.)6rooms\.com$
 (^|\.)71\.am$
 (^|\.)7766\.org$
@@ -802,11 +783,14 @@
 (^|\.)aixifan\.com$
 (^|\.)aiyiqu\.com$
 (^|\.)ali213\.net$
+(^|\.)alicdn\.com$
+(^|\.)alipay\.com$
 (^|\.)amap\.com$
 (^|\.)amazon\.com$
 (^|\.)anzhi\.com$
 (^|\.)appinn\.com$
 (^|\.)appsina\.com$
+(^|\.)appstore\.com$
 (^|\.)atpanel\.com$
 (^|\.)autonavi\.com$
 (^|\.)avosapps\.com$
@@ -819,6 +803,7 @@
 (^|\.)baixing\.com$
 (^|\.)bankcomm\.com$
 (^|\.)battle\.net$
+(^|\.)bbs\.feng\.com$
 (^|\.)bdimg\.com$
 (^|\.)bdstatic\.com$
 (^|\.)benlai\.com$
@@ -868,7 +853,6 @@
 (^|\.)citysbs\.com$
 (^|\.)cloudcdn\.net$
 (^|\.)clouddn\.com$
-(^|\.)cloudmagic\.com$
 (^|\.)cmbchina\.com$
 (^|\.)cmfu\.com$
 (^|\.)cmpay\.com$
@@ -880,7 +864,6 @@
 (^|\.)comsenz\.com$
 (^|\.)coolapk\.com$
 (^|\.)coolapkmarket\.com$
-(^|\.)crashlytics\.com$
 (^|\.)csair\.com$
 (^|\.)csdn\.net$
 (^|\.)ct10000\.com$
@@ -969,7 +952,6 @@
 (^|\.)hc360\.com$
 (^|\.)hdslb\.com$
 (^|\.)hdslb\.net$
-(^|\.)helpshift\.com$
 (^|\.)hexun\.com$
 (^|\.)hi\-pda\.com$
 (^|\.)hiapk\.com$
@@ -1002,8 +984,8 @@
 (^|\.)images\-amazon\.com$
 (^|\.)img\-space\.com$
 (^|\.)infzm\.com$
+(^|\.)ipip\.net$
 (^|\.)iqiyi\.com$
-(^|\.)iqshw\.com$
 (^|\.)it168\.com$
 (^|\.)itcpn\.net$
 (^|\.)iteye\.com$
@@ -1032,7 +1014,6 @@
 (^|\.)kanimg\.com$
 (^|\.)kankan\.com$
 (^|\.)kankanews\.com$
-(^|\.)kaola\.com$
 (^|\.)kdnet\.net$
 (^|\.)kickoffapp\.com$
 (^|\.)knewone\.com$
@@ -1077,7 +1058,6 @@
 (^|\.)meizu\.com$
 (^|\.)mi\.com$
 (^|\.)miaopai\.com$
-(^|\.)microsoft\.com$
 (^|\.)miui\.com$
 (^|\.)miwifi\.com$
 (^|\.)mob\.com$
@@ -1113,7 +1093,6 @@
 (^|\.)pcbeta\.com$
 (^|\.)pchome\.net$
 (^|\.)pcpop\.com$
-(^|\.)pdim\.gs$
 (^|\.)pengyou\.com$
 (^|\.)phoenixlzx\.com$
 (^|\.)phpwind\.net$
@@ -1181,7 +1160,6 @@
 (^|\.)sinaedge\.com$
 (^|\.)sinaimg\.com$
 (^|\.)sinajs\.com$
-(^|\.)sjzhushou\.com$
 (^|\.)smartmailcloud\.com$
 (^|\.)smzdm\.com$
 (^|\.)snwx\.com$
@@ -1196,18 +1174,19 @@
 (^|\.)soufunimg\.com$
 (^|\.)speedtest\.net$
 (^|\.)spotilocal\.com$
+(^|\.)ssl-images-amazon\.com$
 (^|\.)ssledge\.com$
 (^|\.)sspai\.com$
 (^|\.)startssl\.com$
 (^|\.)staticfile\.org$
 (^|\.)staticsdo\.com$
 (^|\.)suning\.com$
-(^|\.)supercell\.net$
 (^|\.)swan\.im$
 (^|\.)synacast\.com$
 (^|\.)szzfgjj\.com$
 (^|\.)t2io\.com$
 (^|\.)tankr\.net$
+(^|\.)taobao\.com$
 (^|\.)tdimg\.com$
 (^|\.)tencent\.com$
 (^|\.)tenpay\.com$
@@ -1220,7 +1199,6 @@
 (^|\.)tlgslb\.com$
 (^|\.)tmall\.com$
 (^|\.)tmcdn\.net$
-(^|\.)to$
 (^|\.)tom\.com$
 (^|\.)tomonline\-inc\.com$
 (^|\.)toutiao\.com$
@@ -1246,7 +1224,6 @@
 (^|\.)uusee\.com$
 (^|\.)uuu9\.com$
 (^|\.)uxengine\.net$
-(^|\.)v2ex\.co$
 (^|\.)v2ex\.com$
 (^|\.)vaikan\.com$
 (^|\.)vancl\.com$
@@ -1307,7 +1284,6 @@
 (^|\.)yintai\.com$
 (^|\.)yinxiang\.com$
 (^|\.)yinyuetai\.com$
-(^|\.)yinyuetai\.com$$
 (^|\.)yixia\.com$
 (^|\.)yixun\.com$
 (^|\.)ykimg\.com$
@@ -1324,7 +1300,6 @@
 (^|\.)zdfans\.com$
 (^|\.)zdic\.net$
 (^|\.)zealer\.com$
-(^|\.)zeroxy\.com$
 (^|\.)zgslb\.net$
 (^|\.)zhaiquanjiaoyi\.com$
 (^|\.)zhanqi\.tv$
