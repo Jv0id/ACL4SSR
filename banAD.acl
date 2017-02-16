@@ -254,15 +254,33 @@
 (^|\.)msg\.71\.am$
 
 # Youku & Tudou
-(^|\.)(actives|atm|hz|lstat|lvip|mobilemsg|msg|stat|ssl\-comments|ykatr|ykrectab)\.youku\.com$
-(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\.tudou\.com$
-(^|\.)(ad|das|api|statis)\.mobile\.youku\.com$
-(^|\.)(p|r|v)\.l\.youku\.com$
-(^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
+(^|\.)actives\.youku\.com$
+(^|\.)ad\.api\.3g\.tudou\.com$
+(^|\.)ad\.api\.3g\.youku\.com$
+(^|\.)ad\.mobile\.youku\.com$
+(^|\.)adcontrol\.tudou\.com$
+(^|\.)adplay\.tudou\.com$
+(^|\.)atm\.youku\.com$
 (^|\.)c\.yes\.youku\.com$
+(^|\.)das\.mobile\.youku\.com$
+(^|\.)e\.stat\.ykimg\.com$
+(^|\.)goods\.tudou\.com$
 (^|\.)hudong\.pl\.youku\.com$
-(^|\.)(p\-log|l)\.ykimg\.com$
-(^|\.)ssl\.danmu\.youku\.com$
+(^|\.)hz\.youku\.com$
+(^|\.)iwstat\.tudou\.com$
+(^|\.)lstat\.youku\.com$
+(^|\.)lvip\.youku\.com$
+(^|\.)msg\.youku\.com$
+(^|\.)nstat\.tudou\.com$
+(^|\.)p\.l\.ykimg\.com$
+(^|\.)p\.l\.youku\.com$
+(^|\.)p-log\.ykimg\.com$
+(^|\.)r\.l\.youku\.com$
+(^|\.)stat\.tudou\.com$
+(^|\.)stat\.youku\.com$
+(^|\.)v\.l\.youku\.com$
+(^|\.)ykatr\.youku\.com$
+(^|\.)ykrectab\.youku\.com$
 
 # letv
 # (^|\.)ark\.letv\.com$
