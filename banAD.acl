@@ -1,5 +1,5 @@
 # 2.01 ★★★
-# 2017年2月17日10:40:44 02.17
+# 2017年2月17日10:53:00 02.17
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -33,9 +33,10 @@
 (^|\.)\w*admaster\w*\.\w*$
 (^|\.)\w*admob\w*\.\w*$
 (^|\.)\w*adsage\w*\.\w*$
+(^|\.)\w*adsensor\w*\.\w*
 (^|\.)\w*adsh\w*\.\w*$
 (^|\.)\w*adsmogo\w*\.\w*$
-(^|\.)\w*adsrvmedia\w*\.\w*$
+(^|\.)\w*adsrvmedia\w*\.\w*
 (^|\.)\w*adwords\w*\.\w*$
 (^|\.)\w*analysis\w*\.\w*$
 (^|\.)\w*dnserror\w*\.\w*$
@@ -45,6 +46,7 @@
 (^|\.)\w*flurry.co\w*\.\w*$
 (^|\.)\w*guanggao\w*\.\w*$
 (^|\.)\w*lianmeng\w*\.\w*$
+(^|\.)\w*mobaders\w*\.\w*
 (^|\.)\w*openx\w*\.\w*$
 (^|\.)\w*partnerad\w*\.\w*$
 (^|\.)\w*pingfore\w*\.\w*$
@@ -436,6 +438,7 @@
 (^|\.)beacon\.tingyun\.com$
 (^|\.)behe\.com$
 (^|\.)biddingx\.com$
+(^|\.)biddingx\.com$
 (^|\.)bsdev\.cn$
 (^|\.)btyou\.com$
 (^|\.)buysellads\.com$
@@ -481,6 +484,7 @@
 (^|\.)hosting\.miarroba\.info$
 (^|\.)iadsdk\.apple\.com$
 (^|\.)image\.gentags\.com$
+(^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inmobi\.com$
 (^|\.)inmobicdn\.net$
@@ -512,6 +516,7 @@
 (^|\.)mng\-ads\.com$
 (^|\.)moatads\.com$
 (^|\.)mob\.com$
+(^|\.)mobaders\.com$
 (^|\.)mobclix\.com$
 (^|\.)mobfox\.com$
 (^|\.)mobisage\.cn$
