@@ -1,5 +1,5 @@
-# 2.01 ★★★
-# 2017年2月17日10:53:00 02.17
+# 2.02
+# 2017年2月17日11:56:50 02.17
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -363,7 +363,6 @@
 (^|\.)10up\.com$
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
-(^|\.)123\.sogou\.com$
 (^|\.)513hch\.com$
 (^|\.)51\.la$
 (^|\.)51yes\.com$
@@ -472,7 +471,6 @@
 (^|\.)fastclick\.net$
 (^|\.)fengbuy\.com$
 (^|\.)flurry\.com$
-(^|\.)get\.sogou\.com$
 (^|\.)go\-mpulse$
 (^|\.)googlesyndication\.com$
 (^|\.)googletagmanager\.com, REJECT
@@ -532,8 +530,6 @@
 (^|\.)optimix\.asia$
 (^|\.)optimizelyapis\.com$
 (^|\.)overture\.com$
-(^|\.)page\.amap\.com$
-(^|\.)pb\.sogou\.com$
 (^|\.)picture\.duokan\.com$
 (^|\.)pingdom\.net$
 (^|\.)pixel\.wp\.com$
