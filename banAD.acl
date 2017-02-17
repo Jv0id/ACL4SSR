@@ -1,5 +1,5 @@
-# 2.02
-# 2017年2月17日11:56:50 02.17
+# 2.03
+# 2017年2月17日16:34:01 02.17
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -25,7 +25,7 @@
 [outbound_block_list]
 # 禁止访问列表 广告拦截
 
-#MyList
+# MyList
 (^|\.)(1|2)\.win7china\.com$
 
 # 广告关键词 实验功能 可能有误伤
@@ -62,6 +62,7 @@
 (^|\.)\w*zjtoolbar\w*\.\w*$
 (^|\.)ad\..*$
 (^|\.)ads\..*$
+(^|\.)\w*soarfi\w*\.\w*$
 
 # 163
 (^|\.)(adgeo|analytics|bobo|fa|g|g1|gb|temp)(\.corp|)\.163\.com$
@@ -79,12 +80,13 @@
 # 360
 (^|\.)3600\.com$
 (^|\.)adapi\.shouji\.360\.cn$
+(^|\.)api\.so\.lianmeng\.360\.cn$
 (^|\.)dev\.tg\.wan\.360\.cn$
-(^|\.)huodong\.ios\.shouji\.360\.cn$
 (^|\.)kuaikan\.netmon\.360safe\.com$
 (^|\.)leak\.360\.cn$
 (^|\.)openbox\.mobilem\.360\.cn$
 (^|\.)pub\.se\.360\.cn$
+(^|\.)s\.lianmeng\.360\.cn$
 (^|\.)soft\.data\.weather\.360\.cn$
 (^|\.)stat\.360safe\.com$
 (^|\.)stat\.m\.360\.cn$
@@ -252,6 +254,13 @@
 
 # Ads in Video apps********************下面都是
 
+# 6间房
+(^|\.)(shrek|simba||union)\.6\.cn$
+
+# Baofeng 暴风影音
+(^|\.)logger\.baofeng\.com$
+(^|\.)xs\.houyi\.baofeng\.net$
+
 # Fenghuang 凤凰TV
 (^|\.)(aoodoo|push|yes1)\.feng\.com$
 (^|\.)(game|ifashion|stadig)\.ifeng\.com$
@@ -263,7 +272,7 @@
 # Funshion 风行
 (^|\.)(pub|adm|jobsfe|po|pv|stat)\.funshion\.com$
 
-# iqiyi
+# iQiyi 爱奇艺
 (^|\.)(afp|ckm|cupid|ifacelog|paopao|rcd)\.qiyi\.com$
 (^|\.)(data|msg|msg2)\.video\.qiyi\.com$
 (^|\.)ad\.m\.iqiyi\.com$
@@ -271,28 +280,27 @@
 (^|\.)msg\.71\.am$
 123.125.117.0/22
 
-# Ku6
-(^|\.)(shrek|simba||union)\.6\.cn$
+# Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
 (^|\.)st\.vq\.ku6\.cn$
 (^|\.)pq\.stat\.ku6\.com$
 (^|\.)static\.ku6\.com$
 
-# letv
+# leTV 乐视
 (^|\.)ark\.letv\.com$
 (^|\.)(dc|fz|g3|minisite|pro|stat)\.letv\.com$
 (^|\.)(i0|i3)\.letvimg\.com$
 (^|\.)n\.mark\.letv\.com$
 (^|\.)pro\.hoye\.letv\.com$
 
-# pps
+# PPS
 (^|\.)static\.g\.ppstream\.com$
 
-# pptv
+# PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
 (^|\.)asimgs\.pplive\.cn$
 
-# sohu
+# Sohu 搜狐
 (^|\.)(aty|pv)\.sohu\.com$
 (^|\.)data\.vod\.itc\.cn$
 (^|\.)goto\.sms\.sohu\.com$
@@ -302,14 +310,14 @@
 (^|\.)score\.my\.tv\.sohu\.com$
 (^|\.)statcounter\.com$
 
-# mgtv 芒果TV
+# MGTV 芒果TV
 (^|\.)(bs|log|x)\.da\.hunantv\.com$
 (^|\.)mp4\.res\.hunantv\.com$
 (^|\.)p2\.hunantv\.com$
 (^|\.)log\.v2\.hunantv\.com$
 
-# Youku & Tudou
-(^|\.)(actives|atm|hz|lstat|lvip|mobilemsg|msg|stat|ssl-comments|ykatr|ykrectab)\.youku\.com$
+# Youku & Tudou 优酷&土豆 
+
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
 (^|\.)(ad|das)\.mobile\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
@@ -342,7 +350,6 @@
 (^|\.)gg\.jtertp\.com$
 (^|\.)gridsum\-vd\.cntv\.cn$
 (^|\.)kwflvcdn\.000dn\.com$
-(^|\.)logger\.baofeng\.com$
 (^|\.)logstat\.t\.sfht\.com$
 (^|\.)match\.rtbidder\.net$
 (^|\.)n\-st\.vip\.com$
@@ -351,11 +358,10 @@
 (^|\.)static\.duoshuo\.com$
 (^|\.)t\.cr\-nielsen\.com$
 (^|\.)terren\.cntv\.cn$
-(^|\.)xs\.houyi\.baofeng\.net$
 
 # Ads in Video apps end ********************上面都是
 
-#AD Block Others
+# AD Block Others
 (^|\.)(168|adshownew|stat)\.it168\.com$
 (^|\.)(33|c|pcd)\.autohome\.com\.cn$
 (^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
@@ -692,7 +698,7 @@
 [bypass_list]
 # 直连列表
 
-#MyList
+# MyList
 (^|\.)translate\.google\.cn$
 
 # 局域网直连
@@ -705,8 +711,8 @@
 (^|\.)localhost$
 
 # 中国CN域名直连
-^(.*\.)?cn$
-^(.*\.)?com\.cn$
+^.*\.cn$
+^.*\.com\.cn$
 
 # 中国国内域名关键词直连
 (^|\.)\w*\-cn\w*\.\w*$
@@ -731,8 +737,6 @@
 (^|\.)aliyun\.com$
 (^|\.)aliyuncdn\.com$
 (^|\.)aliyuncs\.com$
-(^|\.)intl\.taobao\.com$
-(^|\.)m\.taobao\.com$
 (^|\.)taobao\.com$
 (^|\.)taobaocdn\.com$
 (^|\.)tbcache\.com$
@@ -5770,7 +5774,7 @@
 #**********************************************************************
 [proxy_list]
 
-#MyList
+# MyList
 (^|\.)bandwagonhost\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
@@ -5787,11 +5791,11 @@
 (^|\.)gvt\w\.com$
 
 # 特殊域名全部代理 通用规则
-^(.*\.)?jp$
-^(.*\.)?sg$
-^(.*\.)?tw$
-^(.*\.)?uk$
-^(.*\.)?us$
+^.*\.jp$
+^.*\.sg$
+^.*\.tw$
+^.*\.uk$
+^.*\.us$
 
 # 国外软件关键字 全部代理
 (^|\.)\w*aka\w*\.\w*$
