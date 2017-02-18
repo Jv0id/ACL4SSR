@@ -318,7 +318,6 @@
 (^|\.)log\.v2\.hunantv\.com$
 
 # Youku & Tudou 优酷&土豆 
-
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
 (^|\.)(ad|das)\.mobile\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
@@ -5769,8 +5768,6 @@
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.cc$
-(^|\.)ip138\.com$
-(^|\.)ipip\.net$
 (^|\.)ja7lib\.com$
 (^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
@@ -5779,6 +5776,9 @@
 (^|\.)userscloud\.com$
 (^|\.)xn\-\-i2ru8q2qg\.com$
 (^|\.)gvt\w\.com$
+# MyList 用于探测代理的ip和国家
+(^|\.)ip138\.com$
+(^|\.)ipip\.net$
 
 # 特殊域名全部代理 通用规则
 ^.*\.jp$
