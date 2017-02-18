@@ -51,6 +51,7 @@
 (^|\.)\w*partnerad\w*\.\w*$
 (^|\.)\w*pingfore\w*\.\w*$
 (^|\.)\w*qtmojo\w*\.\w*$
+(^|\.)\w*soarfi\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*trace\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
@@ -62,7 +63,6 @@
 (^|\.)\w*zjtoolbar\w*\.\w*$
 (^|\.)ad\..*$
 (^|\.)ads\..*$
-(^|\.)\w*soarfi\w*\.\w*$
 
 # 163
 (^|\.)(adgeo|analytics|bobo|fa|g|g1|gb|temp)(\.corp|)\.163\.com$
@@ -701,6 +701,7 @@
 # 中国CN域名直连
 ^.*\.cn$
 ^.*\.com\.cn$
+^.*\.edu\.cn$
 
 # 中国国内域名关键词直连
 (^|\.)\w*\-cn\w*\.\w*$
