@@ -1,5 +1,5 @@
 # 2.05
-# 2017年2月18日11:47:00 02.18
+# 2017年2月18日12:55:42 02.18
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -64,13 +64,13 @@
 # 163
 (^|\.)(adgeo|analytics|bobo|fa|g|g1|gb|temp)(\.corp|)\.163\.com$
 (^|\.)(analytics|img1|ws)(\.corp|)\.126\.net$
+(^|\.)(dsp|rlogs|union)\.youdao\.com$
 (^|\.)(f1|f2)(\.corp|)\.p0y\.cn$
 (^|\.)oadz\.com$
 (^|\.)oimagea2\.ydstatic\.com$
 (^|\.)pagechoice\.net$
 (^|\.)prom\.gome\.com\.cn$
 (^|\.)qchannel01\.cn$
-(^|\.)rlogs\.youdao\.com$
 (^|\.)static\.flv\.uuzuonline\.com$
 (^|\.)wanproxy\.127\.net$
 
@@ -183,16 +183,6 @@
 (^|\.)xiuxiu\.mobile\.meitudata\.com$
 (^|\.)tuiguang\.meitu\.com$
 
-# Mp4ba
-(^|\.)37wan\.cn$
-(^|\.)fd7c\.com$
-(^|\.)haohaowan8\.com$
-(^|\.)he2d\.com$
-(^|\.)shentus\.com$
-(^|\.)tiangoutai\.com$
-(^|\.)twcczhu\.com$
-(^|\.)youle55\.com$
-
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
 (^|\.)(act|adsfile|beacon|e|gdt|l|monitor|omgmta|pingma|pingjs|pingtcss|report|tajs|tcss)(\.uu|)\.qq\.com$
@@ -297,11 +287,10 @@
 
 # Sohu 搜狐
 (^|\.)(aty|pv)\.sohu\.com$
+(^|\.)(i|s)\.go\.sohu\.com$
 (^|\.)data\.vod\.itc\.cn$
 (^|\.)goto\.sms\.sohu\.com$
-(^|\.)i\.go\.sohu\.com$
 (^|\.)mb\.hd\.sohu\.com\.cn$
-(^|\.)s\.go\.sohu\.com$
 (^|\.)score\.my\.tv\.sohu\.com$
 (^|\.)statcounter\.com$
 
@@ -393,7 +382,6 @@
 (^|\.)adjust\.io$
 (^|\.)adlive\.cn$
 (^|\.)adm\.easou\.com$
-(^|\.)admaster\.com\.cn$
 (^|\.)admin5\.com$
 (^|\.)admon\.cn$
 (^|\.)adnxs\.com$
@@ -461,7 +449,6 @@
 (^|\.)ddapp\.cn$
 (^|\.)dianru\.com$
 (^|\.)doubleverify\.com$
-(^|\.)dsp\.youdao\.com$
 (^|\.)duapp\.com$
 (^|\.)e\.nexac\.com$
 (^|\.)edigitalsurvey\.com$
@@ -574,7 +561,6 @@
 (^|\.)ukeiae\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
-(^|\.)union\.youdao\.com$
 (^|\.)unlitui\.com$
 (^|\.)uri6\.com$
 (^|\.)ushaqi\.com$
@@ -1084,7 +1070,6 @@
 (^|\.)newsmth\.net$
 (^|\.)niuza\.com$
 (^|\.)noke\.com$
-(^|\.)nuomi\.com$
 (^|\.)okbuy\.com$
 (^|\.)omtrdc\.net$
 (^|\.)onlinedown\.net$
