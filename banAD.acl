@@ -1,5 +1,5 @@
 # 2.05
-# 2017年2月18日20:49:00 02.18
+# 2017年2月18日21:29:09 02.18
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -30,10 +30,10 @@
 (^|\.)\w*admaster\w*\.\w*$
 (^|\.)\w*admob\w*\.\w*$
 (^|\.)\w*adsage\w*\.\w*$
-(^|\.)\w*adsensor\w*\.\w*
+(^|\.)\w*adsensor\w*\.\w*$
 (^|\.)\w*adsh\w*\.\w*$
 (^|\.)\w*adsmogo\w*\.\w*$
-(^|\.)\w*adsrvmedia\w*\.\w*
+(^|\.)\w*adsrvmedia\w*\.\w*$
 (^|\.)\w*adwords\w*\.\w*$
 (^|\.)\w*analysis\w*\.\w*$
 (^|\.)\w*dnserror\w*\.\w*$
@@ -43,7 +43,7 @@
 (^|\.)\w*flurry.co\w*\.\w*$
 (^|\.)\w*guanggao\w*\.\w*$
 (^|\.)\w*lianmeng\w*\.\w*$
-(^|\.)\w*mobaders\w*\.\w*
+(^|\.)\w*mobaders\w*\.\w*$
 (^|\.)\w*openx\w*\.\w*$
 (^|\.)\w*partnerad\w*\.\w*$
 (^|\.)\w*pingfore\w*\.\w*$
@@ -185,10 +185,9 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|beacon|e|gdt|l|monitor|omgmta|pingma|pingjs|pingtcss|report|tajs|tcss)(\.uu|)\.qq\.com$
+(^|\.)(act|adsfile|beacon|e|gdt|l|monitor|pingjs|pingma|pingtcss|report|tajs|tcss)(|\.uu)\.qq\.com$
 (^|\.)(adsense|mqqad|tpush)\.html5\.qq\.com$
 (^|\.)(bugly|buluo)\.qq\.com$
-(^|\.)(btrace|rcgi)\.video\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)adsolution\.imtt\.qq\.com$
 (^|\.)aikan\.browser\.qq\.com$
@@ -198,6 +197,7 @@
 (^|\.)mqqad\.cs0309\.html5\.qq\.com$
 (^|\.)pgdt\.gtimg\.cn$
 (^|\.)qqvideo\.tc\.qq\.com$
+(^|\.)rcgi\.video\.qq\.com$
 
 # Shumilou
 (^|\.)70e\.com$
