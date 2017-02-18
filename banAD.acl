@@ -18,15 +18,12 @@
 [proxy_all]
 # 默认代理
 ### [outbound_block_list] 禁止访问列表 
-### [bypass_list]直连列表 禁止访问列表 在1180多行
-### [proxy_list] 代理列表 在6277多行  
+### [bypass_list]直连列表 禁止访问列表 在690多行
+### [proxy_list] 代理列表 在5766多行  
 
 #**********************************************************************
 [outbound_block_list]
 # 禁止访问列表 广告拦截
-
-# MyList
-(^|\.)(1|2)\.win7china\.com$
 
 # 广告关键词 实验功能 可能有误伤
 (^|\.)\w*admarvel\w*\.\w*$
@@ -248,10 +245,7 @@
 (^|\.)wkanc\.com$
 
 # Ximalaya 喜马拉雅
-(^|\.)adse\.ximalaya\.com$
-(^|\.)linkeye\.ximalaya\.com$
-(^|\.)location\.ximalaya\.com$
-(^|\.)xdcs-collector\.ximalaya\.com$
+(^|\.)(adse|linkeye|location|xdcs\-collector)\.ximalaya\.com$
 
 # Ads in Video apps********************下面都是
 
@@ -325,7 +319,7 @@
 (^|\.)c\.yes\.youku\.com$
 (^|\.)das\.api\.mobile\.youku\.com$
 (^|\.)hudong\.pl\.youku\.com$
-(^|\.)p-log\.ykimg\.com$
+(^|\.)p\-log\.ykimg\.com$
 (^|\.)ssl\.danmu\.youku\.com$
 
 # Youtube
@@ -363,6 +357,7 @@
 
 # AD Block Others
 (^|\.)(168|adshownew|stat)\.it168\.com$
+(^|\.)(1|2)\.win7china\.com$
 (^|\.)(33|c|pcd)\.autohome\.com\.cn$
 (^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
 (^|\.)(ad|ads|counter)\.csdn\.net$
