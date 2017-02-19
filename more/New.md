@@ -1,14 +1,19 @@
-﻿* https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
+* https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 * @leosam1995
 # 更新历史
 
-# 2.05 ★★★
-# 2017年2月18日12:55:42 02.18
+# 2.06
+# 2017年2月19日08:07:30 02.19
+改善广告关键词
+改善ali广告等广告
+升级优酷广告拦截
+
+* 2.05 ★★★
+* 2017年2月18日12:55:42 02.18
 合并大陆ip地址，缩减近1700条规则
 删掉MP4吧广告
 update有道和sohu
 去重、排序！！！！
-
 感谢@nian0114
 
 * 2.03
