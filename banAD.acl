@@ -42,11 +42,9 @@
 (^|\.)\w*dwtrack\w*\.\w*$
 (^|\.)\w*guanggao\w*\.\w*$
 (^|\.)\w*lianmeng\w*\.\w*$
-(^|\.)\w*mobaders\w*\.\w*$
 (^|\.)\w*openx\w*\.\w*$
 (^|\.)\w*partnerad\w*\.\w*$
 (^|\.)\w*pingfore\w*\.\w*$
-(^|\.)\w*qtmojo\w*\.\w*$
 (^|\.)\w*soarfi\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*trace\w*\.\w*$
@@ -90,8 +88,7 @@
 
 # Ali
 (^|\.)\w*adash\w*\.\w*$
-(^|\.)(acs4baichuan|adash|adashbc|adashx|adashx4yt|amdc|apoll|huodong|rj|simaba)\.m\.taobao\.com$
-(^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
+(^|\.)(acs4baichuan|amdc|apoll|huodong|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|nbsdk\-baichuan)\.alicdn\.com$
 (^|\.)(nbsdk\-baichuan|sdkinit|simaba)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
