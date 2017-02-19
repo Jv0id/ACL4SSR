@@ -1,5 +1,5 @@
-# 2.05
-# 2017年2月18日21:29:09 02.18
+# 2.06
+# 2017年2月19日08:07:30 02.19
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -306,9 +306,10 @@
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
 (^|\.)c\.yes\.youku\.com$
+(^|\.)das\.api\.mobile\.youku\.com$
 (^|\.)e\.stat\.ykimg\.com$
 (^|\.)hudong\.pl\.youku\.com$
-(^|\.)p-log\.ykimg\.com$
+(^|\.)p\-log\.ykimg\.com$
 (^|\.)p\.l\.ykimg\.com$
 
 # Youtube
