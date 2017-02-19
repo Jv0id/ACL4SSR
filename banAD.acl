@@ -120,7 +120,6 @@
 (^|\.)cpro\.baidu\.com\.cn$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
-(^|\.)dcps\.nuomi\.com$
 (^|\.)httb1\.bdstatic\.com$
 (^|\.)itsdata\.map\.baidu\.com$
 (^|\.)log\.nuomi\.com$
@@ -188,6 +187,7 @@
 (^|\.)(act|adsfile|beacon|e|gdt|l|monitor|pingjs|pingma|pingtcss|report|tajs|tcss)(|\.uu)\.qq\.com$
 (^|\.)(adsense|mqqad|tpush)\.html5\.qq\.com$
 (^|\.)(bugly|buluo)\.qq\.com$
+(^|\.)(rcgi|btrace)\.video\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)adsolution\.imtt\.qq\.com$
 (^|\.)aikan\.browser\.qq\.com$
@@ -197,7 +197,6 @@
 (^|\.)mqqad\.cs0309\.html5\.qq\.com$
 (^|\.)pgdt\.gtimg\.cn$
 (^|\.)qqvideo\.tc\.qq\.com$
-(^|\.)rcgi\.video\.qq\.com$
 
 # Shumilou
 (^|\.)70e\.com$
@@ -278,12 +277,11 @@
 (^|\.)n\.mark\.letv\.com$
 (^|\.)pro\.hoye\.letv\.com$
 
-# PPS
-(^|\.)static\.g\.ppstream\.com$
-
-# PPTV、PPLive
-(^|\.)(de|jp)\.as\.pptv\.com$
-(^|\.)asimgs\.pplive\.cn$
+# MGTV 芒果TV
+(^|\.)(bs|log|x)\.da\.hunantv\.com$
+(^|\.)mp4\.res\.hunantv\.com$
+(^|\.)p2\.hunantv\.com$
+(^|\.)log\.v2\.hunantv\.com$
 
 # Sohu 搜狐
 (^|\.)(aty|pv)\.sohu\.com$
@@ -294,22 +292,24 @@
 (^|\.)score\.my\.tv\.sohu\.com$
 (^|\.)statcounter\.com$
 
-# MGTV 芒果TV
-(^|\.)(bs|log|x)\.da\.hunantv\.com$
-(^|\.)mp4\.res\.hunantv\.com$
-(^|\.)p2\.hunantv\.com$
-(^|\.)log\.v2\.hunantv\.com$
+# PPS
+(^|\.)static\.g\.ppstream\.com$
+
+# PPTV、PPLive
+(^|\.)(de|jp)\.as\.pptv\.com$
+(^|\.)asimgs\.pplive\.cn$
 
 # Youku & Tudou 优酷&土豆
+(^|\.)(actives|atm|hz|lstat|lvip|msg|stat|ykatr|ykrectab)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
 (^|\.)(ad|das)\.mobile\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)das\.api\.mobile\.youku\.com$
+(^|\.)e\.stat\.ykimg\.com$
 (^|\.)hudong\.pl\.youku\.com$
-(^|\.)p\-log\.ykimg\.com$
-(^|\.)ssl\.danmu\.youku\.com$
+(^|\.)p-log\.ykimg\.com$
+(^|\.)p\.l\.ykimg\.com$
 
 # Youtube
 (^|\.)ads\.youtube\.com$
