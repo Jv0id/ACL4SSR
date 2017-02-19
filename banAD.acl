@@ -260,7 +260,6 @@
 (^|\.)(afp|ckm|cupid|ifacelog|paopao|rcd)\.qiyi\.com$
 (^|\.)(data|msg|msg2)\.video\.qiyi\.com$
 (^|\.)ad\.m\.iqiyi\.com$
-(^|\.)gss0\.bdstatic\.com$
 (^|\.)msg\.71\.am$
 123.125.117.0/22
 
