@@ -1,5 +1,5 @@
 # 2.06
-# 2017年2月19日08:07:30 02.19
+# 2017年2月19日16:04:23 02.19
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -28,7 +28,6 @@
 # 广告关键词 实验功能 可能有误伤
 (^|\.)\w*admarvel\w*\.\w*$
 (^|\.)\w*admaster\w*\.\w*$
-(^|\.)\w*admob\w*\.\w*$
 (^|\.)\w*adsage\w*\.\w*$
 (^|\.)\w*adsensor\w*\.\w*$
 (^|\.)\w*adsh\w*\.\w*$
@@ -88,7 +87,7 @@
 
 # Ali
 (^|\.)\w*adash\w*\.\w*$
-(^|\.)(acs4baichuan|amdc|apoll|huodong|rj|simaba)\.m\.taobao\.com$
+(^|\.)(acs4baichuan|amdc|apoll|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|nbsdk\-baichuan)\.alicdn\.com$
 (^|\.)(nbsdk\-baichuan|sdkinit|simaba)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
@@ -130,8 +129,8 @@
 (^|\.)zz\.bdstatic\.com$
 
 # Google
+(^|\.)\w*admob\w*\.\w*$
 (^|\.)2mdn\.net$
-(^|\.)admob\.com$
 (^|\.)ads\.gmodules\.com$
 (^|\.)ads\.google\.com$
 (^|\.)afd\.l\.google\.com$
@@ -222,7 +221,12 @@
 (^|\.)zymo\.mps\.weibo\.com$
 
 # Sogou
-(^|\.)(123|brand|get|inte|pb|pd|wan)\.sogou\.com$
+(^|\.)(brand|get|inte|pb|pd|wan)\.sogou\.com$
+
+# Weifeng
+(^|\.)fengbuy\.com$
+(^|\.)tutuapp\.com$
+(^|\.)we\.tm$
 
 # Wi-Fi key
 (^|\.)(wifiapi01|wifiapi02)\.51y5\.net$
@@ -275,9 +279,9 @@
 
 # MGTV 芒果TV
 (^|\.)(bs|log|x)\.da\.hunantv\.com$
+(^|\.)log\.v2\.hunantv\.com$
 (^|\.)mp4\.res\.hunantv\.com$
 (^|\.)p2\.hunantv\.com$
-(^|\.)log\.v2\.hunantv\.com$
 
 # Sohu 搜狐
 (^|\.)(aty|pv)\.sohu\.com$
@@ -357,6 +361,9 @@
 (^|\.)86\.cc$
 (^|\.)95558000\.com$
 (^|\.)99click\.com$
+(^|\.)SUFFIX,ad\-brix\.com$
+(^|\.)SUFFIX,leadboltads\.net$
+(^|\.)SUFFIX,sstc360\.com$
 (^|\.)a1\.itc\.cn$
 (^|\.)acs86\.com$
 (^|\.)ad\.12306\.cn$
@@ -389,7 +396,6 @@
 (^|\.)ads\.mobclix\.com$
 (^|\.)ads\.yahoo\.com$
 (^|\.)adsame\.com$
-(^|\.)adsmogo\.org$
 (^|\.)adsunflower\.com$
 (^|\.)adsunion\.com$
 (^|\.)adups\.com$
@@ -444,6 +450,7 @@
 (^|\.)crunchyroll\.com$
 (^|\.)customer\-security\.online$
 (^|\.)ddapp\.cn$
+(^|\.)de\.soquair\.com$
 (^|\.)dianru\.com$
 (^|\.)doubleverify\.com$
 (^|\.)duapp\.com$
@@ -454,7 +461,6 @@
 (^|\.)fancyapi\.com$
 (^|\.)fastapi\.net$
 (^|\.)fastclick\.net$
-(^|\.)fengbuy\.com$
 (^|\.)flurry\.com$
 (^|\.)go\-mpulse$
 (^|\.)growingio\.com$
@@ -480,6 +486,7 @@
 (^|\.)kejet\.net$
 (^|\.)kmd365\.com$
 (^|\.)krux\.net$
+(^|\.)lm\.admin5\.com$
 (^|\.)localytics\.com$
 (^|\.)log\.outbrain\.com$
 (^|\.)log\.umsns\.com$
