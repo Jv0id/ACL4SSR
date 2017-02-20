@@ -1,5 +1,5 @@
-# 2.06
-# 2017年2月19日16:04:23 02.19
+# 2.07
+# 2017年2月21日00:42:59 02.21
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -58,10 +58,10 @@
 (^|\.)ads\..*$
 
 # 163
-(^|\.)(adgeo|analytics|bobo|fa|g|g1|gb|temp)(\.corp|)\.163\.com$
-(^|\.)(analytics|img1|ws)(\.corp|)\.126\.net$
+(^|\.)(adgeo|bobo|fa|g|g1|gb)(\.corp|)\.163\.com$
+(^|\.)(img1|ws)\.126\.net$
 (^|\.)(dsp|rlogs|union)\.youdao\.com$
-(^|\.)(f1|f2)(\.corp|)\.p0y\.cn$
+(^|\.)(f1|f2)\.p0y\.cn$
 (^|\.)oadz\.com$
 (^|\.)oimagea2\.ydstatic\.com$
 (^|\.)pagechoice\.net$
@@ -137,6 +137,8 @@
 (^|\.)badad\.googleplex\.com$
 (^|\.)csi\.gstatic\.com$
 (^|\.)doubleclick(\.com|\.net)$
+(^|\.)google\-analytics\.com$
+(^|\.)googleadservices\.com$
 (^|\.)googleadsserving\.cn$
 (^|\.)googlecommerce\.com$
 (^|\.)googlesyndication\.com$
@@ -146,13 +148,14 @@
 (^|\.)pagead\.google\.com$
 (^|\.)pagead\.l\.google\.com$
 (^|\.)partnerad\.l\.google\.com$
+(^|\.)pubads\.g\.doubleclick\.net$
 (^|\.)service\.urchin\.com$
 # Disable customized fonts ---temp delete
 # (^|\.)fonts\.googleapis\.com$
 
 # JD
-(^|\.)(jzt|kepler|keplerapi|policy)\.jd\.com$
-(^|\.)(stat|union)\.m\.jd\.com$
+(^|\.)(jzt|kepler|keplerapi|policy|x)\.jd\.com$
+(^|\.)stat\.m\.jd\.com$
 
 # Kugou
 (^|\.)ads\.service\.kugou\.com$
@@ -257,10 +260,11 @@
 (^|\.)(pub|adm|jobsfe|po|pv|stat)\.funshion\.com$
 
 # iqiyi 爱奇艺
-(^|\.)(afp|ckm|cupid|ifacelog|paopao|rcd)\.qiyi\.com$
-(^|\.)(data|msg|msg2)\.video\.qiyi\.com$
+(^|\.)(afp|ckm|ifacelog|paopao|rcd)\.qiyi\.com$
+(^|\.)(msg|msg2|msga)\.video\.qiyi\.com$
 (^|\.)ad\.m\.iqiyi\.com$
-(^|\.)msg\.71\.am$
+(^|\.)cm\.passport\.iqiyi\.com$
+(^|\.)msga\.cupid\.iqiyi\.com$
 123.125.117.0/22
 
 # Ku6 酷6
@@ -296,20 +300,27 @@
 
 # PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
+(^|\.)afp\.pplive\.com$
 (^|\.)asimgs\.pplive\.cn$
+(^|\.)pp2\.pptv\.com$
+(^|\.)stat\.pptv\.com$
 
-# Youku & Tudou 优酷&土豆
+# Youku & Tudou
 (^|\.)(actives|atm|hz|lstat|lvip|msg|stat|ykatr|ykrectab)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
 (^|\.)(ad|das)\.mobile\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
+(^|\.)ad\.mobile\.youku\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)das\.api\.mobile\.youku\.com$
+(^|\.)das\.api\.youku\.com$
+(^|\.)das\.mobile\.youku\.com$
 (^|\.)e\.stat\.ykimg\.com$
 (^|\.)hudong\.pl\.youku\.com$
 (^|\.)p\-log\.ykimg\.com$
 (^|\.)p\.l\.ykimg\.com$
+(^|\.)statis\.api\.3g\.youku\.com$
+(^|\.)val\.api\.youku\.com$
 
 # Youtube
 (^|\.)ads\.youtube\.com$
