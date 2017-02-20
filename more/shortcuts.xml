@@ -75,54 +75,22 @@
             <Action type="2" message="0" wParam="42043" lParam="0" sParam="" />
         </Macro>
         <Macro name="ip&#x8F6C;acl" Ctrl="no" Alt="no" Shift="no" Key="0">
-            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam=", DIRECT" />
-            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1602" wParam="0" lParam="0" sParam=",DIRECT" />
-            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
-            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
-            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam=", REJECT" />
-            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1602" wParam="0" lParam="0" sParam=",REJECT" />
-            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
-            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
-            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam=", REJECT" />
-            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1602" wParam="0" lParam="0" sParam=",REJECT" />
-            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
-            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="2" message="0" wParam="42043" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="//" />
             <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="#" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam=",&#x2601;&#xFE0F; Proxy,no-resolve" />
-            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
-            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam=",REJECT,no-resolve" />
-            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
-            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
-            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam=",DIRECT" />
-            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
-            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
-            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam=",REJECT" />
-            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
-            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2025" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2422" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="IP-CIDR," />
             <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
