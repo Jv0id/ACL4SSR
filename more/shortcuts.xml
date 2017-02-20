@@ -56,7 +56,7 @@
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$" />
             <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
-            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="\\w*\\.\\w*$" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
             <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
@@ -89,8 +89,6 @@
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
-            <Action type="0" message="2025" wParam="0" lParam="0" sParam="" />
-            <Action type="0" message="2422" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="IP-CIDR," />
             <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
@@ -107,13 +105,14 @@
         </Macro>
     </Macros>
     <UserDefinedCommands>
-        <Command name="&#x5728; Firefox &#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
-        <Command name="&#x5728; IE &#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;" Ctrl="yes" Alt="yes" Shift="yes" Key="73">iexplore &quot;$(FULL_CURRENT_PATH)&quot;</Command>
-        <Command name="&#x5728; Chrome &#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;" Ctrl="yes" Alt="yes" Shift="yes" Key="82">chrome &quot;$(FULL_CURRENT_PATH)&quot;</Command>
-        <Command name="&#x5728; Safari &#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;" Ctrl="yes" Alt="yes" Shift="yes" Key="70">safari &quot;$(FULL_CURRENT_PATH)&quot;</Command>
-        <Command name="&#x83B7;&#x53D6; PHP &#x5E2E;&#x52A9;" Ctrl="no" Alt="yes" Shift="no" Key="112">http://www.php.net/$(CURRENT_WORD)</Command>
+        <Command name="&#x8FDB;&#x884C; Baidu &#x641C;&#x7D22;" Ctrl="no" Alt="yes" Shift="no" Key="112">https://www.baidu.com/s?wd=$(CURRENT_WORD)</Command>
         <Command name="&#x8FDB;&#x884C; Google &#x641C;&#x7D22;" Ctrl="no" Alt="yes" Shift="no" Key="113">https://www.google.com/search?q=$(CURRENT_WORD)</Command>
         <Command name="&#x8FDB;&#x884C; Wikipedia &#x641C;&#x7D22;" Ctrl="no" Alt="yes" Shift="no" Key="114">https://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="&#x83B7;&#x53D6; PHP &#x5E2E;&#x52A9;" Ctrl="no" Alt="yes" Shift="no" Key="115">http://www.php.net/$(CURRENT_WORD)</Command>
+        <Command name="&#x5728; IE &#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;" Ctrl="yes" Alt="yes" Shift="yes" Key="73">iexplore &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="&#x5728; Chrome &#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;" Ctrl="yes" Alt="yes" Shift="yes" Key="82">chrome &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="&#x5728; Firefox &#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="&#x5728; Safari &#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;" Ctrl="yes" Alt="yes" Shift="yes" Key="70">safari &quot;$(FULL_CURRENT_PATH)&quot;</Command>
         <Command name="&#x6253;&#x5F00;&#x6587;&#x4EF6;" Ctrl="no" Alt="yes" Shift="no" Key="116">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD)</Command>
         <Command name="&#x6253;&#x5F00;&#x4E00;&#x4E2A;&#x65B0;&#x5B9E;&#x4F8B;" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD) -nosession -multiInst</Command>
         <Command name="&#x901A;&#x8FC7; Outlook &#x53D1;&#x9001;" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
