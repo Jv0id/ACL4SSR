@@ -1,5 +1,5 @@
-# 2.07
-# 2017年2月21日00:42:59 02.21
+# 2.08
+# 2017年2月21日18:13:24 02.21
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -148,7 +148,6 @@
 (^|\.)pagead\.google\.com$
 (^|\.)pagead\.l\.google\.com$
 (^|\.)partnerad\.l\.google\.com$
-(^|\.)pubads\.g\.doubleclick\.net$
 (^|\.)service\.urchin\.com$
 # Disable customized fonts ---temp delete
 # (^|\.)fonts\.googleapis\.com$
@@ -207,20 +206,17 @@
 (^|\.)zhuanfakong\.com$
 
 # Sina
-(^|\.)(ad|adm|atm|beacon|d0|d1|d7|dcads|dmp|sax|slog|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
 (^|\.)(adimg|pay|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
+(^|\.)(ad|adm|atm|beacon|d0|d1|d7|dcads|dmp|sax|slog|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
 (^|\.)(alitui|biz|game)\.weibo\.com(\.cn|)$
-(^|\.)c\.biz\.weibo\.com$
-(^|\.)c\.wcpt\.biz\.weibo\.com$
 (^|\.)cre\.dp\.sina\.cn$
 (^|\.)g\.uusee\.com$
 (^|\.)gw5\.push\.mcp\.weibo\.cn$
 (^|\.)log\.mix\.sina\.com\.cn$
 (^|\.)newspush\.sinajs\.cn$
-(^|\.)promote\.biz\.weibo\.cn$
+(^|\.)tjs\.sjs\.sinajs\.cn$
 (^|\.)traffic\.uusee\.com$
 (^|\.)u\d\.img\.mobile\.sina\.cn$
-(^|\.)zc\.biz\.weibo\.com$
 (^|\.)zymo\.mps\.weibo\.com$
 
 # Sogou
@@ -788,6 +784,7 @@
 (^|\.)90g\.org$
 (^|\.)91\.com$
 (^|\.)9966\.org$
+(^|\.)9ku\.com$
 (^|\.)abchina\.com$
 (^|\.)abercrombie\.com$
 (^|\.)acfun\.tv$
@@ -1311,6 +1308,7 @@
 (^|\.)zhanqi\.tv$
 (^|\.)zhaopin\.com$
 (^|\.)zhi\.hu$
+(^|\.)zhibo8\.(cc|com)$
 (^|\.)zhihu\.com$
 (^|\.)zhimg\.com$
 (^|\.)zhongsou\.com$
