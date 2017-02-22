@@ -1,5 +1,5 @@
-# 2.08
-# 2017年2月21日18:13:24 02.21
+# 2.09
+# 2017年2月22日17:04:19 02.22
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -86,7 +86,6 @@
 (^|\.)update\.360safe\.com$
 
 # Ali
-(^|\.)\w*adash\w*\.\w*$
 (^|\.)(acs4baichuan|amdc|apoll|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|nbsdk\-baichuan)\.alicdn\.com$
 (^|\.)(nbsdk\-baichuan|sdkinit|simaba)\.taobao\.com$
@@ -115,7 +114,6 @@
 (^|\.)cpro\.baidu\.com\.cn$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
-(^|\.)httb1\.bdstatic\.com$
 (^|\.)itsdata\.map\.baidu\.com$
 (^|\.)log\.nuomi\.com$
 (^|\.)push\.zhanzhang\.baidu\.com$
@@ -681,11 +679,15 @@
 123.206.1.246/32
 124.116.241.0/24
 140.205.36.26/32
+180.76.163.245/32
+180.76.171.28/32
 180.76.190.68/32
+182.48.119.159/32
 183.131.79.130/32
 211.137.132.89/32
 221.179.183.0/24
 221.179.191.0/24
+
 
 #**********************************************************************
 [bypass_list]
