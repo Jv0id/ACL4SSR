@@ -753,17 +753,13 @@
 (^|\.)acgvideo\.com$
 (^|\.)adobesc\.com$
 (^|\.)air\-matters\.com$
-(^|\.)air\-matters\.io$
 (^|\.)aixifan\.com$
-(^|\.)alicdn\.com$
-(^|\.)alipay\.com$
 (^|\.)amap\.com$
 (^|\.)appstore\.com$
 (^|\.)autonavi\.com$
 (^|\.)bababian\.com$
 (^|\.)baidu\.com$
 (^|\.)battle\.net$
-(^|\.)bbs\.feng\.com$
 (^|\.)bdimg\.com$
 (^|\.)bdstatic\.com$
 (^|\.)bilibili\.com$
@@ -881,7 +877,6 @@
 (^|\.)tencent\.com$
 (^|\.)tenpay\.com$
 (^|\.)tietuku\.com$
-(^|\.)tmall\.com$
 (^|\.)tudou\.com$
 (^|\.)udache\.com$
 (^|\.)upaiyun\.com$
