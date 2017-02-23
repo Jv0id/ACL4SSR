@@ -87,7 +87,7 @@
 
 # Ali
 (^|\.)(acs4baichuan|amdc|apoll|rj|simaba)\.m\.taobao\.com$
-(^|\.)(appdownload|afp|atanx|atanx2|dorangesource|g|gma|gw|nbsdk\-baichuan)\.alicdn\.com$
+(^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|nbsdk\-baichuan)\.alicdn\.com$
 (^|\.)(nbsdk\-baichuan|sdkinit|simaba)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
 (^|\.)alipaylog\.com$
