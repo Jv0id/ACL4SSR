@@ -77,13 +77,13 @@
 (^|\.)dev\.tg\.wan\.360\.cn$
 (^|\.)kuaikan\.netmon\.360safe\.com$
 (^|\.)leak\.360\.cn$
-(^|\.)openbox\.mobilem\.360\.cn$
 (^|\.)pub\.se\.360\.cn$
 (^|\.)s\.lianmeng\.360\.cn$
 (^|\.)soft\.data\.weather\.360\.cn$
 (^|\.)stat\.360safe\.com$
 (^|\.)stat\.m\.360\.cn$
 (^|\.)update\.360safe\.com$
+#(^|\.)openbox\.mobilem\.360\.cn$
 
 # Ali
 (^|\.)(acs4baichuan|amdc|apoll|rj|simaba)\.m\.taobao\.com$
