@@ -1,5 +1,5 @@
-# 2.11
-# 2017年2月23日19:33:13 02.23
+# 2.12
+# 2017年2月24日11:17:14 02.24
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -757,7 +757,6 @@
 (^|\.)amap\.com$
 (^|\.)appstore\.com$
 (^|\.)autonavi\.com$
-(^|\.)bababian\.com$
 (^|\.)baidu\.com$
 (^|\.)battle\.net$
 (^|\.)bdimg\.com$
@@ -810,7 +809,6 @@
 (^|\.)ifeng\.com$
 (^|\.)ifengimg\.com$
 (^|\.)images\-amazon\.com$
-(^|\.)ipip\.net$
 (^|\.)iqiyi\.com$
 (^|\.)it168\.com$
 (^|\.)ithome\.com$
@@ -837,6 +835,7 @@
 (^|\.)myqcloud\.com$
 (^|\.)myunlu\.com$
 (^|\.)netease\.com$
+(^|\.)nuomi\.com$
 (^|\.)ourdvs\.com$
 (^|\.)overcast\.fm$
 (^|\.)piaotian\.net$
@@ -911,6 +910,7 @@
 (^|\.)ykimg\.com$
 (^|\.)youdao\.com$
 (^|\.)youku\.com$
+(^|\.)yunjiasu\-cdn\.net$
 (^|\.)yy\.com$
 (^|\.)yyets\.com$
 (^|\.)zealer\.com$
