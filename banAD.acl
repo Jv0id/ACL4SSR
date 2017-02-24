@@ -431,7 +431,6 @@
 (^|\.)beacon\.tingyun\.com$
 (^|\.)behe\.com$
 (^|\.)biddingx\.com$
-(^|\.)biddingx\.com$
 (^|\.)bsdev\.cn$
 (^|\.)btyou\.com$
 (^|\.)buysellads\.com$
@@ -552,7 +551,6 @@
 (^|\.)sponsorpay\.com$
 (^|\.)ssp\.kssws\.ks\-cdn\.com$
 (^|\.)sstc360\.com$
-(^|\.)stat\.m\.jd\.com$
 (^|\.)stats\.chinaz\.com$
 (^|\.)stats\.developingperspective\.com$
 (^|\.)stats\.jpush\.cn$
@@ -627,6 +625,7 @@
 # China_telecom 电信
 # JiangSu Telecom Float
 61.160.200.252/32
+221.228.17.152/32
 # Hefei Telecom Float
 61.132.216.232/32
 61.132.221.146/32
@@ -635,8 +634,6 @@
 61.132.255.232/32
 61.191.12.74/32
 61.191.206.4/32
-# JiangSu Telecom Float
-221.228.17.152/32
 # WuHan Telecom Float
 111.175.220.160/29
 # Zhejiang Telecom Float
@@ -646,7 +643,6 @@
 23.42.186.24/32
 23.66.147.48/32
 59.110.16.35/32
-60.191.124.196/32
 101.227.12.0/23
 101.227.14.0/24
 101.227.119.0/24
@@ -874,7 +870,6 @@
 (^|\.)sspai\.com$
 (^|\.)startssl\.com$
 (^|\.)suning\.com$
-(^|\.)taobao\.com$
 (^|\.)tencent\.com$
 (^|\.)tenpay\.com$
 (^|\.)tietuku\.com$
