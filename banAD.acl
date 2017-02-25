@@ -1,5 +1,5 @@
-# 2.13
-# 2017年2月25日20:28:31 02.25
+# 2.14
+# 2017年2月25日22:16:41 02.25
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -17,8 +17,9 @@
 #**********************************************************************
 [proxy_all]
 # 默认代理
-# [bypass_all] 默认直连，自己可以自定义
-### [outbound_block_list] 禁止访问列表
+
+### [bypass_all] 默认直连 自己可以自定义
+### [outbound_block_list] 禁止访问列表 在26行
 ### [bypass_list] 直连列表 禁止访问列表 在690多行
 ### [proxy_list] 代理列表 在4000多行
 
@@ -26,7 +27,7 @@
 [outbound_block_list]
 # 禁止访问列表 广告拦截
 
-# 广告关键词 实验功能 可能有误伤
+# 广告关键词
 (^|\.)\w*admarvel\w*\.\w*$
 (^|\.)\w*admaster\w*\.\w*$
 (^|\.)\w*adsage\w*\.\w*$
@@ -55,8 +56,9 @@
 (^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
-(^|\.)ad\..*$
-(^|\.)ads\..*$
+# test 实验功能，效果强大，误伤可能比较大
+(^|\.)ad\d{0,2}\..*$
+(^|\.)ads\d{0,2}\..*$
 
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb)(\.corp|)\.163\.com$
@@ -259,6 +261,9 @@
 (^|\.)cm\.passport\.iqiyi\.com$
 (^|\.)msga\.cupid\.iqiyi\.com$
 123.125.117.0/22
+# test
+(^|\.)msg\.71\.am$
+(^|\.)msg\.iqiyi\.com$
 
 # Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
@@ -347,6 +352,12 @@
 (^|\.)terren\.cntv\.cn$
 
 # Ads in Video apps end ********************上面都是
+
+# test
+(^|\.)track\.uc\.cn$
+(^|\.)track\.hujiang\.com$
+(^|\.)s\.so\.360\.cn$
+(^|\.)qdp\.qidian\.com$
 
 # AD Block Others
 (^|\.)(168|adshownew|stat)\.it168\.com$
