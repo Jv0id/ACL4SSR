@@ -86,7 +86,7 @@
 #(^|\.)openbox\.mobilem\.360\.cn$
 
 # Ali
-(^|\.)(acs4baichuan|amdc|apoll|rj|simaba)\.m\.taobao\.com$
+(^|\.)(acs4baichuan|adash|amdc|apoll|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|nbsdk\-baichuan)\.alicdn\.com$
 (^|\.)(nbsdk\-baichuan|sdkinit|simaba)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
@@ -916,7 +916,8 @@
 
 #**********************************************************************
 # 本地/局域网IP
-(^|\.)localhost$
+^.*\.localhost$
+^.*\.local$
 0.0.0.0/8
 10.0.0.0/8
 100.64.0.0/10
