@@ -179,7 +179,7 @@
 (^|\.)(act|adsfile|beacon|e|gdt|l|monitor|pingjs|pingma|pingtcss|report|tajs|tcss)(|\.uu)\.qq\.com$
 (^|\.)(adsense|mqqad|tpush)\.html5\.qq\.com$
 (^|\.)(bugly|buluo)\.qq\.com$
-(^|\.)(rcgi|btrace)\.video\.qq\.com$
+(^|\.)btrace\.video\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)adsolution\.imtt\.qq\.com$
 (^|\.)aikan\.browser\.qq\.com$
@@ -189,6 +189,7 @@
 (^|\.)mqqad\.cs0309\.html5\.qq\.com$
 (^|\.)pgdt\.gtimg\.cn$
 (^|\.)qqvideo\.tc\.qq\.com$
+(^|\.)qqpublic\.qpic\.cn$
 
 # Shumilou
 (^|\.)70e\.com$
@@ -3727,7 +3728,7 @@
 (^|\.)userscloud\.com$
 (^|\.)xn\-\-i2ru8q2qg\.com$
 
-# 特殊域名全部代理 通用规则
+# 国外域名全部代理 通用规则
 ^.*\.jp$
 ^.*\.sg$
 ^.*\.tw$
