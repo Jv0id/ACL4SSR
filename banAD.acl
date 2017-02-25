@@ -1,5 +1,5 @@
-# 2.12
-# 2017年2月24日11:17:14 02.24
+# 2.13
+# 2017年2月25日18:32:42 02.25
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -83,7 +83,6 @@
 (^|\.)stat\.360safe\.com$
 (^|\.)stat\.m\.360\.cn$
 (^|\.)update\.360safe\.com$
-#(^|\.)openbox\.mobilem\.360\.cn$
 
 # Ali
 (^|\.)(acs4baichuan|adash|amdc|apoll|rj|simaba)\.m\.taobao\.com$
@@ -147,8 +146,6 @@
 (^|\.)pagead\.l\.google\.com$
 (^|\.)partnerad\.l\.google\.com$
 (^|\.)service\.urchin\.com$
-# Disable customized fonts ---temp delete
-# (^|\.)fonts\.googleapis\.com$
 
 # JD
 (^|\.)(jzt|kepler|keplerapi|policy|x)\.jd\.com$
@@ -3719,6 +3716,8 @@
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.cc$
+(^|\.)ip138\.com$
+(^|\.)ipip\.net$
 (^|\.)ja7lib\.com$
 (^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
@@ -3726,10 +3725,6 @@
 (^|\.)usercdn\.com$
 (^|\.)userscloud\.com$
 (^|\.)xn\-\-i2ru8q2qg\.com$
-(^|\.)gvt\w\.com$
-# MyList 用于探测代理的ip和国家
-(^|\.)ip138\.com$
-(^|\.)ipip\.net$
 
 # 特殊域名全部代理 通用规则
 ^.*\.jp$
