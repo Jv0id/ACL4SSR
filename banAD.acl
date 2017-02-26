@@ -1,5 +1,5 @@
-# 2.14
-# 2017年2月25日22:16:41 02.25
+# 2.15
+# 2017年2月26日10:50:33 02.26
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -358,6 +358,18 @@
 (^|\.)track\.hujiang\.com$
 (^|\.)s\.so\.360\.cn$
 (^|\.)qdp\.qidian\.com$
+(^|\.)ad\-plus\.cn$
+(^|\.)ad\.xiaomi\.com$
+(^|\.)adhouyi\.com$
+(^|\.)adinall\.com$
+(^|\.)adm\.10jqka\.com\.cn$
+(^|\.)adpro\.cn$
+(^|\.)ads\.linkedin\.com$
+(^|\.)baoyatu\.cc$
+(^|\.)biddingos\.com$
+(^|\.)keyrun\.cn$
+(^|\.)pro\.cn$
+(^|\.)vungle\.cn$
 
 # AD Block Others
 (^|\.)(168|adshownew|stat)\.it168\.com$
@@ -825,6 +837,7 @@
 (^|\.)jianshuapi\.com$
 (^|\.)jiathis\.com$
 (^|\.)kankan\.com$
+(^|\.)kaola\.com$
 (^|\.)knewone\.com$
 (^|\.)lecloud\.com$
 (^|\.)lemicp\.com$
@@ -845,6 +858,7 @@
 (^|\.)ourdvs\.com$
 (^|\.)overcast\.fm$
 (^|\.)piaotian\.net$
+(^|\.)pptv\.com$
 (^|\.)pstatp\.com$
 (^|\.)qbox\.me$
 (^|\.)qcloud\.com$
