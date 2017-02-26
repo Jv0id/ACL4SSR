@@ -354,10 +354,7 @@
 # Ads in Video apps end ********************上面都是
 
 # test
-(^|\.)track\.uc\.cn$
-(^|\.)track\.hujiang\.com$
-(^|\.)s\.so\.360\.cn$
-(^|\.)qdp\.qidian\.com$
+(^|\.)99youmeng\.com$
 (^|\.)ad\-plus\.cn$
 (^|\.)ad\.xiaomi\.com$
 (^|\.)adhouyi\.com$
@@ -369,6 +366,10 @@
 (^|\.)biddingos\.com$
 (^|\.)keyrun\.cn$
 (^|\.)pro\.cn$
+(^|\.)qdp\.qidian\.com$
+(^|\.)s\.so\.360\.cn$
+(^|\.)track\.hujiang\.com$
+(^|\.)track\.uc\.cn$
 (^|\.)vungle\.cn$
 
 # AD Block Others
