@@ -797,6 +797,8 @@
 (^|\.)ccgslb\.com$
 (^|\.)ccgslb\.net$
 (^|\.)chinacache\.net$
+(^|\.)chinaso\.com$
+(^|\.)chinaz\.com$
 (^|\.)chunbo\.com$
 (^|\.)chunboimg\.com$
 (^|\.)clouddn\.com$
@@ -818,10 +820,13 @@
 (^|\.)ewqcxz\.com$
 (^|\.)feng\.com$
 (^|\.)fir\.im$
+(^|\.)fonts\.gstatic\.com$
+(^|\.)fonts\.static\.com$
 (^|\.)frdic\.com$
 (^|\.)fresh\-ideas\.cc$
 (^|\.)geetest\.com$
 (^|\.)godic\.net$
+(^|\.)gravatar\.com$
 (^|\.)greasyfork\.org$
 (^|\.)gtimg\.com$
 (^|\.)haibian\.com$
@@ -946,6 +951,7 @@
 (^|\.)zgslb\.net$
 (^|\.)zhihu\.com$
 (^|\.)zhimg\.com$
+(^|\.)zhongsou\.com$
 (^|\.)zmz2017\.com$
 
 #**********************************************************************
