@@ -62,9 +62,10 @@
 
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb)(\.corp|)\.163\.com$
-(^|\.)(img1|ws)\.126\.net$
 (^|\.)(dsp|rlogs|union)\.youdao\.com$
 (^|\.)(f1|f2)\.p0y\.cn$
+(^|\.)(img1|ws)\.126\.net$
+(^|\.)haitaoad\.nosdn\.127\.net$
 (^|\.)oadz\.com$
 (^|\.)oimagea2\.ydstatic\.com$
 (^|\.)pagechoice\.net$
@@ -363,10 +364,8 @@
 (^|\.)10up\.com$
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
-(^|\.)513hch\.com$
 (^|\.)51\.la$
 (^|\.)51yes\.com$
-(^|\.)818mov\.com$
 (^|\.)86\.cc$
 (^|\.)95558000\.com$
 (^|\.)99click\.com$
@@ -429,7 +428,6 @@
 (^|\.)angsrvr\.com$
 (^|\.)anquan\.org$
 (^|\.)anysdk\.com$
-(^|\.)aoodoo\.feng\.com$
 (^|\.)app\-measurement\.com$
 (^|\.)appads\.com$
 (^|\.)appboy\.com$
@@ -437,7 +435,6 @@
 (^|\.)applovin\.com$
 (^|\.)appsflyer\.com$
 (^|\.)atdmt\.com$
-(^|\.)audience\.network$
 (^|\.)baifendian\.com$
 (^|\.)bam\.nr\-data\.net$
 (^|\.)baoyatu\.cc$
@@ -483,7 +480,6 @@
 (^|\.)growingio\.com$
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
-(^|\.)haitaoad\.nosdn\.127\.net$
 (^|\.)haoghost\.com$
 (^|\.)hosting\.miarroba\.info$
 (^|\.)iadsdk\.apple\.com$
@@ -608,7 +604,6 @@
 (^|\.)xmpush\.xiaomi\.com$
 (^|\.)xy\.com$
 (^|\.)yandui\.com$
-(^|\.)yes1\.feng\.com$
 (^|\.)yigao\.com$
 (^|\.)yiqifa\.com$
 (^|\.)yooli\.com$
