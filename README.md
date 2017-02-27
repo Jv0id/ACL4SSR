@@ -1,17 +1,15 @@
 # SSR_ACL_Rules
 * 安卓 SSR 去广告ACL规则
 
+* 国内网站均直接连接
+* 国外常用域名后缀均代理！！！
+
 * 屏蔽常用视频网站广告
 * 屏蔽常用网站广告、其他流媒体网站广告
 * 屏蔽部分应用程序开屏广告
 * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
-* 所有国内网站均直接连接
-* 所有国外常用域名后缀均代理！！！
 
-参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
-
-参照scomper大神的surge规则改编，致谢!!https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 
 ♻️ SSR Download：
 
@@ -23,10 +21,16 @@ WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 
 安卓SSR去广告ACL更新记录：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
 
+📋 教程 / 说明：
+* 打开SSR->路由->自定义acl文件->输入下载地址->更新
+* 再次更新，点击软件页面底部的更新即可
+
 # 注：
+* 参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
+* 参照scomper大神的surge规则改编，致谢!!https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
+
 * 浏览器内部广告太多了，单凭几百条规则可能过滤不过来。少许遗漏，请谅解
 * 有问题telegram找我@leosam1995
-
 * temp文件夹为历史存档 要找以前的版本可以下那个
 		
 # License		
