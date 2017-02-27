@@ -3,7 +3,7 @@
     <Macros>
         <Macro name="&#x7F51;&#x5740;&#x8F6C;acl" Ctrl="no" Alt="no" Shift="no" Key="0">
             <Action type="2" message="0" wParam="42043" lParam="0" sParam="" />
-            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+			            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="//" />
             <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="#" />
@@ -17,7 +17,13 @@
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
             <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$)|(\/.*)" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^((DOMAIN-SUFFIX|DOMAIN)\,)|((.*)?http\w?\:\#(www\\\.)?)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="\(^|\\\.\)" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(\,\s?.{0,3}(Proxy|DIRECT|REJECT)(.*)?$)|(\/.*$)" />
             <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="$" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
@@ -25,12 +31,6 @@
             <Action type="0" message="2025" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2422" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2325" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^((DOMAIN-SUFFIX|DOMAIN)\,)|((.*)?http\w?\:\#(www\\\.)?)" />
-            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
-            <Action type="3" message="1602" wParam="0" lParam="0" sParam="\(^|\\\.\)" />
-            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
-            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="-" />
             <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
@@ -54,7 +54,7 @@
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
             <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$)" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(.*)?$" />
             <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="\\w*\\.\\w*$" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
@@ -84,7 +84,7 @@
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
             <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$)" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(.*)?$" />
             <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
