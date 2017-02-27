@@ -3,7 +3,7 @@
     <Macros>
         <Macro name="&#x7F51;&#x5740;&#x8F6C;acl" Ctrl="no" Alt="no" Shift="no" Key="0">
             <Action type="2" message="0" wParam="42043" lParam="0" sParam="" />
-			            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="//" />
             <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="#" />
