@@ -1,5 +1,5 @@
 # 2.17
-# 2017年2月27日09:19:06 02.27
+# 2017年2月27日09:45:00 02.27
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -153,8 +153,12 @@
 (^|\.)service\.urchin\.com$
 
 # JD
-(^|\.)(jzt|kepler|keplerapi|policy|x)\.jd\.com$
+(^|\.)jzt\.jd\.com$
+(^|\.)kepler\.jd\.com$
+(^|\.)keplerapi\.jd\.com$
+(^|\.)policy\.jd\.com$
 (^|\.)stat\.m\.jd\.com$
+(^|\.)x\.jd\.com$
 
 # Kugou
 (^|\.)ads\.service\.kugou\.com$
@@ -165,10 +169,14 @@
 (^|\.)rtmonitor\.kugou\.com$
 (^|\.)update\.mobile\.kugou\.com$
 
-# Kuwo Music
-(^|\.)(g|log|updatepage|wa|webstat)\.kuwo\.cn$
+# Kuwo
 (^|\.)apk\.shouji\.koowo\.com$
 (^|\.)g\.koowo\.com$
+(^|\.)g\.kuwo\.cn$
+(^|\.)log\.kuwo\.cn$
+(^|\.)updatepage\.kuwo\.cn$
+(^|\.)wa\.kuwo\.cn$
+(^|\.)webstat\.kuwo\.cn$
 
 # Meitu
 (^|\.)a\.koudai\.com$
@@ -220,17 +228,27 @@
 (^|\.)u\d\.img\.mobile\.sina\.cn$
 (^|\.)zymo\.mps\.weibo\.com$
 
-# Sogou
-(^|\.)(brand|get|inte|pb|pd|wan)\.sogou\.com$
+# Sougou
+(^|\.)123\.sogou\.com$
+(^|\.)brand\.sogou\.com$
+(^|\.)get\.sogou\.com$
+(^|\.)inte\.sogou\.com$
+(^|\.)pb\.sogou\.com$
+(^|\.)pd\.sogou\.com$
+(^|\.)wan\.sogou\.com$
 
 # Weifeng
 (^|\.)fengbuy\.com$
 (^|\.)tutuapp\.com$
 (^|\.)we\.tm$
 
-# Wi-Fi key
-(^|\.)(wifiapi01|wifiapi02)\.51y5\.net$
-(^|\.)(c|cds|news\-img)\.51y5\.net$
+# Wi\-Fi key
+(^|\.)c\.51y5\.net$
+(^|\.)cds\.51y5\.net$
+(^|\.)ios\-dc\.51y5\.net$
+(^|\.)news\-img\.51y5\.net$
+(^|\.)wifiapi01\.51y5\.net$
+(^|\.)wifiapi02\.51y5\.net$
 (^|\.)wkanc\.com$
 
 # Ximalaya 喜马拉雅
@@ -257,15 +275,13 @@
 (^|\.)(pub|adm|jobsfe|po|pv|stat)\.funshion\.com$
 
 # iqiyi 爱奇艺
-(^|\.)(afp|ckm|ifacelog|paopao|rcd)\.qiyi\.com$
+(^|\.)(afp|ckm|ifacelog|msg|paopao|rcd)\.qiyi\.com$
 (^|\.)(msg|msg2|msga)\.video\.qiyi\.com$
 (^|\.)ad\.m\.iqiyi\.com$
 (^|\.)cm\.passport\.iqiyi\.com$
+(^|\.)msg\.71\.am$
 (^|\.)msga\.cupid\.iqiyi\.com$
 123.125.117.0/22
-# test
-(^|\.)msg\.71\.am$
-(^|\.)msg\.iqiyi\.com$
 
 # Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
