@@ -1,25 +1,20 @@
-# SSR_ACL_Rules
-* 安卓 SSR 去广告ACL规则
+# 安卓SSR去广告ACL规则
 
+* 安卓 SSR 去广告ACL规则
 * 国内网站均直接连接
 * 国外常用域名后缀均代理！！！
-
 * 屏蔽常用视频网站广告
 * 屏蔽常用网站广告、其他流媒体网站广告
 * 屏蔽部分应用程序开屏广告
 * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
+# ♻️ SSR Download：
 
-♻️ SSR Download：
-
-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
-
-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
-
-安卓SSR去广告ACL下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
-
-安卓SSR去广告ACL更新记录：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
+* ACL更新地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
+* ACL更新记录：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
+* SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
+* SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
 📋 教程 / 说明：
 * 打开SSR->路由->自定义acl文件->输入下载地址->更新
