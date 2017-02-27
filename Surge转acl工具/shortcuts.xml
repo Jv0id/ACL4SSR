@@ -17,7 +17,7 @@
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
             <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$)|(\/.*)" />
             <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="$" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
@@ -26,7 +26,7 @@
             <Action type="0" message="2422" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2325" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(DOMAIN-SUFFIX|DOMAIN)\," />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^((DOMAIN-SUFFIX|DOMAIN)\,)|((.*)?http\w?\:\#(www\\\.)?)" />
             <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="\(^|\\\.\)" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
@@ -54,7 +54,7 @@
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
             <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$)" />
             <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="\\w*\\.\\w*$" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
@@ -84,7 +84,7 @@
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
             <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
-            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\,\s?.{0,3}(Proxy|DIRECT|REJECT)(\,\s?.*)?$)" />
             <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
             <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
@@ -96,6 +96,35 @@
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
         </Macro>
+        <Macro name="acl&#x8F6C;&#x7F51;&#x5740;" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam=" " />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="512" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="512" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(^|.)" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="512" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="$" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="512" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="2" message="0" wParam="42043" lParam="0" sParam="" />
+        </Macro>
         <Macro name="&#x6587;&#x672C;&#x5347;&#x5E8F;" Ctrl="no" Alt="no" Shift="no" Key="0">
             <Action type="2" message="0" wParam="42059" lParam="0" sParam="" />
         </Macro>
@@ -103,7 +132,7 @@
             <Action type="0" message="2013" wParam="0" lParam="0" sParam="" />
             <Action type="2" message="0" wParam="42043" lParam="0" sParam="" />
         </Macro>
-		<Macro name="&#x53BB;&#x9664;&#x591A;&#x4F59;&#x7A7A;&#x683C;&#x5E76;&#x4FDD;&#x5B58;" Ctrl="no" Alt="yes" Shift="yes" Key="83">
+        <Macro name="&#x53BB;&#x9664;&#x591A;&#x4F59;&#x7A7A;&#x683C;&#x5E76;&#x4FDD;&#x5B58;" Ctrl="no" Alt="yes" Shift="yes" Key="83">
             <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
             <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
         </Macro>
