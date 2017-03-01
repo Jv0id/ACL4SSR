@@ -1,6 +1,10 @@
 # 安卓SSR去广告ACL规则
+# 仅推荐未root的安卓手机使用。
+* root手机推荐：
+* 1.自带去广告的VIA浏览器:http://www.coolapk.com/apk/mark.via
+* 2.HOSTS 广告快走中国版:http://www.coolapk.com/apk/mark.via
 
-* 安卓 SSR 去广告ACL规则
+# 安卓 SSR 去广告ACL规则
 * 国内网站均直接连接
 * 国外常用域名后缀均代理！！！
 * 屏蔽常用视频网站广告
