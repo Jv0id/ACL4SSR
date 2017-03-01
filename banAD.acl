@@ -1,16 +1,16 @@
 # 3.01
-# 2017年3月1日13:31:40 55
+# 2017年3月1日19:57:10 56
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
 
 #注：自定义ACL强制远程DNS解析
-#会导致：爱奇艺网页用国外vps无法播放，使用国内中转或app即可
+#导致：1.淘宝跳转国际网页 2.爱奇艺无法播放 使用国内中转或app即可
 
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
-#参照scomper大神的surge规则改编，致谢!!https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
-#更新记录：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
-#下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
+#参照scomper大神的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
+#更新记录 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
+#下载地址 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 
 #**********************************************************************
 [proxy_all]
@@ -45,7 +45,6 @@
 (^|\.)\w*partnerad\w*\.\w*$
 (^|\.)\w*pingfore\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
-(^|\.)\w*trace\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
 (^|\.)\w*traffic\w*\.\w*$
 (^|\.)\w*uedas\w*\.\w*$
@@ -53,7 +52,6 @@
 (^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
-# test 实验功能，效果强大，误伤可能比较大
 (^|\.)ad\d{0,2}\..*$
 (^|\.)ads\d{0,2}\..*$
 
@@ -519,6 +517,7 @@
 (^|\.)localytics\.com$
 (^|\.)log\.outbrain\.com$
 (^|\.)log\.umsns\.com$
+(^|\.)logic\.cpm\.cm\.kankan\.com
 (^|\.)lotuseed\.com$
 (^|\.)lufax\.com$
 (^|\.)madmini\.com$
@@ -629,7 +628,15 @@
 (^|\.)zzsx8\.com$
 
 ### 电信运营商广告
-(^|\.)bjdnserror(|\w)\.wo\.com\.cn$
+(^|\.)bjdnserror\w\.wo\.com\.cn$
+(^|\.)hbdnserror\w\.wo\.com\.cn$
+(^|\.)hljdnserror\w\.wo\.com\.cn$
+(^|\.)hndnserror\w\.wo\.com\.cn$
+(^|\.)jldnserror\w\.wo\.com\.cn$
+(^|\.)lndnserror\w\.wo\.com\.cn$
+(^|\.)nfdnserror\w(|\w)\.wo\.com\.cn$
+(^|\.)sddnserror\w\.wo\.com\.cn$
+(^|\.)sxdnserror\w\.wo\.com\.cn$
 (^|\.)go\.10086\.cn$
 
 # China_mobile 移动
