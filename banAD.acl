@@ -1,5 +1,5 @@
-# 3.01
-# 2017年3月1日19:57:10 56
+# 3.02
+# 2017年3月2日00:51:23 57
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
@@ -250,10 +250,10 @@
 (^|\.)(adse|linkeye|location|xdcs\-collector)\.ximalaya\.com$
 
 # Xunlei 迅雷
-(^|\.)\d{8}\.biz5\.kankan\.com$
-(^|\.)\d{8}\.cpm\.cm\.sandai\.net$
-(^|\.)\d{8}\.float\.kankan\.com$
-(^|\.)\d{8}\.logic\.cpm\.cm\.kankan\.com$
+(^|\.)biz5\.kankan\.com$
+(^|\.)cpm\.cm\.sandai\.net$
+(^|\.)float\.kankan\.com$
+(^|\.)logic\.cpm\.cm\.kankan\.com$
 
 # Ads in Video apps********************下面都是
 
