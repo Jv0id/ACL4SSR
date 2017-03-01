@@ -1,13 +1,11 @@
-# 2.18
-# 2017年2月28日00:14:48 02.28
+# 3.01
+# 2017年3月1日13:31:40 55
 # @leosam1995
 #实验功能：域名广告关键字拦截
-#屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
-#屏蔽部分运营商劫持网页弹出的漂浮球广告&流量统计
-#拦截常用应用程序的隐私跟踪&行为分析&数据统计&开屏广告
+#屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
 
-#已有问题：自定义ACL文件强制远程DNS解析
-#所以会因解析问题导致：爱奇艺因版权问题，网页用国外vps无法播放，可使用https、电脑版和app解决
+#注：自定义ACL强制远程DNS解析
+#会导致：爱奇艺网页用国外vps无法播放，使用国内中转或app即可
 
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 #参照scomper大神的surge规则改编，致谢!!https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
@@ -46,7 +44,6 @@
 (^|\.)\w*openx\w*\.\w*$
 (^|\.)\w*partnerad\w*\.\w*$
 (^|\.)\w*pingfore\w*\.\w*$
-(^|\.)\w*soarfi\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*trace\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
@@ -3756,22 +3753,6 @@
 #**********************************************************************
 [proxy_list]
 
-# MyList
-(^|\.)bandwagonhost\.com$
-(^|\.)bit\.no\.com$
-(^|\.)btlibrary\.me$
-(^|\.)cccat\.cc$
-(^|\.)gvt\w\.com$
-(^|\.)ip138\.com$
-(^|\.)ipip\.net$
-(^|\.)ja7lib\.com$
-(^|\.)s3\.amazonaws\.com$
-(^|\.)tumbex\.com$
-(^|\.)twdvd\.com$
-(^|\.)usercdn\.com$
-(^|\.)userscloud\.com$
-(^|\.)xn\-\-i2ru8q2qg\.com$
-
 # 国外域名全部代理 通用规则
 ^.*\.jp$
 ^.*\.sg$
@@ -3780,10 +3761,6 @@
 ^.*\.us$
 
 # 国外软件关键字 全部代理
-(^|\.)\w*aka\w*\.\w*$
-(^|\.)\w*amazon\w*\.\w*$
-(^|\.)\w*appledaily\w*\.\w*$
-(^|\.)\w*blogspot\w*\.\w*$
 (^|\.)\w*dropbox\w*\.\w*$
 (^|\.)\w*facebook\w*\.\w*$
 (^|\.)\w*fbcdn\w*\.\w*$
@@ -3792,8 +3769,18 @@
 (^|\.)\w*instagram\w*\.\w*$
 (^|\.)\w*spotify\w*\.\w*$
 (^|\.)\w*telegram\w*\.\w*$
-(^|\.)\w*twimg\w*\.\w*$
 (^|\.)\w*twitter\w*\.\w*$
+
+# MyList
+(^|\.)bit\.no\.com$
+(^|\.)btlibrary\.me$
+(^|\.)cccat\.cc$
+(^|\.)gvt\w\.com$
+(^|\.)ip138\.com$
+(^|\.)s3\.amazonaws\.com$
+(^|\.)tumbex\.com$
+(^|\.)twdvd\.com$
+(^|\.)xn\-\-i2ru8q2qg\.com$
 
 # Kakao Talk
 (^|\.)kakao\.com$
