@@ -1,5 +1,5 @@
 # 3.02
-# 2017年3月2日08:27:48 59
+# 2017年3月2日23:21:29 61
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
@@ -149,8 +149,6 @@
 
 # JD
 (^|\.)jzt\.jd\.com$
-(^|\.)kepler\.jd\.com$
-(^|\.)keplerapi\.jd\.com$
 (^|\.)policy\.jd\.com$
 (^|\.)stat\.m\.jd\.com$
 (^|\.)x\.jd\.com$
@@ -197,7 +195,6 @@
 (^|\.)mqqad\.cs0309\.html5\.qq\.com$
 (^|\.)pgdt\.gtimg\.cn$
 (^|\.)qqvideo\.tc\.qq\.com$
-(^|\.)qqpublic\.qpic\.cn$
 
 # Shumilou
 (^|\.)70e\.com$
@@ -373,19 +370,7 @@
 # Ads in Video apps end ********************上面都是
 
 # AD Block test
-(^|\.)6dad\.com$
-(^|\.)8ox\.cn$
 (^|\.)\d{4}\.302br\.net$
-(^|\.)ad7\.com$
-(^|\.)admin6\.com$
-(^|\.)adpush\.cn$
-(^|\.)adroll\.com$
-(^|\.)agrantsem\.com$
-(^|\.)cocounion\.com$
-(^|\.)domob\.cn$
-(^|\.)onetad\.com$
-(^|\.)wapx\.cn$
-(^|\.)youxiaoad\.com$
 
 # AD Block Others
 (^|\.)(168|adshownew|stat)\.it168\.com$
@@ -393,18 +378,23 @@
 (^|\.)(33|c|pcd)\.autohome\.com\.cn$
 (^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
 (^|\.)(ad|ads|counter)\.csdn\.net$
+(^|\.)(app\-monitor|client\-api|grand|mobile\-pubt|newton\-api)\.ele\.me$
 (^|\.)10up\.com$
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
 (^|\.)1lo0\.net$
+(^|\.)2o7\.net$
 (^|\.)51\.la$
 (^|\.)51yes\.com$
+(^|\.)6dad\.com$
 (^|\.)86\.cc$
+(^|\.)8ox\.cn$
 (^|\.)95558000\.com$
 (^|\.)99click\.com$
 (^|\.)99youmeng\.com$
 (^|\.)a1\.itc\.cn$
 (^|\.)acs86\.com$
+(^|\.)ad7\.com$
 (^|\.)ad\-brix\.com$
 (^|\.)ad\-plus\.cn$
 (^|\.)ad\.12306\.cn$
@@ -432,11 +422,14 @@
 (^|\.)adm\.10jqka\.com\.cn$
 (^|\.)adm\.easou\.com$
 (^|\.)admin5\.com$
+(^|\.)admin6\.com$
 (^|\.)admon\.cn$
 (^|\.)adnxs\.com$
 (^|\.)adpolestar\.net$
 (^|\.)adpro\.cn$
+(^|\.)adpush\.cn$
 (^|\.)adquan\.com$
+(^|\.)adroll\.com$
 (^|\.)ads\.feedly\.com$
 (^|\.)ads\.genieessp\.com$
 (^|\.)ads\.linkedin\.com$
@@ -454,6 +447,7 @@
 (^|\.)adwo\.com$
 (^|\.)adxmi\.com$
 (^|\.)adzerk\.net$
+(^|\.)agrantsem\.com$
 (^|\.)ajapk\.com$
 (^|\.)allyes\.cn$
 (^|\.)allyes\.com$
@@ -461,6 +455,8 @@
 (^|\.)angsrvr\.com$
 (^|\.)anquan\.org$
 (^|\.)anysdk\.com$
+(^|\.)api\-deal\.kechenggezi\.com$
+(^|\.)api\-z\.weidian\.com$
 (^|\.)app\-measurement\.com$
 (^|\.)appads\.com$
 (^|\.)appboy\.com$
@@ -490,6 +486,7 @@
 (^|\.)clickzs\.com$
 (^|\.)cmcore\.com$
 (^|\.)cnzz\.com$
+(^|\.)cocounion\.com$
 (^|\.)collector\.githubapp\.com$
 (^|\.)coremetrics\.com$
 (^|\.)cps\.360buy\.com$
@@ -498,6 +495,7 @@
 (^|\.)ddapp\.cn$
 (^|\.)de\.soquair\.com$
 (^|\.)dianru\.com$
+(^|\.)domob\.cn$
 (^|\.)doubleverify\.com$
 (^|\.)duapp\.com$
 (^|\.)e\.nexac\.com$
@@ -519,6 +517,7 @@
 (^|\.)image\.gentags\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
+(^|\.)inad\.com$
 (^|\.)inmobi\.com$
 (^|\.)inmobicdn\.net$
 (^|\.)intely\.cn$
@@ -564,6 +563,7 @@
 (^|\.)ntalker\.com$
 (^|\.)o2omobi\.com$
 (^|\.)oneapm\.com$
+(^|\.)onetad\.com$
 (^|\.)optaim\.com$
 (^|\.)optimix\.asia$
 (^|\.)optimizelyapis\.com$
@@ -582,6 +582,7 @@
 (^|\.)quantserve\.com$
 (^|\.)qxxys\.com$
 (^|\.)reachmax\.cn$
+(^|\.)res\.gwifi\.com\.cn$
 (^|\.)responsys\.net$
 (^|\.)revsci\.net$
 (^|\.)rlcdn\.com$
@@ -627,6 +628,7 @@
 (^|\.)vpon\.com$
 (^|\.)vungle\.cn$
 (^|\.)waps\.cn$
+(^|\.)wapx\.cn$
 (^|\.)whpxy\.com$
 (^|\.)wiyun\.com$
 (^|\.)wooboo\.com\.cn$
@@ -641,6 +643,7 @@
 (^|\.)yiqifa\.com$
 (^|\.)yooli\.com$
 (^|\.)youmi\.net$
+(^|\.)youxiaoad\.com$
 (^|\.)yrxmr\.com$
 (^|\.)ysjwj\.com$
 (^|\.)yunjiasu\.com$
