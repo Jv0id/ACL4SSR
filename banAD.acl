@@ -1,5 +1,5 @@
 # 3.02
-# 2017年3月2日00:51:23 57
+# 2017年3月2日08:27:48 59
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
@@ -211,7 +211,7 @@
 
 # Sina
 (^|\.)(adimg|pay|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
-(^|\.)(ad|adm|atm|beacon|d0|d1|d7|dcads|dmp|sax|slog|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
+(^|\.)(ad|adm|atm|beacon|d\d|dcads|dmp|sax|slog|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
 (^|\.)(alitui|biz|game)\.weibo\.com(\.cn|)$
 (^|\.)cre\.dp\.sina\.cn$
 (^|\.)g\.uusee\.com$
@@ -372,6 +372,21 @@
 
 # Ads in Video apps end ********************上面都是
 
+# AD Block test
+(^|\.)6dad\.com$
+(^|\.)8ox\.cn$
+(^|\.)\d{4}\.302br\.net$
+(^|\.)ad7\.com$
+(^|\.)admin6\.com$
+(^|\.)adpush\.cn$
+(^|\.)adroll\.com$
+(^|\.)agrantsem\.com$
+(^|\.)cocounion\.com$
+(^|\.)domob\.cn$
+(^|\.)onetad\.com$
+(^|\.)wapx\.cn$
+(^|\.)youxiaoad\.com$
+
 # AD Block Others
 (^|\.)(168|adshownew|stat)\.it168\.com$
 (^|\.)(1|2)\.win7china\.com$
@@ -388,7 +403,6 @@
 (^|\.)95558000\.com$
 (^|\.)99click\.com$
 (^|\.)99youmeng\.com$
-(^|\.)\d{4}\.302br\.net$
 (^|\.)a1\.itc\.cn$
 (^|\.)acs86\.com$
 (^|\.)ad\-brix\.com$
@@ -605,6 +619,7 @@
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)unlitui\.com$
+(^|\.)up\.qingdaonews\.com$
 (^|\.)uri6\.com$
 (^|\.)ushaqi\.com$
 (^|\.)uyunad\.com$
@@ -617,7 +632,6 @@
 (^|\.)wooboo\.com\.cn$
 (^|\.)wqmobile\.com$
 (^|\.)wrating\.com$
-(^|\.)x\.jd\.com$
 (^|\.)xiaozhen\.com$
 (^|\.)xibao100\.com$
 (^|\.)xmpush\.xiaomi\.com$
@@ -635,15 +649,9 @@
 (^|\.)zzsx8\.com$
 
 ### 电信运营商广告
-(^|\.)bjdnserror\w\.wo\.com\.cn$
-(^|\.)hbdnserror\w\.wo\.com\.cn$
+(^|\.)\w\wdnserror\w\.wo\.com\.cn$
 (^|\.)hljdnserror\w\.wo\.com\.cn$
-(^|\.)hndnserror\w\.wo\.com\.cn$
-(^|\.)jldnserror\w\.wo\.com\.cn$
-(^|\.)lndnserror\w\.wo\.com\.cn$
 (^|\.)nfdnserror\w(|\w)\.wo\.com\.cn$
-(^|\.)sddnserror\w\.wo\.com\.cn$
-(^|\.)sxdnserror\w\.wo\.com\.cn$
 (^|\.)go\.10086\.cn$
 
 # China_mobile 移动
