@@ -1,5 +1,5 @@
-# 3.02
-# 2017年3月2日23:21:29 61
+# 3.03
+# 2017年3月3日11:19:26 62
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
@@ -26,32 +26,31 @@
 # 禁止访问列表 广告拦截
 
 # 广告关键词
-(^|\.)\w*admarvel\w*\.\w*$
-(^|\.)\w*admaster\w*\.\w*$
-(^|\.)\w*adsage\w*\.\w*$
-(^|\.)\w*adsensor\w*\.\w*$
-(^|\.)\w*adsh\w*\.\w*$
-(^|\.)\w*adsmogo\w*\.\w*$
-(^|\.)\w*adsrvmedia\w*\.\w*$
-(^|\.)\w*adwords\w*\.\w*$
-(^|\.)\w*analysis\w*\.\w*$
-(^|\.)\w*dnserror\w*\.\w*$
-(^|\.)\w*domob\w*\.\w*$
-(^|\.)\w*duomeng\w*\.\w*$
-(^|\.)\w*dwtrack\w*\.\w*$
-(^|\.)\w*guanggao\w*\.\w*$
-(^|\.)\w*lianmeng\w*\.\w*$
-(^|\.)\w*openx\w*\.\w*$
-(^|\.)\w*partnerad\w*\.\w*$
-(^|\.)\w*pingfore\w*\.\w*$
-(^|\.)\w*supersonicads\w*\.\w*$
-(^|\.)\w*tracking\w*\.\w*$
-(^|\.)\w*traffic\w*\.\w*$
-(^|\.)\w*uedas\w*\.\w*$
-(^|\.)\w*umeng\w*\.\w*$
-(^|\.)\w*usage\w*\.\w*$
-(^|\.)\w*wlmonitor\w*\.\w*$
-(^|\.)\w*zjtoolbar\w*\.\w*$
+(^|\.)\w*admarvel\w*\..*$
+(^|\.)\w*admaster\w*\..*$
+(^|\.)\w*adsage\w*\..*$
+(^|\.)\w*adsensor\w*\..*$
+(^|\.)\w*adsh\w*\..*$
+(^|\.)\w*adsmogo\w*\..*$
+(^|\.)\w*adsrvmedia\w*\..*$
+(^|\.)\w*adwords\w*\..*$
+(^|\.)\w*analysis\w*\..*$
+(^|\.)\w*domob\w*\..*$
+(^|\.)\w*duomeng\w*\..*$
+(^|\.)\w*dwtrack\w*\..*$
+(^|\.)\w*guanggao\w*\..*$
+(^|\.)\w*lianmeng\w*\..*$
+(^|\.)\w*openx\w*\..*$
+(^|\.)\w*partnerad\w*\..*$
+(^|\.)\w*pingfore\w*\..*$
+(^|\.)\w*supersonicads\w*\..*$
+(^|\.)\w*tracking\w*\..*$
+(^|\.)\w*traffic\w*\..*$
+(^|\.)\w*uedas\w*\..*$
+(^|\.)\w*umeng\w*\..*$
+(^|\.)\w*usage\w*\..*$
+(^|\.)\w*wlmonitor\w*\..*$
+(^|\.)\w*zjtoolbar\w*\..*$
 (^|\.)ad\d{0,3}\..*$
 (^|\.)ads\d{0,3}\..*$
 
@@ -108,7 +107,6 @@
 (^|\.)api\.youqian\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
-(^|\.)baidustatic\.com$
 (^|\.)boscdn\.bpc\.baidu\.com$
 (^|\.)cpro\.baidu\.com\.cn$
 (^|\.)cpro\.tieba\.baidu\.com$
@@ -652,10 +650,10 @@
 (^|\.)zzsx8\.com$
 
 ### 电信运营商广告
-(^|\.)\w\wdnserror\w\.wo\.com\.cn$
-(^|\.)hljdnserror\w\.wo\.com\.cn$
-(^|\.)nfdnserror\w(|\w)\.wo\.com\.cn$
+(^|\.)\w\w(|\w)dnserror\d(|\d)\.wo\.com\.cn
+(^|\.)114so\.cn$
 (^|\.)go\.10086\.cn$
+(^|\.)navi\.gd\.chinamobile\.com$
 
 # China_mobile 移动
 # Beijing Mobile Float
