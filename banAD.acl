@@ -1,5 +1,5 @@
 # 3.03
-# 2017年3月3日20:14:51 64
+# 2017年3月3日21:06:39 65
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
@@ -170,6 +170,13 @@
 (^|\.)updatepage\.kuwo\.cn$
 (^|\.)wa\.kuwo\.cn$
 (^|\.)webstat\.kuwo\.cn$
+
+# Meizu flyme 魅族
+(^|\.)(aider\-res|api\-flow|api\-game|cal|ebook|game\-res|infocenter|openapi\-news|reader|tongji\-res1|tongji|uxip)\.meizu\.com$
+(^|\.)(bro|t\-e|t\-flow)\.flyme\.cn$
+(^|\.)(ebook|game|push|reader|upush)\.res\.meizu\.com$
+(^|\.)aries\.mzres\.com$
+(^|\.)umid\.orion\.meizu\.com$
 
 # Miui 小米
 (^|\.)(abtest|data)\.mistat\.xiaomi\.com$
