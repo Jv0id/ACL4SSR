@@ -1,5 +1,5 @@
 # 3.03
-# 2017年3月3日19:44:27 64
+# 2017年3月3日20:14:51 64
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
@@ -7,8 +7,10 @@
 #注：自定义ACL强制远程DNS解析，对非大陆vps有问题：
 #导致：1.淘宝跳转国际网页 2.爱奇艺网页无法播放 使用国内中转或app即可
 
+#参照vokins大神的hosts规则改编，致谢!! https://github.com/vokins/yhosts
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 #参照scomper大神的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
+
 #更新记录 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
 #下载地址 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 
@@ -168,6 +170,18 @@
 (^|\.)updatepage\.kuwo\.cn$
 (^|\.)wa\.kuwo\.cn$
 (^|\.)webstat\.kuwo\.cn$
+
+# Miui 小米
+(^|\.)(abtest|data)\.mistat\.xiaomi\.com$
+(^|\.)(ad|shenghuo|xmpush)\.xiaomi\.com$
+(^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
+(^|\.)(hot|r|security)\.browser\.miui\.com$
+(^|\.)(notice|ppurifier)\.game\.xiaomi\.com$
+(^|\.)a\.stat\.xiaomi\.com$
+(^|\.)a\.union\.mi\.com$
+(^|\.)resolver\.gslb\.mi\-idc\.com$
+(^|\.)resolver\.msg\.xiaomi\.net$
+(^|\.)tracking\.miui\.com$
 
 # Meitu
 (^|\.)a\.koudai\.com$
@@ -400,7 +414,6 @@
 (^|\.)ad\.cctv\.com$
 (^|\.)ad\.thepaper\.cn$
 (^|\.)ad\.unimhk\.com$
-(^|\.)ad\.xiaomi\.com$
 (^|\.)adm\.10jqka\.com\.cn$
 (^|\.)adm\.easou\.com$
 (^|\.)ads\.feedly\.com$
@@ -440,7 +453,6 @@
 (^|\.)track\.uc\.cn$
 (^|\.)tracker\.yhd\.com$
 (^|\.)up\.qingdaonews\.com$
-(^|\.)xmpush\.xiaomi\.com$
 (^|\.)zhstatic\.zhihu\.com$
 
 # 广告联盟****************
@@ -3836,7 +3848,7 @@
 (^|\.)\w*rthklive\w*\.\w*$
 (^|\.)mytvsuper\.com$
 (^|\.)netflix\.com$
-(^|\.)netflix\.net$
+(^|\.)netflix\.net
 (^|\.)nflxext\.com$
 (^|\.)nflximg\.com$
 (^|\.)nflximg\.net$
