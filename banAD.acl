@@ -1,5 +1,5 @@
 # 3.03
-# 2017年3月3日19:31:04 63
+# 2017年3月3日19:44:27 64
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
@@ -386,13 +386,64 @@
 (^|\.)youmi\.net$
 (^|\.)zedo\.com$
 
-# AD Block Others
+# 常用网站广告****************
 (^|\.)(168|adshownew|stat)\.it168\.com$
 (^|\.)(1|2)\.win7china\.com$
 (^|\.)(33|c|pcd)\.autohome\.com\.cn$
 (^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
 (^|\.)(ad|ads|counter)\.csdn\.net$
 (^|\.)(app\-monitor|client\-api|grand|mobile\-pubt|newton\-api)\.ele\.me$
+(^|\.)a1\.itc\.cn$
+(^|\.)ad\.12306\.cn$
+(^|\.)ad\.3\.cn$
+(^|\.)ad\.95306\.cn$
+(^|\.)ad\.cctv\.com$
+(^|\.)ad\.thepaper\.cn$
+(^|\.)ad\.unimhk\.com$
+(^|\.)ad\.xiaomi\.com$
+(^|\.)adm\.10jqka\.com\.cn$
+(^|\.)adm\.easou\.com$
+(^|\.)ads\.feedly\.com$
+(^|\.)ads\.genieessp\.com$
+(^|\.)ads\.linkedin\.com$
+(^|\.)ads\.mobclix\.com$
+(^|\.)ads\.yahoo\.com$
+(^|\.)api\-deal\.kechenggezi\.com$
+(^|\.)api\-z\.weidian\.com$
+(^|\.)bam\.nr\-data\.net$
+(^|\.)beacon\.tingyun\.com$
+(^|\.)cdn\.jiuzhilan\.com$
+(^|\.)collector\.githubapp\.com$
+(^|\.)cps\.360buy\.com$
+(^|\.)de\.soquair\.com$
+(^|\.)e\.nexac\.com$
+(^|\.)exp\.17wo\.cn$
+(^|\.)hosting\.miarroba\.info$
+(^|\.)iadsdk\.apple\.com$
+(^|\.)image\.gentags\.com$
+(^|\.)js\-agent\.newrelic\.com$
+(^|\.)lm\.admin5\.com$
+(^|\.)log\.outbrain\.com$
+(^|\.)log\.umsns\.com$
+(^|\.)n\.cosbot\.cn$
+(^|\.)picture\.duokan\.com$
+(^|\.)pixel\.wp\.com$
+(^|\.)qdp\.qidian\.com$
+(^|\.)res\.gwifi\.com\.cn$
+(^|\.)ssp\.kssws\.ks\-cdn\.com$
+(^|\.)stats\.chinaz\.com$
+(^|\.)stats\.developingperspective\.com$
+(^|\.)stats\.jpush\.cn$
+(^|\.)tjlog\.easou\.com$
+(^|\.)tjlog\.ps\.easou\.com$
+(^|\.)track\.hujiang\.com$
+(^|\.)track\.uc\.cn$
+(^|\.)tracker\.yhd\.com$
+(^|\.)up\.qingdaonews\.com$
+(^|\.)xmpush\.xiaomi\.com$
+(^|\.)zhstatic\.zhihu\.com$
+
+# 广告联盟****************
 (^|\.)10up\.com$
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
@@ -406,18 +457,10 @@
 (^|\.)95558000\.com$
 (^|\.)99click\.com$
 (^|\.)99youmeng\.com$
-(^|\.)a1\.itc\.cn$
 (^|\.)acs86\.com$
 (^|\.)ad7\.com$
 (^|\.)ad\-brix\.com$
 (^|\.)ad\-plus\.cn$
-(^|\.)ad\.12306\.cn$
-(^|\.)ad\.3\.cn$
-(^|\.)ad\.95306\.cn$
-(^|\.)ad\.cctv\.com$
-(^|\.)ad\.thepaper\.cn$
-(^|\.)ad\.unimhk\.com$
-(^|\.)ad\.xiaomi\.com$
 (^|\.)adadvisor\.net$
 (^|\.)adap\.tv$
 (^|\.)adbxb\.com$
@@ -433,8 +476,6 @@
 (^|\.)adjust\.com$
 (^|\.)adjust\.io$
 (^|\.)adlive\.cn$
-(^|\.)adm\.10jqka\.com\.cn$
-(^|\.)adm\.easou\.com$
 (^|\.)admin5\.com$
 (^|\.)admin6\.com$
 (^|\.)admon\.cn$
@@ -444,11 +485,6 @@
 (^|\.)adpush\.cn$
 (^|\.)adquan\.com$
 (^|\.)adroll\.com$
-(^|\.)ads\.feedly\.com$
-(^|\.)ads\.genieessp\.com$
-(^|\.)ads\.linkedin\.com$
-(^|\.)ads\.mobclix\.com$
-(^|\.)ads\.yahoo\.com$
 (^|\.)adsame\.com$
 (^|\.)adsunflower\.com$
 (^|\.)adsunion\.com$
@@ -469,8 +505,6 @@
 (^|\.)angsrvr\.com$
 (^|\.)anquan\.org$
 (^|\.)anysdk\.com$
-(^|\.)api\-deal\.kechenggezi\.com$
-(^|\.)api\-z\.weidian\.com$
 (^|\.)app\-measurement\.com$
 (^|\.)appads\.com$
 (^|\.)appboy\.com$
@@ -479,10 +513,8 @@
 (^|\.)appsflyer\.com$
 (^|\.)atdmt\.com$
 (^|\.)baifendian\.com$
-(^|\.)bam\.nr\-data\.net$
 (^|\.)baoyatu\.cc$
 (^|\.)baycode\.cn$
-(^|\.)beacon\.tingyun\.com$
 (^|\.)behe\.com$
 (^|\.)biddingos\.com$
 (^|\.)biddingx\.com$
@@ -491,7 +523,6 @@
 (^|\.)buysellads\.com$
 (^|\.)c0563\.com$
 (^|\.)cbsistatic\.com$
-(^|\.)cdn\.jiuzhilan\.com$
 (^|\.)chance\-ad\.com$
 (^|\.)chartbeat\.com$
 (^|\.)chartboost\.com$
@@ -501,21 +532,16 @@
 (^|\.)cmcore\.com$
 (^|\.)cnzz\.com$
 (^|\.)cocounion\.com$
-(^|\.)collector\.githubapp\.com$
 (^|\.)coremetrics\.com$
-(^|\.)cps\.360buy\.com$
 (^|\.)crunchyroll\.com$
 (^|\.)customer\-security\.online$
 (^|\.)ddapp\.cn$
-(^|\.)de\.soquair\.com$
 (^|\.)dianru\.com$
 (^|\.)domob\.cn$
 (^|\.)doubleverify\.com$
 (^|\.)duapp\.com$
-(^|\.)e\.nexac\.com$
 (^|\.)edigitalsurvey\.com$
 (^|\.)emarbox\.com$
-(^|\.)exp\.17wo\.cn$
 (^|\.)fancyapi\.com$
 (^|\.)fastapi\.net$
 (^|\.)fastclick\.net$
@@ -526,9 +552,6 @@
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
 (^|\.)haoghost\.com$
-(^|\.)hosting\.miarroba\.info$
-(^|\.)iadsdk\.apple\.com$
-(^|\.)image\.gentags\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
@@ -541,17 +564,13 @@
 (^|\.)irs01\.net$
 (^|\.)irs09\.com$
 (^|\.)istreamsche\.com$
-(^|\.)js\-agent\.newrelic\.com$
 (^|\.)jusha\.com$
 (^|\.)kejet\.net$
 (^|\.)keyrun\.cn$
 (^|\.)kmd365\.com$
 (^|\.)krux\.net$
 (^|\.)leadboltads\.net$
-(^|\.)lm\.admin5\.com$
 (^|\.)localytics\.com$
-(^|\.)log\.outbrain\.com$
-(^|\.)log\.umsns\.com$
 (^|\.)lotuseed\.com$
 (^|\.)lufax\.com$
 (^|\.)madmini\.com$
@@ -571,7 +590,6 @@
 (^|\.)mobisage\.cn$
 (^|\.)mopub\.com$
 (^|\.)mxpnl\.com$
-(^|\.)n\.cosbot\.cn$
 (^|\.)networkbench\.com$
 (^|\.)newrelic\.com$
 (^|\.)ntalker\.com$
@@ -582,21 +600,17 @@
 (^|\.)optimix\.asia$
 (^|\.)optimizelyapis\.com$
 (^|\.)overture\.com$
-(^|\.)picture\.duokan\.com$
 (^|\.)pingdom\.net$
-(^|\.)pixel\.wp\.com$
 (^|\.)pro\.cn$
 (^|\.)publicidad\.net$
 (^|\.)publicidad\.tv$
 (^|\.)pubnub\.com$
 (^|\.)qcl777\.com$
-(^|\.)qdp\.qidian\.com$
 (^|\.)qiyou\.com$
 (^|\.)qtmojo\.com$
 (^|\.)quantserve\.com$
 (^|\.)qxxys\.com$
 (^|\.)reachmax\.cn$
-(^|\.)res\.gwifi\.com\.cn$
 (^|\.)responsys\.net$
 (^|\.)revsci\.net$
 (^|\.)rlcdn\.com$
@@ -604,18 +618,13 @@
 (^|\.)segment\.com$
 (^|\.)serving\-sys\.com$
 (^|\.)shuiguo\.com$
-(^|\.)simaba\.taobao\.com$
 (^|\.)sitemeter\.com$
 (^|\.)sitescout\.com$
 (^|\.)smartadserver\.com$
 (^|\.)smartmad\.com$
 (^|\.)somecoding\.com$
 (^|\.)sponsorpay\.com$
-(^|\.)ssp\.kssws\.ks\-cdn\.com$
 (^|\.)sstc360\.com$
-(^|\.)stats\.chinaz\.com$
-(^|\.)stats\.developingperspective\.com$
-(^|\.)stats\.jpush\.cn$
 (^|\.)switchadhub\.com$
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
@@ -623,18 +632,12 @@
 (^|\.)th7\.cn$
 (^|\.)thoughtleadr\.com$
 (^|\.)tiqcdn\.com$
-(^|\.)tjlog\.easou\.com$
-(^|\.)tjlog\.ps\.easou\.com$
-(^|\.)track\.hujiang\.com$
-(^|\.)track\.uc\.cn$
-(^|\.)tracker\.yhd\.com$
 (^|\.)trafficmp\.com$
 (^|\.)ugvip\.com$
 (^|\.)ukeiae\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)unlitui\.com$
-(^|\.)up\.qingdaonews\.com$
 (^|\.)uri6\.com$
 (^|\.)ushaqi\.com$
 (^|\.)uyunad\.com$
@@ -650,7 +653,6 @@
 (^|\.)wrating\.com$
 (^|\.)xiaozhen\.com$
 (^|\.)xibao100\.com$
-(^|\.)xmpush\.xiaomi\.com$
 (^|\.)xy\.com$
 (^|\.)yandui\.com$
 (^|\.)yigao\.com$
@@ -662,7 +664,6 @@
 (^|\.)ysjwj\.com$
 (^|\.)yunjiasu\.com$
 (^|\.)zhiziyun\.com$
-(^|\.)zhstatic\.zhihu\.com$
 (^|\.)zzsx8\.com$
 
 ### 电信运营商广告
