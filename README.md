@@ -8,6 +8,7 @@
 * https://raw.githubusercontent.com/leosam1995/MyConf/master/hosts/myhosts.txt
 
 # 安卓 SSR 去广告ACL规则
+* 屏蔽小米手机和魅族flyme rom系统广告
 * 国内网站均直接连接
 * 国外常用域名后缀均代理！！！
 * 屏蔽常用视频网站广告
@@ -28,6 +29,7 @@
 * 再次更新，点击软件页面底部的更新即可
 
 # 注：
+* 参照vokins大神的hosts规则改编，致谢!! https://github.com/vokins/yhosts
 * 参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 * 参照scomper大神的surge规则改编，致谢!!https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 
