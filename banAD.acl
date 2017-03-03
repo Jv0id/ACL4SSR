@@ -1,11 +1,11 @@
 # 3.03
-# 2017年3月3日11:19:26 62
+# 2017年3月3日19:31:04 63
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、运营商劫持广告&数据跟踪&开屏广告
 
-#注：自定义ACL强制远程DNS解析
-#导致：1.淘宝跳转国际网页 2.爱奇艺无法播放 使用国内中转或app即可
+#注：自定义ACL强制远程DNS解析，对非大陆vps有问题：
+#导致：1.淘宝跳转国际网页 2.爱奇艺网页无法播放 使用国内中转或app即可
 
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 #参照scomper大神的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
@@ -278,6 +278,7 @@
 (^|\.)msg\.71\.am$
 (^|\.)msga\.cupid\.iqiyi\.com$
 123.125.117.0/22
+101.227.14.84/32
 
 # Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
@@ -369,6 +370,21 @@
 
 # AD Block test
 (^|\.)\d{4}\.302br\.net$
+(^|\.)adfurikun\.jp$
+(^|\.)cpx24\.com$
+(^|\.)crosschannel\.com$
+(^|\.)igexin\.com$
+(^|\.)jesgoo\.com$
+(^|\.)jiguang\.cn$
+(^|\.)mydas\.mobi$
+(^|\.)nexage\.com$
+(^|\.)rtbasia\.com$
+(^|\.)stg8\.com$
+(^|\.)tapjoy\.cn$
+(^|\.)voiceads\.cn$
+(^|\.)wapx\.cn$
+(^|\.)youmi\.net$
+(^|\.)zedo\.com$
 
 # AD Block Others
 (^|\.)(168|adshownew|stat)\.it168\.com$
