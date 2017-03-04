@@ -249,7 +249,7 @@
 (^|\.)wan\.sogou\.com$
 
 # Twitter
-(^|\.)(ads|syndication|syndication\-o|p|scribe|analytics)\.twitter\.com$
+(^|\.)(ads|syndication|syndication\-o|analytics|scribe|p)\.twitter\.com$
 (^|\.)ads\-twitter\.com$
 (^|\.)urls\.api\.twitter\.com$
 
@@ -297,22 +297,17 @@
 (^|\.)(pub|adm|jobsfe|po|pv|stat)\.funshion\.com$
 
 # iqiyi 爱奇艺
-(^|\.)(afp|ckm|ifacelog|msg|paopao|rcd)\.qiyi\.com$
-(^|\.)(msg|msg2|msga)\.video\.qiyi\.com$
+(^|\.)(afp|ckm|cupid|ifacelog|msg|paopao|rcd|store)\.qiyi\.com$
+(^|\.)(data|msg|msg2|msga)\.video\.qiyi\.com$
 (^|\.)ad\.m\.iqiyi\.com$
 (^|\.)cm\.passport\.iqiyi\.com$
 (^|\.)msg\.71\.am$
-(^|\.)msga\.cupid\.iqiyi\.com$
-101.227.14.80/29 
-123.125.117.0/22
-
 (^|\.)static\.g\.iqiyi\.com$
-(^|\.)cupid\.iqiyi\.com$
-(^|\.)data\.video\.qiyi\.com$
-(^|\.)store\.qiyi\.com$
+101.227.14.80/29 
+112.253.36.156/32
 119.188.172.194/32
 119.188.172.195/32
-112.253.36.156/32
+123.125.117.0/22
 123.130.122.141/32
 
 # Ku6 酷6
@@ -370,14 +365,6 @@
 (^|\.)statis\.api\.3g\.youku\.com$
 (^|\.)val\.api\.youku\.com$
 
-(^|\.)ehg\-youtube\.hitbox\.com$
-(^|\.)gcdn\.2mdn\.net$
-(^|\.)s\.youtube\.com$
-(^|\.)s2\.youtube\.com$
-(^|\.)ssl\-youtube\.2cnt\.net$
-(^|\.)youtube\.112\.2o7\.net$
-(^|\.)youtube\.2cnt\.net$
-
 # Youtube
 (^|\.)ads\.youtube\.com$
 (^|\.)azabu\-u\.ac\.jp$
@@ -389,6 +376,14 @@
 (^|\.)nichibenren\.or\.jp$
 (^|\.)m\-78\.jp$
 (^|\.)shizen\-no\-megumi\.com$
+
+(^|\.)ehg\-youtube\.hitbox\.com$
+(^|\.)gcdn\.2mdn\.net$
+(^|\.)s\.youtube\.com$
+(^|\.)s2\.youtube\.com$
+(^|\.)ssl\-youtube\.2cnt\.net$
+(^|\.)youtube\.112\.2o7\.net$
+(^|\.)youtube\.2cnt\.net$
 
 # Others ads in Video apps
 (^|\.)(acsystem|ads|afp)\.wasu\.tv$
@@ -435,7 +430,6 @@
 (^|\.)(33|c|pcd)\.autohome\.com\.cn$
 (^|\.)(92x|its\-dori)\.tumblr\.com$
 (^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
-(^|\.)(ads|syndication\-o|syndication|analytics|scribe|p)\.twitter\.com$
 (^|\.)(ad|ads|counter)\.csdn\.net$
 (^|\.)(app\-monitor|client\-api|grand|mobile\-pubt|newton\-api)\.ele\.me$
 (^|\.)a1\.itc\.cn$
@@ -447,7 +441,6 @@
 (^|\.)ad\.unimhk\.com$
 (^|\.)adm\.10jqka\.com\.cn$
 (^|\.)adm\.easou\.com$
-(^|\.)ads\-twitter\.com$
 (^|\.)ads\.feedly\.com$
 (^|\.)ads\.genieessp\.com$
 (^|\.)ads\.linkedin\.com$
