@@ -376,13 +376,11 @@
 (^|\.)nichibenren\.or\.jp$
 (^|\.)m\-78\.jp$
 (^|\.)shizen\-no\-megumi\.com$
-
 (^|\.)ehg\-youtube\.hitbox\.com$
-(^|\.)gcdn\.2mdn\.net$
+
 (^|\.)s\.youtube\.com$
 (^|\.)s2\.youtube\.com$
 (^|\.)ssl\-youtube\.2cnt\.net$
-(^|\.)youtube\.112\.2o7\.net$
 (^|\.)youtube\.2cnt\.net$
 
 # Others ads in Video apps
@@ -486,6 +484,7 @@
 (^|\.)114la\.com$
 (^|\.)1lo0\.net$
 (^|\.)2o7\.net$
+(^|\.)2cnt\.net$
 (^|\.)51\.la$
 (^|\.)51yes\.com$
 (^|\.)6dad\.com$
