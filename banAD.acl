@@ -1,5 +1,5 @@
-# 3.03
-# 2017年3月3日21:12:16 65
+# 3.04
+# 2017年3月4日18:15:20 66
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -248,6 +248,11 @@
 (^|\.)pd\.sogou\.com$
 (^|\.)wan\.sogou\.com$
 
+# Twitter
+(^|\.)(ads|syndication|syndication\-o|p|scribe|analytics)\.twitter\.com$
+(^|\.)ads\-twitter\.com$
+(^|\.)urls\.api\.twitter\.com$
+
 # Weifeng
 (^|\.)fengbuy\.com$
 (^|\.)tutuapp\.com$
@@ -300,6 +305,15 @@
 (^|\.)msga\.cupid\.iqiyi\.com$
 101.227.14.80/29 
 123.125.117.0/22
+
+(^|\.)static\.g\.iqiyi\.com$
+(^|\.)cupid\.iqiyi\.com$
+(^|\.)data\.video\.qiyi\.com$
+(^|\.)store\.qiyi\.com$
+119.188.172.194/32
+119.188.172.195/32
+112.253.36.156/32
+123.130.122.141/32
 
 # Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
@@ -356,6 +370,14 @@
 (^|\.)statis\.api\.3g\.youku\.com$
 (^|\.)val\.api\.youku\.com$
 
+(^|\.)ehg\-youtube\.hitbox\.com$
+(^|\.)gcdn\.2mdn\.net$
+(^|\.)s\.youtube\.com$
+(^|\.)s2\.youtube\.com$
+(^|\.)ssl\-youtube\.2cnt\.net$
+(^|\.)youtube\.112\.2o7\.net$
+(^|\.)youtube\.2cnt\.net$
+
 # Youtube
 (^|\.)ads\.youtube\.com$
 (^|\.)azabu\-u\.ac\.jp$
@@ -411,7 +433,9 @@
 (^|\.)(168|adshownew|stat)\.it168\.com$
 (^|\.)(1|2)\.win7china\.com$
 (^|\.)(33|c|pcd)\.autohome\.com\.cn$
+(^|\.)(92x|its\-dori)\.tumblr\.com$
 (^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
+(^|\.)(ads|syndication\-o|syndication|analytics|scribe|p)\.twitter\.com$
 (^|\.)(ad|ads|counter)\.csdn\.net$
 (^|\.)(app\-monitor|client\-api|grand|mobile\-pubt|newton\-api)\.ele\.me$
 (^|\.)a1\.itc\.cn$
@@ -423,6 +447,7 @@
 (^|\.)ad\.unimhk\.com$
 (^|\.)adm\.10jqka\.com\.cn$
 (^|\.)adm\.easou\.com$
+(^|\.)ads\-twitter\.com$
 (^|\.)ads\.feedly\.com$
 (^|\.)ads\.genieessp\.com$
 (^|\.)ads\.linkedin\.com$
