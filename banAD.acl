@@ -319,10 +319,9 @@
 (^|\.)static\.ku6\.com$
 
 # leTV 乐视
-(^|\.)(dc|fz|g3|minisite|pro|stat)\.letv\.com$
+(^|\.)(ark|dc|fz|g3|minisite|pro|stat)\.letv\.com$
 (^|\.)(i0|i3)\.letvimg\.com$
 (^|\.)api\.game\.letvstore\.com$
-(^|\.)ark\.letv\.com$
 (^|\.)n\.mark\.letv\.com$
 (^|\.)pro\.hoye\.letv\.com$
 ^|\.)static\.app\.m\.letv\.com$
@@ -501,7 +500,6 @@
 (^|\.)ader\.mobi$
 (^|\.)adform\.net$
 (^|\.)adfurikun\.jp$
-(^|\.)adfurikun\.jp$
 (^|\.)adfuture\.cn$
 (^|\.)adhouyi\.com$
 (^|\.)adinall\.com$
@@ -533,7 +531,6 @@
 (^|\.)agrantsem\.com$
 (^|\.)ajapk\.com$
 (^|\.)allyes\.cn$
-(^|\.)allyes\.com$
 (^|\.)allyes\.com$
 (^|\.)amazon\-adsystem\.com$
 (^|\.)angsrvr\.com$
@@ -568,8 +565,6 @@
 (^|\.)cocounion\.com$
 (^|\.)coremetrics\.com$
 (^|\.)cpx24\.com$
-(^|\.)cpx24\.com$
-(^|\.)crosschannel\.com$
 (^|\.)crosschannel\.com$
 (^|\.)crunchyroll\.com$
 (^|\.)customer\-security\.online$
@@ -591,7 +586,6 @@
 (^|\.)guomob\.com$
 (^|\.)haoghost\.com$
 (^|\.)igexin\.com$
-(^|\.)igexin\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
@@ -605,8 +599,6 @@
 (^|\.)irs09\.com$
 (^|\.)istreamsche\.com$
 (^|\.)jesgoo\.com$
-(^|\.)jesgoo\.com$
-(^|\.)jiguang\.cn$
 (^|\.)jiguang\.cn$
 (^|\.)jusha\.com$
 (^|\.)kejet\.net$
@@ -636,10 +628,8 @@
 (^|\.)mopub\.com$
 (^|\.)mxpnl\.com$
 (^|\.)mydas\.mobi$
-(^|\.)mydas\.mobi$
 (^|\.)networkbench\.com$
 (^|\.)newrelic\.com$
-(^|\.)nexage\.com$
 (^|\.)nexage\.com$
 (^|\.)ntalker\.com$
 (^|\.)o2omobi\.com$
@@ -664,7 +654,6 @@
 (^|\.)revsci\.net$
 (^|\.)rlcdn\.com$
 (^|\.)rtbasia\.com$
-(^|\.)rtbasia\.com$
 (^|\.)scorecardresearch\.com$
 (^|\.)segment\.com$
 (^|\.)serving\-sys\.com$
@@ -677,11 +666,9 @@
 (^|\.)sponsorpay\.com$
 (^|\.)sstc360\.com$
 (^|\.)stg8\.com$
-(^|\.)stg8\.com$
 (^|\.)switchadhub\.com$
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
-(^|\.)tapjoy\.cn$
 (^|\.)tapjoy\.cn$
 (^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
@@ -698,11 +685,9 @@
 (^|\.)uyunad\.com$
 (^|\.)vamaker\.com$
 (^|\.)voiceads\.cn$
-(^|\.)voiceads\.cn$
 (^|\.)vpon\.com$
 (^|\.)vungle\.cn$
 (^|\.)waps\.cn$
-(^|\.)wapx\.cn$
 (^|\.)wapx\.cn$
 (^|\.)wapx\.cn$
 (^|\.)whpxy\.com$
@@ -718,8 +703,6 @@
 (^|\.)yiqifa\.com$
 (^|\.)yiwk\.com$
 (^|\.)yooli\.com$
-(^|\.)youmi\.net$
-(^|\.)youmi\.net$
 (^|\.)youmi\.net$
 (^|\.)youxiaoad\.com$
 (^|\.)yrxmr\.com$
