@@ -1,5 +1,5 @@
 # 3.07
-# 2017年3月7日13:27:33 69
+# 2017年3月7日20:34:30 70
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -94,6 +94,7 @@
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
 (^|\.)hydra\.alibaba\.com$
+(^|\.)mmstat\.com$
 (^|\.)pics\.taobaocdn\.com$
 (^|\.)pindao\.huoban\.taobao\.com$
 (^|\.)show\.re\.taobao\.com$
@@ -127,12 +128,12 @@
 (^|\.)zz\.bdstatic\.com$
 (^|\.)ubmcmm\.baidustatic\.com$
 
-#facebook
+# Facebook
 (^|\.)staticxx\.facebook\.com$
 
 # Google
-(^|\.)\w*admob\w*\.\w*$
 (^|\.)2mdn\.net$
+(^|\.)admob\.com$
 (^|\.)ads\.gmodules\.com$
 (^|\.)ads\.google\.com$
 (^|\.)afd\.l\.google\.com$
@@ -145,7 +146,6 @@
 (^|\.)googlecommerce\.com$
 (^|\.)googlesyndication\.com$
 (^|\.)googletagmanager\.com$
-(^|\.)googletagservices\.com$
 (^|\.)mobileads\.google\.com$
 (^|\.)pagead\-tpc\.l\.google\.com$
 (^|\.)pagead\.google\.com$
@@ -377,16 +377,6 @@
 
 # Youtube
 (^|\.)ads\.youtube\.com$
-(^|\.)azabu\-u\.ac\.jp$
-(^|\.)couchcoaster\.jp$
-(^|\.)crt\.comodoca\.com$
-(^|\.)delivery\.dmkt\-sp\.jp$
-(^|\.)files\.adform\.net$
-(^|\.)nicorette\.co\.kr$
-(^|\.)nichibenren\.or\.jp$
-(^|\.)m\-78\.jp$
-(^|\.)shizen\-no\-megumi\.com$
-(^|\.)ehg\-youtube\.hitbox\.com$
 (^|\.)s\.youtube\.com$
 (^|\.)s2\.youtube\.com$
 
@@ -617,7 +607,6 @@
 (^|\.)miaozhen\.com$
 (^|\.)miidi\.net$
 (^|\.)mixpanel\.com$
-(^|\.)mmstat\.com$
 (^|\.)mng\-ads\.com$
 (^|\.)moatads\.com$
 (^|\.)mob\.com$
