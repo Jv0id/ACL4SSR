@@ -1,5 +1,5 @@
 # 3.08
-# 2017年3月8日09:28:49 70
+# 2017年3月8日11:07:18 71
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -87,7 +87,7 @@
 
 # Ali
 (^|\.)(acs4baichuan|adash|amdc|apoll|rj|simaba)\.m\.taobao\.com$
-(^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|gtms0\d|nbsdk\-baichuan)\.alicdn\.com$
+(^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|gtms\d\d|nbsdk\-baichuan)\.alicdn\.com$
 (^|\.)(nbsdk\-baichuan|sdkinit|simaba)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
 (^|\.)adashxgc\.ut\.taobao\.com$
@@ -305,12 +305,12 @@
 (^|\.)qchannel01\.cn$
 (^|\.)static\.g\.iqiyi\.com$
 (^|\.)static\.g\.ppstream\.com$
-101.227.14.80/29 
-112.253.36.156/32
-119.188.172.194/32
-119.188.172.195/32
+60.211.171.129/32
+101.227.14.80/29
+112.253.36.150/28
+119.188.172.192/29
 123.125.117.0/22
-123.130.122.141/32
+123.130.122.131/28
 
 # Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
