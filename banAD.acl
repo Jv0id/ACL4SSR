@@ -1,5 +1,5 @@
-# 3.08
-# 2017年3月8日17:19:52 72
+# 3.09
+# 2017年3月9日13:44:17 73
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -37,7 +37,6 @@
 (^|\.)\w*adsrvmedia\w*\..*$
 (^|\.)\w*adwords\w*\..*$
 (^|\.)\w*analysis\w*\..*$
-(^|\.)\w*domob\w*\..*$
 (^|\.)\w*duomeng\w*\..*$
 (^|\.)\w*dwtrack\w*\..*$
 (^|\.)\w*guanggao\w*\..*$
@@ -118,7 +117,6 @@
 (^|\.)itsdata\.map\.baidu\.com$
 (^|\.)log\.nuomi\.com$
 (^|\.)push\.zhanzhang\.baidu\.com$
-(^|\.)res\.cocounion\.com$
 (^|\.)res\.limei\.com$
 (^|\.)shifen\.com$
 (^|\.)static\.map\.bdimg\.com$
@@ -154,10 +152,8 @@
 (^|\.)service\.urchin\.com$
 
 # JD
-(^|\.)jzt\.jd\.com$
-(^|\.)policy\.jd\.com$
+(^|\.)(jzt|policy|x)\.jd\.com$
 (^|\.)stat\.m\.jd\.com$
-(^|\.)x\.jd\.com$
 
 # Kugou
 (^|\.)ads\.service\.kugou\.com$
@@ -169,13 +165,8 @@
 (^|\.)update\.mobile\.kugou\.com$
 
 # Kuwo
+(^|\.)(g|log|updatepage|webstat)\.kuwo\.cn$
 (^|\.)apk\.shouji\.koowo\.com$
-(^|\.)g\.koowo\.com$
-(^|\.)g\.kuwo\.cn$
-(^|\.)log\.kuwo\.cn$
-(^|\.)updatepage\.kuwo\.cn$
-(^|\.)wa\.kuwo\.cn$
-(^|\.)webstat\.kuwo\.cn$
 
 # Meizu flyme 魅族
 (^|\.)(aider-res|api-flow|api-game|cal|ebook|game-res|infocenter|openapi-news|reader|tongji-res1|tongji|uxip)\.meizu\.com$
@@ -467,6 +458,7 @@
 (^|\.)1lo0\.net$
 (^|\.)2cnt\.net$
 (^|\.)2o7\.net$
+(^|\.)302br\.net$
 (^|\.)51\.la$
 (^|\.)51yes\.com$
 (^|\.)6dad\.com$
@@ -475,11 +467,10 @@
 (^|\.)95558000\.com$
 (^|\.)99click\.com$
 (^|\.)99youmeng\.com$
-(^|\.)\d{4}\.302br\.net$
 (^|\.)acs86\.com$
-(^|\.)ad7\.com$
 (^|\.)ad-brix\.com$
 (^|\.)ad-plus\.cn$
+(^|\.)ad7\.com$
 (^|\.)adadapted\.com$
 (^|\.)adadvisor\.net$
 (^|\.)adap\.tv$
@@ -544,6 +535,7 @@
 (^|\.)buysellads\.com$
 (^|\.)c0563\.com$
 (^|\.)cbsistatic\.com$
+(^|\.)cdnmaster\.com$
 (^|\.)chance-ad\.com$
 (^|\.)chartbeat\.com$
 (^|\.)chartboost\.com$
@@ -553,6 +545,7 @@
 (^|\.)cmcore\.com$
 (^|\.)cnzz\.com$
 (^|\.)cocounion\.com$
+(^|\.)coolguang\.com$
 (^|\.)coremetrics\.com$
 (^|\.)cpx24\.com$
 (^|\.)crosschannel\.com$
@@ -560,6 +553,7 @@
 (^|\.)customer-security\.online$
 (^|\.)ddapp\.cn$
 (^|\.)dianru\.com$
+(^|\.)domob\.cn$
 (^|\.)domob\.cn$
 (^|\.)doubleverify\.com$
 (^|\.)duapp\.com$
@@ -589,7 +583,9 @@
 (^|\.)irs09\.com$
 (^|\.)istreamsche\.com$
 (^|\.)jesgoo\.com$
+(^|\.)jesgoo\.com$
 (^|\.)jiguang\.cn$
+(^|\.)jpush\.cn$
 (^|\.)jusha\.com$
 (^|\.)kejet\.net$
 (^|\.)keyrun\.cn$
@@ -600,6 +596,7 @@
 (^|\.)lotuseed\.com$
 (^|\.)lufax\.com$
 (^|\.)madmini\.com$
+(^|\.)madserving\.com$
 (^|\.)mathtag\.com$
 (^|\.)mediaplex\.com$
 (^|\.)mediav\.com$
@@ -614,7 +611,9 @@
 (^|\.)mobclix\.com$
 (^|\.)mobfox\.com$
 (^|\.)mobisage\.cn$
+(^|\.)mobvista\.com$
 (^|\.)mopub\.com$
+(^|\.)mpush\.cn$
 (^|\.)mxpnl\.com$
 (^|\.)mydas\.mobi$
 (^|\.)networkbench\.com$
@@ -655,19 +654,23 @@
 (^|\.)sponsorpay\.com$
 (^|\.)sstc360\.com$
 (^|\.)stg8\.com$
+(^|\.)stg8\.com$
 (^|\.)switchadhub\.com$
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
+(^|\.)tapjoy\.cn$
 (^|\.)tapjoy\.cn$
 (^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
 (^|\.)thoughtleadr\.com$
 (^|\.)tiqcdn\.com$
+(^|\.)trafficjam\.cn$
 (^|\.)trafficmp\.com$
 (^|\.)ugvip\.com$
 (^|\.)ukeiae\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
+(^|\.)union-wifi\.com$
 (^|\.)unlitui\.com$
 (^|\.)uri6\.com$
 (^|\.)ushaqi\.com$
