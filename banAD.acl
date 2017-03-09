@@ -245,6 +245,20 @@
 (^|\.)tellapart\.com$
 (^|\.)urls\.api\.twitter\.com$
 
+# UC ali
+(^|\.)(adslot|applog|track)\.uc\.cn$
+(^|\.)(cms|puds|safe|uc|ucsec1|ucsec)\.ucweb\.com$
+(^|\.)(iflow|image)\.uczzd(\.\w{2,3}){1,2}$
+(^|\.)(log|patriot)\.cs\.pp\.cn$
+(^|\.)api\.mp\.uc\.cn$
+(^|\.)client\.video\.ucweb\.com$
+(^|\.)dispatcher\.upmc\.uc\.cn$
+(^|\.)huichuan\.sm\.cn$
+(^|\.)m\.uczzd\.cn$
+(^|\.)server\.m\.pp\.cn$
+(^|\.)u\.uc123\.com$
+(^|\.)u\.ucfly\.com$
+
 # Weifeng
 (^|\.)fengbuy\.com$
 (^|\.)tutuapp\.com$
@@ -445,7 +459,6 @@
 (^|\.)tjlog\.easou\.com$
 (^|\.)tjlog\.ps\.easou\.com$
 (^|\.)track\.hujiang\.com$
-(^|\.)track\.uc\.cn$
 (^|\.)tracker\.yhd\.com$
 (^|\.)up\.qingdaonews\.com$
 (^|\.)zhstatic\.zhihu\.com$
