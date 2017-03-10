@@ -1,5 +1,5 @@
-# 3.09
-# 2017年3月9日22:11:13 75
+# 3.10
+# 2017年3月10日12:42:15 75
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -85,7 +85,7 @@
 (^|\.)update\.360safe\.com$
 
 # Ali
-(^|\.)(acs4baichuan|adash|amdc|apoll|rj|simaba)\.m\.taobao\.com$
+(^|\.)(adash|amdc|apoll|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|gtms\d\d|nbsdk-baichuan)\.alicdn\.com$
 (^|\.)(nbsdk-baichuan|sdkinit|simaba)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
@@ -106,10 +106,12 @@
 # Baidu
 (^|\.)(a|adm|as|baichuan|baidutv|bar|bce|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|crs|datax|dj1|drmcmm|dxp|e|eclick|eiv|entry)\.baidu\.com$
 (^|\.)(hc|hm|hmma|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
-(^|\.)(pos|pups|rj|rp|sp1|spcode|t10|t11|t12|tk|tuisong|ucstat|ufosdk|union|utility|utk|wangmeng|wm|zhanzhang|znsv)\.baidu\.com$
+(^|\.)(pos|pups|rj|rp|sp1|spcode|tk|tuisong|ucstat|ufosdk|union|utility|utk|wangmeng|wm|zhanzhang|znsv)\.baidu\.com$
+(^|\.)(zz|tb1)\.bdstatic\.com$
 (^|\.)api\.youqian\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
+(^|\.)bj\.bcebos\.com$
 (^|\.)boscdn\.bpc\.baidu\.com$
 (^|\.)cpro\.baidu\.com\.cn$
 (^|\.)cpro\.tieba\.baidu\.com$
@@ -122,9 +124,8 @@
 (^|\.)static\.map\.bdimg\.com$
 (^|\.)static\.su\.baidu\.com$
 (^|\.)static\.tieba\.baidu\.com$
-(^|\.)ulog\.imap\.baidu\.com$
-(^|\.)zz\.bdstatic\.com$
 (^|\.)ubmcmm\.baidustatic\.com$
+(^|\.)ulog\.imap\.baidu\.com$
 
 # Facebook
 (^|\.)staticxx\.facebook\.com$
