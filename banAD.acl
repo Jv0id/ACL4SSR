@@ -1,5 +1,5 @@
-# 3.10
-# 2017年3月10日12:42:15 75
+# 3.12
+# 2017年3月12日00:03:26 76
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -107,7 +107,6 @@
 (^|\.)(a|adm|as|baichuan|baidutv|bar|bce|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|crs|datax|dj1|drmcmm|dxp|e|eclick|eiv|entry)\.baidu\.com$
 (^|\.)(hc|hm|hmma|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
 (^|\.)(pos|pups|rj|rp|sp1|spcode|tk|tuisong|ucstat|ufosdk|union|utility|utk|wangmeng|wm|zhanzhang|znsv)\.baidu\.com$
-(^|\.)(zz|tb1)\.bdstatic\.com$
 (^|\.)api\.youqian\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
@@ -126,6 +125,7 @@
 (^|\.)static\.tieba\.baidu\.com$
 (^|\.)ubmcmm\.baidustatic\.com$
 (^|\.)ulog\.imap\.baidu\.com$
+(^|\.)zz\.bdstatic\.com$
 
 # Facebook
 (^|\.)staticxx\.facebook\.com$
@@ -155,6 +155,7 @@
 # JD
 (^|\.)(jzt|policy|x)\.jd\.com$
 (^|\.)stat\.m\.jd\.com$
+(^|\.)cps\.360buy\.com$
 
 # Kugou
 (^|\.)ads\.service\.kugou\.com$
@@ -437,7 +438,6 @@
 (^|\.)beacon\.tingyun\.com$
 (^|\.)cdn\.jiuzhilan\.com$
 (^|\.)collector\.githubapp\.com$
-(^|\.)cps\.360buy\.com$
 (^|\.)de\.soquair\.com$
 (^|\.)e\.nexac\.com$
 (^|\.)exp\.17wo\.cn$
@@ -468,7 +468,6 @@
 (^|\.)10up\.com$
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
-(^|\.)1lo0\.net$
 (^|\.)2cnt\.net$
 (^|\.)2o7\.net$
 (^|\.)302br\.net$
@@ -665,7 +664,6 @@
 (^|\.)smartmad\.com$
 (^|\.)somecoding\.com$
 (^|\.)sponsorpay\.com$
-(^|\.)sstc360\.com$
 (^|\.)stg8\.com$
 (^|\.)stg8\.com$
 (^|\.)switchadhub\.com$
@@ -870,6 +868,7 @@
 (^|\.)acgvideo\.com$
 (^|\.)adobesc\.com$
 (^|\.)air-matters\.com$
+(^|\.)air-matters\.io$
 (^|\.)aixifan\.com$
 (^|\.)amap\.com$
 (^|\.)appstore\.com$
