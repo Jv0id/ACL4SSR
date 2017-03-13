@@ -1,5 +1,5 @@
-# 3.12
-# 2017年3月12日00:03:26 76
+# 3.13
+# 2017年3月13日12:49:13 77
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -57,9 +57,11 @@
 
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
-(^|\.)(dsp|rlogs|union)\.youdao\.com$
+(^|\.)(a|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
+(^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.com$
+(chnl|dict|dictapp|ictvista|dictweb|dictword|mail)
 (^|\.)(f1|f2)\.p0y\.cn$
-(^|\.)(img1|ws)\.126\.net$
+(^|\.)(analytics|img1|img2|mimg|ws|push)\.126\.net$
 (^|\.)haitaoad\.nosdn\.127\.net$
 (^|\.)oadz\.com$
 (^|\.)oimagea2\.ydstatic\.com$
@@ -68,6 +70,9 @@
 (^|\.)qchannel01\.cn$
 (^|\.)static\.flv\.uuzuonline\.com$
 (^|\.)wanproxy\.127\.net$
+
+# 2345
+(^|\.)(dl|download|wan|jifendownload)\.2345\.cn$
 
 # 360
 (^|\.)3600\.com$
@@ -177,6 +182,15 @@
 (^|\.)aries\.mzres\.com$
 (^|\.)umid\.orion\.meizu\.com$
 
+# Meitu
+(^|\.)a\.koudai\.com$
+(^|\.)corp\.meitu\.com$
+(^|\.)gg\.meitu\.com$
+(^|\.)message\.meitu\.com$
+(^|\.)xiuxiu\.android\.dl\.meitu\.com$
+(^|\.)xiuxiu\.mobile\.meitudata\.com$
+(^|\.)tuiguang\.meitu\.com$
+
 # Miui 小米
 (^|\.)(abtest|data)\.mistat\.xiaomi\.com$
 (^|\.)(ad|shenghuo|xmpush)\.xiaomi\.com$
@@ -189,14 +203,8 @@
 (^|\.)resolver\.msg\.xiaomi\.net$
 (^|\.)tracking\.miui\.com$
 
-# Meitu
-(^|\.)a\.koudai\.com$
-(^|\.)corp\.meitu\.com$
-(^|\.)gg\.meitu\.com$
-(^|\.)message\.meitu\.com$
-(^|\.)xiuxiu\.android\.dl\.meitu\.com$
-(^|\.)xiuxiu\.mobile\.meitudata\.com$
-(^|\.)tuiguang\.meitu\.com$
+# Moji 墨迹
+(^|\.)ad\.api\.moji\.com$
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
@@ -225,7 +233,7 @@
 (^|\.)zhuanfakong\.com$
 
 # Sina
-(^|\.)(adimg|pay|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
+(^|\.)(adimg|pay|sax|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
 (^|\.)(ad|adm|atm|beacon|d\d|dcads|dmp|sax|slog|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
 (^|\.)(alitui|biz|game)\.weibo\.com(\.cn|)$
 (^|\.)cre\.dp\.sina\.cn$
@@ -239,7 +247,12 @@
 (^|\.)zymo\.mps\.weibo\.com$
 
 # Sougou
-(^|\.)(123|brand|get|inte|pb|pd|wan)\.sogou\.com$
+(^|\.)(123|brand|get|inte|iwan|pb|pd|wan|wangmeng)\.sogou\.com$
+(^|\.)(123|galaxy)\.sogoucdn\.com$
+
+# Toutiao
+(^|\.)(ad|d|sm|dsp|nativeapp|partner)\.toutiao\.com$
+(^|\.)s3\.bytecdn\.cn$
 
 # Twitter
 (^|\.)(ads|syndication|syndication-o|analytics|scribe|p)\.twitter\.com$
@@ -303,7 +316,7 @@
 (^|\.)(androidgo|noxagile)\.duapp\.com$
 (^|\.)(ckm|cloudpush|cupid|gamecenter|hotchat-im|ifacelog|mbdlog|msg|notice|paopao|rcd|store|sns|yuedu|uaa)\.iqiyi\.com$
 (^|\.)(data|msg|msg2|msga)\.video\.qiyi\.com$
-(^|\.)(data|msg|msg2|msga)msg\.71\.am$
+(^|\.)(msg|msg2|msga)\.71\.am$
 (^|\.)ad\.m\.iqiyi\.com$
 (^|\.)cm\.passport\.iqiyi\.com$
 (^|\.)game\.pps\.tv$
@@ -340,14 +353,15 @@
 (^|\.)p2\.hunantv\.com$
 
 # Sohu 搜狐
-(^|\.)(aty|hui|pv|wan|yule)\.sohu\.com$
-(^|\.)(bd|click|click2|mb|pb|um|wl|ott)\.hd\.sohu\.com\.cn$
-(^|\.)(i|s)\.go\.sohu\.com$
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
+(^|\.)(aty|hui|images|pv|wan|yule)\.sohu\.com$
+(^|\.)(bd|click|click2|mb|pb|um|wl|ott)\.hd\.sohu\.com\.cn$
+(^|\.)(i|imp|s|t|txt)\.go\.sohu\.com$
 (^|\.)api\.k\.sohu\.com$
 (^|\.)count\.vrs\.sohu\.com$
 (^|\.)da\.mmarket\.com$
 (^|\.)data\.vod\.itc\.cn$
+(^|\.)focus\.cn$
 (^|\.)goto\.sms\.sohu\.com$
 (^|\.)score\.my\.tv\.sohu\.com$
 (^|\.)statcounter\.com$
@@ -544,6 +558,7 @@
 (^|\.)biddingx\.com$
 (^|\.)bsdev\.cn$
 (^|\.)btyou\.com$
+(^|\.)bugtags\.com$
 (^|\.)buysellads\.com$
 (^|\.)c0563\.com$
 (^|\.)cbsistatic\.com$
@@ -587,6 +602,7 @@
 (^|\.)inad\.com$
 (^|\.)inmobi\.com$
 (^|\.)inmobicdn\.net$
+(^|\.)innity\.com$
 (^|\.)intely\.cn$
 (^|\.)iperceptions\.com$
 (^|\.)ipinyou\.com$
@@ -635,6 +651,7 @@
 (^|\.)o2omobi\.com$
 (^|\.)oneapm\.com$
 (^|\.)onetad\.com$
+(^|\.)optaim\.com$
 (^|\.)optaim\.com$
 (^|\.)optimix\.asia$
 (^|\.)optimizelyapis\.com$
