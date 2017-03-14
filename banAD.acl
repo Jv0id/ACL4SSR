@@ -1,5 +1,5 @@
-# 3.13
-# 2017年3月13日12:49:13 77
+# 3.14
+# 2017年3月14日17:08:51 78
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -149,7 +149,6 @@
 (^|\.)googleadsserving\.cn$
 (^|\.)googlecommerce\.com$
 (^|\.)googlesyndication\.com$
-(^|\.)googletagmanager\.com$
 (^|\.)mobileads\.google\.com$
 (^|\.)pagead-tpc\.l\.google\.com$
 (^|\.)pagead\.google\.com$
@@ -325,12 +324,17 @@
 (^|\.)qchannel01\.cn$
 (^|\.)static\.g\.iqiyi\.com$
 (^|\.)static\.g\.ppstream\.com$
-60.211.171.129/32
+27.221.89.128/28
+60.211.171.128/29
+60.211.211.1/32
 101.227.14.80/29
-112.253.36.150/28
-119.188.172.192/29
-123.125.117.0/22
-123.130.122.131/28
+112.253.36.0/24
+119.188.13.32/29
+119.188.43.61/32
+119.188.172.192/28
+119.188.173.0/27
+123.125.116.0/22
+123.130.122.128/28
 
 # Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
@@ -444,7 +448,6 @@
 (^|\.)ads\.feedly\.com$
 (^|\.)ads\.genieessp\.com$
 (^|\.)ads\.linkedin\.com$
-(^|\.)ads\.mobclix\.com$
 (^|\.)ads\.yahoo\.com$
 (^|\.)api-deal\.kechenggezi\.com$
 (^|\.)api-z\.weidian\.com$
@@ -462,6 +465,7 @@
 (^|\.)lm\.admin5\.com$
 (^|\.)log\.outbrain\.com$
 (^|\.)log\.umsns\.com$
+(^|\.)m\.12306media\.com$
 (^|\.)n\.cosbot\.cn$
 (^|\.)picture\.duokan\.com$
 (^|\.)pixel\.wp\.com$
@@ -581,7 +585,8 @@
 (^|\.)ddapp\.cn$
 (^|\.)dianru\.com$
 (^|\.)domob\.cn$
-(^|\.)domob\.cn$
+(^|\.)domob\.com\.cn$
+(^|\.)domob\.org$
 (^|\.)doubleverify\.com$
 (^|\.)duapp\.com$
 (^|\.)edigitalsurvey\.com$
@@ -610,7 +615,6 @@
 (^|\.)irs01\.net$
 (^|\.)irs09\.com$
 (^|\.)istreamsche\.com$
-(^|\.)jesgoo\.com$
 (^|\.)jesgoo\.com$
 (^|\.)jiguang\.cn$
 (^|\.)jpush\.cn$
@@ -652,7 +656,6 @@
 (^|\.)oneapm\.com$
 (^|\.)onetad\.com$
 (^|\.)optaim\.com$
-(^|\.)optaim\.com$
 (^|\.)optimix\.asia$
 (^|\.)optimizelyapis\.com$
 (^|\.)overture\.com$
@@ -682,11 +685,9 @@
 (^|\.)somecoding\.com$
 (^|\.)sponsorpay\.com$
 (^|\.)stg8\.com$
-(^|\.)stg8\.com$
 (^|\.)switchadhub\.com$
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
-(^|\.)tapjoy\.cn$
 (^|\.)tapjoy\.cn$
 (^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
@@ -709,7 +710,6 @@
 (^|\.)vungle\.cn$
 (^|\.)waps\.cn$
 (^|\.)wapx\.cn$
-(^|\.)wapx\.cn$
 (^|\.)whpxy\.com$
 (^|\.)wiyun\.com$
 (^|\.)wooboo\.com\.cn$
@@ -728,7 +728,6 @@
 (^|\.)yrxmr\.com$
 (^|\.)ysjwj\.com$
 (^|\.)yunjiasu\.com$
-(^|\.)zedo\.com$
 (^|\.)zedo\.com$
 (^|\.)zhiziyun\.com$
 (^|\.)zzsx8\.com$
