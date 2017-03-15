@@ -41,6 +41,7 @@
 (^|\.)\w*dwtrack\w*\..*$
 (^|\.)\w*guanggao\w*\..*$
 (^|\.)\w*lianmeng\w*\..*$
+(^|\.)\w*monitor\w*\..*$
 (^|\.)\w*openx\w*\..*$
 (^|\.)\w*partnerad\w*\..*$
 (^|\.)\w*pingfore\w*\..*$
@@ -76,7 +77,7 @@
 
 # 360
 (^|\.)3600\.com$
-(^|\.)adapi\.shouji\.360\.cn$
+(^|\.)shouji\.360\.cn$
 (^|\.)api\.so\.lianmeng\.360\.cn$
 (^|\.)dev\.tg\.wan\.360\.cn$
 (^|\.)kuaikan\.netmon\.360safe\.com$
@@ -205,6 +206,15 @@
 
 # Moji 墨迹
 (^|\.)ad\.api\.moji\.com$
+
+# Book-app 起点 掌阅 书旗
+(^|\.)(ad|push)\.zhangyue\.com$
+(^|\.)(cj|dwtrack|game|tongji|uedas)\.qidian\.com$
+(^|\.)api\.itaoxiaoshuo\.com$
+(^|\.)o\.if\.qidian\.com$
+(^|\.)s1\.cmfu\.com$
+(^|\.)uedas\.qdmm\.com$
+(^|\.)ut2\.shuqistat\.com$
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
@@ -634,6 +644,7 @@
 (^|\.)madmini\.com$
 (^|\.)madserving\.com$
 (^|\.)mathtag\.com$
+(^|\.)maysunmedia\.com$
 (^|\.)mediaplex\.com$
 (^|\.)mediav\.com$
 (^|\.)megajoy\.com$
