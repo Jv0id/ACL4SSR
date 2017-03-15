@@ -1,5 +1,5 @@
-# 3.14
-# 2017年3月14日17:08:51 78
+# 3.15
+# 2017年3月15日23:11:50 80
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -109,9 +109,9 @@
 (^|\.)yiliao\.hupan\.com$
 
 # Baidu
-(^|\.)(a|adm|as|baichuan|baidutv|bar|bce|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|crs|datax|dj1|drmcmm|dxp|e|eclick|eiv|entry)\.baidu\.com$
+(^|\.)(a|adm|as|baichuan|baidutv|bar|bce|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|crs|datax|dj1|downapp|drmcmm|dxp|e|eclick|eiv|entry)\.baidu\.com$
 (^|\.)(hc|hm|hmma|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
-(^|\.)(pos|pups|rj|rp|sp1|spcode|tk|tuisong|ucstat|ufosdk|union|utility|utk|wangmeng|wm|zhanzhang|znsv)\.baidu\.com$
+(^|\.)(pos|pups|rj|rp|sp1|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|wangmeng|wm|zhanzhang|znsv)\.baidu\.com$
 (^|\.)api\.youqian\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
@@ -185,10 +185,11 @@
 (^|\.)a\.koudai\.com$
 (^|\.)corp\.meitu\.com$
 (^|\.)gg\.meitu\.com$
+(^|\.)meitubeauty\.meitudata\.com$
 (^|\.)message\.meitu\.com$
+(^|\.)tuiguang\.meitu\.com$
 (^|\.)xiuxiu\.android\.dl\.meitu\.com$
 (^|\.)xiuxiu\.mobile\.meitudata\.com$
-(^|\.)tuiguang\.meitu\.com$
 
 # Miui 小米
 (^|\.)(abtest|data)\.mistat\.xiaomi\.com$
@@ -343,12 +344,14 @@
 (^|\.)static\.ku6\.com$
 
 # leTV 乐视
-(^|\.)(ark|dc|fz|g3|minisite|pro|stat)\.letv\.com$
+(^|\.)(ark|dc|fz|g3|minisite|pro|shop|stat|webp2p)\.letv\.com$
 (^|\.)(i0|i3)\.letvimg\.com$
-(^|\.)api\.game\.letvstore\.com$
+(^|\.)api\.mob\.app\.letv\.com$
+(^|\.)game\.letvstore\.com$
 (^|\.)n\.mark\.letv\.com$
 (^|\.)pro\.hoye\.letv\.com$
 ^|\.)static\.app\.m\.letv\.com$
+
 
 # MGTV 芒果TV
 (^|\.)(bs|log|x)\.da\.hunantv\.com$
@@ -467,6 +470,7 @@
 (^|\.)log\.umsns\.com$
 (^|\.)m\.12306media\.com$
 (^|\.)n\.cosbot\.cn$
+(^|\.)pdl\.gionee\.com$
 (^|\.)picture\.duokan\.com$
 (^|\.)pixel\.wp\.com$
 (^|\.)qdp\.qidian\.com$
