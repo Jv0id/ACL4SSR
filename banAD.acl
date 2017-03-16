@@ -1,5 +1,5 @@
-# 3.15
-# 2017年3月15日23:11:50 80
+# 3.16
+# 2017年3月16日10:15:36 81
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -45,6 +45,7 @@
 (^|\.)\w*openx\w*\..*$
 (^|\.)\w*partnerad\w*\..*$
 (^|\.)\w*pingfore\w*\..*$
+(^|\.)\w*push\w*\..*$
 (^|\.)\w*supersonicads\w*\..*$
 (^|\.)\w*tracking\w*\..*$
 (^|\.)\w*traffic\w*\..*$
@@ -77,14 +78,14 @@
 
 # 360
 (^|\.)3600\.com$
-(^|\.)shouji\.360\.cn$
 (^|\.)api\.so\.lianmeng\.360\.cn$
 (^|\.)dev\.tg\.wan\.360\.cn$
 (^|\.)kuaikan\.netmon\.360safe\.com$
 (^|\.)leak\.360\.cn$
+(^|\.)lianmeng\.360\.cn$
 (^|\.)pub\.se\.360\.cn$
-(^|\.)s\.lianmeng\.360\.cn$
 (^|\.)s\.so\.360\.cn$
+(^|\.)shouji\.360\.cn$
 (^|\.)soft\.data\.weather\.360\.cn$
 (^|\.)stat\.360safe\.com$
 (^|\.)stat\.m\.360\.cn$
@@ -133,6 +134,15 @@
 (^|\.)ulog\.imap\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
 
+# Book-app 起点 掌阅 书旗
+(^|\.)(ad|push)\.zhangyue\.com$
+(^|\.)(cj|dwtrack|game|tongji|uedas)\.qidian\.com$
+(^|\.)api\.itaoxiaoshuo\.com$
+(^|\.)o\.if\.qidian\.com$
+(^|\.)s1\.cmfu\.com$
+(^|\.)uedas\.qdmm\.com$
+(^|\.)ut2\.shuqistat\.com$
+
 # Facebook
 (^|\.)staticxx\.facebook\.com$
 
@@ -154,7 +164,6 @@
 (^|\.)pagead-tpc\.l\.google\.com$
 (^|\.)pagead\.google\.com$
 (^|\.)pagead\.l\.google\.com$
-(^|\.)partnerad\.l\.google\.com$
 (^|\.)service\.urchin\.com$
 
 # JD
@@ -206,15 +215,6 @@
 
 # Moji 墨迹
 (^|\.)ad\.api\.moji\.com$
-
-# Book-app 起点 掌阅 书旗
-(^|\.)(ad|push)\.zhangyue\.com$
-(^|\.)(cj|dwtrack|game|tongji|uedas)\.qidian\.com$
-(^|\.)api\.itaoxiaoshuo\.com$
-(^|\.)o\.if\.qidian\.com$
-(^|\.)s1\.cmfu\.com$
-(^|\.)uedas\.qdmm\.com$
-(^|\.)ut2\.shuqistat\.com$
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
@@ -392,7 +392,7 @@
 (^|\.)stat\.pptv\.com$
 
 # Youku & Tudou
-(^|\.)(actives|atm|guanggaoad|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
+(^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
 (^|\.)(ad|das|gamex)\.mobile\.youku\.com$
 (^|\.)(dev-push|push|sdk)\.m\.youku\.com$
@@ -458,6 +458,7 @@
 (^|\.)ad\.unimhk\.com$
 (^|\.)adm\.10jqka\.com\.cn$
 (^|\.)adm\.easou\.com$
+(^|\.)adm\d\.autoimg\.cn$
 (^|\.)ads\.feedly\.com$
 (^|\.)ads\.genieessp\.com$
 (^|\.)ads\.linkedin\.com$
@@ -926,6 +927,7 @@
 (^|\.)cnbetacdn\.com$
 (^|\.)coolapk\.com$
 (^|\.)coolapkmarket\.com$
+(^|\.)crashlytics\.com$
 (^|\.)culturedcode\.com$
 (^|\.)didialift\.com$
 (^|\.)douban\.com$
