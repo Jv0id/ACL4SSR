@@ -1,5 +1,5 @@
-# 3.16
-# 2017年3月16日11:08:35 82
+# 3.17
+# 2017年3月17日12:29:10 83
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -295,11 +295,14 @@
 # Ximalaya 喜马拉雅
 (^|\.)(adse|linkeye|location|xdcs-collector)\.ximalaya\.com$
 
-# Xunlei 迅雷
+# Xunlei 迅雷app&看看
 (^|\.)biz5\.kankan\.com$
 (^|\.)cpm\.cm\.sandai\.net$
 (^|\.)float\.kankan\.com$
 (^|\.)logic\.cpm\.cm\.kankan\.com$
+(^|\.)img\.momocdn\.com$
+(^|\.)adsp\.xunlei\.com$
+(^|\.)api-shoulei-ssl\.xunlei\.com$
 
 # Ads in Video apps********************下面都是
 
@@ -362,7 +365,6 @@
 (^|\.)pro\.hoye\.letv\.com$
 ^|\.)static\.app\.m\.letv\.com$
 
-
 # MGTV 芒果TV
 (^|\.)(bs|log|x)\.da\.hunantv\.com$
 (^|\.)log\.v2\.hunantv\.com$
@@ -392,7 +394,7 @@
 (^|\.)stat\.pptv\.com$
 
 # Youku & Tudou
-(^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
+(^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
 (^|\.)(ad|das|gamex)\.mobile\.youku\.com$
 (^|\.)(dev-push|push|sdk)\.m\.youku\.com$
@@ -498,7 +500,6 @@
 (^|\.)zhstatic\.zhihu\.com$
 
 # 广告联盟****************
-(^|\.)10up\.com$
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
 (^|\.)2cnt\.net$
@@ -667,6 +668,8 @@
 (^|\.)mpush\.cn$
 (^|\.)mxpnl\.com$
 (^|\.)mydas\.mobi$
+(^|\.)mzy2014\.com$
+(^|\.)mzy2014\.com$
 (^|\.)networkbench\.com$
 (^|\.)newrelic\.com$
 (^|\.)nexage\.com$
@@ -750,6 +753,7 @@
 (^|\.)yrxmr\.com$
 (^|\.)ysjwj\.com$
 (^|\.)yunjiasu\.com$
+(^|\.)zampdsp\.com$
 (^|\.)zedo\.com$
 (^|\.)zhiziyun\.com$
 (^|\.)zzsx8\.com$
@@ -853,12 +857,11 @@
 (^|\.)translate\.google\.cn$
 
 # 中国域名直连
-(^|\.).*xn--.*$
 ^.*\.cn$
 ^.*\.com\.cn$
 ^.*\.edu\.cn$
 
-# 中国常见域名关键词直连
+# 中国国内常见域名关键词直连
 (^|\.)\w*-cn\w*\.\w*$
 (^|\.)\w*appzapp\w*\.\w*$
 (^|\.)\w*baidupcs\w*\.\w*$
