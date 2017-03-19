@@ -1,5 +1,5 @@
-# 3.17
-# 2017年3月17日12:29:10 83
+# 3.20
+# 2017年3月20日00:26:18 84
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -45,8 +45,8 @@
 (^|\.)\w*openx\w*\..*$
 (^|\.)\w*partnerad\w*\..*$
 (^|\.)\w*pingfore\w*\..*$
-(^|\.)\w*push\w*\..*$
 (^|\.)\w*supersonicads\w*\..*$
+(^|\.)\w*trace\w*\..*$
 (^|\.)\w*tracking\w*\..*$
 (^|\.)\w*traffic\w*\..*$
 (^|\.)\w*uedas\w*\..*$
@@ -65,7 +65,6 @@
 (^|\.)(f1|f2)\.p0y\.cn$
 (^|\.)(analytics|img1|img2|mimg|ws|push)\.126\.net$
 (^|\.)haitaoad\.nosdn\.127\.net$
-(^|\.)oadz\.com$
 (^|\.)oimagea2\.ydstatic\.com$
 (^|\.)pagechoice\.net$
 (^|\.)prom\.gome\.com\.cn$
@@ -218,10 +217,9 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|beacon|e|gdt|l|monitor|pingjs|pingma|pingtcss|report|tajs|tcss)(|\.uu)\.qq\.com$
+(^|\.)(act|adsfile|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|tajs|tcss)(|\.uu)\.qq\.com$
 (^|\.)(adsense|mqqad|tpush)\.html5\.qq\.com$
 (^|\.)(bugly|buluo)\.qq\.com$
-(^|\.)btrace\.video\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)adsolution\.imtt\.qq\.com$
 (^|\.)aikan\.browser\.qq\.com$
@@ -229,8 +227,6 @@
 (^|\.)cpro\.qqtn\.com$
 (^|\.)mcgi\.v\.qq\.com$
 (^|\.)mqqad\.cs0309\.html5\.qq\.com$
-(^|\.)pgdt\.gtimg\.cn$
-(^|\.)qqvideo\.tc\.qq\.com$
 
 # Shumilou
 (^|\.)70e\.com$
@@ -375,7 +371,6 @@
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
 (^|\.)(aty|hui|images|pv|wan|yule)\.sohu\.com$
 (^|\.)(bd|click|click2|mb|pb|um|wl|ott)\.hd\.sohu\.com\.cn$
-(^|\.)(i|imp|s|t|txt)\.go\.sohu\.com$
 (^|\.)api\.k\.sohu\.com$
 (^|\.)count\.vrs\.sohu\.com$
 (^|\.)da\.mmarket\.com$
@@ -392,6 +387,16 @@
 (^|\.)asimgs\.pplive\.cn$
 (^|\.)pp2\.pptv\.com$
 (^|\.)stat\.pptv\.com$
+
+# QQ Live
+(^|\.)(adsrich|dp3|jqmt|jsqmt|l|pingfore|pinghot|).qq\.com$
+(^|\.)(bla|ra|wa|pgdt)\.gtimg\.(com|cn)$
+(^|\.)(btrace|tj)\.video\.qq\.com$
+(^|\.)(qqvideo|vmindhls|wxsnsdy)\.tc\.qq\.com$
+(^|\.)aiseet\.aa\.atianqi\.com$
+(^|\.)aiseet\.atianqi\.com$
+(^|\.)mdevstat\.qqlive\.qq\.com$
+(^|\.)p\.tencentmind\.com$
 
 # Youku & Tudou
 (^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec)\.youku\.com$
@@ -675,6 +680,7 @@
 (^|\.)nexage\.com$
 (^|\.)ntalker\.com$
 (^|\.)o2omobi\.com$
+(^|\.)oadz\.com$
 (^|\.)oneapm\.com$
 (^|\.)onetad\.com$
 (^|\.)optaim\.com$
@@ -685,6 +691,7 @@
 (^|\.)pro\.cn$
 (^|\.)publicidad\.net$
 (^|\.)publicidad\.tv$
+(^|\.)pubmatic\.com$
 (^|\.)pubnub\.com$
 (^|\.)qcl777\.com$
 (^|\.)qiyou\.com$
@@ -706,6 +713,7 @@
 (^|\.)smartmad\.com$
 (^|\.)somecoding\.com$
 (^|\.)sponsorpay\.com$
+(^|\.)statcounter\.com$
 (^|\.)stg8\.com$
 (^|\.)switchadhub\.com$
 (^|\.)synacast\.com$
@@ -837,6 +845,7 @@
 123.125.111.0/24
 123.125.117.0/24
 123.125.118.0/24
+123.139.154.201/24
 123.206.1.246/32
 124.116.241.0/24
 140.205.36.26/32
@@ -863,13 +872,20 @@
 
 # 中国国内常见域名关键词直连
 (^|\.)\w*-cn\w*\.\w*$
+(^|\.)\w*0x\w*\.\w*$
+(^|\.)\w*360buy\w*\.\w*$
+(^|\.)\w*alimama\w*\.\w*$
+(^|\.)\w*alipay\w*\.\w*$
 (^|\.)\w*appzapp\w*\.\w*$
 (^|\.)\w*baidupcs\w*\.\w*$
+(^|\.)\w*ccgslb\w*\.\w*$
+(^|\.)\w*chinacache\w*\.\w*$
 (^|\.)\w*duobao\w*\.\w*$
 (^|\.)\w*duolingo\w*\.\w*$
 (^|\.)\w*jdpay\w*\.\w*$
 (^|\.)\w*moke\w*\.\w*$
 (^|\.)\w*sinaimg\w*\.\w*$
+(^|\.)\w*steam\w*\.\w*$
 (^|\.)\w*xiami\w*\.\w*$
 (^|\.)\w*xiaomi\w*\.\w*$
 
