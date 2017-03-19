@@ -303,7 +303,7 @@
 # Ads in Video apps********************下面都是
 
 # 6间房
-(^|\.)(shrek|simba||union)\.6\.cn$
+(^|\.)(shrek|simba|union)\.6\.cn$
 
 # Baofeng 暴风影音
 (^|\.)logger\.baofeng\.com$
@@ -389,7 +389,7 @@
 (^|\.)stat\.pptv\.com$
 
 # QQ Live
-(^|\.)(adsrich|dp3|jqmt|jsqmt|l|pingfore|pinghot|).qq\.com$
+(^|\.)(adsrich|dp3|jqmt|jsqmt|l|pingfore|pinghot).qq\.com$
 (^|\.)(bla|ra|wa|pgdt)\.gtimg\.(com|cn)$
 (^|\.)(btrace|tj)\.video\.qq\.com$
 (^|\.)(qqvideo|vmindhls|wxsnsdy)\.tc\.qq\.com$
