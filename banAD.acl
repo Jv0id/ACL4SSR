@@ -1,5 +1,5 @@
-# 3.21
-# 2017年3月20日10:09:24 85
+# 3.20
+# 2017年3月20日16:52:07 86
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -37,6 +37,7 @@
 (^|\.)\w*adsrvmedia\w*\..*$
 (^|\.)\w*adwords\w*\..*$
 (^|\.)\w*analysis\w*\..*$
+(^|\.)\w*analytics\w*\..*$
 (^|\.)\w*duomeng\w*\..*$
 (^|\.)\w*dwtrack\w*\..*$
 (^|\.)\w*guanggao\w*\..*$
@@ -566,6 +567,7 @@
 (^|\.)allyes\.cn$
 (^|\.)allyes\.com$
 (^|\.)amazon-adsystem\.com$
+(^|\.)analysys\.cn$
 (^|\.)angsrvr\.com$
 (^|\.)anquan\.org$
 (^|\.)anysdk\.com$
@@ -621,6 +623,7 @@
 (^|\.)fastclick\.net$
 (^|\.)flashtalking\.com$
 (^|\.)flurry\.com$
+(^|\.)getui\.com$
 (^|\.)go-mpulse$
 (^|\.)growingio\.com$
 (^|\.)guohead\.com$
@@ -688,6 +691,7 @@
 (^|\.)optimix\.asia$
 (^|\.)optimizelyapis\.com$
 (^|\.)overture\.com$
+(^|\.)p0y\.cn$
 (^|\.)pingdom\.net$
 (^|\.)pro\.cn$
 (^|\.)publicidad\.net$
