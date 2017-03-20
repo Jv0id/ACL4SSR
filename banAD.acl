@@ -1,5 +1,5 @@
-# 3.20
-# 2017年3月20日00:26:18 84
+# 3.21
+# 2017年3月20日10:09:24 85
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -133,7 +133,8 @@
 (^|\.)ulog\.imap\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
 
-# Book-app 起点 掌阅 书旗
+# Book-app 起点 掌阅 书旗 宜搜
+(^|\.)(adm|assets|tjlog)\.(|ps)\.easou\.com$
 (^|\.)(ad|push)\.zhangyue\.com$
 (^|\.)(cj|dwtrack|game|tongji|uedas)\.qidian\.com$
 (^|\.)api\.itaoxiaoshuo\.com$
