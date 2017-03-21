@@ -1,5 +1,5 @@
 # 3.20
-# 2017年3月20日17:06:21 87
+# 2017年3月20日16:52:07 86
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -28,35 +28,35 @@
 # 禁止访问列表 广告拦截
 
 # 广告关键词
-(^|\.)ad\d{0,3}\.
-(^|\.)ads\d{0,3}\.
-admarvel
-admaster
-adsage
-adsensor
-adsh
-adsmogo
-adsrvmedia
-adwords
-analysis
-analytics
-duomeng
-dwtrack
-guanggao
-lianmeng
-monitor
-openx
-partnerad
-pingfore
-supersonicads
-trace
-tracking
-traffic
-uedas
-umeng
-usage
-wlmonitor
-zjtoolbar
+(^|\.)\w*admarvel\w*\..*$
+(^|\.)\w*admaster\w*\..*$
+(^|\.)\w*adsage\w*\..*$
+(^|\.)\w*adsensor\w*\..*$
+(^|\.)\w*adsh\w*\..*$
+(^|\.)\w*adsmogo\w*\..*$
+(^|\.)\w*adsrvmedia\w*\..*$
+(^|\.)\w*adwords\w*\..*$
+(^|\.)\w*analysis\w*\..*$
+(^|\.)\w*analytics\w*\..*$
+(^|\.)\w*duomeng\w*\..*$
+(^|\.)\w*dwtrack\w*\..*$
+(^|\.)\w*guanggao\w*\..*$
+(^|\.)\w*lianmeng\w*\..*$
+(^|\.)\w*monitor\w*\..*$
+(^|\.)\w*openx\w*\..*$
+(^|\.)\w*partnerad\w*\..*$
+(^|\.)\w*pingfore\w*\..*$
+(^|\.)\w*supersonicads\w*\..*$
+(^|\.)\w*trace\w*\..*$
+(^|\.)\w*tracking\w*\..*$
+(^|\.)\w*traffic\w*\..*$
+(^|\.)\w*uedas\w*\..*$
+(^|\.)\w*umeng\w*\..*$
+(^|\.)\w*usage\w*\..*$
+(^|\.)\w*wlmonitor\w*\..*$
+(^|\.)\w*zjtoolbar\w*\..*$
+(^|\.)ad\d{0,3}\..*$
+(^|\.)ads\d{0,3}\..*$
 
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
@@ -217,7 +217,7 @@ zjtoolbar
 (^|\.)ad\.api\.moji\.com$
 
 # QQ
-omgmta
+(^|\.)\w*omgmta\w*\.\w*$
 (^|\.)(act|adsfile|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|tajs|tcss)(|\.uu)\.qq\.com$
 (^|\.)(adsense|mqqad|tpush)\.html5\.qq\.com$
 (^|\.)(bugly|buluo)\.qq\.com$
@@ -875,23 +875,23 @@ omgmta
 ^.*\.edu\.cn$
 
 # 中国国内常见域名关键词直连
--cn
-0x
-360buy
-alimama
-alipay
-appzapp
-baidupcs
-ccgslb
-chinacache
-duobao
-duolingo
-jdpay
-moke
-sinaimg
-steam
-xiami
-xiaomi
+(^|\.)\w*-cn\w*\.\w*$
+(^|\.)\w*0x\w*\.\w*$
+(^|\.)\w*360buy\w*\.\w*$
+(^|\.)\w*alimama\w*\.\w*$
+(^|\.)\w*alipay\w*\.\w*$
+(^|\.)\w*appzapp\w*\.\w*$
+(^|\.)\w*baidupcs\w*\.\w*$
+(^|\.)\w*ccgslb\w*\.\w*$
+(^|\.)\w*chinacache\w*\.\w*$
+(^|\.)\w*duobao\w*\.\w*$
+(^|\.)\w*duolingo\w*\.\w*$
+(^|\.)\w*jdpay\w*\.\w*$
+(^|\.)\w*moke\w*\.\w*$
+(^|\.)\w*sinaimg\w*\.\w*$
+(^|\.)\w*steam\w*\.\w*$
+(^|\.)\w*xiami\w*\.\w*$
+(^|\.)\w*xiaomi\w*\.\w*$
 
 # TaoBao
 (^|\.)alibaba\.com$
@@ -3442,15 +3442,15 @@ xiaomi
 ^.*\.us$
 
 # 国外软件关键字 全部代理
-dropbox
-facebook
-fbcdn
-gmail
-google
-instagram
-spotify
-telegram
-twitter
+(^|\.)\w*dropbox\w*\.\w*$
+(^|\.)\w*facebook\w*\.\w*$
+(^|\.)\w*fbcdn\w*\.\w*$
+(^|\.)\w*gmail\w*\.\w*$
+(^|\.)\w*google\w*\.\w*$
+(^|\.)\w*instagram\w*\.\w*$
+(^|\.)\w*spotify\w*\.\w*$
+(^|\.)\w*telegram\w*\.\w*$
+(^|\.)\w*twitter\w*\.\w*$
 
 # MyList
 (^|\.)bit\.no\.com$
@@ -3473,8 +3473,8 @@ twitter
 (^|\.)line\.naver\.jp$
 
 # MytvSUPER & Netflix
-nowtv100
-rthklive
+(^|\.)\w*nowtv100\w*\.\w*$
+(^|\.)\w*rthklive\w*\.\w*$
 (^|\.)mytvsuper\.com$
 (^|\.)netflix\.com$
 (^|\.)netflix\.net$
