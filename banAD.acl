@@ -1,5 +1,5 @@
-# 3.20
-# 2017年3月20日16:52:07 86
+# 3.24
+# 2017年3月24日08:44:45 87
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -72,6 +72,18 @@
 (^|\.)static\.flv\.uuzuonline\.com$
 (^|\.)wanproxy\.127\.net$
 
+# 17173
+(^|\.)cvda\.17173\.com$
+(^|\.)imgapp\.yeyou\.com$
+(^|\.)log1\.17173\.com$
+(^|\.)s\.17173cdn\.com$
+(^|\.)ue\.yeyoucdn\.com$
+(^|\.)vda\.17173\.com$
+
+# 178
+(^|\.)analytics\.wanmei\.com$
+(^|\.)gg\.stargame\.com$
+
 # 2345
 (^|\.)(dl|download|wan|jifendownload)\.2345\.cn$
 
@@ -89,6 +101,21 @@
 (^|\.)stat\.360safe\.com$
 (^|\.)stat\.m\.360\.cn$
 (^|\.)update\.360safe\.com$
+
+# 52 che
+(^|\.)bd1\.52che\.com$
+(^|\.)bd2\.52che\.com$
+
+# 58
+(^|\.)58\.xgo\.com\.cn$
+(^|\.)brandshow\.58\.com$
+(^|\.)imp\.xgo\.com\.cn$
+(^|\.)jing\.58\.com$
+(^|\.)stat\.xgo\.com\.cn$
+(^|\.)track\.58\.com$
+
+# 1fangchan
+(^|\.)adhome\.1fangchan\.com$
 
 # Ali
 (^|\.)(adash|amdc|apoll|rj|simaba)\.m\.taobao\.com$
@@ -143,8 +170,63 @@
 (^|\.)uedas\.qdmm\.com$
 (^|\.)ut2\.shuqistat\.com$
 
+# Bitauto
+(^|\.)bglog\.bitauto\.com$
+(^|\.)dcjs\.cig\.com\.cn$
+(^|\.)g\.bitauto\.com$
+(^|\.)g\.yccdn\.com$
+(^|\.)gimg\.bitauto\.com$
+(^|\.)js\.ctags\.cn$
+(^|\.)log\.bitauto\.com$
+(^|\.)webtrends\.yccdn\.com$
+
+# Caiyun
+(^|\.)ad\.caiyunapp\.com$
+
+# Cheshi
+(^|\.)click\.cheshi\.com$
+(^|\.)media\.cheshi-img\.com$
+(^|\.)pv\.cheshi\.com$
+
+# Dangdang
+(^|\.)a\.dangdang\.com$
+(^|\.)click\.dangdang\.com$
+(^|\.)schprompt\.dangdang\.com$
+(^|\.)t\.dangdang\.com$
+
+# Douban
+(^|\.)erebor\.douban\.com$
+
+# Duomi
+(^|\.)ad\.duomi\.com$
+(^|\.)pc\.boxshows\.com$
+
 # Facebook
 (^|\.)staticxx\.facebook\.com$
+
+# Fang
+(^|\.)click1n\.soufun\.com$
+(^|\.)clickm\.fang\.com$
+(^|\.)clickn\.fang\.com$
+(^|\.)countpvn\.light\.fang\.com$
+(^|\.)countubn\.light\.soufun\.com$
+(^|\.)mshow\.fang\.com$
+(^|\.)tongji\.home\.soufun\.com$
+
+# ele
+(^|\.)app-monitor\.ele\.me$
+(^|\.)client-api\.ele\.me$
+(^|\.)grand\.ele\.me$
+(^|\.)mobile-pubt\.ele\.me$
+(^|\.)newton-api\.ele\.me$
+
+# Ganji
+(^|\.)ad\.ganji\.com$
+(^|\.)analytics\.ganji\.com$
+(^|\.)click\.ganji\.com$
+(^|\.)ganjituiguang\.ganji\.com$
+(^|\.)sta\.ganji\.com$
+(^|\.)tralog\.ganji\.com$
 
 # Google
 (^|\.)2mdn\.net$
@@ -165,6 +247,11 @@
 (^|\.)pagead\.google\.com$
 (^|\.)pagead\.l\.google\.com$
 (^|\.)service\.urchin\.com$
+
+# House 365
+(^|\.)ad\.house365\.com$
+(^|\.)adadmin\.house365\.com$
+(^|\.)ads\.house365\.com$
 
 # JD
 (^|\.)(jzt|policy|x)\.jd\.com$
@@ -213,8 +300,27 @@
 (^|\.)resolver\.msg\.xiaomi\.net$
 (^|\.)tracking\.miui\.com$
 
-# Moji 墨迹
+# Moji
 (^|\.)ad\.api\.moji\.com$
+(^|\.)app\.moji001\.com$
+(^|\.)cdn\.moji\.com$
+(^|\.)cdn\.moji002\.com$
+(^|\.)cdn2\.moji002\.com$
+(^|\.)fds\.api\.moji\.com$
+(^|\.)log\.moji\.com$
+(^|\.)stat\.moji\.com$
+(^|\.)ugc\.moji001\.com$
+
+# Mop
+(^|\.)pub\.mop\.com$
+
+# Qingting\.fm
+(^|\.)ad\.qingting\.fm$
+(^|\.)admgr\.qingting\.fm$
+(^|\.)dload\.qd\.qingting\.fm$
+(^|\.)logger\.qingting\.fm$
+(^|\.)s\.qd\.qingting\.fm$
+(^|\.)s\.qd\.qingtingfm\.com$
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
@@ -228,6 +334,13 @@
 (^|\.)cpro\.qqtn\.com$
 (^|\.)mcgi\.v\.qq\.com$
 (^|\.)mqqad\.cs0309\.html5\.qq\.com$
+
+# renren
+(^|\.)bolt\.jebe\.renren\.com$
+(^|\.)ebp\.renren\.com$
+(^|\.)jebe\.xnimg\.cn$
+(^|\.)static\.jebe\.renren\.com$
+(^|\.)xray\.jebe\.renren\.com$
 
 # Shumilou
 (^|\.)70e\.com$
@@ -256,6 +369,15 @@
 # Sougou
 (^|\.)(123|brand|get|inte|iwan|pb|pd|wan|wangmeng)\.sogou\.com$
 (^|\.)(123|galaxy)\.sogoucdn\.com$
+
+# Tianya
+(^|\.)801\.tianya\.cn$
+(^|\.)803\.tianya\.cn$
+(^|\.)806\.tianya\.cn$
+(^|\.)808\.tianya\.cn$
+(^|\.)bdj\.tianya\.cn$
+(^|\.)click\.tianyaui\.com$
+(^|\.)dol\.tianya\.cn$
 
 # Toutiao
 (^|\.)(ad|d|sm|dsp|nativeapp|partner)\.toutiao\.com$
@@ -289,6 +411,11 @@
 # Wi-Fi key
 (^|\.)(c|cdsget|news-imgpb|wifiapi\d\d|wkanc)\.51y5\.net$
 
+# Xcar
+(^|\.)d0\.xcar\.com\.cn$
+(^|\.)dw\.xcar\.com\.cn$
+(^|\.)pv\.xcar\.com\.cn$
+
 # Ximalaya 喜马拉雅
 (^|\.)(adse|linkeye|location|xdcs-collector)\.ximalaya\.com$
 
@@ -300,6 +427,10 @@
 (^|\.)img\.momocdn\.com$
 (^|\.)adsp\.xunlei\.com$
 (^|\.)api-shoulei-ssl\.xunlei\.com$
+
+# Zhihu
+(^|\.)sugar\.zhihu\.com$
+(^|\.)zhihu-web-analytics\.zhihu\.com$
 
 # Ads in Video apps********************下面都是
 
