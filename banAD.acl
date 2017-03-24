@@ -1,5 +1,5 @@
 # 3.24
-# 2017年3月24日08:44:45 87
+# 2017年3月24日09:03:47 88
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -102,20 +102,9 @@
 (^|\.)stat\.m\.360\.cn$
 (^|\.)update\.360safe\.com$
 
-# 52 che
-(^|\.)bd1\.52che\.com$
-(^|\.)bd2\.52che\.com$
-
 # 58
-(^|\.)58\.xgo\.com\.cn$
-(^|\.)brandshow\.58\.com$
-(^|\.)imp\.xgo\.com\.cn$
-(^|\.)jing\.58\.com$
-(^|\.)stat\.xgo\.com\.cn$
-(^|\.)track\.58\.com$
-
-# 1fangchan
-(^|\.)adhome\.1fangchan\.com$
+(^|\.)(58|imp|stat)\.xgo\.com\.cn$
+(^|\.)(brandshow|jing|track)\.58\.com$
 
 # Ali
 (^|\.)(adash|amdc|apoll|rj|simaba)\.m\.taobao\.com$
@@ -171,31 +160,14 @@
 (^|\.)ut2\.shuqistat\.com$
 
 # Bitauto
-(^|\.)bglog\.bitauto\.com$
+(^|\.)(bglog|g|gimg|log)\.bitauto\.com$
 (^|\.)dcjs\.cig\.com\.cn$
-(^|\.)g\.bitauto\.com$
 (^|\.)g\.yccdn\.com$
-(^|\.)gimg\.bitauto\.com$
 (^|\.)js\.ctags\.cn$
-(^|\.)log\.bitauto\.com$
 (^|\.)webtrends\.yccdn\.com$
 
-# Caiyun
-(^|\.)ad\.caiyunapp\.com$
-
-# Cheshi
-(^|\.)click\.cheshi\.com$
-(^|\.)media\.cheshi-img\.com$
-(^|\.)pv\.cheshi\.com$
-
 # Dangdang
-(^|\.)a\.dangdang\.com$
-(^|\.)click\.dangdang\.com$
-(^|\.)schprompt\.dangdang\.com$
-(^|\.)t\.dangdang\.com$
-
-# Douban
-(^|\.)erebor\.douban\.com$
+(^|\.)(a|click|schprompt|t)\.dangdang\.com$
 
 # Duomi
 (^|\.)ad\.duomi\.com$
@@ -212,21 +184,6 @@
 (^|\.)countubn\.light\.soufun\.com$
 (^|\.)mshow\.fang\.com$
 (^|\.)tongji\.home\.soufun\.com$
-
-# ele
-(^|\.)app-monitor\.ele\.me$
-(^|\.)client-api\.ele\.me$
-(^|\.)grand\.ele\.me$
-(^|\.)mobile-pubt\.ele\.me$
-(^|\.)newton-api\.ele\.me$
-
-# Ganji
-(^|\.)ad\.ganji\.com$
-(^|\.)analytics\.ganji\.com$
-(^|\.)click\.ganji\.com$
-(^|\.)ganjituiguang\.ganji\.com$
-(^|\.)sta\.ganji\.com$
-(^|\.)tralog\.ganji\.com$
 
 # Google
 (^|\.)2mdn\.net$
@@ -247,11 +204,6 @@
 (^|\.)pagead\.google\.com$
 (^|\.)pagead\.l\.google\.com$
 (^|\.)service\.urchin\.com$
-
-# House 365
-(^|\.)ad\.house365\.com$
-(^|\.)adadmin\.house365\.com$
-(^|\.)ads\.house365\.com$
 
 # JD
 (^|\.)(jzt|policy|x)\.jd\.com$
@@ -311,14 +263,9 @@
 (^|\.)stat\.moji\.com$
 (^|\.)ugc\.moji001\.com$
 
-# Mop
-(^|\.)pub\.mop\.com$
-
 # Qingting\.fm
-(^|\.)ad\.qingting\.fm$
-(^|\.)admgr\.qingting\.fm$
+(^|\.)(ad|admgr|logger)\.qingting\.fm$
 (^|\.)dload\.qd\.qingting\.fm$
-(^|\.)logger\.qingting\.fm$
 (^|\.)s\.qd\.qingting\.fm$
 (^|\.)s\.qd\.qingtingfm\.com$
 
@@ -336,11 +283,9 @@
 (^|\.)mqqad\.cs0309\.html5\.qq\.com$
 
 # renren
-(^|\.)bolt\.jebe\.renren\.com$
+(^|\.)jebe\.renren\.com$
 (^|\.)ebp\.renren\.com$
 (^|\.)jebe\.xnimg\.cn$
-(^|\.)static\.jebe\.renren\.com$
-(^|\.)xray\.jebe\.renren\.com$
 
 # Shumilou
 (^|\.)70e\.com$
@@ -369,15 +314,6 @@
 # Sougou
 (^|\.)(123|brand|get|inte|iwan|pb|pd|wan|wangmeng)\.sogou\.com$
 (^|\.)(123|galaxy)\.sogoucdn\.com$
-
-# Tianya
-(^|\.)801\.tianya\.cn$
-(^|\.)803\.tianya\.cn$
-(^|\.)806\.tianya\.cn$
-(^|\.)808\.tianya\.cn$
-(^|\.)bdj\.tianya\.cn$
-(^|\.)click\.tianyaui\.com$
-(^|\.)dol\.tianya\.cn$
 
 # Toutiao
 (^|\.)(ad|d|sm|dsp|nativeapp|partner)\.toutiao\.com$
@@ -411,11 +347,6 @@
 # Wi-Fi key
 (^|\.)(c|cdsget|news-imgpb|wifiapi\d\d|wkanc)\.51y5\.net$
 
-# Xcar
-(^|\.)d0\.xcar\.com\.cn$
-(^|\.)dw\.xcar\.com\.cn$
-(^|\.)pv\.xcar\.com\.cn$
-
 # Ximalaya 喜马拉雅
 (^|\.)(adse|linkeye|location|xdcs-collector)\.ximalaya\.com$
 
@@ -429,8 +360,7 @@
 (^|\.)api-shoulei-ssl\.xunlei\.com$
 
 # Zhihu
-(^|\.)sugar\.zhihu\.com$
-(^|\.)zhihu-web-analytics\.zhihu\.com$
+(^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
 
 # Ads in Video apps********************下面都是
 
@@ -584,17 +514,25 @@
 (^|\.)(168|adshownew|stat)\.it168\.com$
 (^|\.)(1|2)\.win7china\.com$
 (^|\.)(33|c|pcd)\.autohome\.com\.cn$
+(^|\.)(801|803|806|808|bdj|dol|click)\.(tianya|tianyaui)\.cn$
 (^|\.)(92x|its-dori)\.tumblr\.com$
 (^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
+(^|\.)(ad|adadmin|ads)\.house365\.com$
 (^|\.)(ad|ads|counter)\.csdn\.net$
+(^|\.)(ad|analytics|click|ganjituiguang|sta|tralog)\.ganji\.com$
 (^|\.)(app-monitor|client-api|grand|mobile-pubt|newton-api)\.ele\.me$
+(^|\.)(bd1|bd2)\.52che\.com$
+(^|\.)(click|media|pv)\.(cheshi|cheshi-img)\.com$
+(^|\.)(d0|dw|pv)\.xcar\.com\.cn$
 (^|\.)a1\.itc\.cn$
 (^|\.)ad\.12306\.cn$
 (^|\.)ad\.3\.cn$
 (^|\.)ad\.95306\.cn$
+(^|\.)ad\.caiyunapp\.com$
 (^|\.)ad\.cctv\.com$
 (^|\.)ad\.thepaper\.cn$
 (^|\.)ad\.unimhk\.com$
+(^|\.)adhome\.1fangchan\.com$
 (^|\.)adm\.10jqka\.com\.cn$
 (^|\.)adm\.easou\.com$
 (^|\.)adm\d\.autoimg\.cn$
@@ -610,6 +548,7 @@
 (^|\.)collector\.githubapp\.com$
 (^|\.)de\.soquair\.com$
 (^|\.)e\.nexac\.com$
+(^|\.)erebor\.douban\.com$
 (^|\.)exp\.17wo\.cn$
 (^|\.)hosting\.miarroba\.info$
 (^|\.)iadsdk\.apple\.com$
@@ -623,6 +562,7 @@
 (^|\.)pdl\.gionee\.com$
 (^|\.)picture\.duokan\.com$
 (^|\.)pixel\.wp\.com$
+(^|\.)pub\.mop\.com$
 (^|\.)qdp\.qidian\.com$
 (^|\.)res\.gwifi\.com\.cn$
 (^|\.)ssp\.kssws\.ks-cdn\.com$
@@ -634,7 +574,6 @@
 (^|\.)track\.hujiang\.com$
 (^|\.)tracker\.yhd\.com$
 (^|\.)up\.qingdaonews\.com$
-(^|\.)zhstatic\.zhihu\.com$
 
 # 广告联盟****************
 (^|\.)111cn\.net$
