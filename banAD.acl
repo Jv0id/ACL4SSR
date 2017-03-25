@@ -1,5 +1,5 @@
-# 3.24
-# 2017年3月24日09:03:47 88
+# 3.25
+# 2017年3月25日14:11:27 89
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -59,7 +59,7 @@
 (^|\.)ads\d{0,3}\..*$
 
 # 163
-(^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
+(^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp)?\.163\.com$
 (^|\.)(analytics|img1|img2|mimg|ws|push)\.126\.net$
 (^|\.)(a|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
 (^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.comimpservic$
@@ -150,7 +150,7 @@
 (^|\.)zz\.bdstatic\.com$
 
 # Book-app 起点 掌阅 书旗 宜搜
-(^|\.)(adm|assets|tjlog)\.(|ps)\.easou\.com$
+(^|\.)(adm|assets|tjlog)(\.ps)?\.easou\.com$
 (^|\.)(ad|push)\.zhangyue\.com$
 (^|\.)(cj|dwtrack|game|tongji|uedas)\.qidian\.com$
 (^|\.)api\.itaoxiaoshuo\.com$
@@ -271,7 +271,7 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|tajs|tcss)(|\.uu)\.qq\.com$
+(^|\.)(act|adsfile|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|tajs|tcss)(\.uu)?\.qq\.com$
 (^|\.)(adsense|mqqad|tpush)\.html5\.qq\.com$
 (^|\.)(bugly|buluo)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
@@ -299,8 +299,8 @@
 
 # Sina
 (^|\.)(adimg|pay|sax|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
-(^|\.)(ad|adm|atm|beacon|d\d|dcads|dmp|sax|slog|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
-(^|\.)(alitui|biz|game)\.weibo\.com(\.cn|)$
+(^|\.)(ad|adm|atm|beacon|d\d|dcads|dmp|sax|slog|tjs)(\.leju|\.sjs)\.sina\.com(\.cn)?$
+(^|\.)(alitui|biz|game)\.weibo\.com(\.cn)?$
 (^|\.)cre\.dp\.sina\.cn$
 (^|\.)g\.uusee\.com$
 (^|\.)gw5\.push\.mcp\.weibo\.cn$
@@ -540,6 +540,7 @@
 (^|\.)ads\.genieessp\.com$
 (^|\.)ads\.linkedin\.com$
 (^|\.)ads\.yahoo\.com$
+(^|\.)advert\.api\.thejoyrun\.com$
 (^|\.)api-deal\.kechenggezi\.com$
 (^|\.)api-z\.weidian\.com$
 (^|\.)bam\.nr-data\.net$
@@ -556,7 +557,6 @@
 (^|\.)js-agent\.newrelic\.com$
 (^|\.)lm\.admin5\.com$
 (^|\.)log\.outbrain\.com$
-(^|\.)log\.umsns\.com$
 (^|\.)m\.12306media\.com$
 (^|\.)n\.cosbot\.cn$
 (^|\.)pdl\.gionee\.com$
@@ -802,6 +802,7 @@
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
+(^|\.)umsns\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
@@ -841,7 +842,7 @@
 (^|\.)zzsx8\.com$
 
 ### 电信运营商广告
-(^|\.)\w\w(|\w)dnserror\d(|\d)\.wo\.com\.cn
+(^|\.)\w\w(\w)?dnserror\d(\d)?\.wo\.com\.cn
 (^|\.)114so\.cn$
 (^|\.)go\.10086\.cn$
 (^|\.)navi\.gd\.chinamobile\.com$
