@@ -1,5 +1,5 @@
-# 3.29
-# 2017年3月29日20:49:09 89
+# 4.02
+# 2017年4月2日11:54:37 90
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -90,7 +90,8 @@
 # 360
 (^|\.)3600\.com$
 (^|\.)api\.so\.lianmeng\.360\.cn$
-(^|\.)dev\.tg\.wan\.360\.cn$
+(^|\.)wan\.360\.cn$
+(^|\.)gamebox\.360\.cn$
 (^|\.)kuaikan\.netmon\.360safe\.com$
 (^|\.)leak\.360\.cn$
 (^|\.)lianmeng\.360\.cn$
@@ -177,7 +178,7 @@
 
 # Duomi
 (^|\.)ad\.duomi\.com$
-(^|\.)pc\.boxshows\.com$
+(^|\.)boxshows\.com$
 
 # Facebook
 (^|\.)staticxx\.facebook\.com$
@@ -476,7 +477,6 @@
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)a-dxk\.play\.api\.3g\.youku\.com$
 (^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
-(^|\.)b\.smartvideo\.youku\.com$
 (^|\.)c\.yes\.youku\.com$
 (^|\.)das\.api\.youku\.com$
 (^|\.)dl\.g\.youku\.com$
@@ -485,6 +485,7 @@
 (^|\.)hudong\.pl\.youku\.com$
 (^|\.)p-log\.ykimg\.com$
 (^|\.)s\.p\.youku\.com$
+(^|\.)smartvideo\.youku\.com$
 (^|\.)statis\.api\.3g\.youku\.com$
 (^|\.)store\.tv\.api\.3g\.youku\.com$
 (^|\.)test\.ott\.youku\.com$
@@ -590,6 +591,7 @@
 # 广告联盟****************
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
+(^|\.)123juzi\.net$
 (^|\.)2cnt\.net$
 (^|\.)2o7\.net$
 (^|\.)302br\.net$
@@ -602,6 +604,7 @@
 (^|\.)99click\.com$
 (^|\.)99youmeng\.com$
 (^|\.)acs86\.com$
+(^|\.)acxiom-online\.com$
 (^|\.)ad-brix\.com$
 (^|\.)ad-plus\.cn$
 (^|\.)ad7\.com$
@@ -735,6 +738,7 @@
 (^|\.)krux\.net$
 (^|\.)leadboltads\.net$
 (^|\.)localytics\.com$
+(^|\.)lomark\.cn$
 (^|\.)lotuseed\.com$
 (^|\.)lufax\.com$
 (^|\.)madmini\.com$
@@ -759,7 +763,6 @@
 (^|\.)mpush\.cn$
 (^|\.)mxpnl\.com$
 (^|\.)mydas\.mobi$
-(^|\.)mzy2014\.com$
 (^|\.)mzy2014\.com$
 (^|\.)networkbench\.com$
 (^|\.)newrelic\.com$
