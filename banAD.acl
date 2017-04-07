@@ -1,5 +1,5 @@
-# 4.02
-# 2017年4月2日11:54:37 90
+# 4.07
+# 2017年4月7日08:49:12 91
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -111,7 +111,6 @@
 (^|\.)(adash|ai|amdc|apoll|re|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|gtms\d\d|nbsdk-baichuan)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|textlink|tns)\.simba\.taobao\.com$
-(^|\.)(g|i)\.click\.taobao\.com$
 (^|\.)(ju|nbsdk-baichuan|sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)a\.alimama\.cn$
 (^|\.)acjs\.aliyun\.com$
@@ -119,6 +118,7 @@
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
 (^|\.)click\.mz\.simba\.taobao\.com$
+(^|\.)g\.click\.taobao\.com$
 (^|\.)hydra\.alibaba\.com$
 (^|\.)m\.intl\.taobao\.com$
 (^|\.)mmstat\.com$
@@ -440,7 +440,7 @@
 (^|\.)p2\.hunantv\.com$
 
 # Sohu 搜狐
-(^|\.)(888|lm|push)\.tv\.sohu\.com$
+(^|\.)(888|lm)\.tv\.sohu\.com$
 (^|\.)(aty|hui|images|pv|wan|yule)\.sohu\.com$
 (^|\.)(bd|click|click2|mb|pb|um|wl|ott)\.hd\.sohu\.com\.cn$
 (^|\.)api\.k\.sohu\.com$
@@ -473,7 +473,7 @@
 (^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
 (^|\.)(ad|das|gamex)\.mobile\.youku\.com$
-(^|\.)(dev-push|push|sdk)\.m\.youku\.com$
+(^|\.)(push|sdk)\.m\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)a-dxk\.play\.api\.3g\.youku\.com$
 (^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
