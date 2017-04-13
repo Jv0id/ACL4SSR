@@ -1,5 +1,5 @@
-# 4.07
-# 2017年4月7日08:49:12 91
+# 4.13
+# 2017年4月13日14:45:42 92
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -114,6 +114,7 @@
 (^|\.)(ju|nbsdk-baichuan|sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)a\.alimama\.cn$
 (^|\.)acjs\.aliyun\.com$
+(^|\.)adash-c\.ut\.taobao\.com$
 (^|\.)adashxgc\.ut\.taobao\.com$
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
@@ -121,7 +122,6 @@
 (^|\.)g\.click\.taobao\.com$
 (^|\.)hydra\.alibaba\.com$
 (^|\.)m\.intl\.taobao\.com$
-(^|\.)mmstat\.com$
 (^|\.)pics\.taobaocdn\.com$
 (^|\.)pindao\.huoban\.taobao\.com$
 (^|\.)show\.re\.taobao\.com$
@@ -380,6 +380,9 @@
 (^|\.)logger\.baofeng\.com$
 (^|\.)xs\.houyi\.baofeng\.net$
 
+# Douyu
+(^|\.)dotcounter\.douyutv\.com$
+
 # Fenghuang 凤凰TV
 (^|\.)(aoodoo|push|yes1)\.feng\.com$
 (^|\.)(game|ifashion|stadig)\.ifeng\.com$
@@ -394,18 +397,31 @@
 # iqiyi PPS 爱奇艺
 (^|\.)(afp|store)\.qiyi\.com$
 (^|\.)(androidgo|noxagile)\.duapp\.com$
-(^|\.)(ckm|cloudpush|cupid|gamecenter|hotchat-im|ifacelog|mbdlog|msg|notice|paopao|rcd|store|sns|yuedu|uaa)\.iqiyi\.com$
+(^|\.)(ckm|cloudpush|cupid|gamecenter|hotchat-im|ifacelog|mbdlog|msg|notice|paopao|rcd|store|sns|yuedu)\.iqiyi\.com$
 (^|\.)(data|msg|msg2|msga)\.video\.qiyi\.com$
 (^|\.)(msg|msg2|msga)\.71\.am$
 (^|\.)ad\.m\.iqiyi\.com$
+(^|\.)api\.cupid\.ptqy\.gitv\.tv,REJEC
+(^|\.)c\.uaa\.iqiyi\.com$
 (^|\.)cm\.passport\.iqiyi\.com$
 (^|\.)game\.pps\.tv$
+(^|\.)mixer\.cupid\.ptqy\.gitv\.tv$
+(^|\.)msg2\.video\.ptqy\.gitv\.tv$
+(^|\.)msg\.c002\.ottcn\.com$
+(^|\.)msg\.ptqy\.gitv\.tv$
+(^|\.)msg\.video\.ptqy\.gitv\.tv$
+(^|\.)msga\.ptqy\.gitv\.tv$
+(^|\.)nl\.rcd\.ptqy\.gitv\.tv$
 (^|\.)paopao\d\.qiyipic\.com$
+(^|\.)pb\.bi\.gitv\.tv$
 (^|\.)policy\.video\.iqiyi\.com$
 (^|\.)qchannel01\.cn$
+(^|\.)qosp\.msg\.71\.am$
 (^|\.)static\.g\.iqiyi\.com$
 (^|\.)static\.g\.ppstream\.com$
-(^|\.)rzhushou\.com$
+(^|\.)store\.ptqy\.gitv\.tv$
+(^|\.)store\.qiyi\.com$
+(^|\.)t7z\.cupid\.ptqy\.gitv\.tv$
 27.221.89.128/28
 60.211.171.128/29
 60.211.211.1/32
@@ -425,9 +441,8 @@
 (^|\.)static\.ku6\.com$
 
 # leTV 乐视
-(^|\.)(ark|dc|fz|g3|minisite|pro|shop|stat|webp2p)\.letv\.com$
+(^|\.)(ark|dc|fz|g3|minisite|pro|stat)\.letv\.com$
 (^|\.)(i0|i3)\.letvimg\.com$
-(^|\.)api\.mob\.app\.letv\.com$
 (^|\.)game\.letvstore\.com$
 (^|\.)n\.mark\.letv\.com$
 (^|\.)pro\.hoye\.letv\.com$
@@ -467,13 +482,14 @@
 (^|\.)aiseet\.aa\.atianqi\.com$
 (^|\.)aiseet\.atianqi\.com$
 (^|\.)mdevstat\.qqlive\.qq\.com$
+(^|\.)omgmta1\.qq\.com$
 (^|\.)p\.tencentmind\.com$
 
 # Youku & Tudou
-(^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec)\.youku\.com$
+(^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
 (^|\.)(ad|das|gamex)\.mobile\.youku\.com$
-(^|\.)(push|sdk)\.m\.youku\.com$
+(^|\.)sdk\.m\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)a-dxk\.play\.api\.3g\.youku\.com$
 (^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
@@ -485,7 +501,6 @@
 (^|\.)hudong\.pl\.youku\.com$
 (^|\.)p-log\.ykimg\.com$
 (^|\.)s\.p\.youku\.com$
-(^|\.)smartvideo\.youku\.com$
 (^|\.)statis\.api\.3g\.youku\.com$
 (^|\.)store\.tv\.api\.3g\.youku\.com$
 (^|\.)test\.ott\.youku\.com$
@@ -503,7 +518,6 @@
 (^|\.)cc\.xtgreat\.com$
 (^|\.)d\.dsp\.imageter\.com$
 (^|\.)dotcounter\.douyutv\.com$
-(^|\.)g\.uusee\.com$
 (^|\.)gg\.jtertp\.com$
 (^|\.)gridsum-vd\.cntv\.cn$
 (^|\.)kwflvcdn\.000dn\.com$
@@ -515,7 +529,6 @@
 (^|\.)static\.duoshuo\.com$
 (^|\.)t\.cr-nielsen\.com$
 (^|\.)terren\.cntv\.cn$
-(^|\.)traffic\.uusee\.com$
 
 # Ads in Video apps end ********************上面都是
 
@@ -674,7 +687,6 @@
 (^|\.)buysellads\.com$
 (^|\.)c0563\.com$
 (^|\.)casalemedia\.com$
-(^|\.)cbsistatic\.com$
 (^|\.)cdnmaster\.com$
 (^|\.)chance-ad\.com$
 (^|\.)chartbeat\.com$
