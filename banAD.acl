@@ -1,5 +1,5 @@
-# 4.13
-# 2017年4月13日14:45:42 92
+# 4.17
+# 2017年4月17日10:25:54 93
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -318,7 +318,6 @@
 (^|\.)tjs\.sjs\.sinajs\.cn$
 (^|\.)u\d\.img\.mobile\.sina\.cn$
 (^|\.)zymo\.mps\.weibo\.com$
-(^|\.)log\.weico\.cc$
 
 # Sougou
 (^|\.)(123|brand|get|inte|iwan|pb|pd|wan|wangmeng)\.sogou\.com$
@@ -336,7 +335,7 @@
 
 # UC ali
 (^|\.)(adslot|applog|track)\.uc\.cn$
-(^|\.)(cms|puds|safe|uc|ucsec1|ucsec)\.ucweb\.com$
+(^|\.)(cms|puds|uc|ucsec1|ucsec)\.ucweb\.com$
 (^|\.)(log|patriot)\.cs\.pp\.cn$
 (^|\.)api\.mp\.uc\.cn$
 (^|\.)client\.video\.ucweb\.com$
@@ -890,8 +889,6 @@
 220.196.52.141/32
 # Sichuan Unicom Float
 119.4.249.166/32
-# Shenzhen Unicom Float
-120.80.57.123/32
 # Wuhan Unicom Float
 113.57.230.88/32
 
@@ -1056,7 +1053,6 @@
 (^|\.)cnbetacdn\.com$
 (^|\.)coolapk\.com$
 (^|\.)coolapkmarket\.com$
-(^|\.)crashlytics\.com$
 (^|\.)culturedcode\.com$
 (^|\.)didialift\.com$
 (^|\.)douban\.com$
@@ -1067,7 +1063,6 @@
 (^|\.)dytt8\.net$
 (^|\.)easou\.com$
 (^|\.)ecitic\.com$
-(^|\.)eudic\.net$
 (^|\.)ewqcxz\.com$
 (^|\.)feng\.com$
 (^|\.)fir\.im$
