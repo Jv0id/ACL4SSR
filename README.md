@@ -21,6 +21,7 @@
 
 * ACL更新地址（**白名单**）：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 * ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/gfwlist-banAD.acl
+* ACL更新记录：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
 * SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 * SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
