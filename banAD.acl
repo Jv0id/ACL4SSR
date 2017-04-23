@@ -1,5 +1,5 @@
-# 4.17
-# 2017年4月17日10:25:54 93
+# 4.23
+# 2017年4月23日 13:05:36 94
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -108,7 +108,7 @@
 (^|\.)(brandshow|jing|track)\.58\.com$
 
 # Ali
-(^|\.)(adash|ai|amdc|apoll|re|rj|simaba)\.m\.taobao\.com$
+(^|\.)(adash|adsh|adashx4yt|ai|amdc|apoll|acs4baichuan|re|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|gtms\d\d|nbsdk-baichuan)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|textlink|tns)\.simba\.taobao\.com$
 (^|\.)(ju|nbsdk-baichuan|sdkinit|simaba|tyh)\.taobao\.com$
@@ -120,8 +120,8 @@
 (^|\.)amdc\.alipay\.com$
 (^|\.)click\.mz\.simba\.taobao\.com$
 (^|\.)g\.click\.taobao\.com$
+(^|\.)g\.tbcdn\.cn$
 (^|\.)hydra\.alibaba\.com$
-(^|\.)m\.intl\.taobao\.com$
 (^|\.)pics\.taobaocdn\.com$
 (^|\.)pindao\.huoban\.taobao\.com$
 (^|\.)show\.re\.taobao\.com$
@@ -281,16 +281,8 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|shang|tajs|tcss)(\.uu|)\.qq\.com$
-(^|\.)(adsense|jpush|mqqad|tpush)\.html5\.qq\.com$
-(^|\.)(bugly|buluo)\.qq\.com$
+(^|\.)(act|adsfile|bugly|buluo|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
-(^|\.)adsolution\.imtt\.qq\.com$
-(^|\.)aikan\.browser\.qq\.com$
-(^|\.)boss\.qzone\.qq\.com$
-(^|\.)cpro\.qqtn\.com$
-(^|\.)mcgi\.v\.qq\.com$
-(^|\.)mqqad\.cs0309\.html5\.qq\.com$
 
 # renren
 (^|\.)jebe\.renren\.com$
@@ -360,12 +352,8 @@
 
 # Xunlei 迅雷app&看看
 (^|\.)biz5\.kankan\.com$
-(^|\.)cpm\.cm\.sandai\.net$
 (^|\.)float\.kankan\.com$
 (^|\.)logic\.cpm\.cm\.kankan\.com$
-(^|\.)img\.momocdn\.com$
-(^|\.)adsp\.xunlei\.com$
-(^|\.)api-shoulei-ssl\.xunlei\.com$
 
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
@@ -394,33 +382,15 @@
 (^|\.)(pub|adm|jobsfe|po|pv|stat)\.funshion\.com$
 
 # iqiyi PPS 爱奇艺
-(^|\.)(afp|store)\.qiyi\.com$
-(^|\.)(androidgo|noxagile)\.duapp\.com$
-(^|\.)(ckm|cloudpush|cupid|gamecenter|hotchat-im|ifacelog|mbdlog|msg|notice|paopao|rcd|store|sns|yuedu)\.iqiyi\.com$
-(^|\.)(data|msg|msg2|msga)\.video\.qiyi\.com$
-(^|\.)(msg|msg2|msga)\.71\.am$
 (^|\.)ad\.m\.iqiyi\.com$
-(^|\.)api\.cupid\.ptqy\.gitv\.tv,REJEC
-(^|\.)c\.uaa\.iqiyi\.com$
-(^|\.)cm\.passport\.iqiyi\.com$
-(^|\.)game\.pps\.tv$
-(^|\.)mixer\.cupid\.ptqy\.gitv\.tv$
-(^|\.)msg2\.video\.ptqy\.gitv\.tv$
-(^|\.)msg\.c002\.ottcn\.com$
-(^|\.)msg\.ptqy\.gitv\.tv$
-(^|\.)msg\.video\.ptqy\.gitv\.tv$
-(^|\.)msga\.ptqy\.gitv\.tv$
-(^|\.)nl\.rcd\.ptqy\.gitv\.tv$
-(^|\.)paopao\d\.qiyipic\.com$
-(^|\.)pb\.bi\.gitv\.tv$
-(^|\.)policy\.video\.iqiyi\.com$
-(^|\.)qchannel01\.cn$
-(^|\.)qosp\.msg\.71\.am$
-(^|\.)static\.g\.iqiyi\.com$
-(^|\.)static\.g\.ppstream\.com$
-(^|\.)store\.ptqy\.gitv\.tv$
-(^|\.)store\.qiyi\.com$
-(^|\.)t7z\.cupid\.ptqy\.gitv\.tv$
+(^|\.)afp\.qiyi\.com$
+(^|\.)api\.cupid\.iqiyi\.com$
+(^|\.)ckm\.iqiyi\.com$
+(^|\.)data\.video\.qiyi\.com$
+(^|\.)ifacelog\.iqiyi\.com$
+(^|\.)meta\.video\.qiyi\.com$
+(^|\.)paopao\.iqiyi\.com$
+(^|\.)rcd\.iqiyi\.com$
 27.221.89.128/28
 60.211.171.128/29
 60.211.211.1/32
@@ -439,7 +409,7 @@
 (^|\.)pq\.stat\.ku6\.com$
 (^|\.)static\.ku6\.com$
 
-# leTV 乐视
+# LeTV 乐视
 (^|\.)(ark|dc|fz|g3|minisite|pro|stat)\.letv\.com$
 (^|\.)(i0|i3)\.letvimg\.com$
 (^|\.)game\.letvstore\.com$
@@ -454,17 +424,16 @@
 (^|\.)p2\.hunantv\.com$
 
 # Sohu 搜狐
-(^|\.)(888|lm)\.tv\.sohu\.com$
-(^|\.)(aty|hui|images|pv|wan|yule)\.sohu\.com$
-(^|\.)(bd|click|click2|mb|pb|um|wl|ott)\.hd\.sohu\.com\.cn$
-(^|\.)api\.k\.sohu\.com$
-(^|\.)count\.vrs\.sohu\.com$
-(^|\.)da\.mmarket\.com$
-(^|\.)data\.vod\.itc\.cn$
-(^|\.)focus\.cn$
+(^|\.)(wan|yule)\.sohu\.com$
+(^|\.)agn\.aty\.sohu\.com$
 (^|\.)goto\.sms\.sohu\.com$
+(^|\.)i\.go\.sohu\.com$
+(^|\.)m\.aty\.sohu\.com$
+(^|\.)mmg\.aty\.sohu\.com$
+(^|\.)mb\.hd\.sohu\.com\.cn$
+(^|\.)sohu\.wrating\.com$
 (^|\.)score\.my\.tv\.sohu\.com$
-(^|\.)zz\.m\.sohu\.com$
+(^|\.)s\.go\.sohu\.com$
 
 # PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
@@ -474,36 +443,50 @@
 (^|\.)stat\.pptv\.com$
 
 # QQ Live
-(^|\.)(adsrich|dp3|jqmt|jsqmt|l|pingfore|pinghot).qq\.com$
-(^|\.)(bla|ra|wa|pgdt)\.gtimg\.(com|cn)$
-(^|\.)(btrace|tj)\.video\.qq\.com$
-(^|\.)(qqvideo|vmindhls|wxsnsdy)\.tc\.qq\.com$
 (^|\.)aiseet\.aa\.atianqi\.com$
 (^|\.)aiseet\.atianqi\.com$
+(^|\.)c\.l\.qq\.com$
+(^|\.)dp3\.play\.aiseet\.atianqi\.com$
+(^|\.)dp3\.qq\.com$
+(^|\.)livep\.l\.aiseet\.atianqi\.com$
+(^|\.)livep\.l\.qq\.com$
+(^|\.)lives\.l\.aiseet\.atianqi\.com$
+(^|\.)lives\.l\.qq\.com$
+(^|\.)livew\.l\.qq\.com$
+(^|\.)mcgi\.v\.qq\.com$
 (^|\.)mdevstat\.qqlive\.qq\.com$
+(^|\.)monitor-uu\.play\.aiseet\.atianqi\.com$
+(^|\.)news\.l\.qq\.com$
+(^|\.)news-l\.play\.aiseet\.atianqi\.com$
 (^|\.)omgmta1\.qq\.com$
-(^|\.)p\.tencentmind\.com$
+(^|\.)otheve\.play\.aiseet\.atianqi\.com$
+(^|\.)othstr\.play\.aiseet\.atianqi\.com$
+(^|\.)p\.l\.qq\.com$
+(^|\.)p-l\.play\.aiseet\.atianqi\.com$
+(^|\.)sdkconfig\.play\.aiseet\.atianqi\.com$
+(^|\.)t\.l\.qq\.com$
+(^|\.)t-l\.play\.aiseet\.atianqi\.com$
+(^|\.)u\.l\.qq\.com$
+(^|\.)vmindhls\.tc\.qq\.com$
+(^|\.)vv\.play\.aiseet\.atianqi\.com$
+(^|\.)wa\.gtimg\.com$
 
-# Youku & Tudou
-(^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
-(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
-(^|\.)(ad|das|gamex)\.mobile\.youku\.com$
-(^|\.)sdk\.m\.youku\.com$
-(^|\.)(p|r|v)\.l\.youku\.com$
-(^|\.)a-dxk\.play\.api\.3g\.youku\.com$
-(^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
+# Youku
+(^|\.)actives\.youku\.com$
+(^|\.)ad\.api\.3g\.youku\.com$
+(^|\.)ad\.mobile\.youku\.com$
+(^|\.)atm\.youku\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)das\.api\.youku\.com$
-(^|\.)dl\.g\.youku\.com$
-(^|\.)e\.stat\.ykimg\.com$
-(^|\.)e\.stat\.youku\.com$
-(^|\.)hudong\.pl\.youku\.com$
+(^|\.)iyes\.youku\.com$
+(^|\.)l\.youku\.com$
+(^|\.)lstat\.youku\.com$
+(^|\.)lvip\.youku\.com$
+(^|\.)p\.l\.ykimg\.com$
+(^|\.)p\.l\.youku\.com$
 (^|\.)p-log\.ykimg\.com$
-(^|\.)s\.p\.youku\.com$
-(^|\.)statis\.api\.3g\.youku\.com$
-(^|\.)store\.tv\.api\.3g\.youku\.com$
-(^|\.)test\.ott\.youku\.com$
-(^|\.)val\.api\.youku\.com$
+(^|\.)r\.l\.youku\.com$
+(^|\.)stat\.youku\.com$
+(^|\.)static\.lstat\.youku\.com$
 
 # Youtube
 (^|\.)ads\.youtube\.com$
@@ -536,7 +519,7 @@
 # 常用网站广告****************
 (^|\.)(168|adshownew|stat)\.it168\.com$
 (^|\.)(1|2)\.win7china\.com$
-(^|\.)(33|c|pcd)\.autohome\.com\.cn$
+(^|\.)(33|c|pcd|alert)\.autohome\.com\.cn$
 (^|\.)(801|803|806|808|bdj|dol|click)\.(tianya|tianyaui)\.cn$
 (^|\.)(92x|its-dori)\.tumblr\.com$
 (^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
