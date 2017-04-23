@@ -4,9 +4,6 @@
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 
-#注：自定义ACL强制远程DNS解析，对非大陆vps有问题：
-#导致：1.淘宝跳转国际网页 2.爱奇艺网页无法播放 使用国内中转或app即可
-
 #参照vokins大神的hosts规则改编，致谢!! https://github.com/vokins/yhosts
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 #参照scomper大神的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
