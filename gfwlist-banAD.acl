@@ -1,5 +1,5 @@
-# 4.23
-# 2017年4月23日 20:23:03
+# 5.2
+# 2017年5月2日 21:42:33
 # 由@BROBIRD基于@leosam1995的去广告规则修改而来
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -208,6 +208,7 @@
 (^|\.)pagead\.google\.com$
 (^|\.)pagead\.l\.google\.com$
 (^|\.)service\.urchin\.com$
+(^|\.)stats\.tubemogul\.com$
 
 # JD
 (^|\.)(c-nfa|du|jrclick|jzt|policy|re|x)\.jd\.com$
@@ -372,6 +373,19 @@
 (^|\.)biz5\.kankan\.com$
 (^|\.)float\.kankan\.com$
 (^|\.)logic\.cpm\.cm\.kankan\.com$
+
+# Youtube
+(^|\.)ads\.youtube\.com$
+(^|\.)azabu-u\.ac\.jp$
+(^|\.)couchcoaster\.jp$
+(^|\.)crt\.comodoca\.com$
+(^|\.)delivery\.dmkt-sp\.jp$
+(^|\.)ehg-youtube\.hitbox\.com$
+(^|\.)m-78\.jp$
+(^|\.)nichibenren\.or\.jp$
+(^|\.)nicorette\.co\.kr$
+(^|\.)s\.youtube\.com$
+(^|\.)s2\.youtube\.com$
 
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
