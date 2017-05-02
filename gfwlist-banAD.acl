@@ -341,6 +341,27 @@
 (^|\.)tutuapp\.com$
 (^|\.)we\.tm$
 
+# WPS Office
+(^|\.)(docerad|gou|info|minfo|notify|pcfg|push|wpsweb-dc)\.wps\.cn$
+(^|\.)(bannera|rating6|cloudservice.*)\.kingsoft-office-service\.com$
+(^|\.)ad\.docer\.wps\.cn$
+(^|\.)img.*\.mini\.cache\.wps\.cn$
+(^|\.)up\.wps\.kingsoft\.com$
+(^|\.)bole\.shangshufang\.ksosoft\.com$
+(^|\.)hoplink\.ksosoft\.com$
+(^|\.)ic\.ksosoft\.com$
+(^|\.)pc\.uf\.ksosoft\.com$
+(^|\.)pixiu\.shangshufang\.ksosoft\.com$
+(^|\.)dl\.op\.wpscdn\.cn$
+(^|\.)img\.gou\.wpscdn\.cn$
+(^|\.)news\.op\.wpscdn\.cn$
+(^|\.)counter\.kingsoft\.com$
+(^|\.)adm\.zookingsoft\.com$
+(^|\.)dl\.op\.wpscdn\.cn$
+(^|\.)img\.gou\.wpscdn\.cn$
+(^|\.)news\.op\.wpscdn\.cn$
+(^|\.)news\.docer\.com$
+
 # Wi-Fi key
 (^|\.)(c|cdsget|news-imgpb|wifiapi\d\d|wkanc)\.51y5\.net$
 
@@ -1089,11 +1110,11 @@
 (^|\.)fonts\.googleapis\.com$
 
 #**********************************************************************
-# 本地/局域网IP
-(^|\.)local$
-(^|\.)localhost$
-(^|\.)ip6-localhost$
-(^|\.)ip6-loopback$
+# 本地/局域网地址
+^(.*\.)?local$
+^(.*\.)?localhost$
+^(.*\.)?ip6-localhost$
+^(.*\.)?ip6-loopback$
 
 ::ffff:0:0:0:0/1
 ::ffff:128:0:0:0/1
@@ -5104,36 +5125,54 @@
 (^|\.)phobos\.apple\.com$
 
 
-# Telegram / LINE / Kakao Talk, Workaround for some apps
+# Kakao Talk
+(^|\.)kakao\.com$
+
+# Line
+(^|\.)line\.me$
+(^|\.)line-cdn\.net$
+(^|\.)line-apps\.com$
+(^|\.)line\.naver\.jp$
+
+# MytvSUPER & Netflix
+(^|\.)\w*nowtv100\w*\.\w*$
+(^|\.)\w*rthklive\w*\.\w*$
+(^|\.)mytvsuper\.com$
+(^|\.)netflix\.com$
+(^|\.)netflix\.net$
+(^|\.)nflxext\.com$
+(^|\.)nflximg\.com$
+(^|\.)nflximg\.net$
+(^|\.)nflxvideo\.net$
+(^|\.)tvb\.com$
+
+# kakao Talk
 1.201.0.0/24
-27.0.236.0/22
-43.249.72.0/24
-64.30.224.0/24
-91.108.4.0/22
-91.108.56.0/22
-103.2.28.0/22
-103.27.148.0/22
 103.246.56.0/22
-109.239.140.0/24
+103.27.148.0/22
 110.76.140.0/22
 113.61.104.0/22
-117.18.232.0/21
+27.0.236.0/22
+
+# LINE
+103.2.28.0/22
 119.235.224.0/21
 119.235.232.0/23
 119.235.235.0/24
 119.235.236.0/23
+125.6.146.0/24
 125.6.149.0/24
 125.6.190.0/24
-149.154.160.0/20
-193.182.7.0/24
-194.14.177.0/24
-194.68.28.0/22
-194.68.28.0/23
-194.68.30.0/24
-194.132.162.0/24
-194.132.172.0/24
 203.104.103.0/24
 203.104.128.0/20
 203.174.66.64/26
 203.174.77.0/24
-216.58.197.100/32
+
+# Telegram
+109.239.140.0/24
+149.154.160.0/22
+149.154.164.0/22
+149.154.168.0/22
+149.154.172.0/22
+91.108.4.0/22
+91.108.56.0/22
