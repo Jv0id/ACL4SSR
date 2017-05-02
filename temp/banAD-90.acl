@@ -1,9 +1,11 @@
-<<<<<<< HEAD
-# 4.23
-# 2017年4月23日 13:05:36 94
+# 3.29
+# 2017年3月29日20:49:09 89
 # @leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
+
+#注：自定义ACL强制远程DNS解析，对非大陆vps有问题：
+#导致：1.淘宝跳转国际网页 2.爱奇艺网页无法播放 使用国内中转或app即可
 
 #参照vokins大神的hosts规则改编，致谢!! https://github.com/vokins/yhosts
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
@@ -12,38 +14,18 @@
 #更新记录 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
 #下载地址 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 
-=======
->>>>>>> 86e60200e83454ffb7242c8581e99dda526895c1
 #**********************************************************************
-# 4.26
-# 2017年4月26日 16:38:10 95
-# @leosam1995 转载需要注明版权和来源
-#
-# 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
-# 
-# 参照vokins的hosts规则改编，致谢!! https://github.com/vokins/yhosts
-# 参照lhie1的surge规则改编，致谢!! https://github.com/lhie1/Surge
-# 参照scomper的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
-#
-# 更新记录 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
-# 下载地址 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
-#
-# 参数解释：
-# [proxy_all] 默认代理-本规则使用
-# [bypass_all] 默认直连
-# [outbound_block_list] 禁止访问列表 在26行
-# [bypass_list] 直连列表 在723多行
-# [proxy_list] 代理列表 在3371多行
-# [remote_dns] 远程 DNS 解析 -不加使用本地 DNS
-#
-#**********************************************************************
-
 [proxy_all]
 # 默认代理
 
+### [bypass_all] 默认直连 自己可以自定义
+### [outbound_block_list] 禁止访问列表 在26行
+### [bypass_list] 直连列表 禁止访问列表 在723多行
+### [proxy_list] 代理列表 在3371多行
+
 #**********************************************************************
 [outbound_block_list]
-# 禁止访问列表
+# 禁止访问列表 广告拦截
 
 # 广告关键词
 (^|\.)\w*admarvel\w*\..*$
@@ -108,8 +90,7 @@
 # 360
 (^|\.)3600\.com$
 (^|\.)api\.so\.lianmeng\.360\.cn$
-(^|\.)wan\.360\.cn$
-(^|\.)gamebox\.360\.cn$
+(^|\.)dev\.tg\.wan\.360\.cn$
 (^|\.)kuaikan\.netmon\.360safe\.com$
 (^|\.)leak\.360\.cn$
 (^|\.)lianmeng\.360\.cn$
@@ -126,20 +107,20 @@
 (^|\.)(brandshow|jing|track)\.58\.com$
 
 # Ali
-(^|\.)(adash|adsh|adashx4yt|ai|amdc|apoll|acs4baichuan|re|rj|simaba)\.m\.taobao\.com$
+(^|\.)(adash|ai|amdc|apoll|re|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|gtms\d\d|nbsdk-baichuan)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|textlink|tns)\.simba\.taobao\.com$
+(^|\.)(g|i)\.click\.taobao\.com$
 (^|\.)(ju|nbsdk-baichuan|sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)a\.alimama\.cn$
 (^|\.)acjs\.aliyun\.com$
-(^|\.)adash-c\.ut\.taobao\.com$
 (^|\.)adashxgc\.ut\.taobao\.com$
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
 (^|\.)click\.mz\.simba\.taobao\.com$
-(^|\.)g\.click\.taobao\.com$
-(^|\.)g\.tbcdn\.cn$
 (^|\.)hydra\.alibaba\.com$
+(^|\.)m\.intl\.taobao\.com$
+(^|\.)mmstat\.com$
 (^|\.)pics\.taobaocdn\.com$
 (^|\.)pindao\.huoban\.taobao\.com$
 (^|\.)show\.re\.taobao\.com$
@@ -173,6 +154,7 @@
 (^|\.)wisepush\.video\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
 
+
 # Book-app 起点 掌阅 书旗 宜搜
 (^|\.)(adm|assets|tjlog)(\.ps|)\.easou\.com$
 (^|\.)(ad|push)\.zhangyue\.com$
@@ -195,7 +177,7 @@
 
 # Duomi
 (^|\.)ad\.duomi\.com$
-(^|\.)boxshows\.com$
+(^|\.)pc\.boxshows\.com$
 
 # Facebook
 (^|\.)staticxx\.facebook\.com$
@@ -298,8 +280,16 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|bugly|buluo|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
+(^|\.)(act|adsfile|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|shang|tajs|tcss)(\.uu|)\.qq\.com$
+(^|\.)(adsense|jpush|mqqad|tpush)\.html5\.qq\.com$
+(^|\.)(bugly|buluo)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
+(^|\.)adsolution\.imtt\.qq\.com$
+(^|\.)aikan\.browser\.qq\.com$
+(^|\.)boss\.qzone\.qq\.com$
+(^|\.)cpro\.qqtn\.com$
+(^|\.)mcgi\.v\.qq\.com$
+(^|\.)mqqad\.cs0309\.html5\.qq\.com$
 
 # renren
 (^|\.)jebe\.renren\.com$
@@ -327,6 +317,7 @@
 (^|\.)tjs\.sjs\.sinajs\.cn$
 (^|\.)u\d\.img\.mobile\.sina\.cn$
 (^|\.)zymo\.mps\.weibo\.com$
+(^|\.)log\.weico\.cc$
 
 # Sougou
 (^|\.)(123|brand|get|inte|iwan|pb|pd|wan|wangmeng)\.sogou\.com$
@@ -344,7 +335,7 @@
 
 # UC ali
 (^|\.)(adslot|applog|track)\.uc\.cn$
-(^|\.)(cms|puds|uc|ucsec1|ucsec)\.ucweb\.com$
+(^|\.)(cms|puds|safe|uc|ucsec1|ucsec)\.ucweb\.com$
 (^|\.)(log|patriot)\.cs\.pp\.cn$
 (^|\.)api\.mp\.uc\.cn$
 (^|\.)client\.video\.ucweb\.com$
@@ -361,27 +352,6 @@
 (^|\.)tutuapp\.com$
 (^|\.)we\.tm$
 
-# WPS Office
-(^|\.)(docerad|gou|info|minfo|notify|pcfg|push|wpsweb-dc)\.wps\.cn$
-(^|\.)(bannera|rating6|cloudservice.*)\.kingsoft-office-service\.com$
-(^|\.)ad\.docer\.wps\.cn$
-(^|\.)img.*\.mini\.cache\.wps\.cn$
-(^|\.)up\.wps\.kingsoft\.com$
-(^|\.)bole\.shangshufang\.ksosoft\.com$
-(^|\.)hoplink\.ksosoft\.com$
-(^|\.)ic\.ksosoft\.com$
-(^|\.)pc\.uf\.ksosoft\.com$
-(^|\.)pixiu\.shangshufang\.ksosoft\.com$
-(^|\.)dl\.op\.wpscdn\.cn$
-(^|\.)img\.gou\.wpscdn\.cn$
-(^|\.)news\.op\.wpscdn\.cn$
-(^|\.)counter\.kingsoft\.com$
-(^|\.)adm\.zookingsoft\.com$
-(^|\.)dl\.op\.wpscdn\.cn$
-(^|\.)img\.gou\.wpscdn\.cn$
-(^|\.)news\.op\.wpscdn\.cn$
-(^|\.)news\.docer\.com$
-
 # Wi-Fi key
 (^|\.)(c|cdsget|news-imgpb|wifiapi\d\d|wkanc)\.51y5\.net$
 
@@ -390,8 +360,12 @@
 
 # Xunlei 迅雷app&看看
 (^|\.)biz5\.kankan\.com$
+(^|\.)cpm\.cm\.sandai\.net$
 (^|\.)float\.kankan\.com$
 (^|\.)logic\.cpm\.cm\.kankan\.com$
+(^|\.)img\.momocdn\.com$
+(^|\.)adsp\.xunlei\.com$
+(^|\.)api-shoulei-ssl\.xunlei\.com$
 
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
@@ -405,9 +379,6 @@
 (^|\.)logger\.baofeng\.com$
 (^|\.)xs\.houyi\.baofeng\.net$
 
-# Douyu
-(^|\.)dotcounter\.douyutv\.com$
-
 # Fenghuang 凤凰TV
 (^|\.)(aoodoo|push|yes1)\.feng\.com$
 (^|\.)(game|ifashion|stadig)\.ifeng\.com$
@@ -420,15 +391,20 @@
 (^|\.)(pub|adm|jobsfe|po|pv|stat)\.funshion\.com$
 
 # iqiyi PPS 爱奇艺
+(^|\.)(afp|store)\.qiyi\.com$
+(^|\.)(androidgo|noxagile)\.duapp\.com$
+(^|\.)(ckm|cloudpush|cupid|gamecenter|hotchat-im|ifacelog|mbdlog|msg|notice|paopao|rcd|store|sns|yuedu|uaa)\.iqiyi\.com$
+(^|\.)(data|msg|msg2|msga)\.video\.qiyi\.com$
+(^|\.)(msg|msg2|msga)\.71\.am$
 (^|\.)ad\.m\.iqiyi\.com$
-(^|\.)afp\.qiyi\.com$
-(^|\.)api\.cupid\.iqiyi\.com$
-(^|\.)ckm\.iqiyi\.com$
-(^|\.)data\.video\.qiyi\.com$
-(^|\.)ifacelog\.iqiyi\.com$
-(^|\.)meta\.video\.qiyi\.com$
-(^|\.)paopao\.iqiyi\.com$
-(^|\.)rcd\.iqiyi\.com$
+(^|\.)cm\.passport\.iqiyi\.com$
+(^|\.)game\.pps\.tv$
+(^|\.)paopao\d\.qiyipic\.com$
+(^|\.)policy\.video\.iqiyi\.com$
+(^|\.)qchannel01\.cn$
+(^|\.)static\.g\.iqiyi\.com$
+(^|\.)static\.g\.ppstream\.com$
+(^|\.)rzhushou\.com$
 27.221.89.128/28
 60.211.171.128/29
 60.211.211.1/32
@@ -447,9 +423,10 @@
 (^|\.)pq\.stat\.ku6\.com$
 (^|\.)static\.ku6\.com$
 
-# LeTV 乐视
-(^|\.)(ark|dc|fz|g3|minisite|pro|stat)\.letv\.com$
+# leTV 乐视
+(^|\.)(ark|dc|fz|g3|minisite|pro|shop|stat|webp2p)\.letv\.com$
 (^|\.)(i0|i3)\.letvimg\.com$
+(^|\.)api\.mob\.app\.letv\.com$
 (^|\.)game\.letvstore\.com$
 (^|\.)n\.mark\.letv\.com$
 (^|\.)pro\.hoye\.letv\.com$
@@ -462,16 +439,17 @@
 (^|\.)p2\.hunantv\.com$
 
 # Sohu 搜狐
-(^|\.)(wan|yule)\.sohu\.com$
-(^|\.)agn\.aty\.sohu\.com$
+(^|\.)(888|lm|push)\.tv\.sohu\.com$
+(^|\.)(aty|hui|images|pv|wan|yule)\.sohu\.com$
+(^|\.)(bd|click|click2|mb|pb|um|wl|ott)\.hd\.sohu\.com\.cn$
+(^|\.)api\.k\.sohu\.com$
+(^|\.)count\.vrs\.sohu\.com$
+(^|\.)da\.mmarket\.com$
+(^|\.)data\.vod\.itc\.cn$
+(^|\.)focus\.cn$
 (^|\.)goto\.sms\.sohu\.com$
-(^|\.)i\.go\.sohu\.com$
-(^|\.)m\.aty\.sohu\.com$
-(^|\.)mmg\.aty\.sohu\.com$
-(^|\.)mb\.hd\.sohu\.com\.cn$
-(^|\.)sohu\.wrating\.com$
 (^|\.)score\.my\.tv\.sohu\.com$
-(^|\.)s\.go\.sohu\.com$
+(^|\.)zz\.m\.sohu\.com$
 
 # PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
@@ -481,50 +459,36 @@
 (^|\.)stat\.pptv\.com$
 
 # QQ Live
+(^|\.)(adsrich|dp3|jqmt|jsqmt|l|pingfore|pinghot).qq\.com$
+(^|\.)(bla|ra|wa|pgdt)\.gtimg\.(com|cn)$
+(^|\.)(btrace|tj)\.video\.qq\.com$
+(^|\.)(qqvideo|vmindhls|wxsnsdy)\.tc\.qq\.com$
 (^|\.)aiseet\.aa\.atianqi\.com$
 (^|\.)aiseet\.atianqi\.com$
-(^|\.)c\.l\.qq\.com$
-(^|\.)dp3\.play\.aiseet\.atianqi\.com$
-(^|\.)dp3\.qq\.com$
-(^|\.)livep\.l\.aiseet\.atianqi\.com$
-(^|\.)livep\.l\.qq\.com$
-(^|\.)lives\.l\.aiseet\.atianqi\.com$
-(^|\.)lives\.l\.qq\.com$
-(^|\.)livew\.l\.qq\.com$
-(^|\.)mcgi\.v\.qq\.com$
 (^|\.)mdevstat\.qqlive\.qq\.com$
-(^|\.)monitor-uu\.play\.aiseet\.atianqi\.com$
-(^|\.)news\.l\.qq\.com$
-(^|\.)news-l\.play\.aiseet\.atianqi\.com$
-(^|\.)omgmta1\.qq\.com$
-(^|\.)otheve\.play\.aiseet\.atianqi\.com$
-(^|\.)othstr\.play\.aiseet\.atianqi\.com$
-(^|\.)p\.l\.qq\.com$
-(^|\.)p-l\.play\.aiseet\.atianqi\.com$
-(^|\.)sdkconfig\.play\.aiseet\.atianqi\.com$
-(^|\.)t\.l\.qq\.com$
-(^|\.)t-l\.play\.aiseet\.atianqi\.com$
-(^|\.)u\.l\.qq\.com$
-(^|\.)vmindhls\.tc\.qq\.com$
-(^|\.)vv\.play\.aiseet\.atianqi\.com$
-(^|\.)wa\.gtimg\.com$
+(^|\.)p\.tencentmind\.com$
 
-# Youku
-(^|\.)actives\.youku\.com$
-(^|\.)ad\.api\.3g\.youku\.com$
-(^|\.)ad\.mobile\.youku\.com$
-(^|\.)atm\.youku\.com$
+# Youku & Tudou
+(^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec)\.youku\.com$
+(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
+(^|\.)(ad|das|gamex)\.mobile\.youku\.com$
+(^|\.)(dev-push|push|sdk)\.m\.youku\.com$
+(^|\.)(p|r|v)\.l\.youku\.com$
+(^|\.)a-dxk\.play\.api\.3g\.youku\.com$
+(^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
+(^|\.)b\.smartvideo\.youku\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)iyes\.youku\.com$
-(^|\.)l\.youku\.com$
-(^|\.)lstat\.youku\.com$
-(^|\.)lvip\.youku\.com$
-(^|\.)p\.l\.ykimg\.com$
-(^|\.)p\.l\.youku\.com$
+(^|\.)das\.api\.youku\.com$
+(^|\.)dl\.g\.youku\.com$
+(^|\.)e\.stat\.ykimg\.com$
+(^|\.)e\.stat\.youku\.com$
+(^|\.)hudong\.pl\.youku\.com$
 (^|\.)p-log\.ykimg\.com$
-(^|\.)r\.l\.youku\.com$
-(^|\.)stat\.youku\.com$
-(^|\.)static\.lstat\.youku\.com$
+(^|\.)s\.p\.youku\.com$
+(^|\.)statis\.api\.3g\.youku\.com$
+(^|\.)store\.tv\.api\.3g\.youku\.com$
+(^|\.)test\.ott\.youku\.com$
+(^|\.)val\.api\.youku\.com$
 
 # Youtube
 (^|\.)ads\.youtube\.com$
@@ -538,6 +502,7 @@
 (^|\.)cc\.xtgreat\.com$
 (^|\.)d\.dsp\.imageter\.com$
 (^|\.)dotcounter\.douyutv\.com$
+(^|\.)g\.uusee\.com$
 (^|\.)gg\.jtertp\.com$
 (^|\.)gridsum-vd\.cntv\.cn$
 (^|\.)kwflvcdn\.000dn\.com$
@@ -549,6 +514,7 @@
 (^|\.)static\.duoshuo\.com$
 (^|\.)t\.cr-nielsen\.com$
 (^|\.)terren\.cntv\.cn$
+(^|\.)traffic\.uusee\.com$
 
 # Ads in Video apps end ********************上面都是
 
@@ -557,7 +523,7 @@
 # 常用网站广告****************
 (^|\.)(168|adshownew|stat)\.it168\.com$
 (^|\.)(1|2)\.win7china\.com$
-(^|\.)(33|c|pcd|alert)\.autohome\.com\.cn$
+(^|\.)(33|c|pcd)\.autohome\.com\.cn$
 (^|\.)(801|803|806|808|bdj|dol|click)\.(tianya|tianyaui)\.cn$
 (^|\.)(92x|its-dori)\.tumblr\.com$
 (^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
@@ -624,7 +590,6 @@
 # 广告联盟****************
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
-(^|\.)123juzi\.net$
 (^|\.)2cnt\.net$
 (^|\.)2o7\.net$
 (^|\.)302br\.net$
@@ -637,7 +602,6 @@
 (^|\.)99click\.com$
 (^|\.)99youmeng\.com$
 (^|\.)acs86\.com$
-(^|\.)acxiom-online\.com$
 (^|\.)ad-brix\.com$
 (^|\.)ad-plus\.cn$
 (^|\.)ad7\.com$
@@ -707,6 +671,7 @@
 (^|\.)buysellads\.com$
 (^|\.)c0563\.com$
 (^|\.)casalemedia\.com$
+(^|\.)cbsistatic\.com$
 (^|\.)cdnmaster\.com$
 (^|\.)chance-ad\.com$
 (^|\.)chartbeat\.com$
@@ -770,7 +735,6 @@
 (^|\.)krux\.net$
 (^|\.)leadboltads\.net$
 (^|\.)localytics\.com$
-(^|\.)lomark\.cn$
 (^|\.)lotuseed\.com$
 (^|\.)lufax\.com$
 (^|\.)madmini\.com$
@@ -795,6 +759,7 @@
 (^|\.)mpush\.cn$
 (^|\.)mxpnl\.com$
 (^|\.)mydas\.mobi$
+(^|\.)mzy2014\.com$
 (^|\.)mzy2014\.com$
 (^|\.)networkbench\.com$
 (^|\.)newrelic\.com$
@@ -910,6 +875,8 @@
 220.196.52.141/32
 # Sichuan Unicom Float
 119.4.249.166/32
+# Shenzhen Unicom Float
+120.80.57.123/32
 # Wuhan Unicom Float
 113.57.230.88/32
 
@@ -984,8 +951,13 @@
 [bypass_list]
 # 直连列表
 
-# CN域名直连
+# MyList
+(^|\.)translate\.google\.cn$
+
+# 中国域名直连
 ^.*\.cn$
+^.*\.com\.cn$
+^.*\.edu\.cn$
 
 # 中国国内常见域名关键词直连
 (^|\.)\w*-cn\w*\.\w*$
@@ -1069,6 +1041,7 @@
 (^|\.)cnbetacdn\.com$
 (^|\.)coolapk\.com$
 (^|\.)coolapkmarket\.com$
+(^|\.)crashlytics\.com$
 (^|\.)culturedcode\.com$
 (^|\.)didialift\.com$
 (^|\.)douban\.com$
@@ -1079,6 +1052,7 @@
 (^|\.)dytt8\.net$
 (^|\.)easou\.com$
 (^|\.)ecitic\.com$
+(^|\.)eudic\.net$
 (^|\.)ewqcxz\.com$
 (^|\.)feng\.com$
 (^|\.)fir\.im$
@@ -1218,11 +1192,11 @@
 (^|\.)zmz2017\.com$
 
 #**********************************************************************
-# 本地/局域网地址
-^(.*\.)?local$
-^(.*\.)?localhost$
-^(.*\.)?ip6-localhost$
-^(.*\.)?ip6-loopback$
+# 本地/局域网IP
+(^|\.)local$
+(^|\.)localhost$
+(^|\.)ip6-localhost$
+(^|\.)ip6-loopback$
 
 ::ffff:0:0:0:0/1
 ::ffff:128:0:0:0/1
@@ -3545,17 +3519,24 @@
 
 #**********************************************************************
 [proxy_list]
-# 代理列表
 
-# 国外域名
-^.*\.hk$
-^.*\.tw$
-^.*\.sg$
+# 国外域名全部代理 通用规则
 ^.*\.jp$
-^.*\.kr$
+^.*\.sg$
+^.*\.tw$
 ^.*\.uk$
 ^.*\.us$
-^.*\.tw$
+
+# 国外软件关键字 全部代理
+(^|\.)\w*dropbox\w*\.\w*$
+(^|\.)\w*facebook\w*\.\w*$
+(^|\.)\w*fbcdn\w*\.\w*$
+(^|\.)\w*gmail\w*\.\w*$
+(^|\.)\w*google\w*\.\w*$
+(^|\.)\w*instagram\w*\.\w*$
+(^|\.)\w*spotify\w*\.\w*$
+(^|\.)\w*telegram\w*\.\w*$
+(^|\.)\w*twitter\w*\.\w*$
 
 # MyList
 (^|\.)bit\.no\.com$
@@ -3563,32 +3544,18 @@
 (^|\.)cccat\.cc$
 (^|\.)gvt\w\.com$
 (^|\.)ip138\.com$
-(^|\.)microsoft\.com$
-(^|\.)cloudfront\.net$
 (^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
 
-# 国外域名关键字
-(^|\.)\w*dropbox\w*\.\w*$
-(^|\.)\w*facebook\w*\.\w*$
-(^|\.)\w*fbcdn\w*\.\w*$
-(^|\.)\w*gmail\w*\.\w*$
-(^|\.)\w*google\w*\.\w*$
-(^|\.)\w*1e100\w*\.\w*$
-(^|\.)\w*instagram\w*\.\w*$
-(^|\.)\w*spotify\w*\.\w*$
-(^|\.)\w*telegram\w*\.\w*$
-(^|\.)\w*twitter\w*\.\w*$
-
 # Kakao Talk
 (^|\.)kakao\.com$
 
 # Line
-(^|\.)line\.me$
 (^|\.)line-cdn\.net$
 (^|\.)line-apps\.com$
+(^|\.)line\.me$
 (^|\.)line\.naver\.jp$
 
 # MytvSUPER & Netflix
@@ -3603,33 +3570,36 @@
 (^|\.)nflxvideo\.net$
 (^|\.)tvb\.com$
 
-# kakao Talk
+# Telegram / LINE / Kakao Talk, Workaround for some apps
 1.201.0.0/24
-103.246.56.0/22
+27.0.236.0/22
+43.249.72.0/24
+64.30.224.0/24
+91.108.4.0/22
+91.108.56.0/22
+103.2.28.0/22
 103.27.148.0/22
+103.246.56.0/22
+109.239.140.0/24
 110.76.140.0/22
 113.61.104.0/22
-27.0.236.0/22
-
-# LINE
-103.2.28.0/22
+117.18.232.0/21
 119.235.224.0/21
 119.235.232.0/23
 119.235.235.0/24
 119.235.236.0/23
-125.6.146.0/24
 125.6.149.0/24
 125.6.190.0/24
+149.154.160.0/20
+193.182.7.0/24
+194.14.177.0/24
+194.68.28.0/22
+194.68.28.0/23
+194.68.30.0/24
+194.132.162.0/24
+194.132.172.0/24
 203.104.103.0/24
 203.104.128.0/20
 203.174.66.64/26
 203.174.77.0/24
-
-# Telegram
-109.239.140.0/24
-149.154.160.0/22
-149.154.164.0/22
-149.154.168.0/22
-149.154.172.0/22
-91.108.4.0/22
-91.108.56.0/22
+216.58.197.100/32
