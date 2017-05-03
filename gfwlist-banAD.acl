@@ -1119,8 +1119,7 @@
 (^|\.)zhongsou\.com$
 (^|\.)ime\.baidu\.jp$
 (^|\.)cn\.gravatar\.com$
-(^|\.)\.google\.cn$
-(^|\.)github\.com$
+(^|\.)google\.cn$
 (^|\.)fonts\.googleapis\.com$
 
 #**********************************************************************
@@ -2793,7 +2792,6 @@
 (^|\.)gist\.github\.com$
 (^|\.)git-scm\.com$
 (^|\.)git\.io$
-(^|\.)github\.com$
 (^|\.)gizlen\.net$
 (^|\.)gjczz\.com$
 (^|\.)glass8\.eu$
