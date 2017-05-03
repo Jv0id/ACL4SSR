@@ -1,6 +1,6 @@
 #**********************************************************************
-# 4.26
-# 2017年4月26日 16:38:10 95
+# 5.2
+# 2017年5月2日 22:08:00 96
 # @leosam1995 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -376,6 +376,19 @@
 (^|\.)biz5\.kankan\.com$
 (^|\.)float\.kankan\.com$
 (^|\.)logic\.cpm\.cm\.kankan\.com$
+
+# Youtube
+(^|\.)ads\.youtube\.com$
+(^|\.)azabu-u\.ac\.jp$
+(^|\.)couchcoaster\.jp$
+(^|\.)crt\.comodoca\.com$
+(^|\.)delivery\.dmkt-sp\.jp$
+(^|\.)ehg-youtube\.hitbox\.com$
+(^|\.)m-78\.jp$
+(^|\.)nichibenren\.or\.jp$
+(^|\.)nicorette\.co\.kr$
+(^|\.)s\.youtube\.com$
+(^|\.)s2\.youtube\.com$
 
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
