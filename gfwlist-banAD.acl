@@ -1,5 +1,5 @@
-# 5.2
-# 2017年5月2日 23:47:25
+# 5.3
+# 2017年5月3日 07:25:11
 # 由@BROBIRD基于@leosam1995的去广告规则修改而来
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -9,8 +9,8 @@
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 #参照scomper大神的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 
-#更新记录 https://raw.githubusercontent.com/BROBIRD/My_ACL_Rules/master/more/New.md
-#下载地址 https://raw.githubusercontent.com/BROBIRD/My_ACL_Rules/master/gfwlist-banAD.acl
+#更新记录 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
+#下载地址 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/gfwlist-banAD.acl
 
 #**********************************************************************
 
@@ -58,7 +58,7 @@
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
 (^|\.)(analytics|img1|img2|mimg|ws|push)\.126\.net$
-(^|\.)(a|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
+(^|\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
 (^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.comimpservic$
 (^|\.)haitaoad\.nosdn\.127\.net$
 (^|\.)impservic\.(chnl|dict|dictapp|ictvista|dictweb|dictword|mail)\.youdao\.com$
@@ -503,25 +503,38 @@
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 (^|\.)wa\.gtimg\.com$
 
-# Youku
-(^|\.)actives\.youku\.com$
-(^|\.)ad\.api\.3g\.youku\.com$
-(^|\.)ad\.mobile\.youku\.com$
-(^|\.)atm\.youku\.com$
+# Youku & Tudou
+(^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec)\.youku\.com$
+(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
+(^|\.)(ad|das|gamex)\.mobile\.youku\.com$
+(^|\.)(dev-push|push|sdk)\.m\.youku\.com$
+(^|\.)(p|r|v)\.l\.youku\.com$
+(^|\.)a-dxk\.play\.api\.3g\.youku\.com$
+(^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
+(^|\.)b\.smartvideo\.youku\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)iyes\.youku\.com$
-(^|\.)l\.youku\.com$
-(^|\.)lstat\.youku\.com$
-(^|\.)lvip\.youku\.com$
-(^|\.)p\.l\.ykimg\.com$
-(^|\.)p\.l\.youku\.com$
+(^|\.)das\.api\.youku\.com$
+(^|\.)dl\.g\.youku\.com$
+(^|\.)e\.stat\.ykimg\.com$
+(^|\.)e\.stat\.youku\.com$
+(^|\.)hudong\.pl\.youku\.com$
 (^|\.)p-log\.ykimg\.com$
-(^|\.)r\.l\.youku\.com$
-(^|\.)stat\.youku\.com$
-(^|\.)static\.lstat\.youku\.com$
+(^|\.)s\.p\.youku\.com$
+(^|\.)statis\.api\.3g\.youku\.com$
+(^|\.)store\.tv\.api\.3g\.youku\.com$
+(^|\.)test\.ott\.youku\.com$
+(^|\.)val\.api\.youku\.com$
 
 # Youtube
 (^|\.)ads\.youtube\.com$
+(^|\.)azabu-u\.ac\.jp$
+(^|\.)couchcoaster\.jp$
+(^|\.)crt\.comodoca\.com$
+(^|\.)delivery\.dmkt-sp\.jp$
+(^|\.)ehg-youtube\.hitbox\.com$
+(^|\.)m-78\.jp$
+(^|\.)nichibenren\.or\.jp$
+(^|\.)nicorette\.co\.kr$
 (^|\.)s\.youtube\.com$
 (^|\.)s2\.youtube\.com$
 
@@ -1119,8 +1132,7 @@
 (^|\.)zhongsou\.com$
 (^|\.)ime\.baidu\.jp$
 (^|\.)cn\.gravatar\.com$
-(^|\.)\.google\.cn$
-(^|\.)github\.com$
+(^|\.)google\.cn$
 (^|\.)fonts\.googleapis\.com$
 
 #**********************************************************************
@@ -2793,7 +2805,6 @@
 (^|\.)gist\.github\.com$
 (^|\.)git-scm\.com$
 (^|\.)git\.io$
-(^|\.)github\.com$
 (^|\.)gizlen\.net$
 (^|\.)gjczz\.com$
 (^|\.)glass8\.eu$
