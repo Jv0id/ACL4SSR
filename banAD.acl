@@ -1,5 +1,6 @@
-# 5.2
-# 2017年5月2日 21:41:18 96
+#**********************************************************************
+# 5.4
+# 2017年5月4日 08:53:59 97
 # @leosam1995 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -62,7 +63,7 @@
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
 (^|\.)(analytics|img1|img2|mimg|ws|push)\.126\.net$
-(^|\.)(a|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
+(^|\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
 (^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.comimpservic$
 (^|\.)haitaoad\.nosdn\.127\.net$
 (^|\.)impservic\.(chnl|dict|dictapp|ictvista|dictweb|dictword|mail)\.youdao\.com$
@@ -492,22 +493,27 @@
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 (^|\.)wa\.gtimg\.com$
 
-# Youku
-(^|\.)actives\.youku\.com$
-(^|\.)ad\.api\.3g\.youku\.com$
-(^|\.)ad\.mobile\.youku\.com$
-(^|\.)atm\.youku\.com$
+# Youku & Tudou
+(^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec)\.youku\.com$
+(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
+(^|\.)(ad|das|gamex)\.mobile\.youku\.com$
+(^|\.)(dev-push|push|sdk)\.m\.youku\.com$
+(^|\.)(p|r|v)\.l\.youku\.com$
+(^|\.)a-dxk\.play\.api\.3g\.youku\.com$
+(^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
+(^|\.)b\.smartvideo\.youku\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)iyes\.youku\.com$
-(^|\.)l\.youku\.com$
-(^|\.)lstat\.youku\.com$
-(^|\.)lvip\.youku\.com$
-(^|\.)p\.l\.ykimg\.com$
-(^|\.)p\.l\.youku\.com$
+(^|\.)das\.api\.youku\.com$
+(^|\.)dl\.g\.youku\.com$
+(^|\.)e\.stat\.ykimg\.com$
+(^|\.)e\.stat\.youku\.com$
+(^|\.)hudong\.pl\.youku\.com$
 (^|\.)p-log\.ykimg\.com$
-(^|\.)r\.l\.youku\.com$
-(^|\.)stat\.youku\.com$
-(^|\.)static\.lstat\.youku\.com$
+(^|\.)s\.p\.youku\.com$
+(^|\.)statis\.api\.3g\.youku\.com$
+(^|\.)store\.tv\.api\.3g\.youku\.com$
+(^|\.)test\.ott\.youku\.com$
+(^|\.)val\.api\.youku\.com$
 
 # Youtube
 (^|\.)ads\.youtube\.com$
@@ -707,6 +713,7 @@
 (^|\.)clickzs\.com$
 (^|\.)cmcore\.com$
 (^|\.)cnzz\.com$
+(^|\.)cnzzlink\.com$
 (^|\.)cocounion\.com$
 (^|\.)coolguang\.com$
 (^|\.)coremetrics\.com$
