@@ -1,5 +1,5 @@
-# 5.3
-# 2017年5月3日 07:25:11
+# 5.5
+# 2017年5月5日 20:24:54
 # 由@BROBIRD基于@leosam1995的去广告规则修改而来
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -1173,27 +1173,6 @@
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
-
-# Kakao Talk
-(^|\.)kakao\.com$
-
-# Line
-(^|\.)line-cdn\.net$
-(^|\.)line-apps\.com$
-(^|\.)line\.me$
-(^|\.)line\.naver\.jp$
-
-# MytvSUPER & Netflix
-(^|\.)\w*nowtv100\w*\.\w*$
-(^|\.)\w*rthklive\w*\.\w*$
-(^|\.)mytvsuper\.com$
-(^|\.)netflix\.com$
-(^|\.)netflix\.net$
-(^|\.)nflxext\.com$
-(^|\.)nflximg\.com$
-(^|\.)nflximg\.net$
-(^|\.)nflxvideo\.net$
-(^|\.)tvb\.com$
 
 #GFWList
 (^|\.)030buy\.com$
