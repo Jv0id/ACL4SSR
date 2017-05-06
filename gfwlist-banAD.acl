@@ -999,7 +999,7 @@
 (^|\.)store\.sprite\.org$
 (^|\.)intl\.target\.com$
 (^|\.)xx\.wwwhost\.biz$
-(^|\.)*v6\.facebook\.com$
+(^|\.)(.*)v6\.facebook\.com$
 (^|\.)v2ex\.com$
 (^|\.)bianlei\.com$
 (^|\.)www\.exblog\.jp$
@@ -1131,9 +1131,7 @@
 (^|\.)youdao\.com$
 (^|\.)zhongsou\.com$
 (^|\.)ime\.baidu\.jp$
-(^|\.)cn\.gravatar\.com$
 (^|\.)google\.cn$
-(^|\.)fonts\.googleapis\.com$
 
 #**********************************************************************
 # 本地/局域网地址
