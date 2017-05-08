@@ -1,6 +1,6 @@
 #**********************************************************************
-# 5.4
-# 2017年5月4日 08:53:59 97
+# 5.7
+# 2017年5月8日 14:15:39 98
 # @leosam1995 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -49,7 +49,6 @@
 (^|\.)\w*partnerad\w*\..*$
 (^|\.)\w*pingfore\w*\..*$
 (^|\.)\w*supersonicads\w*\..*$
-(^|\.)\w*trace\w*\..*$
 (^|\.)\w*tracking\w*\..*$
 (^|\.)\w*traffic\w*\..*$
 (^|\.)\w*uedas\w*\..*$
@@ -160,19 +159,11 @@
 # Book-app 起点 掌阅 书旗 宜搜
 (^|\.)(adm|assets|tjlog)(\.ps|)\.easou\.com$
 (^|\.)(ad|push)\.zhangyue\.com$
-(^|\.)(cj|dwtrack|game|tongji|uedas)\.qidian\.com$
+(^|\.)(cj|game|tongji)\.qidian\.com$
 (^|\.)api\.itaoxiaoshuo\.com$
 (^|\.)o\.if\.qidian\.com$
 (^|\.)s1\.cmfu\.com$
-(^|\.)uedas\.qdmm\.com$
 (^|\.)ut2\.shuqistat\.com$
-
-# Bitauto
-(^|\.)(bglog|g|gimg|log)\.bitauto\.com$
-(^|\.)dcjs\.cig\.com\.cn$
-(^|\.)g\.yccdn\.com$
-(^|\.)js\.ctags\.cn$
-(^|\.)webtrends\.yccdn\.com$
 
 # Dangdang
 (^|\.)(a|click|schprompt|t)\.dangdang\.com$
@@ -467,6 +458,7 @@
 # QQ Live
 (^|\.)aiseet\.aa\.atianqi\.com$
 (^|\.)aiseet\.atianqi\.com$
+(^|\.)btrace\.video\.qq\.com$
 (^|\.)c\.l\.qq\.com$
 (^|\.)dp3\.play\.aiseet\.atianqi\.com$
 (^|\.)dp3\.qq\.com$
@@ -480,7 +472,6 @@
 (^|\.)monitor-uu\.play\.aiseet\.atianqi\.com$
 (^|\.)news\.l\.qq\.com$
 (^|\.)news-l\.play\.aiseet\.atianqi\.com$
-(^|\.)omgmta1\.qq\.com$
 (^|\.)otheve\.play\.aiseet\.atianqi\.com$
 (^|\.)othstr\.play\.aiseet\.atianqi\.com$
 (^|\.)p\.l\.qq\.com$
@@ -491,7 +482,6 @@
 (^|\.)u\.l\.qq\.com$
 (^|\.)vmindhls\.tc\.qq\.com$
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
-(^|\.)wa\.gtimg\.com$
 
 # Youku & Tudou
 (^|\.)(actives|atm|hz|iyes|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec)\.youku\.com$
