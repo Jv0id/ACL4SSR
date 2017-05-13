@@ -1,6 +1,6 @@
 # 5.5
 # 2017年5月5日 20:24:54
-# 由@BROBIRD基于@leosam1995的去广告规则修改而来
+#@leosam1995,@BROBIRD 转载需要注明版权和来源
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 
@@ -9,8 +9,8 @@
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 #参照scomper大神的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 
-#更新记录 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
-#下载地址 https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/gfwlist-banAD.acl
+#更新记录 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
+#下载地址 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
 
 #**********************************************************************
 

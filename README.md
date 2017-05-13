@@ -17,16 +17,19 @@
 * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
+# Telegram频道订阅地址：
+* **https://t.me/ACL4SSR**
+
 # ♻️ SSR Download：
 
-* ACL更新地址（**白名单**）：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
-* ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/gfwlist-banAD.acl
-* ACL更新记录：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/New.md
+* ACL更新地址（**白名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
+* ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
+* ACL更新记录：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
 * SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 * SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
 # ♻️ Surge/Shadowrocket Config File Download：
-* Config File 更新地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/more/Surge@lhie1.conf
+* Config File 更新地址：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/Surge@lhie1.conf
 
 📋 教程 / 说明：
 * 打开SSR->路由->自定义acl文件->输入下载地址->更新
