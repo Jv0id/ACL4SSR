@@ -1,8 +1,7 @@
 # 安卓SSR去广告ACL规则
 # 仅推荐未root的安卓手机使用。
 
-# Telegram频道订阅地址：
-* **https://t.me/ACL4SSR**
+# Telegram频道订阅地址：**https://t.me/ACL4SSR**
 
 * root手机推荐：SSR绕过国内ip+HOSTS
 * 1.自带去广告的VIA浏览器 http://www.coolapk.com/apk/mark.via
