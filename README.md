@@ -1,4 +1,4 @@
-# 安卓SSR去广告ACL规则
+# 安卓SS/SSR去广告ACL规则
 # 仅推荐未root的安卓手机使用。
 
 # Telegram频道订阅地址：**https://t.me/ACL4SSR**
@@ -10,7 +10,7 @@
 * https://raw.githubusercontent.com/vokins/yhosts/master/hosts
 * https://raw.githubusercontent.com/leosam1995/MyConf/master/hosts/myhosts.txt
 
-# 安卓 SSR 去广告ACL规则
+# 安卓 SS/SSR 去广告ACL规则
 * 屏蔽小米手机和魅族flyme rom系统广告
 * 国内网站均直接连接
 * 国外常用域名后缀均代理！！！
@@ -20,7 +20,7 @@
 * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
-# ♻️ SSR Download：
+# ♻️ SS/SSR Download：
 
 * ACL更新地址（**白名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
 * ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
