@@ -10,6 +10,11 @@
 * https://raw.githubusercontent.com/vokins/yhosts/master/hosts
 * https://raw.githubusercontent.com/leosam1995/MyConf/master/hosts/myhosts.txt
 
+# 版本解释
+* banAD.acl （默认代理）去广告+局域网直连+国内IP段直连+国内常用域名直连+国外代理
+* gfwlist-banAD.acl （默认直连）去广告+局域网直连+国外gfwlist列表代理
+* onlyad.acl （默认代理）去广告+局域网直连+全局代理
+
 # 安卓 SS/SSR 去广告ACL规则
 * 屏蔽小米手机和魅族flyme rom系统广告
 * 国内网站均直接连接
@@ -20,15 +25,10 @@
 * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
-# 版本解释
-* banAD.acl （默认代理）去广告+局域网直连+国内IP段直连+国内常用域名直连+国外代理
-* gfwlist-banAD.acl （默认直连）去广告+国外gfwlist列表代理
-* onlyad.acl （默认代理）去广告+局域网直连+全局代理
-
 # ♻️ SS/SSR Download：
-
 * ACL更新地址（**白名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
 * ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
+* ACL更新地址（**全局**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
 * ACL更新记录：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
 * SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 * SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
