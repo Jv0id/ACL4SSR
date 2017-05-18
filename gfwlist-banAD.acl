@@ -1,5 +1,4 @@
-# 5.5
-# 2017年5月5日 20:24:54
+# 5.19
 #@leosam1995,@BROBIRD 转载需要注明版权和来源
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -447,7 +446,7 @@
 (^|\.)game\.letvstore\.com$
 (^|\.)n\.mark\.letv\.com$
 (^|\.)pro\.hoye\.letv\.com$
-^|\.)static\.app\.m\.letv\.com$
+(^|\.)static\.app\.m\.letv\.com$
 
 # MGTV 芒果TV
 (^|\.)(bs|log|x)\.da\.hunantv\.com$
