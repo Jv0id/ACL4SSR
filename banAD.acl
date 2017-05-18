@@ -428,7 +428,7 @@
 (^|\.)game\.letvstore\.com$
 (^|\.)n\.mark\.letv\.com$
 (^|\.)pro\.hoye\.letv\.com$
-^|\.)static\.app\.m\.letv\.com$
+(^|\.)static\.app\.m\.letv\.com$
 
 # MGTV 芒果TV
 (^|\.)(bs|log|x)\.da\.hunantv\.com$
