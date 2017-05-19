@@ -146,6 +146,29 @@
             <Action type="3" message="1702" wParam="0" lParam="514" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
         </Macro>
+        <Macro name="&#x53BB;&#x6389;&#x6CE8;&#x91CA;" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(?&lt;!:)//.*" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="512" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2025" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2422" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2325" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2178" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2025" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2422" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2325" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="/\*[^*]+\*/" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="512" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="2" message="0" wParam="42056" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
     </Macros>
     <UserDefinedCommands>
         <Command name="&#x8FDB;&#x884C; Baidu &#x641C;&#x7D22;" Ctrl="no" Alt="yes" Shift="no" Key="112">https://www.baidu.com/s?wd=$(CURRENT_WORD)</Command>
