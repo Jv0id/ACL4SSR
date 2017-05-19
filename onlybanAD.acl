@@ -1,6 +1,6 @@
 #**********************************************************************
 # 5.19
-# 2017年5月19日 06:00:19 101
+# 2017年5月19日 09:55:09 102
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -49,7 +49,6 @@
 (^|\.)\w*partnerad\w*\..*$
 (^|\.)\w*pingfore\w*\..*$
 (^|\.)\w*supersonicads\w*\..*$
-(^|\.)\w*trace\w*\..*$
 (^|\.)\w*tracking\w*\..*$
 (^|\.)\w*traffic\w*\..*$
 (^|\.)\w*uedas\w*\..*$
@@ -63,7 +62,7 @@
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
 (^|\.)(analytics|img1|img2|mimg|ws|push)\.126\.net$
-(^|\.)(a|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
+(^|\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
 (^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.comimpservic$
 (^|\.)haitaoad\.nosdn\.127\.net$
 (^|\.)impservic\.(chnl|dict|dictapp|ictvista|dictweb|dictword|mail)\.youdao\.com$
@@ -160,19 +159,11 @@
 # Book-app 起点 掌阅 书旗 宜搜
 (^|\.)(adm|assets|tjlog)(\.ps|)\.easou\.com$
 (^|\.)(ad|push)\.zhangyue\.com$
-(^|\.)(cj|dwtrack|game|tongji|uedas)\.qidian\.com$
+(^|\.)(cj|game|tongji)\.qidian\.com$
 (^|\.)api\.itaoxiaoshuo\.com$
 (^|\.)o\.if\.qidian\.com$
 (^|\.)s1\.cmfu\.com$
-(^|\.)uedas\.qdmm\.com$
 (^|\.)ut2\.shuqistat\.com$
-
-# Bitauto
-(^|\.)(bglog|g|gimg|log)\.bitauto\.com$
-(^|\.)dcjs\.cig\.com\.cn$
-(^|\.)g\.yccdn\.com$
-(^|\.)js\.ctags\.cn$
-(^|\.)webtrends\.yccdn\.com$
 
 # Dangdang
 (^|\.)(a|click|schprompt|t)\.dangdang\.com$
@@ -377,19 +368,6 @@
 (^|\.)float\.kankan\.com$
 (^|\.)logic\.cpm\.cm\.kankan\.com$
 
-# Youtube
-(^|\.)ads\.youtube\.com$
-(^|\.)azabu-u\.ac\.jp$
-(^|\.)couchcoaster\.jp$
-(^|\.)crt\.comodoca\.com$
-(^|\.)delivery\.dmkt-sp\.jp$
-(^|\.)ehg-youtube\.hitbox\.com$
-(^|\.)m-78\.jp$
-(^|\.)nichibenren\.or\.jp$
-(^|\.)nicorette\.co\.kr$
-(^|\.)s\.youtube\.com$
-(^|\.)s2\.youtube\.com$
-
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
 
@@ -420,23 +398,36 @@
 (^|\.)ad\.m\.iqiyi\.com$
 (^|\.)afp\.qiyi\.com$
 (^|\.)api\.cupid\.iqiyi\.com$
+(^|\.)c\.uaa\.iqiyi\.com$
 (^|\.)ckm\.iqiyi\.com$
+(^|\.)cloudpush\.iqiyi\.com$
+(^|\.)cm\.passport\.iqiyi\.com$
 (^|\.)data\.video\.qiyi\.com$
+(^|\.)emoticon\.sns\.iqiyi\.com$
+(^|\.)gamecenter\.iqiyi\.com$
+(^|\.)hotchat-im\.iqiyi\.com$
 (^|\.)ifacelog\.iqiyi\.com$
+(^|\.)mbdlog\.iqiyi\.com$
 (^|\.)meta\.video\.qiyi\.com$
 (^|\.)paopao\.iqiyi\.com$
+(^|\.)paopao\d\.qiyipic\.com$
+(^|\.)policy\.video\.iqiyi\.com$
 (^|\.)rcd\.iqiyi\.com$
 27.221.89.128/28
 60.211.171.128/29
 60.211.211.1/32
 101.227.14.80/29
+101.227.200.0/24
 112.253.36.0/24
+117.139.18.141/24
 119.188.13.32/29
 119.188.43.61/32
 119.188.172.192/28
 119.188.173.0/27
 123.125.116.0/22
 123.130.122.128/28
+183.221.247.189/24
+
 
 # Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
@@ -459,16 +450,17 @@
 (^|\.)p2\.hunantv\.com$
 
 # Sohu 搜狐
-(^|\.)(wan|yule)\.sohu\.com$
-(^|\.)agn\.aty\.sohu\.com$
+(^|\.)(888|lm|push)\.tv\.sohu\.com$
+(^|\.)(aty|bd|click|click2|ctr|mb|pv|pb|wl|um)\.hd\.sohu\.com$
+(^|\.)(hui|wan|yule|pv)\.sohu\.com$
+(^|\.)api\.k\.sohu\.com$
+(^|\.)count\.vrs\.sohu\.com$
 (^|\.)goto\.sms\.sohu\.com$
 (^|\.)i\.go\.sohu\.com$
-(^|\.)m\.aty\.sohu\.com$
-(^|\.)mmg\.aty\.sohu\.com$
-(^|\.)mb\.hd\.sohu\.com\.cn$
-(^|\.)sohu\.wrating\.com$
-(^|\.)score\.my\.tv\.sohu\.com$
+(^|\.)pv\.ott\.hd\.sohu\.com$
 (^|\.)s\.go\.sohu\.com$
+(^|\.)score\.my\.tv\.sohu\.com$
+(^|\.)zz\.m\.sohu\.com$
 
 # PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
@@ -480,6 +472,7 @@
 # QQ Live
 (^|\.)aiseet\.aa\.atianqi\.com$
 (^|\.)aiseet\.atianqi\.com$
+(^|\.)btrace\.video\.qq\.com$
 (^|\.)c\.l\.qq\.com$
 (^|\.)dp3\.play\.aiseet\.atianqi\.com$
 (^|\.)dp3\.qq\.com$
@@ -491,40 +484,57 @@
 (^|\.)mcgi\.v\.qq\.com$
 (^|\.)mdevstat\.qqlive\.qq\.com$
 (^|\.)monitor-uu\.play\.aiseet\.atianqi\.com$
-(^|\.)news\.l\.qq\.com$
 (^|\.)news-l\.play\.aiseet\.atianqi\.com$
+(^|\.)news\.l\.qq\.com$
 (^|\.)omgmta1\.qq\.com$
 (^|\.)otheve\.play\.aiseet\.atianqi\.com$
 (^|\.)othstr\.play\.aiseet\.atianqi\.com$
-(^|\.)p\.l\.qq\.com$
 (^|\.)p-l\.play\.aiseet\.atianqi\.com$
+(^|\.)p\.l\.qq\.com$
 (^|\.)sdkconfig\.play\.aiseet\.atianqi\.com$
-(^|\.)t\.l\.qq\.com$
 (^|\.)t-l\.play\.aiseet\.atianqi\.com$
+(^|\.)t\.l\.qq\.com$
 (^|\.)u\.l\.qq\.com$
 (^|\.)vmindhls\.tc\.qq\.com$
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
-(^|\.)wa\.gtimg\.com$
 
-# Youku
-(^|\.)actives\.youku\.com$
-(^|\.)ad\.api\.3g\.youku\.com$
-(^|\.)ad\.mobile\.youku\.com$
+# Youku & Tudou
+(^|\.)(actives|atm|guanggaoad|hz|iyes|l|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
+(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\.tudou\.com$
+(^|\.)(ad|das|gamex)\.mobile\.youku\.com$
+(^|\.)(dev-push|push|sdk)\.m\.youku\.com$
+(^|\.)(p|r|v)\.l\.youku\.com$
+(^|\.)a-dxk\.play\.api\.3g\.youku\.com$
+(^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
+(^|\.)ad\.api\.mobile\.youku\.com$
 (^|\.)atm\.youku\.com$
+(^|\.)b\.smartvideo\.youku\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)iyes\.youku\.com$
-(^|\.)l\.youku\.com$
-(^|\.)lstat\.youku\.com$
-(^|\.)lvip\.youku\.com$
-(^|\.)p\.l\.ykimg\.com$
-(^|\.)p\.l\.youku\.com$
+(^|\.)das\.api\.youku\.com$
+(^|\.)dl\.g\.youku\.com$
+(^|\.)e\.stat\.ykimg\.com$
+(^|\.)hudong\.pl\.youku\.com$
+(^|\.)l\.ykimg\.com$
 (^|\.)p-log\.ykimg\.com$
-(^|\.)r\.l\.youku\.com$
-(^|\.)stat\.youku\.com$
-(^|\.)static\.lstat\.youku\.com$
+(^|\.)p\.l\.ykimg\.com$
+(^|\.)s\.p\.youku\.com$
+(^|\.)statis\.api\.3g\.youku\.com$
+(^|\.)store\.tv\.api\.3g\.youku\.com$
+(^|\.)store\.xl\.api\.3g\.youku\.com$
+(^|\.)test\.ott\.youku\.com$
+(^|\.)urchin\.lstat\.youku\.com$
+(^|\.)val\.api\.youku\.com$
 
 # Youtube
 (^|\.)ads\.youtube\.com$
+(^|\.)azabu-u\.ac\.jp$
+(^|\.)couchcoaster\.jp$
+(^|\.)crt\.comodoca\.com$
+(^|\.)delivery\.dmkt-sp\.jp$
+(^|\.)ehg-youtube\.hitbox\.com$
+(^|\.)m-78\.jp$
+(^|\.)nichibenren\.or\.jp$
+(^|\.)nicorette\.co\.kr$
 (^|\.)s\.youtube\.com$
 (^|\.)s2\.youtube\.com$
 
@@ -574,7 +584,6 @@
 (^|\.)ad\.thepaper\.cn$
 (^|\.)ad\.unimhk\.com$
 (^|\.)adhome\.1fangchan\.com$
-(^|\.)adm\.10jqka\.com\.cn$
 (^|\.)adm\.easou\.com$
 (^|\.)adm\d\.autoimg\.cn$
 (^|\.)ads\.feedly\.com$
@@ -713,6 +722,7 @@
 (^|\.)clickzs\.com$
 (^|\.)cmcore\.com$
 (^|\.)cnzz\.com$
+(^|\.)cnzzlink\.com$
 (^|\.)cocounion\.com$
 (^|\.)coolguang\.com$
 (^|\.)coremetrics\.com$
