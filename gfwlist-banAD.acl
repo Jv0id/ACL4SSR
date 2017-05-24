@@ -782,6 +782,7 @@
 (^|\.)mediaplex\.com$
 (^|\.)mediav\.com$
 (^|\.)megajoy\.com$
+(^|\.)mgogo\.com$
 (^|\.)miaozhen\.com$
 (^|\.)miidi\.net$
 (^|\.)mixpanel\.com$
@@ -791,6 +792,7 @@
 (^|\.)mobaders\.com$
 (^|\.)mobclix\.com$
 (^|\.)mobfox\.com$
+(^|\.)mobgi\.com$
 (^|\.)mobisage\.cn$
 (^|\.)mobvista\.com$
 (^|\.)mopub\.com$
@@ -801,6 +803,7 @@
 (^|\.)networkbench\.com$
 (^|\.)newrelic\.com$
 (^|\.)nexage\.com$
+(^|\.)ninebox\.cn$
 (^|\.)ntalker\.com$
 (^|\.)o2omobi\.com$
 (^|\.)oadz\.com$
@@ -811,6 +814,7 @@
 (^|\.)optimizelyapis\.com$
 (^|\.)overture\.com$
 (^|\.)p0y\.cn$
+(^|\.)pagechoice\.net$
 (^|\.)pingdom\.net$
 (^|\.)pro\.cn$
 (^|\.)publicidad\.net$
@@ -821,12 +825,15 @@
 (^|\.)qiyou\.com$
 (^|\.)qtmojo\.com$
 (^|\.)quantserve\.com$
+(^|\.)qucaigg\.com$
+(^|\.)qumi\.com$
 (^|\.)qxxys\.com$
 (^|\.)reachmax\.cn$
 (^|\.)responsys\.net$
 (^|\.)revsci\.net$
 (^|\.)rlcdn\.com$
 (^|\.)rtbasia\.com$
+(^|\.)sanya1\.com$
 (^|\.)scorecardresearch\.com$
 (^|\.)segment\.com$
 (^|\.)serving-sys\.com$
@@ -843,6 +850,7 @@
 (^|\.)switchadhub\.com$
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
+(^|\.)tansuotv\.com$
 (^|\.)tapjoy\.cn$
 (^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
@@ -857,6 +865,7 @@
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
+(^|\.)unionsy\.com$
 (^|\.)unlitui\.com$
 (^|\.)uri6\.com$
 (^|\.)ushaqi\.com$
@@ -870,6 +879,8 @@
 (^|\.)wapx\.cn$
 (^|\.)webterren\.com$
 (^|\.)whpxy\.com$
+(^|\.)winads\.cn$
+(^|\.)winasdaq\.com$
 (^|\.)wiyun\.com$
 (^|\.)wooboo\.com\.cn$
 (^|\.)wqmobile\.com$
@@ -881,6 +892,9 @@
 (^|\.)yigao\.com$
 (^|\.)yiqifa\.com$
 (^|\.)yiwk\.com$
+(^|\.)ylunion\.com$
+(^|\.)ymapp\.com$
+(^|\.)ymcdn\.cn$
 (^|\.)yooli\.com$
 (^|\.)youmi\.net$
 (^|\.)youxiaoad\.com$
@@ -889,6 +903,7 @@
 (^|\.)yunjiasu\.com$
 (^|\.)zampdsp\.com$
 (^|\.)zedo\.com$
+(^|\.)zhidian3g\.cn$
 (^|\.)zhiziyun\.com$
 (^|\.)zzsx8\.com$
 
