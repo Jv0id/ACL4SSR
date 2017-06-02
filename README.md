@@ -32,7 +32,7 @@
 * ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
 * ACL更新地址（**全局**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
 * ACL更新地址（**仅GFWList**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/fullgfwlist.acl
-* ACL更新地址（**国内代理**）https://github.com/HZZUO/ACL4SSR/raw/master/backhome-banAD.acl
+* ACL更新地址（**国内代理**）https://github.com/EDISON-Z/ACL4SSR/raw/master/backhome-banAD.acl
 * ACL更新记录：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
 * SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 * SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
