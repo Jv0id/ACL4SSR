@@ -15,7 +15,7 @@
 * gfwlist-banAD.acl （默认直连）去广告+局域网直连+国外gfwlist列表代理
 * onlybanAD.acl （默认代理）去广告+局域网直连+全局代理
 * fullgfwlist.acl （默认直连）国外gfwlist列表代理，没有去广告，没有白名单（原版SS可直接复制文件内容使用）
-* backhome-banAD.acl （默认直连）去广告+国内IP段代理+国内常用域名代理+局域网直连+国外直连
+* backcn-banAD.acl （默认直连）去广告+国内IP段代理+国内常用域名代理+局域网直连+国外直连
 
 # 安卓 SS/SSR 去广告ACL规则
 * 屏蔽小米手机和魅族flyme rom系统广告
