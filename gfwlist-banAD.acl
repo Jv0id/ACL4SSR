@@ -1,6 +1,6 @@
 #**********************************************************************
-# 6.2
-# 2017年6月2日 19:46:08
+# 6.04
+# 2017年6月4日10:45:40
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 # 实验功能：域名广告关键字拦截
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -104,7 +104,7 @@
 (^|\.)(brandshow|jing|track)\.58\.com$
 
 # Ali
-(^|\.)(adash|adsh|adashx4yt|ai|amdc|apoll|acs4baichuan|re|rj|simaba)\.m\.taobao\.com$
+(^|\.)(adash|adsh|adashx4yt|adash-c|ai|amdc|apoll|re|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|gtms\d\d|nbsdk-baichuan)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|textlink|tns)\.simba\.taobao\.com$
 (^|\.)(ju|nbsdk-baichuan|sdkinit|simaba|tyh)\.taobao\.com$
@@ -122,7 +122,6 @@
 (^|\.)pindao\.huoban\.taobao\.com$
 (^|\.)show\.re\.taobao\.com$
 (^|\.)strip\.taobaocdn\.com$
-(^|\.)tanx\.com$
 (^|\.)userimg\.qunar\.com$
 (^|\.)yiliao\.hupan\.com$
 
@@ -239,7 +238,7 @@
 
 # Miui 小米
 (^|\.)(abtest|data)\.mistat\.xiaomi\.com$
-(^|\.)(ad|shenghuo|xmpush)\.xiaomi\.com$
+(^|\.)(ad|ad1|shenghuo|xmpush)\.xiaomi\.com$
 (^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
 (^|\.)(hot|r|security)\.browser\.miui\.com$
 (^|\.)(notice|ppurifier)\.game\.xiaomi\.com$
@@ -275,16 +274,6 @@
 (^|\.)jebe\.renren\.com$
 (^|\.)ebp\.renren\.com$
 (^|\.)jebe\.xnimg\.cn$
-
-# Shumilou
-(^|\.)70e\.com$
-(^|\.)drdwy\.com$
-(^|\.)e701\.net$
-(^|\.)jisucn\.com$
-(^|\.)sanya1\.com$
-(^|\.)stats\.magicwindow\.cn$
-(^|\.)xyrkl\.com$
-(^|\.)zhuanfakong\.com$
 
 # Sina
 (^|\.)(adimg|pay|sax|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
@@ -332,25 +321,24 @@
 (^|\.)we\.tm$
 
 # WPS Office
-(^|\.)(docerad|gou|info|minfo|notify|pcfg|push|wpsweb-dc)\.wps\.cn$
 (^|\.)(bannera|rating6|cloudservice.*)\.kingsoft-office-service\.com$
+(^|\.)(docerad|gou|info|minfo|notify|pcfg|push|wpsweb-dc)\.wps\.cn$
 (^|\.)ad\.docer\.wps\.cn$
-(^|\.)img.*\.mini\.cache\.wps\.cn$
-(^|\.)up\.wps\.kingsoft\.com$
+(^|\.)adm\.zookingsoft\.com$
 (^|\.)bole\.shangshufang\.ksosoft\.com$
+(^|\.)counter\.kingsoft\.com$
+(^|\.)dl\.op\.wpscdn\.cn$
 (^|\.)hoplink\.ksosoft\.com$
 (^|\.)ic\.ksosoft\.com$
+(^|\.)img.*\.mini\.cache\.wps\.cn$
+(^|\.)img\.gou\.wpscdn\.cn$
+(^|\.)ios-informationplatform\.wps\.cn$
+(^|\.)mo\.res\.wpscdn\.cn$
+(^|\.)news\.docer\.com$
+(^|\.)news\.op\.wpscdn\.cn$
 (^|\.)pc\.uf\.ksosoft\.com$
 (^|\.)pixiu\.shangshufang\.ksosoft\.com$
-(^|\.)dl\.op\.wpscdn\.cn$
-(^|\.)img\.gou\.wpscdn\.cn$
-(^|\.)news\.op\.wpscdn\.cn$
-(^|\.)counter\.kingsoft\.com$
-(^|\.)adm\.zookingsoft\.com$
-(^|\.)dl\.op\.wpscdn\.cn$
-(^|\.)img\.gou\.wpscdn\.cn$
-(^|\.)news\.op\.wpscdn\.cn$
-(^|\.)news\.docer\.com$
+(^|\.)up\.wps\.kingsoft\.com$
 
 # Wi-Fi key
 (^|\.)(c|cdsget|news-imgpb|wifiapi\d\d|wkanc)\.51y5\.net$
@@ -394,7 +382,6 @@
 (^|\.)afp\.qiyi\.com$
 (^|\.)api\.cupid\.iqiyi\.com$
 (^|\.)c\.uaa\.iqiyi\.com$
-(^|\.)ckm\.iqiyi\.com$
 (^|\.)cloudpush\.iqiyi\.com$
 (^|\.)cm\.passport\.iqiyi\.com$
 (^|\.)data\.video\.qiyi\.com$
@@ -412,17 +399,17 @@
 60.211.171.128/29
 60.211.211.1/32
 101.227.14.80/29
-101.227.200.0/24
+101.227.200.0/22
+112.13.64.0/22
 112.253.36.0/24
-117.139.18.141/24
+117.139.16.0/22
 119.188.13.32/29
 119.188.43.61/32
 119.188.172.192/28
 119.188.173.0/27
 123.125.116.0/22
 123.130.122.128/28
-183.221.247.189/24
-
+183.221.244.0/22
 
 # Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
@@ -530,8 +517,9 @@
 (^|\.)m-78\.jp$
 (^|\.)nichibenren\.or\.jp$
 (^|\.)nicorette\.co\.kr$
-(^|\.)s\.youtube\.com$
-(^|\.)s2\.youtube\.com$
+(^|\.)ssl-youtube\.2cnt\.net$
+(^|\.)youtube\.112\.2o7\.net$
+(^|\.)youtube\.2cnt\.net$
 
 # Others ads in Video apps
 (^|\.)(acsystem|ads|afp)\.wasu\.tv$
@@ -553,8 +541,6 @@
 (^|\.)terren\.cntv\.cn$
 
 # Ads in Video apps end ********************上面都是
-
-# AD Block test
 
 # 常用网站广告****************
 (^|\.)(168|adshownew|stat)\.it168\.com$
@@ -627,8 +613,6 @@
 (^|\.)114la\.com$
 (^|\.)123juzi\.net$
 (^|\.)2cnt\.net$
-(^|\.)2o7\.net$
-(^|\.)302br\.net$
 (^|\.)51\.la$
 (^|\.)51yes\.com$
 (^|\.)6dad\.com$
@@ -764,6 +748,7 @@
 (^|\.)istreamsche\.com$
 (^|\.)jesgoo\.com$
 (^|\.)jiguang\.cn$
+(^|\.)jisucn\.com$
 (^|\.)jpush\.cn$
 (^|\.)jusha\.com$
 (^|\.)kejet\.net$
@@ -777,6 +762,7 @@
 (^|\.)lufax\.com$
 (^|\.)madmini\.com$
 (^|\.)madserving\.com$
+(^|\.)magicwindow\.cn$
 (^|\.)mathtag\.com$
 (^|\.)maysunmedia\.com$
 (^|\.)mediaplex\.com$
@@ -788,7 +774,6 @@
 (^|\.)mixpanel\.com$
 (^|\.)mng-ads\.com$
 (^|\.)moatads\.com$
-(^|\.)mob\.com$
 (^|\.)mobaders\.com$
 (^|\.)mobclix\.com$
 (^|\.)mobfox\.com$
@@ -861,7 +846,6 @@
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
-(^|\.)umsns\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
@@ -923,12 +907,16 @@
 114.247.28.96/32
 # HangZhou Unicom Float
 124.160.194.11/32
+# Heilongjiang Unicom Float
+221.212.180.31/32
 # ShangHai Unicom Float
 220.196.52.141/32
 # Sichuan Unicom Float
 119.4.249.166/32
 # Wuhan Unicom Float
 113.57.230.88/32
+# Shenzhen Unicom Float
+120.80.57.123/32
 
 # China_telecom 电信
 # JiangSu Telecom Float
@@ -946,6 +934,8 @@
 111.175.220.160/29
 # Zhejiang Telecom Float
 60.191.124.196/32
+61.174.50.167/32
+61.160.200.242/32
 
 14.63.198.45/32
 23.42.186.24/32
@@ -957,7 +947,9 @@
 101.227.200.0/24
 106.11.11.86/32
 107.20.211.189/32
+107.21.113.76/32
 108.61.200.51/32
+111.30.135.167/32
 111.63.135.0/24
 111.206.13.60/30
 111.206.13.64/28
@@ -984,7 +976,7 @@
 123.125.111.0/24
 123.125.117.0/24
 123.125.118.0/24
-123.139.154.201/24
+123.139.154.0/24
 123.206.1.246/32
 124.116.241.0/24
 140.205.36.26/32
@@ -993,6 +985,8 @@
 180.76.190.68/32
 182.48.119.159/32
 183.131.79.130/32
+211.98.71.195/32
+211.98.71.196/32
 211.137.132.89/32
 221.179.183.0/24
 221.179.191.0/24
