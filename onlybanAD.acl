@@ -205,11 +205,10 @@
 
 # JD
 (^|\.)(c-nfa|du|jrclick|jzt|policy|re|x)\.jd\.com$
-(^|\.)(re|stat|union)\.m\.jd\.com$
+(^|\.)(re|stat)\.m\.jd\.com$
 (^|\.)ads\.union\.jd\.com$
 (^|\.)click\.jr\.jd\.com$
 (^|\.)cps\.360buy\.com$
-(^|\.)union\.click\.jd\.com$
 
 # Kugou
 (^|\.)(d|downmobile|fanxing|gad|game|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj|)\.kugou\.com$
@@ -275,7 +274,7 @@
 (^|\.)(act|adsfile|bugly|buluo|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 
-# renren
+# RenRen
 (^|\.)jebe\.renren\.com$
 (^|\.)ebp\.renren\.com$
 (^|\.)jebe\.xnimg\.cn$
@@ -384,7 +383,7 @@
 
 # iqiyi PPS 爱奇艺
 (^|\.)ad\.m\.iqiyi\.com$
-(^|\.)afp\.qiyi\.com$
+(^|\.)afp\.iqiyi\.com$
 (^|\.)api\.cupid\.iqiyi\.com$
 (^|\.)c\.uaa\.iqiyi\.com$
 (^|\.)cloudpush\.iqiyi\.com$
@@ -400,21 +399,29 @@
 (^|\.)paopao\d\.qiyipic\.com$
 (^|\.)policy\.video\.iqiyi\.com$
 (^|\.)rcd\.iqiyi\.com$
-27.221.89.128/28
-60.211.171.128/29
-60.211.211.1/32
+(^|\.)cmts\.iqiyi\.com$
+(^|\.)data\.video\.qiyi\.com$
+(^|\.)msg\.71\.am$
+(^|\.)msga\.cupid\.iqiyi\.com$
+(^|\.)paopao\.iqiyi\.com$
 101.227.14.80/29
 101.227.200.0/22
 112.13.64.0/22
 112.253.36.0/24
 117.139.16.0/22
+117.139.18.141/22
 119.188.13.32/29
-119.188.43.61/32
 119.188.172.192/28
 119.188.173.0/27
+119.188.43.61/32
 123.125.116.0/22
+123.125.117.0/22
 123.130.122.128/28
 183.221.244.0/22
+183.221.247.189/22
+27.221.89.128/28
+60.211.171.128/29
+60.211.211.1/32
 
 # Ku6 酷6
 (^|\.)gug\.ku6cdn\.com$
@@ -488,7 +495,7 @@
 # Youku & Tudou
 (^|\.)(actives|atm|guanggaoad|hz|iyes|l|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\.tudou\.com$
-(^|\.)(ad|das|gamex)\.mobile\.youku\.com$
+(^|\.)(ad|gamex)\.mobile\.youku\.com$
 (^|\.)(dev-push|push|sdk)\.m\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)a-dxk\.play\.api\.3g\.youku\.com$
@@ -497,7 +504,6 @@
 (^|\.)atm\.youku\.com$
 (^|\.)b\.smartvideo\.youku\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)das\.api\.youku\.com$
 (^|\.)dl\.g\.youku\.com$
 (^|\.)e\.stat\.ykimg\.com$
 (^|\.)hudong\.pl\.youku\.com$
@@ -505,7 +511,6 @@
 (^|\.)p-log\.ykimg\.com$
 (^|\.)p\.l\.ykimg\.com$
 (^|\.)s\.p\.youku\.com$
-(^|\.)statis\.api\.3g\.youku\.com$
 (^|\.)store\.tv\.api\.3g\.youku\.com$
 (^|\.)store\.xl\.api\.3g\.youku\.com$
 (^|\.)test\.ott\.youku\.com$
@@ -580,6 +585,7 @@
 (^|\.)api-deal\.kechenggezi\.com$
 (^|\.)api-z\.weidian\.com$
 (^|\.)bam\.nr-data\.net$
+(^|\.)bat\.bing\.com$
 (^|\.)beacon\.tingyun\.com$
 (^|\.)cdn\.jiuzhilan\.com$
 (^|\.)collector\.githubapp\.com$
@@ -841,6 +847,7 @@
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
 (^|\.)tansuotv\.com$
+(^|\.)tanx\.com$
 (^|\.)tapjoy\.cn$
 (^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
@@ -941,6 +948,11 @@
 60.191.124.196/32
 61.174.50.167/32
 61.160.200.242/32
+
+# Dr.Peng Float
+118.144.88.215/32
+220.115.251.25/32
+47.94.89.32/32
 
 14.63.198.45/32
 23.42.186.24/32
