@@ -1081,6 +1081,7 @@
 (^|\.)bdstatic\.com$
 (^|\.)bilibili\.com$
 (^|\.)bilibili\.tv$
+(^|\.)bilibili\.cn$
 (^|\.)bing\.com$
 (^|\.)blizzard\.com$
 (^|\.)caiyunapp\.com$
