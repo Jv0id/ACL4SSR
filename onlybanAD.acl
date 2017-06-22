@@ -1,6 +1,6 @@
 #**********************************************************************
-# 6.11
-# 2017年6月11日09:38:16
+# 6.21
+# 2017年6月21日09:59:33
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -69,7 +69,7 @@
 (^|\.)oimagea2\.ydstatic\.com$
 (^|\.)pagechoice\.net$
 (^|\.)prom\.gome\.com\.cn$
-(^|\.)qchannel01\.cn$
+(^|\.)qchannel0\d\.cn$
 (^|\.)static\.flv\.uuzuonline\.com$
 (^|\.)wanproxy\.127\.net$
 
@@ -204,11 +204,11 @@
 (^|\.)service\.urchin\.com$
 
 # JD
-(^|\.)(c-nfa|du|jrclick|jzt|policy|re|x)\.jd\.com$
-(^|\.)(re|stat)\.m\.jd\.com$
+(^|\.)(c-nfa|du|jrclick|jzt|policy|x)\.jd\.com$
 (^|\.)ads\.union\.jd\.com$
 (^|\.)click\.jr\.jd\.com$
 (^|\.)cps\.360buy\.com$
+(^|\.)stat\.m\.jd\.com$
 
 # Kugou
 (^|\.)(d|downmobile|fanxing|gad|game|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj|)\.kugou\.com$
@@ -286,9 +286,12 @@
 (^|\.)cre\.dp\.sina\.cn$
 (^|\.)gw5\.push\.mcp\.weibo\.cn$
 (^|\.)log\.mix\.sina\.com\.cn$
+(^|\.)mobileads\.dx\.cn$
 (^|\.)newspush\.sinajs\.cn$
+(^|\.)sdkapp\.uve\.weibo\.com$
 (^|\.)tjs\.sjs\.sinajs\.cn$
-(^|\.)u\d\.img\.mobile\.sina\.cn$
+(^|\.)tui\.weibo\.com$
+(^|\.)wbapp\.uve\.weibo\.com$
 (^|\.)zymo\.mps\.weibo\.com$
 
 # Sougou
@@ -321,7 +324,6 @@
 
 # Weifeng
 (^|\.)fengbuy\.com$
-(^|\.)tutuapp\.com$
 (^|\.)we\.tm$
 
 # WPS Office
@@ -688,7 +690,6 @@
 (^|\.)angsrvr\.com$
 (^|\.)anquan\.org$
 (^|\.)anysdk\.com$
-(^|\.)app-measurement\.com$
 (^|\.)appads\.com$
 (^|\.)appboy\.com$
 (^|\.)appdriver\.cn$
@@ -858,7 +859,6 @@
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
 (^|\.)tansuotv\.com$
-(^|\.)tanx\.com$
 (^|\.)tapjoy\.cn$
 (^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
