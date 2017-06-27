@@ -3,6 +3,8 @@
 
 # Telegram频道订阅地址：**https://t.me/ACL4SSR**
 
+* 20170627公告：我们已经注意到SSR C#4.6.0版本更新了新特性：自定义规则。本项目近期将增加此种自定义规则文件的支持，请耐心等待更新，谢谢各位用户的支持！
+
 * root手机推荐：SSR绕过国内ip+HOSTS
 * 1.自带去广告的VIA浏览器 http://www.coolapk.com/apk/mark.via
 * 2.HOSTS 广告快走中国版 http://www.coolapk.com/apk/mark.via
