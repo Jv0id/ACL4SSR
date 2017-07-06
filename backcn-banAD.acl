@@ -1,6 +1,6 @@
 #**********************************************************************
-# 7.4
-# 2017年7月4日 14:32:01
+# 7.6
+# 2017年7月6日 20:34:44
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 # 此文件由@EDISON-Z 提供
 #
@@ -31,6 +31,9 @@
 # 禁止访问列表
 
 # 广告关键词
+(^|\.)\w*3gmimo\w*\..*$
+(^|\.)\w*51yes\w*\..*$
+(^|\.)\w*99click\w*\..*$
 (^|\.)\w*admarvel\w*\..*$
 (^|\.)\w*admaster\w*\..*$
 (^|\.)\w*adsage\w*\..*$
@@ -41,9 +44,11 @@
 (^|\.)\w*adwords\w*\..*$
 (^|\.)\w*analysis\w*\..*$
 (^|\.)\w*analytics\w*\..*$
+(^|\.)\w*daoyoudao\w*\..*$
 (^|\.)\w*duomeng\w*\..*$
 (^|\.)\w*dwtrack\w*\..*$
 (^|\.)\w*guanggao\w*\..*$
+(^|\.)\w*kejet\w*\..*$
 (^|\.)\w*lianmeng\w*\..*$
 (^|\.)\w*monitor\w*\..*$
 (^|\.)\w*openx\w*\..*$
@@ -110,10 +115,10 @@
 (^|\.)(brandshow|jing|track)\.58\.com$
 
 # Ali
-(^|\.)(adash|adsh|adashx4yt|adash-c|ai|amdc|apoll|re|rj|simaba)\.m\.taobao\.com$
+(^|\.)(adash|adsh|adashx4yt|adash-c|ai|apoll|re|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|gtms\d\d|nbsdk-baichuan)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|textlink|tns)\.simba\.taobao\.com$
-(^|\.)(ju|nbsdk-baichuan|sdkinit|simaba|tyh)\.taobao\.com$
+(^|\.)(nbsdk-baichuan|sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)a\.alimama\.cn$
 (^|\.)acjs\.aliyun\.com$
 (^|\.)adash-c\.ut\.taobao\.com$
@@ -272,7 +277,7 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|bugly|buluo|beacon|e|gdt|monitor|pingjs|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
+(^|\.)(act|adsfile|bugly|buluo|beacon|e|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 
 # RenRen
@@ -640,6 +645,7 @@
 (^|\.)acxiom-online\.com$
 (^|\.)ad-brix\.com$
 (^|\.)ad-plus\.cn$
+(^|\.)ad-v\.jp$
 (^|\.)ad7\.com$
 (^|\.)adadapted\.com$
 (^|\.)adadvisor\.net$
@@ -659,6 +665,7 @@
 (^|\.)adjust\.com$
 (^|\.)adjust\.io$
 (^|\.)adlive\.cn$
+(^|\.)adm-cnzz\.net$
 (^|\.)admin5\.com$
 (^|\.)admin6\.com$
 (^|\.)admon\.cn$
@@ -698,6 +705,7 @@
 (^|\.)applovin\.com$
 (^|\.)appsflyer\.com$
 (^|\.)atdmt\.com$
+(^|\.)auditude\.com$
 (^|\.)baifendian\.com$
 (^|\.)baoyatu\.cc$
 (^|\.)baycode\.cn$
@@ -749,14 +757,13 @@
 (^|\.)growingio\.com$
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
+(^|\.)handheld\.now\.com$
 (^|\.)haoghost\.com$
 (^|\.)icast\.cn$
 (^|\.)igexin\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
-(^|\.)inmobi\.com$
-(^|\.)inmobicdn\.net$
 (^|\.)innity\.com$
 (^|\.)intely\.cn$
 (^|\.)iperceptions\.com$
@@ -868,6 +875,7 @@
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
+(^|\.)uliza\.jp$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
