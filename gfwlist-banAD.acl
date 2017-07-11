@@ -1,6 +1,6 @@
 #**********************************************************************
-# 7.6
-# 2017年7月6日 20:34:44
+# 7.11
+# 2017年7月11日16:06:21
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 # 实验功能：域名广告关键字拦截
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -25,9 +25,6 @@
 # 禁止访问列表
 
 # 广告关键词
-(^|\.)\w*3gmimo\w*\..*$
-(^|\.)\w*51yes\w*\..*$
-(^|\.)\w*99click\w*\..*$
 (^|\.)\w*admarvel\w*\..*$
 (^|\.)\w*admaster\w*\..*$
 (^|\.)\w*adsage\w*\..*$
@@ -38,11 +35,9 @@
 (^|\.)\w*adwords\w*\..*$
 (^|\.)\w*analysis\w*\..*$
 (^|\.)\w*analytics\w*\..*$
-(^|\.)\w*daoyoudao\w*\..*$
 (^|\.)\w*duomeng\w*\..*$
 (^|\.)\w*dwtrack\w*\..*$
 (^|\.)\w*guanggao\w*\..*$
-(^|\.)\w*kejet\w*\..*$
 (^|\.)\w*lianmeng\w*\..*$
 (^|\.)\w*monitor\w*\..*$
 (^|\.)\w*openx\w*\..*$
@@ -639,7 +634,6 @@
 (^|\.)acxiom-online\.com$
 (^|\.)ad-brix\.com$
 (^|\.)ad-plus\.cn$
-(^|\.)ad-v\.jp$
 (^|\.)ad7\.com$
 (^|\.)adadapted\.com$
 (^|\.)adadvisor\.net$
@@ -659,7 +653,6 @@
 (^|\.)adjust\.com$
 (^|\.)adjust\.io$
 (^|\.)adlive\.cn$
-(^|\.)adm-cnzz\.net$
 (^|\.)admin5\.com$
 (^|\.)admin6\.com$
 (^|\.)admon\.cn$
@@ -699,7 +692,6 @@
 (^|\.)applovin\.com$
 (^|\.)appsflyer\.com$
 (^|\.)atdmt\.com$
-(^|\.)auditude\.com$
 (^|\.)baifendian\.com$
 (^|\.)baoyatu\.cc$
 (^|\.)baycode\.cn$
@@ -751,13 +743,14 @@
 (^|\.)growingio\.com$
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
-(^|\.)handheld\.now\.com$
 (^|\.)haoghost\.com$
 (^|\.)icast\.cn$
 (^|\.)igexin\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
+(^|\.)inmobi\.com$
+(^|\.)inmobicdn\.net$
 (^|\.)innity\.com$
 (^|\.)intely\.cn$
 (^|\.)iperceptions\.com$
@@ -869,7 +862,6 @@
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
-(^|\.)uliza\.jp$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
@@ -1038,6 +1030,7 @@
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
+
 #GFWList IP start
 85.17.73.31
 174.142.105.153

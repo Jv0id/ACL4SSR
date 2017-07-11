@@ -1,6 +1,6 @@
 #**********************************************************************
-# 7.6
-# 2017年7月6日 20:34:44
+# 7.11
+# 2017年7月11日16:06:21
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -30,9 +30,6 @@
 # 禁止访问列表
 
 # 广告关键词
-(^|\.)\w*3gmimo\w*\..*$
-(^|\.)\w*51yes\w*\..*$
-(^|\.)\w*99click\w*\..*$
 (^|\.)\w*admarvel\w*\..*$
 (^|\.)\w*admaster\w*\..*$
 (^|\.)\w*adsage\w*\..*$
@@ -43,11 +40,9 @@
 (^|\.)\w*adwords\w*\..*$
 (^|\.)\w*analysis\w*\..*$
 (^|\.)\w*analytics\w*\..*$
-(^|\.)\w*daoyoudao\w*\..*$
 (^|\.)\w*duomeng\w*\..*$
 (^|\.)\w*dwtrack\w*\..*$
 (^|\.)\w*guanggao\w*\..*$
-(^|\.)\w*kejet\w*\..*$
 (^|\.)\w*lianmeng\w*\..*$
 (^|\.)\w*monitor\w*\..*$
 (^|\.)\w*openx\w*\..*$
@@ -644,7 +639,6 @@
 (^|\.)acxiom-online\.com$
 (^|\.)ad-brix\.com$
 (^|\.)ad-plus\.cn$
-(^|\.)ad-v\.jp$
 (^|\.)ad7\.com$
 (^|\.)adadapted\.com$
 (^|\.)adadvisor\.net$
@@ -664,7 +658,6 @@
 (^|\.)adjust\.com$
 (^|\.)adjust\.io$
 (^|\.)adlive\.cn$
-(^|\.)adm-cnzz\.net$
 (^|\.)admin5\.com$
 (^|\.)admin6\.com$
 (^|\.)admon\.cn$
@@ -704,7 +697,6 @@
 (^|\.)applovin\.com$
 (^|\.)appsflyer\.com$
 (^|\.)atdmt\.com$
-(^|\.)auditude\.com$
 (^|\.)baifendian\.com$
 (^|\.)baoyatu\.cc$
 (^|\.)baycode\.cn$
@@ -756,13 +748,14 @@
 (^|\.)growingio\.com$
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
-(^|\.)handheld\.now\.com$
 (^|\.)haoghost\.com$
 (^|\.)icast\.cn$
 (^|\.)igexin\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
+(^|\.)inmobi\.com$
+(^|\.)inmobicdn\.net$
 (^|\.)innity\.com$
 (^|\.)intely\.cn$
 (^|\.)iperceptions\.com$
@@ -874,7 +867,6 @@
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
-(^|\.)uliza\.jp$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
@@ -1074,8 +1066,6 @@
 (^|\.)tmall\.com$
 
 # Accelerate direct sites
-(^|\.)115\.com$
-(^|\.)115img\.com$
 (^|\.)12306\.com$
 (^|\.)126\.net$
 (^|\.)163\.com$
@@ -1087,6 +1077,7 @@
 (^|\.)360doc\.com$
 (^|\.)360safe\.com$
 (^|\.)36kr\.com$
+(^|\.)58\.com$
 (^|\.)abercrombie\.com$
 (^|\.)acfun\.tv$
 (^|\.)acgvideo\.com$
@@ -1110,8 +1101,6 @@
 (^|\.)ccgslb\.com$
 (^|\.)ccgslb\.net$
 (^|\.)chinacache\.net$
-(^|\.)chinaso\.com$
-(^|\.)chinaz\.com$
 (^|\.)chunbo\.com$
 (^|\.)chunboimg\.com$
 (^|\.)clouddn\.com$
@@ -1133,14 +1122,11 @@
 (^|\.)ewqcxz\.com$
 (^|\.)feng\.com$
 (^|\.)fir\.im$
-(^|\.)fonts\.gstatic\.com$
-(^|\.)fonts\.static\.com$
 (^|\.)frdic\.com$
 (^|\.)fresh-ideas\.cc$
 (^|\.)geetest\.com$
 (^|\.)godic\.net$
 (^|\.)gravatar\.com$
-(^|\.)greasyfork\.org$
 (^|\.)gtimg\.com$
 (^|\.)haibian\.com$
 (^|\.)hao123\.com$
@@ -1150,11 +1136,11 @@
 (^|\.)hollisterco\.com$
 (^|\.)hongxiu\.com$
 (^|\.)hxcdn\.net$
-(^|\.)icbc\.com$
 (^|\.)iciba\.com$
 (^|\.)ifeng\.com$
 (^|\.)ifengimg\.com$
 (^|\.)images-amazon\.com$
+(^|\.)ipip\.net$
 (^|\.)iqiyi\.com$
 (^|\.)it168\.com$
 (^|\.)ithome\.com$
@@ -1170,7 +1156,6 @@
 (^|\.)lecloud\.com$
 (^|\.)lemicp\.com$
 (^|\.)letv\.com$
-(^|\.)letvcdn\.com$
 (^|\.)letvcloud\.com$
 (^|\.)luoo\.net$
 (^|\.)lxdns\.com$
@@ -1185,7 +1170,6 @@
 (^|\.)nuomi\.com$
 (^|\.)ourdvs\.com$
 (^|\.)overcast\.fm$
-(^|\.)piaotian\.net$
 (^|\.)pptv\.com$
 (^|\.)pstatp\.com$
 (^|\.)qbox\.me$
@@ -1206,7 +1190,6 @@
 (^|\.)qqurl\.com$
 (^|\.)rarbg\.to$
 (^|\.)repaik\.com$
-(^|\.)rime\.im$
 (^|\.)rrmj\.tv$
 (^|\.)ruguoapp\.com$
 (^|\.)sandai\.net$
@@ -1224,9 +1207,11 @@
 (^|\.)sspai\.com$
 (^|\.)startssl\.com$
 (^|\.)suning\.com$
+(^|\.)taobao\.com$
 (^|\.)tencent\.com$
 (^|\.)tenpay\.com$
 (^|\.)tietuku\.com$
+(^|\.)tmall\.com$
 (^|\.)tudou\.com$
 (^|\.)udache\.com$
 (^|\.)upaiyun\.com$
@@ -1234,6 +1219,7 @@
 (^|\.)uxengine\.net$
 (^|\.)v2ex\.com$
 (^|\.)vip\.com$
+(^|\.)wandoujia\.com$
 (^|\.)weibo\.com$
 (^|\.)weiphone\.com$
 (^|\.)weiphone\.net$
@@ -1261,15 +1247,12 @@
 (^|\.)youku\.com$
 (^|\.)yunjiasu-cdn\.net$
 (^|\.)yy\.com$
-(^|\.)yyets\.com$
 (^|\.)zdfans\.com$
 (^|\.)zealer\.com$
 (^|\.)zgslb\.net$
 (^|\.)zhihu\.com$
 (^|\.)zhimg\.com$
-(^|\.)zhongsou\.com$
 (^|\.)zimuzu\.tv$
-(^|\.)zmz2017\.com$
 
 #**********************************************************************
 # 本地/局域网地址
