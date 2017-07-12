@@ -17,1366 +17,6 @@
 :: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff localproxy
 0.0.0.0 255.255.255.255 localproxy
 
-# 广告拦截
-# 163
-.adgeo.corp.163.com reject
-.bobo.corp.163.com reject
-.fa.corp.163.com reject
-.g.corp.163.com reject
-.g1.corp.163.com reject
-.gb.corp.163.com reject
-.nex.corp.163.com reject
-.adgeo.163.com reject
-.bobo.163.com reject
-.fa.163.com reject
-.g.163.com reject
-.g1.163.com reject
-.gb.163.com reject
-.nex.163.com reject
-.analytics.126.net reject
-.img1.126.net reject
-.img2.126.net reject
-.mimg.126.net reject
-.ws.126.net reject
-.push.126.net reject
-.haitaoad.nosdn.127.net reject
-
-.a.youdao.com reject
-.c.youdao.com reject
-.clkservice.youdao.com reject
-.conv.youdao.com reject
-.dsp.youdao.com reject
-.dsp-impr2.youdao.com reject
-.gorgon.youdao.com reject
-.impservice2.youdao.com reject
-.impservice.youdao.com reject
-.rlogs.youdao.com reject
-.union.youdao.com reject
-.ydpushserver.youdao.com reject
-.nc004x.corp.youdao.com reject
-.nc045x.corp.youdao.com reject
-.qt002x.corp.youdao.com reject
-.tb060x.corp.youdao.com reject
-.tb104x.corp.youdao.com reject
-.impservice.chn1.youdao.com reject
-.impservice.dict.youdao.com reject
-.impservice.dictapp.youdao.com reject
-.impservice.ictvista.youdao.com reject
-.impservice.dictweb.youdao.com reject
-.impservice.dictword.youdao.com reject
-.impservice.mail.youdao.com reject
-.impservice.union.youdao.com reject
-
-.oimagea2.ydstatic.com reject
-.pagechoice.net reject
-.prom.gome.com.cn reject
-.qchannel0d.cn reject
-.static.flv.uuzuonline.com reject
-.wanproxy.127.net reject
-
-# 17173
-.cvda.17173.com reject
-.imgapp.yeyou.com reject
-.log1.17173.com reject
-.s.17173cdn.com reject
-.ue.yeyoucdn.com reject
-.vda.17173.com reject
-
-# 178
-.analytics.wanmei.com reject
-.gg.stargame.com reject
-
-# 2345
-.dl.2345.cn reject
-.download.2345.cn reject
-.wan.2345.cn reject
-.jifendownload.2345.cn reject
-
-# 360
-.3600.com reject
-.api.so.lianmeng.360.cn reject
-.wan.360.cn reject
-.gamebox.360.cn reject
-.kuaikan.netmon.360safe.com reject
-.leak.360.cn reject
-.lianmeng.360.cn reject
-.pub.se.360.cn reject
-.s.so.360.cn reject
-.shouji.360.cn reject
-.soft.data.weather.360.cn reject
-.stat.360safe.com reject
-.stat.m.360.cn reject
-.update.360safe.com reject
-
-# 58
-.58.xgo.com.cn reject
-.imp.xgo.com.cn reject
-.stat.xgo.com.cn reject
-.brandshow.58.com reject
-.jing.58.com reject
-.track.58.com reject
-
-# Ali
-.adash.m.taobao.com reject
-.adsh.m.taobao.com reject
-.adashx4yt.m.taobao.com reject
-.adash-c.m.taobao.com reject
-.ai.m.taobao.com reject
-.apoll.m.taobao.com reject
-.re.m.taobao.com reject
-.rj.m.taobao.com reject
-.simaba.m.taobao.com reject
-.fav.simba.taobao.com reject
-.m.simba.taobao.com reject
-.redirect.simba.taobao.com reject
-.srd.simba.taobao.com reject
-.textlink.simba.taobao.com reject
-.tns.simba.taobao.com reject
-.nbsdk-baichuan.taobao.com reject
-.sdkinit.taobao.com reject
-.simaba.taobao.com reject
-.tyh.taobao.com reject
-.appdownload.alicdn.com reject
-.afp.alicdn.com reject
-.atanx.alicdn.com reject
-.atanx2.alicdn.com reject
-.dorangesource.alicdn.com reject
-.gma.alicdn.com reject
-.gtmsdd.alicdn.com reject
-.nbsdk-baichuan.alicdn.com reject
-.a.alimama.cn reject
-.acjs.aliyun.com reject
-.adash-c.ut.taobao.com reject
-.adashxgc.ut.taobao.com reject
-.alipaylog.com reject
-.amdc.alipay.com reject
-.click.mz.simba.taobao.com reject
-.g.click.taobao.com reject
-.g.tbcdn.cn reject
-.hydra.alibaba.com reject
-.pics.taobaocdn.com reject
-.pindao.huoban.taobao.com reject
-.show.re.taobao.com reject
-.strip.taobaocdn.com reject
-.userimg.qunar.com reject
-.yiliao.hupan.com reject
-
-# Baidu
-.a.baidu.com reject
-.adapp.baidu.com reject
-.adm.baidu.com reject
-.as.baidu.com reject
-.baichuan.baidu.com reject
-.baidutv.baidu.com reject
-.bar.baidu.com reject
-.c.baidu.com reject
-.cb.baidu.com reject
-.cbjs.baidu.com reject
-.cbjslog.baidu.com reject
-.cjhq.baidu.com reject
-.cpro.baidu.com reject
-.cpro2.baidu.com reject
-.crs.baidu.com reject
-.datax.baidu.com reject
-.dj1.baidu.com reject
-.downapp.baidu.com reject
-.drmcmm.baidu.com reject
-.dxp.baidu.com reject
-.e.baidu.com reject
-.eclick.baidu.com reject
-.eiv.baidu.com reject
-.entry.baidu.com reject
-.hc.baidu.com reject
-.hm.baidu.com reject
-.hmma.baidu.com reject
-.imageplus.baidu.com reject
-.ma.baidu.com reject
-.mobads-logs.baidu.com reject
-.mobads.baidu.com reject
-.mtj.baidu.com reject
-.nsclick.baidu.com reject
-.pos.baidu.com reject
-.pups.baidu.com reject
-.rj.baidu.com reject
-.rp.baidu.com reject
-.spcode.baidu.com reject
-.tk.baidu.com reject
-.tongji.baidu.com reject
-.tuisong.baidu.com reject
-.ucstat.baidu.com reject
-.ufosdk.baidu.com reject
-.union.baidu.com reject
-.utility.baidu.com reject
-.utk.baidu.com reject
-.videopush.baidu.com reject
-.wangmeng.baidu.com reject
-.wm.baidu.com reject
-.youqian.baidu.com reject
-.znsv.baidu.com reject
-.ashifen.com reject
-.baidu9635.com reject
-.bj.bcebos.com reject
-.boscdn.bpc.baidu.com reject
-.cpro.baidu.com.cn reject
-.cpro.tieba.baidu.com reject
-.cpro.zhidao.baidu.com reject
-.itsdata.map.baidu.com reject
-.log.nuomi.com reject
-.push.music.baidu.com reject
-.push.zhanzhang.baidu.com reject
-.res.limei.com reject
-.shifen.com reject
-.static.map.bdimg.com reject
-.static.su.baidu.com reject
-.static.tieba.baidu.com reject
-.ubmcmm.baidustatic.com reject
-.ulog.imap.baidu.com reject
-.wisepush.video.baidu.com reject
-.zz.bdstatic.com reject
-
-# Book-app 起点 掌阅 书旗 宜搜
-.adm.ps.easou.com reject
-.assets.ps.easou.com reject
-.tjlog.ps.easou.com reject
-.adm.easou.com reject
-.assets.easou.com reject
-.tjlog.easou.com reject
-.ad.zhangyue.com reject
-.push.zhangyue.com reject
-.cj.qidian.com reject
-.game.qidian.com reject
-.tongji.qidian.com reject
-.api.itaoxiaoshuo.com reject
-.o.if.qidian.com reject
-.s1.cmfu.com reject
-.ut2.shuqistat.com reject
-
-# Dangdang
-.a.dangdang.com reject
-.click.dangdang.com reject
-.schprompt.dangdang.com reject
-.t.dangdang.com reject
-
-# Duomi
-.ad.duomi.com reject
-.boxshows.com reject
-
-# Facebook
-.staticxx.facebook.com reject
-
-# Fang
-.click1n.soufun.com reject
-.clickm.fang.com reject
-.clickn.fang.com reject
-.countpvn.light.fang.com reject
-.countubn.light.soufun.com reject
-.mshow.fang.com reject
-.tongji.home.soufun.com reject
-
-# Google
-.2mdn.net reject
-.admob.com reject
-.ads.gmodules.com reject
-.ads.google.com reject
-.afd.l.google.com reject
-.badad.googleplex.com reject
-.csi.gstatic.com reject
-.doubleclick.com reject
-.doubleclick.net reject
-.google-analytics.com reject
-.googleadservices.com reject
-.googleadsserving.cn reject
-.googlecommerce.com reject
-.googlesyndication.com reject
-.mobileads.google.com reject
-.pagead-tpc.l.google.com reject
-.pagead.google.com reject
-.pagead.l.google.com reject
-.service.urchin.com reject
-
-# JD
-.c-nfa.jd.com reject
-.du.jd.com reject
-.jrclick.jd.com reject
-.jzt.jd.com reject
-.policy.jd.com reject
-.x.jd.com reject
-.ads.union.jd.com reject
-.click.jr.jd.com reject
-.cps.360buy.com reject
-.stat.m.jd.com reject
-
-# Kugou
-.d.kugou.com reject
-.downmobile.kugou.com reject
-.fanxing.kugou.com reject
-.gad.kugou.com reject
-.game.kugou.com reject
-.gg.kugou.com reject
-.install.kugou.com reject
-.install2.kugou.com reject
-.kgmobilestat.kugou.com reject
-.minidcsc.kugou.com reject
-.mo.kugou.com reject
-.mobilelog.kugou.com reject
-.mvads.kugou.com reject
-.p.kugou.com reject
-.rtmonitor.kugou.com reject
-.sdn.kugou.com reject
-.tj.kugou.com reject
-.msg.mobile.kugou.com reject
-.push.mobile.kugou.com reject
-.update.mobile.kugou.com reject
-.ads.service.kugou.com reject
-.gcapi.sy.kugou.com reject
-.kuaikaiapp.com reject
-.log.stat.kugou.com reject
-
-# Kuwo
-.deliver.kuwo.cn reject
-.g.kuwo.cn reject
-.log.kuwo.cn reject
-.kwmsg.kuwo.cn reject
-.mobilead.kuwo.cn reject
-.msclick2.kuwo.cn reject
-.msphoneclick.kuwo.cn reject
-.updatepage.kuwo.cn reject
-.wa.kuwo.cn reject
-.webstat.kuwo.cn reject
-.apk.shouji.koowo.com reject
-.g.koowo.com reject
-
-# Meizu flyme 魅族
-.aider-res.meizu.com reject
-.api-flow.meizu.com reject
-.api-game.meizu.com reject
-.cal.meizu.com reject
-.ebook.meizu.com reject
-.game-res.meizu.com reject
-.infocenter.meizu.com reject
-.openapi-news.meizu.com reject
-.reader.meizu.com reject
-.tongji-res1.meizu.com reject
-.tongji.meizu.com reject
-.uxip.meizu.com reject
-.ebook.res.meizu.com reject
-.game.res.meizu.com reject
-.push.res.meizu.com reject
-.reader.res.meizu.com reject
-.upush.res.meizu.com reject
-.bro.flyme.cn reject
-.t-e.flyme.cn reject
-.t-flow.flyme.cn reject
-.aries.mzres.com reject
-.umid.orion.meizu.com reject
-
-# Meitu
-.a.koudai.com reject
-.corp.meitu.com reject
-.gg.meitu.com reject
-.meitubeauty.meitudata.com reject
-.message.meitu.com reject
-.tuiguang.meitu.com reject
-.xiuxiu.android.dl.meitu.com reject
-.xiuxiu.mobile.meitudata.com reject
-
-# Miui 小米
-.abtest.mistat.xiaomi.com reject
-.data.mistat.xiaomi.com reject
-.ad.xiaomi.com reject
-.ad1.xiaomi.com reject
-.shenghuo.xiaomi.com reject
-.xmpush.xiaomi.com reject
-.notice.game.xiaomi.com reject
-.ppurifier.game.xiaomi.com reject
-.d.g.miui.com reject
-.migc.g.miui.com reject
-.migcreport.g.miui.com reject
-.mis.g.miui.com reject
-.hot.browser.miui.com reject
-.r.browser.miui.com reject
-.security.browser.miui.com reject
-.a.stat.xiaomi.com reject
-.a.union.mi.com reject
-.resolver.gslb.mi-idc.com reject
-.resolver.msg.xiaomi.net reject
-.tracking.miui.com reject
-
-# Moji
-.ad.api.moji.com reject
-.app.moji001.com reject
-.cdn.moji.com reject
-.cdn.moji002.com reject
-.cdn2.moji002.com reject
-.fds.api.moji.com reject
-.log.moji.com reject
-.stat.moji.com reject
-.ugc.moji001.com reject
-
-# Qingting.fm
-.ad.qingting.fm reject
-.admgr.qingting.fm reject
-.logger.qingting.fm reject
-.dload.qd.qingting.fm reject
-.s.qd.qingting.fm reject
-.s.qd.qingtingfm.com reject
-
-# QQ
-.act.qq.com reject
-.adsfile.qq.com reject
-.bugly.qq.com reject
-.buluo.qq.com reject
-.beacon.qq.com reject
-.e.qq.com reject
-.gdt.qq.com reject
-.monitor.qq.com reject
-.pingma.qq.com reject
-.pingtcss.qq.com reject
-.report.qq.com reject
-.tajs.qq.com reject
-.tcss.qq.com reject
-.uu.qq.com reject
-.ad.qun.qq.com reject
-
-# RenRen
-.jebe.renren.com reject
-.ebp.renren.com reject
-.jebe.xnimg.cn reject
-
-# Sina
-.adimg.mobile.sina.cn reject
-.pay.mobile.sina.cn reject
-.sax.mobile.sina.cn reject
-.sdkapp.mobile.sina.cn reject
-.sdkclick.mobile.sina.cn reject
-.trends.mobile.sina.cn reject
-.wbapp.mobile.sina.cn reject
-.wbclick.mobile.sina.cn reject
-.wbpctips.mobile.sina.cn reject
-.ad.sina.com reject
-.adbox.sina.com reject
-.adm.sina.com reject
-.atm.sina.com reject
-.beacon.sina.com reject
-.dd.sina.com reject
-.dcads.sina.com reject
-.dmp.sina.com reject
-.leju.sina.com reject
-.sax.sina.com reject
-.slog.sina.com reject
-.tjs.sina.com reject
-.ad.sina.com.cn reject
-.adbox.sina.com.cn reject
-.adm.sina.com.cn reject
-.atm.sina.com.cn reject
-.beacon.sina.com.cn reject
-.dd.sina.com.cn reject
-.dcads.sina.com.cn reject
-.dmp.sina.com.cn reject
-.leju.sina.com.cn reject
-.sax.sina.com.cn reject
-.slog.sina.com.cn reject
-.tjs.sina.com.cn reject
-.alitui.weibo.com reject
-.biz.weibo.com reject
-.game.weibo.com reject
-.wax.weibo.com reject
-.alitui.weibo.com.cn reject
-.biz.weibo.com.cn reject
-.game.weibo.com.cn reject
-.wax.weibo.com.cn reject
-.cre.dp.sina.cn reject
-.gw5.push.mcp.weibo.cn reject
-.log.mix.sina.com.cn reject
-.mobileads.dx.cn reject
-.newspush.sinajs.cn reject
-.sdkapp.uve.weibo.com reject
-.tjs.sjs.sinajs.cn reject
-.tui.weibo.com reject
-.wbapp.uve.weibo.com reject
-.zymo.mps.weibo.com reject
-
-# Sougou
-.123.sogou.com reject
-.brand.sogou.com reject
-.get.sogou.com reject
-.inte.sogou.com reject
-.iwan.sogou.com reject
-.pb.sogou.com reject
-.pd.sogou.com reject
-.wan.sogou.com reject
-.wangmeng.sogou.com reject
-.123.sogoucdn.com reject
-.galaxy.sogoucdn.com reject
-
-# Toutiao
-.ad.toutiao.com reject
-.d.toutiao.com reject
-.sm.toutiao.com reject
-.dsp.toutiao.com reject
-.nativeapp.toutiao.com reject
-.partner.toutiao.com reject
-.s3.bytecdn.cn reject
-
-# Twitter
-.ads.twitter.com reject
-.syndication.twitter.com reject
-.syndication-o.twitter.com reject
-.analytics.twitter.com reject
-.scribe.twitter.com reject
-.p.twitter.com reject
-.ads-twitter.com reject
-.tellapart.com reject
-.urls.api.twitter.com reject
-
-# UC ali
-.adslot.uc.cn reject
-.applog.uc.cn reject
-.track.uc.cn reject
-.cms.ucweb.com reject
-.puds.ucweb.com reject
-.uc.ucweb.com reject
-.ucsec1.ucweb.com reject
-.ucsec.ucweb.com reject
-.log.cs.pp.cn reject
-.patriot.cs.pp.cn reject
-.api.mp.uc.cn reject
-.client.video.ucweb.com reject
-.dispatcher.upmc.uc.cn reject
-.huichuan.sm.cn reject
-.m.uczzd.cn reject
-.server.m.pp.cn reject
-.u.uc123.com reject
-.u.ucfly.com reject
-
-# Weifeng
-.fengbuy.com reject
-.we.tm reject
-
-# WPS Office
-.bannera.kingsoft-office-service.com reject
-.rating6.kingsoft-office-service.com reject
-.docerad.wps.cn reject
-.gou.wps.cn reject
-.info.wps.cn reject
-.minfo.wps.cn reject
-.notify.wps.cn reject
-.pcfg.wps.cn reject
-.push.wps.cn reject
-.wpsweb-dc.wps.cn reject
-.ad.docer.wps.cn reject
-.adm.zookingsoft.com reject
-.bole.shangshufang.ksosoft.com reject
-.counter.kingsoft.com reject
-.dl.op.wpscdn.cn reject
-.hoplink.ksosoft.com reject
-.ic.ksosoft.com reject
-.img.gou.wpscdn.cn reject
-.ios-informationplatform.wps.cn reject
-.mo.res.wpscdn.cn reject
-.news.docer.com reject
-.news.op.wpscdn.cn reject
-.pc.uf.ksosoft.com reject
-.pixiu.shangshufang.ksosoft.com reject
-.up.wps.kingsoft.com reject
-
-# Wi-Fi key
-.c.51y5.net reject
-.cdsget.51y5.net reject
-.news-imgpb.51y5.net reject
-.wifiapidd.51y5.net reject
-.wkanc.51y5.net reject
-
-# Ximalaya 喜马拉雅
-.adse.ximalaya.com reject
-.linkeye.ximalaya.com reject
-.location.ximalaya.com reject
-.xdcs-collector.ximalaya.com reject
-
-# Xunlei 迅雷app&看看
-.biz5.kankan.com reject
-.float.kankan.com reject
-.logic.cpm.cm.kankan.com reject
-
-# Zhihu
-.sugar.zhihu.com reject
-.zhihu-web-analytics.zhihu.com reject
-.zhstatic.zhihu.com reject
-
-# Ads in Video apps
-
-# 6间房
-.shrek.6.cn reject
-.simba.6.cn reject
-.union.6.cn reject
-
-# Baofeng 暴风影音
-.logger.baofeng.com reject
-.xs.houyi.baofeng.net reject
-
-# Douyu
-.dotcounter.douyutv.com reject
-
-# Fenghuang 凤凰TV
-.aoodoo.feng.com reject
-.push.feng.com reject
-.yes1.feng.com reject
-.game.ifeng.com reject
-.ifashion.ifeng.com reject
-.stadig.ifeng.com reject
-.api.newad.ifeng.com reject
-.exp.3g.ifeng.com reject
-.iis3g.deliver.ifeng.com reject
-.mfp.deliver.ifeng.com reject
-
-# Funshion 风行
-.pub.funshion.com reject
-.adm.funshion.com reject
-.jobsfe.funshion.com reject
-.po.funshion.com reject
-.pv.funshion.com reject
-.stat.funshion.com reject
-
-# iqiyi PPS 爱奇艺
-.ad.m.iqiyi.com reject
-.afp.iqiyi.com reject
-.api.cupid.iqiyi.com reject
-.c.uaa.iqiyi.com reject
-.cloudpush.iqiyi.com reject
-.cm.passport.iqiyi.com reject
-.data.video.qiyi.com reject
-.emoticon.sns.iqiyi.com reject
-.gamecenter.iqiyi.com reject
-.hotchat-im.iqiyi.com reject
-.ifacelog.iqiyi.com reject
-.mbdlog.iqiyi.com reject
-.meta.video.qiyi.com reject
-.paopao.iqiyi.com reject
-.paopaod.qiyipic.com reject
-.policy.video.iqiyi.com reject
-.rcd.iqiyi.com reject
-.cmts.iqiyi.com reject
-.data.video.qiyi.com reject
-.msg.71.am reject
-.msga.cupid.iqiyi.com reject
-.paopao.iqiyi.com reject
-.101.227.14.80 101.227.14.87 reject
-.101.227.200.0 101.227.203.255 reject
-.112.13.64.0 112.13.67.255 reject
-.112.253.36.0 112.253.36.255 reject
-.117.139.16.0 117.139.19.255 reject
-.117.139.16.0 117.139.19.255 reject
-.119.188.13.32 119.188.13.39 reject
-.119.188.172.192 119.188.172.207 reject
-.119.188.173.0 119.188.173.31 reject
-.119.188.43.61 119.188.43.61 reject
-.123.125.116.0 123.125.119.255 reject
-.123.125.116.0 123.125.119.255 reject
-.123.130.122.128 123.130.122.143 reject
-.183.221.244.0 183.221.247.255 reject
-.183.221.244.0 183.221.247.255 reject
-.27.221.89.128 27.221.89.143 reject
-.60.211.171.128 60.211.171.135 reject
-.60.211.211.1 60.211.211.1 reject
-
-
-# Ku6 酷6
-.gug.ku6cdn.com reject
-.st.vq.ku6.cn reject
-.pq.stat.ku6.com reject
-.static.ku6.com reject
-
-# LeTV 乐视
-.ark.letv.com reject
-.dc.letv.com reject
-.fz.letv.com reject
-.g3.letv.com reject
-.minisite.letv.com reject
-.pro.letv.com reject
-.stat.letv.com reject
-.i0.letvimg.com reject
-.i3.letvimg.com reject
-.game.letvstore.com reject
-.n.mark.letv.com reject
-.pro.hoye.letv.com reject
-.static.app.m.letv.com reject
-
-# MGTV 芒果TV
-.bs.da.hunantv.com reject
-.log.da.hunantv.com reject
-.x.da.hunantv.com reject
-.log.v2.hunantv.com reject
-.mp4.res.hunantv.com reject
-.p2.hunantv.com reject
-
-# Sohu 搜狐
-.888.tv.sohu.com reject
-.lm.tv.sohu.com reject
-.push.tv.sohu.com reject
-.aty.hd.sohu.com reject
-.bd.hd.sohu.com reject
-.click.hd.sohu.com reject
-.click2.hd.sohu.com reject
-.ctr.hd.sohu.com reject
-.mb.hd.sohu.com reject
-.pv.hd.sohu.com reject
-.pb.hd.sohu.com reject
-.wl.hd.sohu.com reject
-.um.hd.sohu.com reject
-.hui.sohu.com reject
-.wan.sohu.com reject
-.yule.sohu.com reject
-.pv.sohu.com reject
-.api.k.sohu.com reject
-.count.vrs.sohu.com reject
-.goto.sms.sohu.com reject
-.i.go.sohu.com reject
-.pv.ott.hd.sohu.com reject
-.s.go.sohu.com reject
-.score.my.tv.sohu.com reject
-.zz.m.sohu.com reject
-
-# PPTV、PPLive
-.de.as.pptv.com reject
-.jp.as.pptv.com reject
-.afp.pplive.com reject
-.asimgs.pplive.cn reject
-.pp2.pptv.com reject
-.stat.pptv.com reject
-
-# QQ Live
-.aiseet.aa.atianqi.com reject
-.aiseet.atianqi.com reject
-.btrace.video.qq.com reject
-.c.l.qq.com reject
-.dp3.play.aiseet.atianqi.com reject
-.dp3.qq.com reject
-.livep.l.aiseet.atianqi.com reject
-.livep.l.qq.com reject
-.lives.l.aiseet.atianqi.com reject
-.lives.l.qq.com reject
-.livew.l.qq.com reject
-.mcgi.v.qq.com reject
-.mdevstat.qqlive.qq.com reject
-.monitor-uu.play.aiseet.atianqi.com reject
-.news-l.play.aiseet.atianqi.com reject
-.news.l.qq.com reject
-.omgmta1.qq.com reject
-.otheve.play.aiseet.atianqi.com reject
-.othstr.play.aiseet.atianqi.com reject
-.p-l.play.aiseet.atianqi.com reject
-.p.l.qq.com reject
-.sdkconfig.play.aiseet.atianqi.com reject
-.t-l.play.aiseet.atianqi.com reject
-.t.l.qq.com reject
-.u.l.qq.com reject
-.vmindhls.tc.qq.com reject
-.vv.play.aiseet.atianqi.com reject
-
-# Youku & Tudou
-.actives.youku.com reject
-.atm.youku.com reject
-.guanggaoad.youku.com reject
-.hz.youku.com reject
-.iyes.youku.com reject
-.l.youku.com reject
-.lstat.youku.com reject
-.lvip.youku.com reject
-.msg.youku.com reject
-.mobilemsg.youku.com reject
-.passport-log.youku.com reject
-.stat.youku.com reject
-.tdrec.youku.com reject
-.wan.youku.com reject
-.ykatr.youku.com reject
-.ykrec.youku.com reject
-.ykrectab.youku.com reject
-.ad.mobile.youku.com reject
-.gamex.mobile.youku.com reject
-.dev-push.m.youku.com reject
-.push.m.youku.com reject
-.sdk.m.youku.com reject
-.p.l.youku.com reject
-.r.l.youku.com reject
-.v.l.youku.com reject
-.adcontrol.tudou.com reject
-.adplay.tudou.com reject
-.goods.tudou.com reject
-.iwstat.tudou.com reject
-.nstat.tudou.com reject
-.stat.tudou.com reject
-.stats.tudou.com reject
-.a-dxk.play.api.3g.youku.com reject
-.ad.api.3g.tudou.com reject
-.ad.api.3g.youku.com reject
-.ad.api.mobile.youku.com reject
-.atm.youku.com reject
-.b.smartvideo.youku.com reject
-.c.yes.youku.com reject
-.dl.g.youku.com reject
-.e.stat.ykimg.com reject
-.hudong.pl.youku.com reject
-.l.ykimg.com reject
-.p-log.ykimg.com reject
-.p.l.ykimg.com reject
-.s.p.youku.com reject
-.store.tv.api.3g.youku.com reject
-.store.xl.api.3g.youku.com reject
-.test.ott.youku.com reject
-.urchin.lstat.youku.com reject
-.val.api.youku.com reject
-
-# Youtube
-.ads.youtube.com reject
-.azabu-u.ac.jp reject
-.couchcoaster.jp reject
-.crt.comodoca.com reject
-.delivery.dmkt-sp.jp reject
-.ehg-youtube.hitbox.com reject
-.m-78.jp reject
-.nichibenren.or.jp reject
-.nicorette.co.kr reject
-.ssl-youtube.2cnt.net reject
-.youtube.112.2o7.net reject
-.youtube.2cnt.net reject
-
-# Others ads in Video apps
-.acsystem.wasu.tv reject
-.ads.wasu.tv reject
-.afp.wasu.tv reject
-.ads.cdn.tvb.com reject
-.c.algovid.com reject
-.cc.xtgreat.com reject
-.d.dsp.imageter.com reject
-.dotcounter.douyutv.com reject
-.gg.jtertp.com reject
-.gridsum-vd.cntv.cn reject
-.kwflvcdn.000dn.com reject
-.logstat.t.sfht.com reject
-.match.rtbidder.net reject
-.n-st.vip.com reject
-.pop.uusee.com reject
-.static.bshare.cn reject
-.static.duoshuo.com reject
-.t.cr-nielsen.com reject
-.terren.cntv.cn reject
-
-# Ads in Video apps end
-
-# 常用网站广告
-.168.it168.com reject
-.adshownew.it168.com reject
-.stat.it168.com reject
-.1.win7china.com reject
-.2.win7china.com reject
-.33.autohome.com.cn reject
-.c.autohome.com.cn reject
-.pcd.autohome.com.cn reject
-.alert.autohome.com.cn reject
-.801.tianya.cn reject
-.803.tianya.cn reject
-.806.tianya.cn reject
-.808.tianya.cn reject
-.bdj.tianya.cn reject
-.dol.tianya.cn reject
-.click.tianya.cn reject
-.801.tianyaui.cn reject
-.803.tianyaui.cn reject
-.806.tianyaui.cn reject
-.808.tianyaui.cn reject
-.bdj.tianyaui.cn reject
-.dol.tianyaui.cn reject
-.click.tianyaui.cn reject
-.92x.tumblr.com reject
-.its-dori.tumblr.com reject
-.adm.10jqka.com.cn reject
-.eq.10jqka.com.cn reject
-.fund.10jqka.com.cn reject
-.ozone.10jqka.com.cn reject
-.stat.10jqka.com.cn reject
-.vaserviece.10jqka.com.cn reject
-.ad.house365.com reject
-.adadmin.house365.com reject
-.ads.house365.com reject
-.ad.csdn.net reject
-.ads.csdn.net reject
-.counter.csdn.net reject
-.ad.ganji.com reject
-.analytics.ganji.com reject
-.click.ganji.com reject
-.ganjituiguang.ganji.com reject
-.sta.ganji.com reject
-.tralog.ganji.com reject
-.app-monitor.ele.me reject
-.client-api.ele.me reject
-.grand.ele.me reject
-.mobile-pubt.ele.me reject
-.newton-api.ele.me reject
-.bd1.52che.com reject
-.bd2.52che.com reject
-.click.cheshi.com reject
-.media.cheshi.com reject
-.pv.cheshi.com reject
-.click.cheshi-img.com reject
-.media.cheshi-img.com reject
-.pv.cheshi-img.com reject
-.d0.xcar.com.cn reject
-.dw.xcar.com.cn reject
-.pv.xcar.com.cn reject
-.a1.itc.cn reject
-.ad.12306.cn reject
-.ad.3.cn reject
-.ad.95306.cn reject
-.ad.caiyunapp.com reject
-.ad.cctv.com reject
-.ad.thepaper.cn reject
-.ad.unimhk.com reject
-.adhome.1fangchan.com reject
-.adm.easou.com reject
-.admd.autoimg.cn reject
-.ads.feedly.com reject
-.ads.genieessp.com reject
-.ads.linkedin.com reject
-.ads.yahoo.com reject
-.advert.api.thejoyrun.com reject
-.api-deal.kechenggezi.com reject
-.api-z.weidian.com reject
-.bam.nr-data.net reject
-.bat.bing.com reject
-.beacon.tingyun.com reject
-.cdn.jiuzhilan.com reject
-.collector.githubapp.com reject
-.de.soquair.com reject
-.e.nexac.com reject
-.erebor.douban.com reject
-.exp.17wo.cn reject
-.game.51yund.com reject
-.hosting.miarroba.info reject
-.iadsdk.apple.com reject
-.image.gentags.com reject
-.js-agent.newrelic.com reject
-.lm.admin5.com reject
-.log.outbrain.com reject
-.m.12306media.com reject
-.n.cosbot.cn reject
-.pdl.gionee.com reject
-.picture.duokan.com reject
-.pixel.wp.com reject
-.pub.mop.com reject
-.push.wandoujia.com reject
-.qdp.qidian.com reject
-.res.gwifi.com.cn reject
-.ssp.kssws.ks-cdn.com reject
-.stats.chinaz.com reject
-.stats.developingperspective.com reject
-.stats.jpush.cn reject
-.tjlog.easou.com reject
-.tjlog.ps.easou.com reject
-.track.hujiang.com reject
-.tracker.yhd.com reject
-.up.qingdaonews.com reject
-
-# 广告联盟
-.111cn.net reject
-.114la.com reject
-.123juzi.net reject
-.2cnt.net reject
-.3gmimo.com reject
-.51.la reject
-.51yes.com reject
-.6dad.com reject
-.86.cc reject
-.8ox.cn reject
-.95558000.com reject
-.99click.com reject
-.99youmeng.com reject
-.acs86.com reject
-.acxiom-online.com reject
-.ad-brix.com reject
-.ad-plus.cn reject
-.ad7.com reject
-.adadapted.com reject
-.adadvisor.net reject
-.adap.tv reject
-.adbxb.com reject
-.adchina.com reject
-.adcolony.com reject
-.adcome.cn reject
-.ader.mobi reject
-.adform.net reject
-.adfurikun.jp reject
-.adfuture.cn reject
-.adhouyi.com reject
-.adinall.com reject
-.adinfuse.com reject
-.adirects.com reject
-.adjust.com reject
-.adjust.io reject
-.adlive.cn reject
-.admin5.com reject
-.admin6.com reject
-.admon.cn reject
-.adnxs.com reject
-.adpolestar.net reject
-.adpro.cn reject
-.adpush.cn reject
-.adquan.com reject
-.adroll.com reject
-.ads8.com reject
-.adsame.com reject
-.adsmogo.com reject
-.adsunflower.com reject
-.adsunion.com reject
-.adups.com reject
-.aduu.cn reject
-.advertising.com reject
-.adview.cn reject
-.advmob.cn reject
-.adwhirl.com reject
-.adwo.com reject
-.adxmi.com reject
-.adzerk.net reject
-.agrantsem.com reject
-.ajapk.com reject
-.allyes.cn reject
-.allyes.com reject
-.amazon-adsystem.com reject
-.analysys.cn reject
-.angsrvr.com reject
-.anquan.org reject
-.anysdk.com reject
-.appads.com reject
-.appboy.com reject
-.appdriver.cn reject
-.applifier.com reject
-.applovin.com reject
-.appsflyer.com reject
-.atdmt.com reject
-.baifendian.com reject
-.baoyatu.cc reject
-.baycode.cn reject
-.behe.com reject
-.biddingos.com reject
-.biddingx.com reject
-.bsdev.cn reject
-.btyou.com reject
-.bugtags.com reject
-.buysellads.com reject
-.c0563.com reject
-.casalemedia.com reject
-.cdnmaster.com reject
-.chance-ad.com reject
-.chartbeat.com reject
-.chartboost.com reject
-.chmae.com reject
-.clicktracks.com reject
-.clickzs.com reject
-.cmcore.com reject
-.cnzz.com reject
-.cnzzlink.com reject
-.cocounion.com reject
-.coolguang.com reject
-.coremetrics.com reject
-.cpx24.com reject
-.criteo.com reject
-.crosschannel.com reject
-.crunchyroll.com reject
-.customer-security.online reject
-.daoyoudao.com reject
-.ddapp.cn reject
-.dianru.com reject
-.domob.cn reject
-.domob.com.cn reject
-.domob.org reject
-.doubleverify.com reject
-.duomeng.cn reject
-.edigitalsurvey.com reject
-.effectivemeasure.com reject
-.emarbox.com reject
-.fancyapi.com reject
-.fastapi.net reject
-.fastclick.net reject
-.flashtalking.com reject
-.flurry.com reject
-.getui.com reject
-.go-mpulse reject
-.growingio.com reject
-.guohead.com reject
-.guomob.com reject
-.haoghost.com reject
-.icast.cn reject
-.igexin.com reject
-.imageter.com reject
-.immob.cn reject
-.inad.com reject
-.inmobi.com reject
-.inmobicdn.net reject
-.innity.com reject
-.intely.cn reject
-.iperceptions.com reject
-.ipinyou.com reject
-.irs01.com reject
-.irs01.net reject
-.irs09.com reject
-.istreamsche.com reject
-.jesgoo.com reject
-.jiguang.cn reject
-.jisucn.com reject
-.jpush.cn reject
-.jusha.com reject
-.kejet.com reject
-.kejet.net reject
-.keyrun.cn reject
-.kmd365.com reject
-.krux.net reject
-.leadboltads.net reject
-.lnk0.com reject
-.localytics.com reject
-.lomark.cn reject
-.lotuseed.com reject
-.lufax.com reject
-.madmini.com reject
-.madserving.com reject
-.magicwindow.cn reject
-.mathtag.com reject
-.maysunmedia.com reject
-.mediaplex.com reject
-.mediav.com reject
-.megajoy.com reject
-.mgogo.com reject
-.miaozhen.com reject
-.miidi.net reject
-.mixpanel.com reject
-.mng-ads.com reject
-.moatads.com reject
-.mobaders.com reject
-.mobclix.com reject
-.mobfox.com reject
-.mobgi.com reject
-.mobisage.cn reject
-.mobvista.com reject
-.mopub.com reject
-.mpush.cn reject
-.mxpnl.com reject
-.mydas.mobi reject
-.mzy2014.com reject
-.networkbench.com reject
-.newrelic.com reject
-.nexage.com reject
-.ninebox.cn reject
-.ntalker.com reject
-.o2omobi.com reject
-.oadz.com reject
-.oneapm.com reject
-.onetad.com reject
-.optaim.com reject
-.optimix.asia reject
-.optimizelyapis.com reject
-.overture.com reject
-.p0y.cn reject
-.pagechoice.net reject
-.pingdom.net reject
-.pro.cn reject
-.publicidad.net reject
-.publicidad.tv reject
-.pubmatic.com reject
-.pubnub.com reject
-.qcl777.com reject
-.qiyou.com reject
-.qtmojo.com reject
-.quantcount.com reject
-.quantserve.com reject
-.qucaigg.com reject
-.qumi.com reject
-.qxxys.com reject
-.reachmax.cn reject
-.responsys.net reject
-.revsci.net reject
-.rlcdn.com reject
-.rtbasia.com reject
-.sanya1.com reject
-.scorecardresearch.com reject
-.segment.com reject
-.serving-sys.com reject
-.shuiguo.com reject
-.shuzilm.cn reject
-.sitemeter.com reject
-.sitescout.com reject
-.smartadserver.com reject
-.smartmad.com reject
-.somecoding.com reject
-.sponsorpay.com reject
-.statcounter.com reject
-.stg8.com reject
-.switchadhub.com reject
-.synacast.com reject
-.sysdig.com reject
-.tansuotv.com reject
-.tapjoy.cn reject
-.tapjoyads.com reject
-.th7.cn reject
-.thoughtleadr.com reject
-.tiqcdn.com reject
-.trafficjam.cn reject
-.trafficmp.com reject
-.ugvip.com reject
-.ujian.cc reject
-.ukeiae.com reject
-.umtrack.com reject
-.unimhk.com reject
-.union-wifi.com reject
-.unionsy.com reject
-.unlitui.com reject
-.uri6.com reject
-.ushaqi.com reject
-.usingde.com reject
-.uyunad.com reject
-.vamaker.com reject
-.voiceads.cn reject
-.vpon.com reject
-.vungle.cn reject
-.waps.cn reject
-.wapx.cn reject
-.webterren.com reject
-.whpxy.com reject
-.winads.cn reject
-.winasdaq.com reject
-.wiyun.com reject
-.wooboo.com.cn reject
-.wqmobile.com reject
-.wrating.com reject
-.xiaozhen.com reject
-.xibao100.com reject
-.xy.com reject
-.yandui.com reject
-.yigao.com reject
-.yijifen.com reject
-.yiqifa.com reject
-.yiwk.com reject
-.ylunion.com reject
-.ymapp.com reject
-.ymcdn.cn reject
-.yooli.com reject
-.youmi.net reject
-.youxiaoad.com reject
-.yrxmr.com reject
-.ysjwj.com reject
-.yunjiasu.com reject
-.zampdsp.com reject
-.zedo.com reject
-.zhidian3g.cn reject
-.zhiziyun.com reject
-.zzsx8.com reject
-
-# 垃圾网站
-.appget.cn reject
-.appuu.cn reject
-
-### 电信运营商广告
-.114so.cn reject
-.go.10086.cn reject
-.navi.gd.chinamobile.com reject
-
-# China_mobile 移动
-# Beijing Mobile Float reject
-221.179.140.0 221.179.140.255 reject
-221.179.140.145 221.179.140.145 reject
-
-# China_unicom 联通
-# Beijing Unicom Float reject
-114.247.28.96 114.247.28.96 reject
-# HangZhou Unicom Float reject
-124.160.194.11 124.160.194.11 reject
-# Heilongjiang Unicom Float reject
-221.212.180.31 221.212.180.31 reject
-# ShangHai Unicom Float reject
-220.196.52.141 220.196.52.141 reject
-# Sichuan Unicom Float reject
-119.4.249.166 119.4.249.166 reject
-# Wuhan Unicom Float reject
-113.57.230.88 113.57.230.88 reject
-# Shenzhen Unicom Float reject
-120.80.57.123 120.80.57.123 reject
-
-# China_telecom 电信
-# JiangSu Telecom Float reject
-61.160.200.252 61.160.200.252 reject
-221.228.17.152 221.228.17.152 reject
-# Hefei Telecom Float reject
-61.132.216.232 61.132.216.232 reject
-61.132.221.146 61.132.221.146 reject
-61.132.255.212 61.132.255.212 reject
-61.132.255.222 61.132.255.222 reject
-61.132.255.232 61.132.255.232 reject
-61.191.12.74 61.191.12.74 reject
-61.191.206.4 61.191.206.4 reject
-# WuHan Telecom Float
-111.175.220.160 111.175.220.167 reject
-# Zhejiang Telecom Float reject
-60.191.124.196 60.191.124.196 reject
-61.174.50.167 61.174.50.167 reject
-61.160.200.242 61.160.200.242 reject
-
-# Dr.Peng Float
-118.144.88.215 118.144.88.215 reject
-220.115.251.25 220.115.251.25 reject
-47.94.89.32 47.94.89.32 reject
-
-14.63.198.45 14.63.198.45 reject
-23.42.186.24 23.42.186.24 reject
-23.66.147.48 23.66.147.48 reject
-59.110.16.35 59.110.16.35 reject
-101.227.12.0 101.227.13.255 reject
-101.227.14.0 101.227.14.255 reject
-101.227.119.0 101.227.119.255 reject
-101.227.200.0 101.227.200.255 reject
-106.11.11.86 106.11.11.86 reject
-107.20.211.189 107.20.211.189 reject
-107.21.113.76 107.21.113.76 reject
-108.61.200.51 108.61.200.51 reject
-111.30.135.167 111.30.135.167 reject
-111.63.135.0 111.63.135.255 reject
-111.206.13.60 111.206.13.63 reject
-111.206.13.64 111.206.13.79 reject
-111.206.13.80 111.206.13.80 reject
-111.206.13.250 111.206.13.251 reject
-111.206.22.0 111.206.22.255 reject
-113.207.57.24 113.207.57.24 reject
-115.29.247.48 115.29.247.48 reject
-116.206.22.7 116.206.22.7 reject
-117.34.51.0 117.34.51.255 reject
-119.188.13.0 119.188.13.255 reject
-120.26.151.246 120.26.151.246 reject
-120.55.199.139 120.55.199.139 reject
-120.77.11.172 120.77.11.172 reject
-120.132.63.203 120.132.63.203 reject
-121.42.144.95 121.42.144.95 reject
-121.43.75.169 121.43.75.169 reject
-121.201.11.95 121.201.11.95 reject
-121.201.108.2 121.201.108.2 reject
-121.251.255.0 121.251.255.255 reject
-122.72.50.17 122.72.50.17 reject
-122.226.223.163 122.226.223.163 reject
-123.57.94.184 123.57.94.184 reject
-123.125.111.0 123.125.111.255 reject
-123.125.117.0 123.125.117.255 reject
-123.125.118.0 123.125.118.255 reject
-123.139.154.0 123.139.154.255 reject
-123.206.1.246 123.206.1.246 reject
-124.116.241.0 124.116.241.255 reject
-140.205.36.26 140.205.36.26 reject
-180.76.163.245 180.76.163.245 reject
-180.76.171.28 180.76.171.28 reject
-180.76.190.68 180.76.190.68 reject
-182.48.119.159 182.48.119.159 reject
-183.131.79.130 183.131.79.130 reject
-211.98.71.195 211.98.71.195 reject
-211.98.71.196 211.98.71.196 reject
-211.137.132.89 211.137.132.89 reject
-221.179.183.0 221.179.183.255 reject
-221.179.191.0 221.179.191.255 reject
-# 广告拦截 end
-
 # 代理规则
 # MyList
 .bit.no.com remoteproxy
@@ -6331,3 +4971,1366 @@
 .zh-yue.wikipedia.org 198.35.26.96
 .zh.wikipedia.org 198.35.26.96
 .zh.m.wikipedia.org 198.35.26.96
+# Hosts end
+
+# 广告拦截
+# 163
+.adgeo.corp.163.com reject
+.bobo.corp.163.com reject
+.fa.corp.163.com reject
+.g.corp.163.com reject
+.g1.corp.163.com reject
+.gb.corp.163.com reject
+.nex.corp.163.com reject
+.adgeo.163.com reject
+.bobo.163.com reject
+.fa.163.com reject
+.g.163.com reject
+.g1.163.com reject
+.gb.163.com reject
+.nex.163.com reject
+.analytics.126.net reject
+.img1.126.net reject
+.img2.126.net reject
+.mimg.126.net reject
+.ws.126.net reject
+.push.126.net reject
+.haitaoad.nosdn.127.net reject
+
+.a.youdao.com reject
+.c.youdao.com reject
+.clkservice.youdao.com reject
+.conv.youdao.com reject
+.dsp.youdao.com reject
+.dsp-impr2.youdao.com reject
+.gorgon.youdao.com reject
+.impservice2.youdao.com reject
+.impservice.youdao.com reject
+.rlogs.youdao.com reject
+.union.youdao.com reject
+.ydpushserver.youdao.com reject
+.nc004x.corp.youdao.com reject
+.nc045x.corp.youdao.com reject
+.qt002x.corp.youdao.com reject
+.tb060x.corp.youdao.com reject
+.tb104x.corp.youdao.com reject
+.impservice.chn1.youdao.com reject
+.impservice.dict.youdao.com reject
+.impservice.dictapp.youdao.com reject
+.impservice.ictvista.youdao.com reject
+.impservice.dictweb.youdao.com reject
+.impservice.dictword.youdao.com reject
+.impservice.mail.youdao.com reject
+.impservice.union.youdao.com reject
+
+.oimagea2.ydstatic.com reject
+.pagechoice.net reject
+.prom.gome.com.cn reject
+.qchannel0d.cn reject
+.static.flv.uuzuonline.com reject
+.wanproxy.127.net reject
+
+# 17173
+.cvda.17173.com reject
+.imgapp.yeyou.com reject
+.log1.17173.com reject
+.s.17173cdn.com reject
+.ue.yeyoucdn.com reject
+.vda.17173.com reject
+
+# 178
+.analytics.wanmei.com reject
+.gg.stargame.com reject
+
+# 2345
+.dl.2345.cn reject
+.download.2345.cn reject
+.wan.2345.cn reject
+.jifendownload.2345.cn reject
+
+# 360
+.3600.com reject
+.api.so.lianmeng.360.cn reject
+.wan.360.cn reject
+.gamebox.360.cn reject
+.kuaikan.netmon.360safe.com reject
+.leak.360.cn reject
+.lianmeng.360.cn reject
+.pub.se.360.cn reject
+.s.so.360.cn reject
+.shouji.360.cn reject
+.soft.data.weather.360.cn reject
+.stat.360safe.com reject
+.stat.m.360.cn reject
+.update.360safe.com reject
+
+# 58
+.58.xgo.com.cn reject
+.imp.xgo.com.cn reject
+.stat.xgo.com.cn reject
+.brandshow.58.com reject
+.jing.58.com reject
+.track.58.com reject
+
+# Ali
+.adash.m.taobao.com reject
+.adsh.m.taobao.com reject
+.adashx4yt.m.taobao.com reject
+.adash-c.m.taobao.com reject
+.ai.m.taobao.com reject
+.apoll.m.taobao.com reject
+.re.m.taobao.com reject
+.rj.m.taobao.com reject
+.simaba.m.taobao.com reject
+.fav.simba.taobao.com reject
+.m.simba.taobao.com reject
+.redirect.simba.taobao.com reject
+.srd.simba.taobao.com reject
+.textlink.simba.taobao.com reject
+.tns.simba.taobao.com reject
+.nbsdk-baichuan.taobao.com reject
+.sdkinit.taobao.com reject
+.simaba.taobao.com reject
+.tyh.taobao.com reject
+.appdownload.alicdn.com reject
+.afp.alicdn.com reject
+.atanx.alicdn.com reject
+.atanx2.alicdn.com reject
+.dorangesource.alicdn.com reject
+.gma.alicdn.com reject
+.gtmsdd.alicdn.com reject
+.nbsdk-baichuan.alicdn.com reject
+.a.alimama.cn reject
+.acjs.aliyun.com reject
+.adash-c.ut.taobao.com reject
+.adashxgc.ut.taobao.com reject
+.alipaylog.com reject
+.amdc.alipay.com reject
+.click.mz.simba.taobao.com reject
+.g.click.taobao.com reject
+.g.tbcdn.cn reject
+.hydra.alibaba.com reject
+.pics.taobaocdn.com reject
+.pindao.huoban.taobao.com reject
+.show.re.taobao.com reject
+.strip.taobaocdn.com reject
+.userimg.qunar.com reject
+.yiliao.hupan.com reject
+
+# Baidu
+.a.baidu.com reject
+.adapp.baidu.com reject
+.adm.baidu.com reject
+.as.baidu.com reject
+.baichuan.baidu.com reject
+.baidutv.baidu.com reject
+.bar.baidu.com reject
+.c.baidu.com reject
+.cb.baidu.com reject
+.cbjs.baidu.com reject
+.cbjslog.baidu.com reject
+.cjhq.baidu.com reject
+.cpro.baidu.com reject
+.cpro2.baidu.com reject
+.crs.baidu.com reject
+.datax.baidu.com reject
+.dj1.baidu.com reject
+.downapp.baidu.com reject
+.drmcmm.baidu.com reject
+.dxp.baidu.com reject
+.e.baidu.com reject
+.eclick.baidu.com reject
+.eiv.baidu.com reject
+.entry.baidu.com reject
+.hc.baidu.com reject
+.hm.baidu.com reject
+.hmma.baidu.com reject
+.imageplus.baidu.com reject
+.ma.baidu.com reject
+.mobads-logs.baidu.com reject
+.mobads.baidu.com reject
+.mtj.baidu.com reject
+.nsclick.baidu.com reject
+.pos.baidu.com reject
+.pups.baidu.com reject
+.rj.baidu.com reject
+.rp.baidu.com reject
+.spcode.baidu.com reject
+.tk.baidu.com reject
+.tongji.baidu.com reject
+.tuisong.baidu.com reject
+.ucstat.baidu.com reject
+.ufosdk.baidu.com reject
+.union.baidu.com reject
+.utility.baidu.com reject
+.utk.baidu.com reject
+.videopush.baidu.com reject
+.wangmeng.baidu.com reject
+.wm.baidu.com reject
+.youqian.baidu.com reject
+.znsv.baidu.com reject
+.ashifen.com reject
+.baidu9635.com reject
+.bj.bcebos.com reject
+.boscdn.bpc.baidu.com reject
+.cpro.baidu.com.cn reject
+.cpro.tieba.baidu.com reject
+.cpro.zhidao.baidu.com reject
+.itsdata.map.baidu.com reject
+.log.nuomi.com reject
+.push.music.baidu.com reject
+.push.zhanzhang.baidu.com reject
+.res.limei.com reject
+.shifen.com reject
+.static.map.bdimg.com reject
+.static.su.baidu.com reject
+.static.tieba.baidu.com reject
+.ubmcmm.baidustatic.com reject
+.ulog.imap.baidu.com reject
+.wisepush.video.baidu.com reject
+.zz.bdstatic.com reject
+
+# Book-app 起点 掌阅 书旗 宜搜
+.adm.ps.easou.com reject
+.assets.ps.easou.com reject
+.tjlog.ps.easou.com reject
+.adm.easou.com reject
+.assets.easou.com reject
+.tjlog.easou.com reject
+.ad.zhangyue.com reject
+.push.zhangyue.com reject
+.cj.qidian.com reject
+.game.qidian.com reject
+.tongji.qidian.com reject
+.api.itaoxiaoshuo.com reject
+.o.if.qidian.com reject
+.s1.cmfu.com reject
+.ut2.shuqistat.com reject
+
+# Dangdang
+.a.dangdang.com reject
+.click.dangdang.com reject
+.schprompt.dangdang.com reject
+.t.dangdang.com reject
+
+# Duomi
+.ad.duomi.com reject
+.boxshows.com reject
+
+# Facebook
+.staticxx.facebook.com reject
+
+# Fang
+.click1n.soufun.com reject
+.clickm.fang.com reject
+.clickn.fang.com reject
+.countpvn.light.fang.com reject
+.countubn.light.soufun.com reject
+.mshow.fang.com reject
+.tongji.home.soufun.com reject
+
+# Google
+.2mdn.net reject
+.admob.com reject
+.ads.gmodules.com reject
+.ads.google.com reject
+.afd.l.google.com reject
+.badad.googleplex.com reject
+.csi.gstatic.com reject
+.doubleclick.com reject
+.doubleclick.net reject
+.google-analytics.com reject
+.googleadservices.com reject
+.googleadsserving.cn reject
+.googlecommerce.com reject
+.googlesyndication.com reject
+.mobileads.google.com reject
+.pagead-tpc.l.google.com reject
+.pagead.google.com reject
+.pagead.l.google.com reject
+.service.urchin.com reject
+
+# JD
+.c-nfa.jd.com reject
+.du.jd.com reject
+.jrclick.jd.com reject
+.jzt.jd.com reject
+.policy.jd.com reject
+.x.jd.com reject
+.ads.union.jd.com reject
+.click.jr.jd.com reject
+.cps.360buy.com reject
+.stat.m.jd.com reject
+
+# Kugou
+.d.kugou.com reject
+.downmobile.kugou.com reject
+.fanxing.kugou.com reject
+.gad.kugou.com reject
+.game.kugou.com reject
+.gg.kugou.com reject
+.install.kugou.com reject
+.install2.kugou.com reject
+.kgmobilestat.kugou.com reject
+.minidcsc.kugou.com reject
+.mo.kugou.com reject
+.mobilelog.kugou.com reject
+.mvads.kugou.com reject
+.p.kugou.com reject
+.rtmonitor.kugou.com reject
+.sdn.kugou.com reject
+.tj.kugou.com reject
+.msg.mobile.kugou.com reject
+.push.mobile.kugou.com reject
+.update.mobile.kugou.com reject
+.ads.service.kugou.com reject
+.gcapi.sy.kugou.com reject
+.kuaikaiapp.com reject
+.log.stat.kugou.com reject
+
+# Kuwo
+.deliver.kuwo.cn reject
+.g.kuwo.cn reject
+.log.kuwo.cn reject
+.kwmsg.kuwo.cn reject
+.mobilead.kuwo.cn reject
+.msclick2.kuwo.cn reject
+.msphoneclick.kuwo.cn reject
+.updatepage.kuwo.cn reject
+.wa.kuwo.cn reject
+.webstat.kuwo.cn reject
+.apk.shouji.koowo.com reject
+.g.koowo.com reject
+
+# Meizu flyme 魅族
+.aider-res.meizu.com reject
+.api-flow.meizu.com reject
+.api-game.meizu.com reject
+.cal.meizu.com reject
+.ebook.meizu.com reject
+.game-res.meizu.com reject
+.infocenter.meizu.com reject
+.openapi-news.meizu.com reject
+.reader.meizu.com reject
+.tongji-res1.meizu.com reject
+.tongji.meizu.com reject
+.uxip.meizu.com reject
+.ebook.res.meizu.com reject
+.game.res.meizu.com reject
+.push.res.meizu.com reject
+.reader.res.meizu.com reject
+.upush.res.meizu.com reject
+.bro.flyme.cn reject
+.t-e.flyme.cn reject
+.t-flow.flyme.cn reject
+.aries.mzres.com reject
+.umid.orion.meizu.com reject
+
+# Meitu
+.a.koudai.com reject
+.corp.meitu.com reject
+.gg.meitu.com reject
+.meitubeauty.meitudata.com reject
+.message.meitu.com reject
+.tuiguang.meitu.com reject
+.xiuxiu.android.dl.meitu.com reject
+.xiuxiu.mobile.meitudata.com reject
+
+# Miui 小米
+.abtest.mistat.xiaomi.com reject
+.data.mistat.xiaomi.com reject
+.ad.xiaomi.com reject
+.ad1.xiaomi.com reject
+.shenghuo.xiaomi.com reject
+.xmpush.xiaomi.com reject
+.notice.game.xiaomi.com reject
+.ppurifier.game.xiaomi.com reject
+.d.g.miui.com reject
+.migc.g.miui.com reject
+.migcreport.g.miui.com reject
+.mis.g.miui.com reject
+.hot.browser.miui.com reject
+.r.browser.miui.com reject
+.security.browser.miui.com reject
+.a.stat.xiaomi.com reject
+.a.union.mi.com reject
+.resolver.gslb.mi-idc.com reject
+.resolver.msg.xiaomi.net reject
+.tracking.miui.com reject
+
+# Moji
+.ad.api.moji.com reject
+.app.moji001.com reject
+.cdn.moji.com reject
+.cdn.moji002.com reject
+.cdn2.moji002.com reject
+.fds.api.moji.com reject
+.log.moji.com reject
+.stat.moji.com reject
+.ugc.moji001.com reject
+
+# Qingting.fm
+.ad.qingting.fm reject
+.admgr.qingting.fm reject
+.logger.qingting.fm reject
+.dload.qd.qingting.fm reject
+.s.qd.qingting.fm reject
+.s.qd.qingtingfm.com reject
+
+# QQ
+.act.qq.com reject
+.adsfile.qq.com reject
+.bugly.qq.com reject
+.buluo.qq.com reject
+.beacon.qq.com reject
+.e.qq.com reject
+.gdt.qq.com reject
+.monitor.qq.com reject
+.pingma.qq.com reject
+.pingtcss.qq.com reject
+.report.qq.com reject
+.tajs.qq.com reject
+.tcss.qq.com reject
+.uu.qq.com reject
+.ad.qun.qq.com reject
+
+# RenRen
+.jebe.renren.com reject
+.ebp.renren.com reject
+.jebe.xnimg.cn reject
+
+# Sina
+.adimg.mobile.sina.cn reject
+.pay.mobile.sina.cn reject
+.sax.mobile.sina.cn reject
+.sdkapp.mobile.sina.cn reject
+.sdkclick.mobile.sina.cn reject
+.trends.mobile.sina.cn reject
+.wbapp.mobile.sina.cn reject
+.wbclick.mobile.sina.cn reject
+.wbpctips.mobile.sina.cn reject
+.ad.sina.com reject
+.adbox.sina.com reject
+.adm.sina.com reject
+.atm.sina.com reject
+.beacon.sina.com reject
+.dd.sina.com reject
+.dcads.sina.com reject
+.dmp.sina.com reject
+.leju.sina.com reject
+.sax.sina.com reject
+.slog.sina.com reject
+.tjs.sina.com reject
+.ad.sina.com.cn reject
+.adbox.sina.com.cn reject
+.adm.sina.com.cn reject
+.atm.sina.com.cn reject
+.beacon.sina.com.cn reject
+.dd.sina.com.cn reject
+.dcads.sina.com.cn reject
+.dmp.sina.com.cn reject
+.leju.sina.com.cn reject
+.sax.sina.com.cn reject
+.slog.sina.com.cn reject
+.tjs.sina.com.cn reject
+.alitui.weibo.com reject
+.biz.weibo.com reject
+.game.weibo.com reject
+.wax.weibo.com reject
+.alitui.weibo.com.cn reject
+.biz.weibo.com.cn reject
+.game.weibo.com.cn reject
+.wax.weibo.com.cn reject
+.cre.dp.sina.cn reject
+.gw5.push.mcp.weibo.cn reject
+.log.mix.sina.com.cn reject
+.mobileads.dx.cn reject
+.newspush.sinajs.cn reject
+.sdkapp.uve.weibo.com reject
+.tjs.sjs.sinajs.cn reject
+.tui.weibo.com reject
+.wbapp.uve.weibo.com reject
+.zymo.mps.weibo.com reject
+
+# Sougou
+.123.sogou.com reject
+.brand.sogou.com reject
+.get.sogou.com reject
+.inte.sogou.com reject
+.iwan.sogou.com reject
+.pb.sogou.com reject
+.pd.sogou.com reject
+.wan.sogou.com reject
+.wangmeng.sogou.com reject
+.123.sogoucdn.com reject
+.galaxy.sogoucdn.com reject
+
+# Toutiao
+.ad.toutiao.com reject
+.d.toutiao.com reject
+.sm.toutiao.com reject
+.dsp.toutiao.com reject
+.nativeapp.toutiao.com reject
+.partner.toutiao.com reject
+.s3.bytecdn.cn reject
+
+# Twitter
+.ads.twitter.com reject
+.syndication.twitter.com reject
+.syndication-o.twitter.com reject
+.analytics.twitter.com reject
+.scribe.twitter.com reject
+.p.twitter.com reject
+.ads-twitter.com reject
+.tellapart.com reject
+.urls.api.twitter.com reject
+
+# UC ali
+.adslot.uc.cn reject
+.applog.uc.cn reject
+.track.uc.cn reject
+.cms.ucweb.com reject
+.puds.ucweb.com reject
+.uc.ucweb.com reject
+.ucsec1.ucweb.com reject
+.ucsec.ucweb.com reject
+.log.cs.pp.cn reject
+.patriot.cs.pp.cn reject
+.api.mp.uc.cn reject
+.client.video.ucweb.com reject
+.dispatcher.upmc.uc.cn reject
+.huichuan.sm.cn reject
+.m.uczzd.cn reject
+.server.m.pp.cn reject
+.u.uc123.com reject
+.u.ucfly.com reject
+
+# Weifeng
+.fengbuy.com reject
+.we.tm reject
+
+# WPS Office
+.bannera.kingsoft-office-service.com reject
+.rating6.kingsoft-office-service.com reject
+.docerad.wps.cn reject
+.gou.wps.cn reject
+.info.wps.cn reject
+.minfo.wps.cn reject
+.notify.wps.cn reject
+.pcfg.wps.cn reject
+.push.wps.cn reject
+.wpsweb-dc.wps.cn reject
+.ad.docer.wps.cn reject
+.adm.zookingsoft.com reject
+.bole.shangshufang.ksosoft.com reject
+.counter.kingsoft.com reject
+.dl.op.wpscdn.cn reject
+.hoplink.ksosoft.com reject
+.ic.ksosoft.com reject
+.img.gou.wpscdn.cn reject
+.ios-informationplatform.wps.cn reject
+.mo.res.wpscdn.cn reject
+.news.docer.com reject
+.news.op.wpscdn.cn reject
+.pc.uf.ksosoft.com reject
+.pixiu.shangshufang.ksosoft.com reject
+.up.wps.kingsoft.com reject
+
+# Wi-Fi key
+.c.51y5.net reject
+.cdsget.51y5.net reject
+.news-imgpb.51y5.net reject
+.wifiapidd.51y5.net reject
+.wkanc.51y5.net reject
+
+# Ximalaya 喜马拉雅
+.adse.ximalaya.com reject
+.linkeye.ximalaya.com reject
+.location.ximalaya.com reject
+.xdcs-collector.ximalaya.com reject
+
+# Xunlei 迅雷app&看看
+.biz5.kankan.com reject
+.float.kankan.com reject
+.logic.cpm.cm.kankan.com reject
+
+# Zhihu
+.sugar.zhihu.com reject
+.zhihu-web-analytics.zhihu.com reject
+.zhstatic.zhihu.com reject
+
+# Ads in Video apps
+
+# 6间房
+.shrek.6.cn reject
+.simba.6.cn reject
+.union.6.cn reject
+
+# Baofeng 暴风影音
+.logger.baofeng.com reject
+.xs.houyi.baofeng.net reject
+
+# Douyu
+.dotcounter.douyutv.com reject
+
+# Fenghuang 凤凰TV
+.aoodoo.feng.com reject
+.push.feng.com reject
+.yes1.feng.com reject
+.game.ifeng.com reject
+.ifashion.ifeng.com reject
+.stadig.ifeng.com reject
+.api.newad.ifeng.com reject
+.exp.3g.ifeng.com reject
+.iis3g.deliver.ifeng.com reject
+.mfp.deliver.ifeng.com reject
+
+# Funshion 风行
+.pub.funshion.com reject
+.adm.funshion.com reject
+.jobsfe.funshion.com reject
+.po.funshion.com reject
+.pv.funshion.com reject
+.stat.funshion.com reject
+
+# iqiyi PPS 爱奇艺
+.ad.m.iqiyi.com reject
+.afp.iqiyi.com reject
+.api.cupid.iqiyi.com reject
+.c.uaa.iqiyi.com reject
+.cloudpush.iqiyi.com reject
+.cm.passport.iqiyi.com reject
+.data.video.qiyi.com reject
+.emoticon.sns.iqiyi.com reject
+.gamecenter.iqiyi.com reject
+.hotchat-im.iqiyi.com reject
+.ifacelog.iqiyi.com reject
+.mbdlog.iqiyi.com reject
+.meta.video.qiyi.com reject
+.paopao.iqiyi.com reject
+.paopaod.qiyipic.com reject
+.policy.video.iqiyi.com reject
+.rcd.iqiyi.com reject
+.cmts.iqiyi.com reject
+.data.video.qiyi.com reject
+.msg.71.am reject
+.msga.cupid.iqiyi.com reject
+.paopao.iqiyi.com reject
+
+# Ku6 酷6
+.gug.ku6cdn.com reject
+.st.vq.ku6.cn reject
+.pq.stat.ku6.com reject
+.static.ku6.com reject
+
+# LeTV 乐视
+.ark.letv.com reject
+.dc.letv.com reject
+.fz.letv.com reject
+.g3.letv.com reject
+.minisite.letv.com reject
+.pro.letv.com reject
+.stat.letv.com reject
+.i0.letvimg.com reject
+.i3.letvimg.com reject
+.game.letvstore.com reject
+.n.mark.letv.com reject
+.pro.hoye.letv.com reject
+.static.app.m.letv.com reject
+
+# MGTV 芒果TV
+.bs.da.hunantv.com reject
+.log.da.hunantv.com reject
+.x.da.hunantv.com reject
+.log.v2.hunantv.com reject
+.mp4.res.hunantv.com reject
+.p2.hunantv.com reject
+
+# Sohu 搜狐
+.888.tv.sohu.com reject
+.lm.tv.sohu.com reject
+.push.tv.sohu.com reject
+.aty.hd.sohu.com reject
+.bd.hd.sohu.com reject
+.click.hd.sohu.com reject
+.click2.hd.sohu.com reject
+.ctr.hd.sohu.com reject
+.mb.hd.sohu.com reject
+.pv.hd.sohu.com reject
+.pb.hd.sohu.com reject
+.wl.hd.sohu.com reject
+.um.hd.sohu.com reject
+.hui.sohu.com reject
+.wan.sohu.com reject
+.yule.sohu.com reject
+.pv.sohu.com reject
+.api.k.sohu.com reject
+.count.vrs.sohu.com reject
+.goto.sms.sohu.com reject
+.i.go.sohu.com reject
+.pv.ott.hd.sohu.com reject
+.s.go.sohu.com reject
+.score.my.tv.sohu.com reject
+.zz.m.sohu.com reject
+
+# PPTV、PPLive
+.de.as.pptv.com reject
+.jp.as.pptv.com reject
+.afp.pplive.com reject
+.asimgs.pplive.cn reject
+.pp2.pptv.com reject
+.stat.pptv.com reject
+
+# QQ Live
+.aiseet.aa.atianqi.com reject
+.aiseet.atianqi.com reject
+.btrace.video.qq.com reject
+.c.l.qq.com reject
+.dp3.play.aiseet.atianqi.com reject
+.dp3.qq.com reject
+.livep.l.aiseet.atianqi.com reject
+.livep.l.qq.com reject
+.lives.l.aiseet.atianqi.com reject
+.lives.l.qq.com reject
+.livew.l.qq.com reject
+.mcgi.v.qq.com reject
+.mdevstat.qqlive.qq.com reject
+.monitor-uu.play.aiseet.atianqi.com reject
+.news-l.play.aiseet.atianqi.com reject
+.news.l.qq.com reject
+.omgmta1.qq.com reject
+.otheve.play.aiseet.atianqi.com reject
+.othstr.play.aiseet.atianqi.com reject
+.p-l.play.aiseet.atianqi.com reject
+.p.l.qq.com reject
+.sdkconfig.play.aiseet.atianqi.com reject
+.t-l.play.aiseet.atianqi.com reject
+.t.l.qq.com reject
+.u.l.qq.com reject
+.vmindhls.tc.qq.com reject
+.vv.play.aiseet.atianqi.com reject
+
+# Youku & Tudou
+.actives.youku.com reject
+.atm.youku.com reject
+.guanggaoad.youku.com reject
+.hz.youku.com reject
+.iyes.youku.com reject
+.l.youku.com reject
+.lstat.youku.com reject
+.lvip.youku.com reject
+.msg.youku.com reject
+.mobilemsg.youku.com reject
+.passport-log.youku.com reject
+.stat.youku.com reject
+.tdrec.youku.com reject
+.wan.youku.com reject
+.ykatr.youku.com reject
+.ykrec.youku.com reject
+.ykrectab.youku.com reject
+.ad.mobile.youku.com reject
+.gamex.mobile.youku.com reject
+.dev-push.m.youku.com reject
+.push.m.youku.com reject
+.sdk.m.youku.com reject
+.p.l.youku.com reject
+.r.l.youku.com reject
+.v.l.youku.com reject
+.adcontrol.tudou.com reject
+.adplay.tudou.com reject
+.goods.tudou.com reject
+.iwstat.tudou.com reject
+.nstat.tudou.com reject
+.stat.tudou.com reject
+.stats.tudou.com reject
+.a-dxk.play.api.3g.youku.com reject
+.ad.api.3g.tudou.com reject
+.ad.api.3g.youku.com reject
+.ad.api.mobile.youku.com reject
+.atm.youku.com reject
+.b.smartvideo.youku.com reject
+.c.yes.youku.com reject
+.dl.g.youku.com reject
+.e.stat.ykimg.com reject
+.hudong.pl.youku.com reject
+.l.ykimg.com reject
+.p-log.ykimg.com reject
+.p.l.ykimg.com reject
+.s.p.youku.com reject
+.store.tv.api.3g.youku.com reject
+.store.xl.api.3g.youku.com reject
+.test.ott.youku.com reject
+.urchin.lstat.youku.com reject
+.val.api.youku.com reject
+
+# Youtube
+.ads.youtube.com reject
+.azabu-u.ac.jp reject
+.couchcoaster.jp reject
+.crt.comodoca.com reject
+.delivery.dmkt-sp.jp reject
+.ehg-youtube.hitbox.com reject
+.m-78.jp reject
+.nichibenren.or.jp reject
+.nicorette.co.kr reject
+.ssl-youtube.2cnt.net reject
+.youtube.112.2o7.net reject
+.youtube.2cnt.net reject
+
+# Others ads in Video apps
+.acsystem.wasu.tv reject
+.ads.wasu.tv reject
+.afp.wasu.tv reject
+.ads.cdn.tvb.com reject
+.c.algovid.com reject
+.cc.xtgreat.com reject
+.d.dsp.imageter.com reject
+.dotcounter.douyutv.com reject
+.gg.jtertp.com reject
+.gridsum-vd.cntv.cn reject
+.kwflvcdn.000dn.com reject
+.logstat.t.sfht.com reject
+.match.rtbidder.net reject
+.n-st.vip.com reject
+.pop.uusee.com reject
+.static.bshare.cn reject
+.static.duoshuo.com reject
+.t.cr-nielsen.com reject
+.terren.cntv.cn reject
+
+# Ads in Video apps end
+
+# 常用网站广告
+.168.it168.com reject
+.adshownew.it168.com reject
+.stat.it168.com reject
+.1.win7china.com reject
+.2.win7china.com reject
+.33.autohome.com.cn reject
+.c.autohome.com.cn reject
+.pcd.autohome.com.cn reject
+.alert.autohome.com.cn reject
+.801.tianya.cn reject
+.803.tianya.cn reject
+.806.tianya.cn reject
+.808.tianya.cn reject
+.bdj.tianya.cn reject
+.dol.tianya.cn reject
+.click.tianya.cn reject
+.801.tianyaui.cn reject
+.803.tianyaui.cn reject
+.806.tianyaui.cn reject
+.808.tianyaui.cn reject
+.bdj.tianyaui.cn reject
+.dol.tianyaui.cn reject
+.click.tianyaui.cn reject
+.92x.tumblr.com reject
+.its-dori.tumblr.com reject
+.adm.10jqka.com.cn reject
+.eq.10jqka.com.cn reject
+.fund.10jqka.com.cn reject
+.ozone.10jqka.com.cn reject
+.stat.10jqka.com.cn reject
+.vaserviece.10jqka.com.cn reject
+.ad.house365.com reject
+.adadmin.house365.com reject
+.ads.house365.com reject
+.ad.csdn.net reject
+.ads.csdn.net reject
+.counter.csdn.net reject
+.ad.ganji.com reject
+.analytics.ganji.com reject
+.click.ganji.com reject
+.ganjituiguang.ganji.com reject
+.sta.ganji.com reject
+.tralog.ganji.com reject
+.app-monitor.ele.me reject
+.client-api.ele.me reject
+.grand.ele.me reject
+.mobile-pubt.ele.me reject
+.newton-api.ele.me reject
+.bd1.52che.com reject
+.bd2.52che.com reject
+.click.cheshi.com reject
+.media.cheshi.com reject
+.pv.cheshi.com reject
+.click.cheshi-img.com reject
+.media.cheshi-img.com reject
+.pv.cheshi-img.com reject
+.d0.xcar.com.cn reject
+.dw.xcar.com.cn reject
+.pv.xcar.com.cn reject
+.a1.itc.cn reject
+.ad.12306.cn reject
+.ad.3.cn reject
+.ad.95306.cn reject
+.ad.caiyunapp.com reject
+.ad.cctv.com reject
+.ad.thepaper.cn reject
+.ad.unimhk.com reject
+.adhome.1fangchan.com reject
+.adm.easou.com reject
+.admd.autoimg.cn reject
+.ads.feedly.com reject
+.ads.genieessp.com reject
+.ads.linkedin.com reject
+.ads.yahoo.com reject
+.advert.api.thejoyrun.com reject
+.api-deal.kechenggezi.com reject
+.api-z.weidian.com reject
+.bam.nr-data.net reject
+.bat.bing.com reject
+.beacon.tingyun.com reject
+.cdn.jiuzhilan.com reject
+.collector.githubapp.com reject
+.de.soquair.com reject
+.e.nexac.com reject
+.erebor.douban.com reject
+.exp.17wo.cn reject
+.game.51yund.com reject
+.hosting.miarroba.info reject
+.iadsdk.apple.com reject
+.image.gentags.com reject
+.js-agent.newrelic.com reject
+.lm.admin5.com reject
+.log.outbrain.com reject
+.m.12306media.com reject
+.n.cosbot.cn reject
+.pdl.gionee.com reject
+.picture.duokan.com reject
+.pixel.wp.com reject
+.pub.mop.com reject
+.push.wandoujia.com reject
+.qdp.qidian.com reject
+.res.gwifi.com.cn reject
+.ssp.kssws.ks-cdn.com reject
+.stats.chinaz.com reject
+.stats.developingperspective.com reject
+.stats.jpush.cn reject
+.tjlog.easou.com reject
+.tjlog.ps.easou.com reject
+.track.hujiang.com reject
+.tracker.yhd.com reject
+.up.qingdaonews.com reject
+
+# 广告联盟
+.111cn.net reject
+.114la.com reject
+.123juzi.net reject
+.2cnt.net reject
+.3gmimo.com reject
+.51.la reject
+.51yes.com reject
+.6dad.com reject
+.86.cc reject
+.8ox.cn reject
+.95558000.com reject
+.99click.com reject
+.99youmeng.com reject
+.acs86.com reject
+.acxiom-online.com reject
+.ad-brix.com reject
+.ad-plus.cn reject
+.ad7.com reject
+.adadapted.com reject
+.adadvisor.net reject
+.adap.tv reject
+.adbxb.com reject
+.adchina.com reject
+.adcolony.com reject
+.adcome.cn reject
+.ader.mobi reject
+.adform.net reject
+.adfurikun.jp reject
+.adfuture.cn reject
+.adhouyi.com reject
+.adinall.com reject
+.adinfuse.com reject
+.adirects.com reject
+.adjust.com reject
+.adjust.io reject
+.adlive.cn reject
+.admin5.com reject
+.admin6.com reject
+.admon.cn reject
+.adnxs.com reject
+.adpolestar.net reject
+.adpro.cn reject
+.adpush.cn reject
+.adquan.com reject
+.adroll.com reject
+.ads8.com reject
+.adsame.com reject
+.adsmogo.com reject
+.adsunflower.com reject
+.adsunion.com reject
+.adups.com reject
+.aduu.cn reject
+.advertising.com reject
+.adview.cn reject
+.advmob.cn reject
+.adwhirl.com reject
+.adwo.com reject
+.adxmi.com reject
+.adzerk.net reject
+.agrantsem.com reject
+.ajapk.com reject
+.allyes.cn reject
+.allyes.com reject
+.amazon-adsystem.com reject
+.analysys.cn reject
+.angsrvr.com reject
+.anquan.org reject
+.anysdk.com reject
+.appads.com reject
+.appboy.com reject
+.appdriver.cn reject
+.applifier.com reject
+.applovin.com reject
+.appsflyer.com reject
+.atdmt.com reject
+.baifendian.com reject
+.baoyatu.cc reject
+.baycode.cn reject
+.behe.com reject
+.biddingos.com reject
+.biddingx.com reject
+.bsdev.cn reject
+.btyou.com reject
+.bugtags.com reject
+.buysellads.com reject
+.c0563.com reject
+.casalemedia.com reject
+.cdnmaster.com reject
+.chance-ad.com reject
+.chartbeat.com reject
+.chartboost.com reject
+.chmae.com reject
+.clicktracks.com reject
+.clickzs.com reject
+.cmcore.com reject
+.cnzz.com reject
+.cnzzlink.com reject
+.cocounion.com reject
+.coolguang.com reject
+.coremetrics.com reject
+.cpx24.com reject
+.criteo.com reject
+.crosschannel.com reject
+.crunchyroll.com reject
+.customer-security.online reject
+.daoyoudao.com reject
+.ddapp.cn reject
+.dianru.com reject
+.domob.cn reject
+.domob.com.cn reject
+.domob.org reject
+.doubleverify.com reject
+.duomeng.cn reject
+.edigitalsurvey.com reject
+.effectivemeasure.com reject
+.emarbox.com reject
+.fancyapi.com reject
+.fastapi.net reject
+.fastclick.net reject
+.flashtalking.com reject
+.flurry.com reject
+.getui.com reject
+.go-mpulse reject
+.growingio.com reject
+.guohead.com reject
+.guomob.com reject
+.haoghost.com reject
+.icast.cn reject
+.igexin.com reject
+.imageter.com reject
+.immob.cn reject
+.inad.com reject
+.inmobi.com reject
+.inmobicdn.net reject
+.innity.com reject
+.intely.cn reject
+.iperceptions.com reject
+.ipinyou.com reject
+.irs01.com reject
+.irs01.net reject
+.irs09.com reject
+.istreamsche.com reject
+.jesgoo.com reject
+.jiguang.cn reject
+.jisucn.com reject
+.jpush.cn reject
+.jusha.com reject
+.kejet.com reject
+.kejet.net reject
+.keyrun.cn reject
+.kmd365.com reject
+.krux.net reject
+.leadboltads.net reject
+.lnk0.com reject
+.localytics.com reject
+.lomark.cn reject
+.lotuseed.com reject
+.lufax.com reject
+.madmini.com reject
+.madserving.com reject
+.magicwindow.cn reject
+.mathtag.com reject
+.maysunmedia.com reject
+.mediaplex.com reject
+.mediav.com reject
+.megajoy.com reject
+.mgogo.com reject
+.miaozhen.com reject
+.miidi.net reject
+.mixpanel.com reject
+.mng-ads.com reject
+.moatads.com reject
+.mobaders.com reject
+.mobclix.com reject
+.mobfox.com reject
+.mobgi.com reject
+.mobisage.cn reject
+.mobvista.com reject
+.mopub.com reject
+.mpush.cn reject
+.mxpnl.com reject
+.mydas.mobi reject
+.mzy2014.com reject
+.networkbench.com reject
+.newrelic.com reject
+.nexage.com reject
+.ninebox.cn reject
+.ntalker.com reject
+.o2omobi.com reject
+.oadz.com reject
+.oneapm.com reject
+.onetad.com reject
+.optaim.com reject
+.optimix.asia reject
+.optimizelyapis.com reject
+.overture.com reject
+.p0y.cn reject
+.pagechoice.net reject
+.pingdom.net reject
+.pro.cn reject
+.publicidad.net reject
+.publicidad.tv reject
+.pubmatic.com reject
+.pubnub.com reject
+.qcl777.com reject
+.qiyou.com reject
+.qtmojo.com reject
+.quantcount.com reject
+.quantserve.com reject
+.qucaigg.com reject
+.qumi.com reject
+.qxxys.com reject
+.reachmax.cn reject
+.responsys.net reject
+.revsci.net reject
+.rlcdn.com reject
+.rtbasia.com reject
+.sanya1.com reject
+.scorecardresearch.com reject
+.segment.com reject
+.serving-sys.com reject
+.shuiguo.com reject
+.shuzilm.cn reject
+.sitemeter.com reject
+.sitescout.com reject
+.smartadserver.com reject
+.smartmad.com reject
+.somecoding.com reject
+.sponsorpay.com reject
+.statcounter.com reject
+.stg8.com reject
+.switchadhub.com reject
+.synacast.com reject
+.sysdig.com reject
+.tansuotv.com reject
+.tapjoy.cn reject
+.tapjoyads.com reject
+.th7.cn reject
+.thoughtleadr.com reject
+.tiqcdn.com reject
+.trafficjam.cn reject
+.trafficmp.com reject
+.ugvip.com reject
+.ujian.cc reject
+.ukeiae.com reject
+.umtrack.com reject
+.unimhk.com reject
+.union-wifi.com reject
+.unionsy.com reject
+.unlitui.com reject
+.uri6.com reject
+.ushaqi.com reject
+.usingde.com reject
+.uyunad.com reject
+.vamaker.com reject
+.voiceads.cn reject
+.vpon.com reject
+.vungle.cn reject
+.waps.cn reject
+.wapx.cn reject
+.webterren.com reject
+.whpxy.com reject
+.winads.cn reject
+.winasdaq.com reject
+.wiyun.com reject
+.wooboo.com.cn reject
+.wqmobile.com reject
+.wrating.com reject
+.xiaozhen.com reject
+.xibao100.com reject
+.xy.com reject
+.yandui.com reject
+.yigao.com reject
+.yijifen.com reject
+.yiqifa.com reject
+.yiwk.com reject
+.ylunion.com reject
+.ymapp.com reject
+.ymcdn.cn reject
+.yooli.com reject
+.youmi.net reject
+.youxiaoad.com reject
+.yrxmr.com reject
+.ysjwj.com reject
+.yunjiasu.com reject
+.zampdsp.com reject
+.zedo.com reject
+.zhidian3g.cn reject
+.zhiziyun.com reject
+.zzsx8.com reject
+
+# 垃圾网站
+.appget.cn reject
+.appuu.cn reject
+
+### 电信运营商广告
+.114so.cn reject
+.go.10086.cn reject
+.navi.gd.chinamobile.com reject
+
+# China_mobile 移动
+# Beijing Mobile Float reject
+221.179.140.0 221.179.140.255 reject
+221.179.140.145 221.179.140.145 reject
+
+# China_unicom 联通
+# Beijing Unicom Float reject
+114.247.28.96 114.247.28.96 reject
+# HangZhou Unicom Float reject
+124.160.194.11 124.160.194.11 reject
+# Heilongjiang Unicom Float reject
+221.212.180.31 221.212.180.31 reject
+# ShangHai Unicom Float reject
+220.196.52.141 220.196.52.141 reject
+# Sichuan Unicom Float reject
+119.4.249.166 119.4.249.166 reject
+# Wuhan Unicom Float reject
+113.57.230.88 113.57.230.88 reject
+# Shenzhen Unicom Float reject
+120.80.57.123 120.80.57.123 reject
+
+# China_telecom 电信
+# JiangSu Telecom Float reject
+61.160.200.252 61.160.200.252 reject
+221.228.17.152 221.228.17.152 reject
+# Hefei Telecom Float reject
+61.132.216.232 61.132.216.232 reject
+61.132.221.146 61.132.221.146 reject
+61.132.255.212 61.132.255.212 reject
+61.132.255.222 61.132.255.222 reject
+61.132.255.232 61.132.255.232 reject
+61.191.12.74 61.191.12.74 reject
+61.191.206.4 61.191.206.4 reject
+# WuHan Telecom Float
+111.175.220.160 111.175.220.167 reject
+# Zhejiang Telecom Float reject
+60.191.124.196 60.191.124.196 reject
+61.174.50.167 61.174.50.167 reject
+61.160.200.242 61.160.200.242 reject
+
+# Dr.Peng Float
+118.144.88.215 118.144.88.215 reject
+220.115.251.25 220.115.251.25 reject
+47.94.89.32 47.94.89.32 reject
+
+14.63.198.45 14.63.198.45 reject
+23.42.186.24 23.42.186.24 reject
+23.66.147.48 23.66.147.48 reject
+59.110.16.35 59.110.16.35 reject
+101.227.12.0 101.227.13.255 reject
+101.227.14.0 101.227.14.255 reject
+101.227.119.0 101.227.119.255 reject
+101.227.200.0 101.227.200.255 reject
+106.11.11.86 106.11.11.86 reject
+107.20.211.189 107.20.211.189 reject
+107.21.113.76 107.21.113.76 reject
+108.61.200.51 108.61.200.51 reject
+111.30.135.167 111.30.135.167 reject
+111.63.135.0 111.63.135.255 reject
+111.206.13.60 111.206.13.63 reject
+111.206.13.64 111.206.13.79 reject
+111.206.13.80 111.206.13.80 reject
+111.206.13.250 111.206.13.251 reject
+111.206.22.0 111.206.22.255 reject
+113.207.57.24 113.207.57.24 reject
+115.29.247.48 115.29.247.48 reject
+116.206.22.7 116.206.22.7 reject
+117.34.51.0 117.34.51.255 reject
+119.188.13.0 119.188.13.255 reject
+120.26.151.246 120.26.151.246 reject
+120.55.199.139 120.55.199.139 reject
+120.77.11.172 120.77.11.172 reject
+120.132.63.203 120.132.63.203 reject
+121.42.144.95 121.42.144.95 reject
+121.43.75.169 121.43.75.169 reject
+121.201.11.95 121.201.11.95 reject
+121.201.108.2 121.201.108.2 reject
+121.251.255.0 121.251.255.255 reject
+122.72.50.17 122.72.50.17 reject
+122.226.223.163 122.226.223.163 reject
+123.57.94.184 123.57.94.184 reject
+123.125.111.0 123.125.111.255 reject
+123.125.117.0 123.125.117.255 reject
+123.125.118.0 123.125.118.255 reject
+123.139.154.0 123.139.154.255 reject
+123.206.1.246 123.206.1.246 reject
+124.116.241.0 124.116.241.255 reject
+140.205.36.26 140.205.36.26 reject
+180.76.163.245 180.76.163.245 reject
+180.76.171.28 180.76.171.28 reject
+180.76.190.68 180.76.190.68 reject
+182.48.119.159 182.48.119.159 reject
+183.131.79.130 183.131.79.130 reject
+211.98.71.195 211.98.71.195 reject
+211.98.71.196 211.98.71.196 reject
+211.137.132.89 211.137.132.89 reject
+221.179.183.0 221.179.183.255 reject
+221.179.191.0 221.179.191.255 reject
+
+# iQiyi IPs
+101.227.14.80 101.227.14.87 reject
+101.227.200.0 101.227.203.255 reject
+112.13.64.0 112.13.67.255 reject
+112.253.36.0 112.253.36.255 reject
+117.139.16.0 117.139.19.255 reject
+117.139.16.0 117.139.19.255 reject
+119.188.13.32 119.188.13.39 reject
+119.188.172.192 119.188.172.207 reject
+119.188.173.0 119.188.173.31 reject
+119.188.43.61 119.188.43.61 reject
+123.125.116.0 123.125.119.255 reject
+123.125.116.0 123.125.119.255 reject
+123.130.122.128 123.130.122.143 reject
+183.221.244.0 183.221.247.255 reject
+183.221.244.0 183.221.247.255 reject
+27.221.89.128 27.221.89.143 reject
+60.211.171.128 60.211.171.135 reject
+60.211.211.1 60.211.211.1 reject
+
+# 广告拦截 end
