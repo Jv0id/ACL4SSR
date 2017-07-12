@@ -62,10 +62,10 @@
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
 (^|\.)(analytics|img1|img2|mimg|ws|push)\.126\.net$
-(^|\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
-(^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.comimpservic$
+(^|\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|impservice|rlogs|union|ydpushserver)\.youdao\.com$
+(^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.com$
 (^|\.)haitaoad\.nosdn\.127\.net$
-(^|\.)impservic\.(chnl|dict|dictapp|ictvista|dictweb|dictword|mail)\.youdao\.com$
+(^|\.)impservice\.(chnl|dict|dictapp|ictvista|dictweb|dictword|mail|union)\.youdao\.com$
 (^|\.)oimagea2\.ydstatic\.com$
 (^|\.)pagechoice\.net$
 (^|\.)prom\.gome\.com\.cn$

@@ -1,6 +1,6 @@
 #**********************************************************************
-# 7.11
-# 2017年7月11日16:06:21
+# 7.12
+# 2017年7月12日 16:41:38
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -62,10 +62,10 @@
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
 (^|\.)(analytics|img1|img2|mimg|ws|push)\.126\.net$
-(^|\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|rlogs|union|ydpushserver)\.youdao\.com$
-(^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.comimpservic$
+(^|\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|impservice|rlogs|union|ydpushserver)\.youdao\.com$
+(^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.com$
 (^|\.)haitaoad\.nosdn\.127\.net$
-(^|\.)impservic\.(chnl|dict|dictapp|ictvista|dictweb|dictword|mail)\.youdao\.com$
+(^|\.)impservice\.(chnl|dict|dictapp|ictvista|dictweb|dictword|mail|union)\.youdao\.com$
 (^|\.)oimagea2\.ydstatic\.com$
 (^|\.)pagechoice\.net$
 (^|\.)prom\.gome\.com\.cn$
