@@ -1,6 +1,6 @@
 #**********************************************************************
 # 7.12
-# 2017年7月12日 16:40:07
+# 2017年7月12日 23:03:39
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 # 实验功能：域名广告关键字拦截
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -126,9 +126,9 @@
 (^|\.)yiliao\.hupan\.com$
 
 # Baidu
-(^|\.)(a|adapp|adm|as|baichuan|baidutv|bar|bce|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|crs|datax|dj1|downapp|drmcmm|dxp|e|eclick|eiv|entry)\.baidu\.com$
+(^|\.)(a|adapp|adm|as|baichuan|baidutv|bar|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|crs|datax|dj1|downapp|drmcmm|dxp|e|eclick|eiv|entry)\.baidu\.com$
 (^|\.)(hc|hm|hmma|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
-(^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|youqian|zhanzhang|znsv)\.baidu\.com$
+(^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|youqian|znsv)\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
 (^|\.)bj\.bcebos\.com$
@@ -206,7 +206,7 @@
 (^|\.)stat\.m\.jd\.com$
 
 # Kugou
-(^|\.)(d|downmobile|fanxing|gad|game|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj|)\.kugou\.com$
+(^|\.)(d|downmobile|fanxing|gad|game|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
 (^|\.)(msg|push|update)\.mobile\.kugou\.com$
 (^|\.)ads\.service\.kugou\.com$
 (^|\.)gcapi\.sy\.kugou\.com$
@@ -496,7 +496,7 @@
 (^|\.)(dev-push|push|sdk)\.m\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)a-dxk\.play\.api\.3g\.youku\.com$
-(^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
+(^|\.)ad\.api\.3g(\.tudou|\.youku)\.com$
 (^|\.)ad\.api\.mobile\.youku\.com$
 (^|\.)atm\.youku\.com$
 (^|\.)b\.smartvideo\.youku\.com$
@@ -1435,7 +1435,6 @@
 (^|\.)bb\.ttv\.com\.tw$
 (^|\.)bbc\.co\.uk$
 (^|\.)bbc\.com$
-(^|\.)bbc\.com%2Fzhongwen$
 (^|\.)bbc\.in$
 (^|\.)bbcchinese\.com$
 (^|\.)bbchat\.tv$
@@ -1457,7 +1456,6 @@
 (^|\.)bbs\.ozchinese\.com$
 (^|\.)bbs\.qmzdd\.com$
 (^|\.)bbs\.sina\.com$
-(^|\.)bbs\.sina\.com%2F$
 (^|\.)bbs\.skykiwi\.com$
 (^|\.)bbs\.sou-tong\.org$
 (^|\.)bbs\.tuitui\.info$
@@ -2026,7 +2024,6 @@
 (^|\.)dailidaili\.com$
 (^|\.)dailymotion\.com$
 (^|\.)dailynews\.sina\.com$
-(^|\.)dailynews\.sina\.com%2F$
 (^|\.)daiphapinfo\.net$
 (^|\.)dajiyuan\.com$
 (^|\.)dajiyuan\.de$
@@ -4081,7 +4078,6 @@
 (^|\.)news\.msn\.com\.tw$
 (^|\.)news\.nationalgeographic\.com$
 (^|\.)news\.now\.com$
-(^|\.)news\.now\.com%2Fhome$
 (^|\.)news\.omy\.sg$
 (^|\.)news\.sina\.com\.hk$
 (^|\.)news\.sina\.com\.tw$

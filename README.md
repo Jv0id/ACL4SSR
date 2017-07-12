@@ -3,7 +3,7 @@
 
 # Telegram频道订阅地址：**https://t.me/ACL4SSR**
 
-# 20170627公告：我们已经注意到SSR C#4.6.0版本更新了新特性：自定义规则。本项目近期将增加此种自定义规则文件的支持，请耐心等待更新，谢谢各位用户的支持！
+# 20170712公告：发布第一版SSR C# GFWList自定义规则
 
 * root手机推荐：SSR绕过国内ip+HOSTS
 * 1.自带去广告的VIA浏览器 http://www.coolapk.com/apk/mark.via
@@ -18,6 +18,7 @@
 * onlybanAD.acl （默认代理）去广告+局域网直连+全局代理
 * fullgfwlist.acl （默认直连）国外gfwlist列表代理，没有去广告，没有白名单（原版SS可直接复制文件内容使用）
 * backcn-banAD.acl （默认直连）去广告+国内IP段代理+国内常用域名代理+局域网直连+国外直连
+* SSR C#规则 gfwlist-user.rule （默认直连）去广告+局域网直连+国外gfwlist列表代理
 
 # 安卓 SS/SSR 去广告ACL规则
 * 屏蔽小米手机和魅族flyme rom系统广告
@@ -35,6 +36,7 @@
 * ACL更新地址（**全局**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
 * ACL更新地址（**仅GFWList**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/fullgfwlist.acl
 * ACL更新地址（**国内代理**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
+* SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
 * ACL更新记录：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
 * SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 * SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
