@@ -13,11 +13,8 @@
 # 下载地址 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
 #
 #**********************************************************************
-# 默认直连
-:: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff localproxy
-0.0.0.0 255.255.255.255 localproxy
 
-# 代理规则
+# 代理域名规则
 # MyList
 .bit.no.com remoteproxy
 .btlibrary.me remoteproxy
@@ -30,7 +27,6 @@
 .xn--i2ru8q2qg.com remoteproxy
 
 # GFWList
-
 
 .2.bahamut.com.tw remoteproxy
 .global.ssl.fastly.net remoteproxy
@@ -4889,84 +4885,7 @@
 .nflxvideo.net remoteproxy
 .tvb.com remoteproxy
 
-# kakao Talk
-1.201.0.0 1.201.0.255 remoteproxy
-103.246.56.0 103.246.59.255 remoteproxy
-103.27.148.0 103.27.151.255 remoteproxy
-110.76.140.0 110.76.143.255 remoteproxy
-113.61.104.0 113.61.107.255 remoteproxy
-27.0.236.0 27.0.239.255 remoteproxy
-
-# LINE
-103.2.28.0 103.2.31.255 remoteproxy
-119.235.224.0 119.235.231.255 remoteproxy
-119.235.232.0 119.235.233.255 remoteproxy
-119.235.235.0 119.235.235.255 remoteproxy
-119.235.236.0 119.235.237.255 remoteproxy
-125.6.146.0 125.6.146.255 remoteproxy
-125.6.149.0 125.6.149.255 remoteproxy
-125.6.190.0 125.6.190.255 remoteproxy
-203.104.103.0 203.104.103.255 remoteproxy
-203.104.128.0 203.104.143.255 remoteproxy
-203.174.66.64 203.174.66.127 remoteproxy
-203.174.77.0 203.174.77.255 remoteproxy
-
-# Telegram
-109.239.140.0 109.239.140.255 remoteproxy
-149.154.160.0 149.154.163.255 remoteproxy
-149.154.164.0 149.154.167.255 remoteproxy
-149.154.168.0 149.154.171.255 remoteproxy
-149.154.172.0 149.154.175.255 remoteproxy
-91.108.4.0 91.108.7.255 remoteproxy
-91.108.56.0 91.108.59.255 remoteproxy
-
-#MyList IPs
-61.230.0.128 61.230.0.128 remoteproxy
-95.211.214.34 95.211.214.34 remoteproxy
-94.100.18.172 94.100.18.172 remoteproxy
-116.48.111.236 116.48.111.236 remoteproxy
-94.100.22.212 94.100.22.212 remoteproxy
-83.149.70.38 83.149.70.38 remoteproxy
-46.166.148.135 46.166.148.135 remoteproxy
-168.70.106.171 168.70.106.171 remoteproxy
-118.34.169.15 118.34.169.15 remoteproxy
-42.98.107.223 42.98.107.223 remoteproxy
-39.119.179.177 39.119.179.177 remoteproxy
-119.77.178.211 119.77.178.211 remoteproxy
-112.119.29.49 112.119.29.49 remoteproxy
-45.76.49.238 45.76.49.238 remoteproxy
-45.32.39.1 45.32.39.1 remoteproxy
-14.198.143.94 14.198.143.94 remoteproxy
-112.119.90.171 112.119.90.171 remoteproxy
-116.48.111.236 116.48.111.236 remoteproxy
-112.168.224.141 112.168.224.141 remoteproxy
-218.161.37.206 218.161.37.206 remoteproxy
-14.8.71.128 14.8.71.128 remoteproxy
-114.199.145.219 114.199.145.219 remoteproxy
-1.238.223.154 1.238.223.154 remoteproxy
-203.222.24.93 203.222.24.93 remoteproxy
-59.126.95.195 59.126.95.195 remoteproxy
-42.98.107.223 42.98.107.223 remoteproxy
-140.112.53.243 140.112.53.243 remoteproxy
-124.168.108.15 124.168.108.15 remoteproxy
-36.225.167.32 36.225.167.32 remoteproxy
-36.234.188.130 36.234.188.130 remoteproxy
-114.199.145.219 114.199.145.219 remoteproxy
-220.132.16.173 220.132.16.173 remoteproxy
-
-# GFWList IP start
-85.17.73.31 85.17.73.31 remoteproxy
-174.142.105.153 174.142.105.153 remoteproxy
-199.59.148.20 199.59.148.20 remoteproxy
-38.103.165.50 38.103.165.50 remoteproxy
-50.7.31.230 50.7.31.230 remoteproxy
-67.220.91.15 67.220.91.15 remoteproxy
-67.220.91.18 67.220.91.18 remoteproxy
-67.220.91.23 67.220.91.23 remoteproxy
-69.65.19.160 69.65.19.160 remoteproxy
-72.52.81.22 72.52.81.22 remoteproxy
-# GFWList IP end
-# 代理规则 end
+# 代理域名规则 end
 
 # Hosts
 .wuu.wikipedia.org 198.35.26.96
@@ -4975,7 +4894,7 @@
 .zh.m.wikipedia.org 198.35.26.96
 # Hosts end
 
-# 广告拦截
+# 广告域名规则
 # 163
 .adgeo.corp.163.com reject
 .bobo.corp.163.com reject
@@ -6216,6 +6135,95 @@
 .go.10086.cn reject
 .navi.gd.chinamobile.com reject
 
+#广告域名规则 end
+
+# IP规则
+# 默认直连
+:: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff localproxy
+0.0.0.0 255.255.255.255 localproxy
+
+# 代理IP规则
+# kakao Talk
+1.201.0.0 1.201.0.255 remoteproxy
+103.246.56.0 103.246.59.255 remoteproxy
+103.27.148.0 103.27.151.255 remoteproxy
+110.76.140.0 110.76.143.255 remoteproxy
+113.61.104.0 113.61.107.255 remoteproxy
+27.0.236.0 27.0.239.255 remoteproxy
+
+# LINE
+103.2.28.0 103.2.31.255 remoteproxy
+119.235.224.0 119.235.231.255 remoteproxy
+119.235.232.0 119.235.233.255 remoteproxy
+119.235.235.0 119.235.235.255 remoteproxy
+119.235.236.0 119.235.237.255 remoteproxy
+125.6.146.0 125.6.146.255 remoteproxy
+125.6.149.0 125.6.149.255 remoteproxy
+125.6.190.0 125.6.190.255 remoteproxy
+203.104.103.0 203.104.103.255 remoteproxy
+203.104.128.0 203.104.143.255 remoteproxy
+203.174.66.64 203.174.66.127 remoteproxy
+203.174.77.0 203.174.77.255 remoteproxy
+
+# Telegram
+109.239.140.0 109.239.140.255 remoteproxy
+149.154.160.0 149.154.163.255 remoteproxy
+149.154.164.0 149.154.167.255 remoteproxy
+149.154.168.0 149.154.171.255 remoteproxy
+149.154.172.0 149.154.175.255 remoteproxy
+91.108.4.0 91.108.7.255 remoteproxy
+91.108.56.0 91.108.59.255 remoteproxy
+
+#MyList IPs
+61.230.0.128 61.230.0.128 remoteproxy
+95.211.214.34 95.211.214.34 remoteproxy
+94.100.18.172 94.100.18.172 remoteproxy
+116.48.111.236 116.48.111.236 remoteproxy
+94.100.22.212 94.100.22.212 remoteproxy
+83.149.70.38 83.149.70.38 remoteproxy
+46.166.148.135 46.166.148.135 remoteproxy
+168.70.106.171 168.70.106.171 remoteproxy
+118.34.169.15 118.34.169.15 remoteproxy
+42.98.107.223 42.98.107.223 remoteproxy
+39.119.179.177 39.119.179.177 remoteproxy
+119.77.178.211 119.77.178.211 remoteproxy
+112.119.29.49 112.119.29.49 remoteproxy
+45.76.49.238 45.76.49.238 remoteproxy
+45.32.39.1 45.32.39.1 remoteproxy
+14.198.143.94 14.198.143.94 remoteproxy
+112.119.90.171 112.119.90.171 remoteproxy
+116.48.111.236 116.48.111.236 remoteproxy
+112.168.224.141 112.168.224.141 remoteproxy
+218.161.37.206 218.161.37.206 remoteproxy
+14.8.71.128 14.8.71.128 remoteproxy
+114.199.145.219 114.199.145.219 remoteproxy
+1.238.223.154 1.238.223.154 remoteproxy
+203.222.24.93 203.222.24.93 remoteproxy
+59.126.95.195 59.126.95.195 remoteproxy
+42.98.107.223 42.98.107.223 remoteproxy
+140.112.53.243 140.112.53.243 remoteproxy
+124.168.108.15 124.168.108.15 remoteproxy
+36.225.167.32 36.225.167.32 remoteproxy
+36.234.188.130 36.234.188.130 remoteproxy
+114.199.145.219 114.199.145.219 remoteproxy
+220.132.16.173 220.132.16.173 remoteproxy
+
+# GFWList IP start
+85.17.73.31 85.17.73.31 remoteproxy
+174.142.105.153 174.142.105.153 remoteproxy
+199.59.148.20 199.59.148.20 remoteproxy
+38.103.165.50 38.103.165.50 remoteproxy
+50.7.31.230 50.7.31.230 remoteproxy
+67.220.91.15 67.220.91.15 remoteproxy
+67.220.91.18 67.220.91.18 remoteproxy
+67.220.91.23 67.220.91.23 remoteproxy
+69.65.19.160 69.65.19.160 remoteproxy
+72.52.81.22 72.52.81.22 remoteproxy
+# GFWList IP end
+# 代理IP规则 end
+
+# 广告IP规则
+
 # China_mobile 移动
 # Beijing Mobile Float reject
 221.179.140.0 221.179.140.255 reject
@@ -6334,5 +6342,3 @@
 27.221.89.128 27.221.89.143 reject
 60.211.171.128 60.211.171.135 reject
 60.211.211.1 60.211.211.1 reject
-
-# 广告拦截 end
