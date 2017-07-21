@@ -1,6 +1,6 @@
 #**********************************************************************
-# 7.12
-# 2017年7月12日 23:04:39
+# 7.22
+# 2017年7月22日07:37:13
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 # 此文件由@EDISON-Z 提供
 #
@@ -67,6 +67,8 @@
 (^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.com$
 (^|\.)haitaoad\.nosdn\.127\.net$
 (^|\.)impservice\.(chnl|dict|dictapp|ictvista|dictweb|dictword|mail|union)\.youdao\.com$
+(^|\.)ir\.mail\.126\.com$
+(^|\.)ir\.mail\.yeah\.net$
 (^|\.)oimagea2\.ydstatic\.com$
 (^|\.)pagechoice\.net$
 (^|\.)prom\.gome\.com\.cn$
@@ -137,7 +139,6 @@
 (^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|youqian|znsv)\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
-(^|\.)bj\.bcebos\.com$
 (^|\.)boscdn\.bpc\.baidu\.com$
 (^|\.)cpro\.baidu\.com\.cn$
 (^|\.)cpro\.tieba\.baidu\.com$
@@ -155,6 +156,9 @@
 (^|\.)ulog\.imap\.baidu\.com$
 (^|\.)wisepush\.video\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
+
+# Apple
+(^|\.)adserver\.unityads\.unity3d\.com$
 
 # Book-app 起点 掌阅 书旗 宜搜
 (^|\.)(adm|assets|tjlog)(\.ps|)\.easou\.com$
@@ -296,7 +300,7 @@
 (^|\.)zymo\.mps\.weibo\.com$
 
 # Sougou
-(^|\.)(123|brand|get|inte|iwan|pb|pd|wan|wangmeng)\.sogou\.com$
+(^|\.)(123|brand|inte|iwan|pb|pd|wan|wangmeng)\.sogou\.com$
 (^|\.)(123|galaxy)\.sogoucdn\.com$
 
 # Toutiao
@@ -391,22 +395,21 @@
 (^|\.)c\.uaa\.iqiyi\.com$
 (^|\.)cloudpush\.iqiyi\.com$
 (^|\.)cm\.passport\.iqiyi\.com$
-(^|\.)data\.video\.qiyi\.com$
+(^|\.)cmts\.iqiyi\.com$
 (^|\.)emoticon\.sns\.iqiyi\.com$
 (^|\.)gamecenter\.iqiyi\.com$
 (^|\.)hotchat-im\.iqiyi\.com$
 (^|\.)ifacelog\.iqiyi\.com$
 (^|\.)mbdlog\.iqiyi\.com$
 (^|\.)meta\.video\.qiyi\.com$
+(^|\.)msg1\.video\.qiyi\.com$
+(^|\.)msg2\.video\.qiyi\.com$
+(^|\.)msg\.71\.am$
+(^|\.)msga\.cupid\.iqiyi\.com$
 (^|\.)paopao\.iqiyi\.com$
 (^|\.)paopao\d\.qiyipic\.com$
 (^|\.)policy\.video\.iqiyi\.com$
 (^|\.)rcd\.iqiyi\.com$
-(^|\.)cmts\.iqiyi\.com$
-(^|\.)data\.video\.qiyi\.com$
-(^|\.)msg\.71\.am$
-(^|\.)msga\.cupid\.iqiyi\.com$
-(^|\.)paopao\.iqiyi\.com$
 101.227.14.80/29
 101.227.200.0/22
 112.13.64.0/22
@@ -570,13 +573,6 @@
 (^|\.)(click|media|pv)\.(cheshi|cheshi-img)\.com$
 (^|\.)(d0|dw|pv)\.xcar\.com\.cn$
 (^|\.)a1\.itc\.cn$
-(^|\.)ad\.12306\.cn$
-(^|\.)ad\.3\.cn$
-(^|\.)ad\.95306\.cn$
-(^|\.)ad\.caiyunapp\.com$
-(^|\.)ad\.cctv\.com$
-(^|\.)ad\.thepaper\.cn$
-(^|\.)ad\.unimhk\.com$
 (^|\.)adhome\.1fangchan\.com$
 (^|\.)adm\.easou\.com$
 (^|\.)adm\d\.autoimg\.cn$
@@ -585,6 +581,15 @@
 (^|\.)ads\.linkedin\.com$
 (^|\.)ads\.yahoo\.com$
 (^|\.)advert\.api\.thejoyrun\.com$
+(^|\.)adv\.ccb\.com$
+(^|\.)ad\.12306\.cn$
+(^|\.)ad\.3\.cn$
+(^|\.)ad\.95306\.cn$
+(^|\.)ad\.caiyunapp\.com$
+(^|\.)ad\.cctv\.com$
+(^|\.)ad\.cmvideo\.cn$
+(^|\.)ad\.thepaper\.cn$
+(^|\.)ad\.unimhk\.com$
 (^|\.)api-deal\.kechenggezi\.com$
 (^|\.)api-z\.weidian\.com$
 (^|\.)bam\.nr-data\.net$
@@ -742,6 +747,7 @@
 (^|\.)fancyapi\.com$
 (^|\.)fastapi\.net$
 (^|\.)fastclick\.net$
+(^|\.)feixin2\.com$
 (^|\.)flashtalking\.com$
 (^|\.)flurry\.com$
 (^|\.)getui\.com$
@@ -758,6 +764,7 @@
 (^|\.)inmobi\.com$
 (^|\.)inmobicdn\.net$
 (^|\.)innity\.com$
+(^|\.)instabug\.com$
 (^|\.)intely\.cn$
 (^|\.)iperceptions\.com$
 (^|\.)ipinyou\.com$
@@ -770,6 +777,7 @@
 (^|\.)jisucn\.com$
 (^|\.)jpush\.cn$
 (^|\.)jusha\.com$
+(^|\.)juzilm\.com$
 (^|\.)kejet\.com$
 (^|\.)kejet\.net$
 (^|\.)keyrun\.cn$
@@ -780,6 +788,7 @@
 (^|\.)localytics\.com$
 (^|\.)lomark\.cn$
 (^|\.)lotuseed\.com$
+(^|\.)lrswl\.com$
 (^|\.)lufax\.com$
 (^|\.)madmini\.com$
 (^|\.)madserving\.com$
@@ -802,6 +811,7 @@
 (^|\.)mobisage\.cn$
 (^|\.)mobvista\.com$
 (^|\.)mopub\.com$
+(^|\.)moquanad\.com$
 (^|\.)mpush\.cn$
 (^|\.)mxpnl\.com$
 (^|\.)mydas\.mobi$
@@ -865,6 +875,7 @@
 (^|\.)tiqcdn\.com$
 (^|\.)trafficjam\.cn$
 (^|\.)trafficmp\.com$
+(^|\.)ueadlian\.com$
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
@@ -879,6 +890,7 @@
 (^|\.)uyunad\.com$
 (^|\.)vamaker\.com$
 (^|\.)voiceads\.cn$
+(^|\.)voiceads\.com$
 (^|\.)vpon\.com$
 (^|\.)vungle\.cn$
 (^|\.)waps\.cn$
