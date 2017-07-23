@@ -1,6 +1,6 @@
 #**********************************************************************
-# 7.22
-# 2017年7月22日07:37:13
+# 7.23
+# 2017年7月23日16:25:40
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -92,9 +92,8 @@
 
 # 360
 (^|\.)3600\.com$
-(^|\.)api\.so\.lianmeng\.360\.cn$
-(^|\.)wan\.360\.cn$
 (^|\.)gamebox\.360\.cn$
+(^|\.)jiagu\.360\.cn$
 (^|\.)kuaikan\.netmon\.360safe\.com$
 (^|\.)leak\.360\.cn$
 (^|\.)lianmeng\.360\.cn$
@@ -105,6 +104,7 @@
 (^|\.)stat\.360safe\.com$
 (^|\.)stat\.m\.360\.cn$
 (^|\.)update\.360safe\.com$
+(^|\.)wan\.360\.cn$
 
 # 58
 (^|\.)(58|imp|stat)\.xgo\.com\.cn$
@@ -245,16 +245,16 @@
 (^|\.)xiuxiu\.mobile\.meitudata\.com$
 
 # Miui 小米
-(^|\.)(abtest|data)\.mistat\.xiaomi\.com$
 (^|\.)(ad|ad1|shenghuo|xmpush)\.xiaomi\.com$
+(^|\.)(bss|de|dvb|jellyfish|stat)\.pandora\.xiaomi\.com$
 (^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
 (^|\.)(hot|r|security)\.browser\.miui\.com$
 (^|\.)(notice|ppurifier)\.game\.xiaomi\.com$
-(^|\.)a\.stat\.xiaomi\.com$
-(^|\.)a\.union\.mi\.com$
-(^|\.)resolver\.gslb\.mi-idc\.com$
-(^|\.)resolver\.msg\.xiaomi\.net$
+(^|\.)adv\.sec\.miui\.com$
+(^|\.)mb\.yidianzixun\.com$
 (^|\.)tracking\.miui\.com$
+(^|\.)union\.mi\.com$
+(^|\.)wtradv\.market\.xiaomi\.com$
 
 # Moji
 (^|\.)ad\.api\.moji\.com$
@@ -285,7 +285,7 @@
 
 # Sina
 (^|\.)(adimg|pay|sax|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
-(^|\.)(ad|adbox|adm|atm|beacon|d\d|dcads|dmp|leju|sax|slog|tjs)\.sina\.com(\.cn|)$
+(^|\.)(ad|adbox|adm|atm|beacon|d\d|dcads|dmp|leju|sax|sax\d|slog|tjs)\.sina\.com(\.cn|)$
 (^|\.)(alitui|biz|game|wax)\.weibo\.com(\.cn|)$
 (^|\.)cre\.dp\.sina\.cn$
 (^|\.)gw5\.push\.mcp\.weibo\.cn$
@@ -634,6 +634,7 @@
 (^|\.)3gmimo\.com$
 (^|\.)51\.la$
 (^|\.)51yes\.com$
+(^|\.)600ad\.com$
 (^|\.)6dad\.com$
 (^|\.)86\.cc$
 (^|\.)8ox\.cn$
@@ -662,6 +663,7 @@
 (^|\.)adirects\.com$
 (^|\.)adjust\.com$
 (^|\.)adjust\.io$
+(^|\.)adkmob\.com$
 (^|\.)adlive\.cn$
 (^|\.)admin5\.com$
 (^|\.)admin6\.com$
@@ -698,6 +700,7 @@
 (^|\.)appads\.com$
 (^|\.)appboy\.com$
 (^|\.)appdriver\.cn$
+(^|\.)appjiagu\.com$
 (^|\.)applifier\.com$
 (^|\.)applovin\.com$
 (^|\.)appsflyer\.com$
