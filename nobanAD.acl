@@ -5653,6 +5653,10 @@
 (^|\.)nflxvideo\.net$
 (^|\.)tvb\.com$
 
+# Whatsapp
+(^|\.)whatsapp\.com$
+(^|\.)whatsapp\.net$
+
 # kakao Talk
 1.201.0.0/24
 103.246.56.0/22
