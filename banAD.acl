@@ -1,6 +1,6 @@
 #**********************************************************************
-# 7.23
-# 2017年7月23日16:25:40
+# 7.25
+# 2017年7月25日15:54:19
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -133,8 +133,9 @@
 (^|\.)yiliao\.hupan\.com$
 
 # Baidu
-(^|\.)(a|adapp|adm|as|baichuan|baidutv|bar|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|crs|datax|dj1|downapp|drmcmm|dxp|e|eclick|eiv|entry)\.baidu\.com$
-(^|\.)(hc|hm|hmma|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
+(^|\.)(a|adapp|adm|appc|as|baichuan|baidutv|bar|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|datax|dj1|downapp|drmcmm|dxp|e|eclick|eiv|entry|feed)\.baidu\.com$
+(^|\.)(dcps|log)\.nuomi\.com$
+(^|\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
 (^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|youqian|znsv)\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
@@ -142,8 +143,8 @@
 (^|\.)cpro\.baidu\.com\.cn$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
+(^|\.)duapps\.com$
 (^|\.)itsdata\.map\.baidu\.com$
-(^|\.)log\.nuomi\.com$
 (^|\.)push\.music\.baidu\.com$
 (^|\.)push\.zhanzhang\.baidu\.com$
 (^|\.)res\.limei\.com$
@@ -161,7 +162,7 @@
 
 # Book-app 起点 掌阅 书旗 宜搜
 (^|\.)(adm|assets|tjlog)(\.ps|)\.easou\.com$
-(^|\.)(ad|push)\.zhangyue\.com$
+(^|\.)(ad|push|sys)\.zhangyue\.com$
 (^|\.)(cj|game|tongji)\.qidian\.com$
 (^|\.)api\.itaoxiaoshuo\.com$
 (^|\.)o\.if\.qidian\.com$
@@ -228,7 +229,7 @@
 (^|\.)g\.koowo\.com$
 
 # Meizu flyme 魅族
-(^|\.)(aider-res|api-flow|api-game|cal|ebook|game-res|infocenter|openapi-news|reader|tongji-res1|tongji|uxip)\.meizu\.com$
+(^|\.)(aider-res|api-flow|api-game|api-push|cal|ebook|game-res|infocenter|openapi-news|reader|tongji-res1|tongji|uxip)\.meizu\.com$
 (^|\.)(bro|t-e|t-flow)\.flyme\.cn$
 (^|\.)(ebook|game|push|reader|upush)\.res\.meizu\.com$
 (^|\.)aries\.mzres\.com$
@@ -299,7 +300,7 @@
 (^|\.)zymo\.mps\.weibo\.com$
 
 # Sougou
-(^|\.)(123|brand|inte|iwan|pb|pd|wan|wangmeng)\.sogou\.com$
+(^|\.)(123|adsence|brand|cpc|fair|files2|goto|inte|iwan|lu|pb|pd|pv|theta|wan|wangmeng)\.sogou\.com$
 (^|\.)(123|galaxy)\.sogoucdn\.com$
 
 # Toutiao
@@ -451,7 +452,7 @@
 # Sohu 搜狐
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
 (^|\.)(aty|bd|click|click2|ctr|mb|pv|pb|wl|um)\.hd\.sohu\.com$
-(^|\.)(hui|wan|yule|pv)\.sohu\.com$
+(^|\.)(aty|hui|wan|yule|pv)\.sohu\.com$
 (^|\.)api\.k\.sohu\.com$
 (^|\.)count\.vrs\.sohu\.com$
 (^|\.)goto\.sms\.sohu\.com$
@@ -498,7 +499,7 @@
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
-(^|\.)(actives|atm|guanggaoad|hz|iyes|l|lstat|lvip|msg|mobilemsg|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
+(^|\.)(actives|atm|dmapp|guanggaoad|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\.tudou\.com$
 (^|\.)(ad|gamex)\.mobile\.youku\.com$
 (^|\.)(dev-push|push|sdk)\.m\.youku\.com$
@@ -516,10 +517,10 @@
 (^|\.)p-log\.ykimg\.com$
 (^|\.)p\.l\.ykimg\.com$
 (^|\.)s\.p\.youku\.com$
+(^|\.)service\.danmu\.youku\.com$
 (^|\.)store\.tv\.api\.3g\.youku\.com$
 (^|\.)store\.xl\.api\.3g\.youku\.com$
 (^|\.)test\.ott\.youku\.com$
-(^|\.)urchin\.lstat\.youku\.com$
 (^|\.)val\.api\.youku\.com$
 
 # Youtube
@@ -760,6 +761,8 @@
 (^|\.)haoghost\.com$
 (^|\.)icast\.cn$
 (^|\.)igexin\.com$
+(^|\.)8le8le\.com$
+(^|\.)tanx\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
@@ -937,6 +940,8 @@
 (^|\.)114so\.cn$
 (^|\.)go\.10086\.cn$
 (^|\.)navi\.gd\.chinamobile\.com$
+(^|\.)hivedata\.cc$
+
 
 # China_mobile 移动
 # Beijing Mobile Float
@@ -6630,6 +6635,7 @@
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
 
+
 # 国外域名关键字
 (^|\.)\w*dropbox\w*\.\w*$
 (^|\.)\w*facebook\w*\.\w*$
@@ -6664,6 +6670,10 @@
 (^|\.)nflximg\.net$
 (^|\.)nflxvideo\.net$
 (^|\.)tvb\.com$
+
+# Whatsapp
+(^|\.)whatsapp\.com$
+(^|\.)whatsapp\.net$
 
 # kakao Talk
 1.201.0.0/24
