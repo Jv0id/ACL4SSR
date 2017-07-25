@@ -9,7 +9,6 @@
 * 2.HOSTS 广告快走中国版 http://www.coolapk.com/apk/mark.via
 * 3.HOSTS 广告快走开AdAway http://www.coolapk.com/apk/org.adaway
 * https://raw.githubusercontent.com/vokins/yhosts/master/hosts
-* https://raw.githubusercontent.com/leosam1995/MyConf/master/hosts/myhosts.txt
 
 # 版本解释
 * banAD.acl （默认代理）去广告+局域网直连+国内IP段直连+国内常用域名直连+国外代理
@@ -58,7 +57,7 @@
 * 参照scomper大神的surge规则改编，致谢!!https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 
 * 浏览器内部广告太多了，单凭几百条规则可能过滤不过来。少许遗漏，请谅解
-* 有问题telegram找我@leosam1995
+* 有问题请发issue,说明状况和所用规则。
 * temp文件夹为历史存档 要找以前的版本可以下那个
 		
 # License		
