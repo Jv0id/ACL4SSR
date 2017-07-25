@@ -1,11 +1,10 @@
-# 安卓SS/SSR去广告ACL规则
-# 仅推荐未root的安卓手机使用。
+# SS/SSR去广告规则
+* 项目基于CC-BY-SA-4.0协议发布
+* 仅推荐未root的安卓手机使用。
+* Telegram频道订阅地址：**https://t.me/ACL4SSR**
 
-# Telegram频道订阅地址：**https://t.me/ACL4SSR**
 
-# 20170712公告：发布第一版SSR C# GFWList自定义规则
-
-* root手机推荐：SSR绕过国内ip+HOSTS
+# root手机推荐：
 * 1.自带去广告的VIA浏览器 http://www.coolapk.com/apk/mark.via
 * 2.HOSTS 广告快走中国版 http://www.coolapk.com/apk/mark.via
 * 3.HOSTS 广告快走开AdAway http://www.coolapk.com/apk/org.adaway
@@ -18,6 +17,7 @@
 * onlybanAD.acl （默认代理）去广告+局域网直连+全局代理
 * fullgfwlist.acl （默认直连）国外gfwlist列表代理，没有去广告，没有白名单（原版SS可直接复制文件内容使用）
 * backcn-banAD.acl （默认直连）去广告+国内IP段代理+国内常用域名代理+局域网直连+国外直连
+* nobanAD.acl （默认代理）局域网直连+国内IP段直连+国内常用域名直连+国外代理
 * SSR C#规则 gfwlist-user.rule （默认直连）去广告+局域网直连+国外gfwlist列表代理
 
 # 安卓 SS/SSR 去广告ACL规则
@@ -36,13 +36,17 @@
 * ACL更新地址（**全局**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
 * ACL更新地址（**仅GFWList**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/fullgfwlist.acl
 * ACL更新地址（**国内代理**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
+* ACL更新地址（**白名单，无去广告**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/nobanAD.acl
 * SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
-* ACL更新记录：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
+
+
 * SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 * SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
 # ♻️ Surge/Shadowrocket Config File Download：
-* Config File 更新地址：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/Surge@lhie1.conf
+* Surge Config File 更新地址：https://raw.githubusercontent.com/lhie1/Surge/master/Surge.conf
+						 或：https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
+* Shadowrocket Config File 更新地址：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket.conf
 
 📋 教程 / 说明：
 * 打开SSR->路由->自定义acl文件->输入下载地址->更新
@@ -58,4 +62,4 @@
 * temp文件夹为历史存档 要找以前的版本可以下那个
 		
 # License		
-* 可以拷贝、转发，但是必须提供原作者信息，同时也不能将本项目用于商业用途。
+* CC-BY-SA-4.0
