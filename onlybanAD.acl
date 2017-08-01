@@ -362,6 +362,9 @@
 (^|\.)float\.kankan\.com$
 (^|\.)logic\.cpm\.cm\.kankan\.com$
 
+# Yahoo
+(^|\.)beap\.gemini\.yahoo\.com$
+
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
 
