@@ -1,6 +1,6 @@
 #**********************************************************************
-# 8.3
-# 2017年8月3日 10:03:42
+# 8.12
+# 2017年8月12日15:14:41
 # 转载需要注明版权和来源
 # 实验功能：域名广告关键字拦截
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -107,7 +107,7 @@
 
 # Ali
 (^|\.)(adash|adsh|adashx4yt|adash-c|ai|apoll|re|rj|simaba)\.m\.taobao\.com$
-(^|\.)(appdownload|afp|atanx|atanx2|dorangesource|gma|gtms\d\d|nbsdk-baichuan)\.alicdn\.com$
+(^|\.)(appdownload|afp|atanx|atanx2|gma|gtms\d\d|nbsdk-baichuan)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|textlink|tns)\.simba\.taobao\.com$
 (^|\.)(nbsdk-baichuan|sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)a\.alimama\.cn$
@@ -128,25 +128,21 @@
 (^|\.)yiliao\.hupan\.com$
 
 # Baidu
-(^|\.)(a|adapp|adm|appc|as|baichuan|baidutv|bar|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|datax|dj1|downapp|drmcmm|dxp|e|eclick|eiv|entry|feed)\.baidu\.com$
-(^|\.)(dcps|log)\.nuomi\.com$
+(^|\.)(a|adm|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|drmcmm|e|eclick|eiv|entry|feed)\.baidu\.com$
 (^|\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
-(^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|youqian|znsv)\.baidu\.com$
+(^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
 (^|\.)boscdn\.bpc\.baidu\.com$
-(^|\.)cpro\.baidu\.com\.cn$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
-(^|\.)duapps\.com$
 (^|\.)itsdata\.map\.baidu\.com$
+(^|\.)log\.nuomi\.com$
 (^|\.)push\.music\.baidu\.com$
 (^|\.)push\.zhanzhang\.baidu\.com$
 (^|\.)res\.limei\.com$
 (^|\.)shifen\.com$
 (^|\.)static\.map\.bdimg\.com$
-(^|\.)static\.su\.baidu\.com$
-(^|\.)static\.tieba\.baidu\.com$
 (^|\.)ubmcmm\.baidustatic\.com$
 (^|\.)ulog\.imap\.baidu\.com$
 (^|\.)wisepush\.video\.baidu\.com$
@@ -204,7 +200,7 @@
 (^|\.)service\.urchin\.com$
 
 # JD
-(^|\.)(c-nfa|du|jrclick|jzt|policy|x)\.jd\.com$
+(^|\.)(c-nfa|du|jrclick|jzt|policy)\.jd\.com$
 (^|\.)ads\.union\.jd\.com$
 (^|\.)click\.jr\.jd\.com$
 (^|\.)cps\.360buy\.com$
@@ -271,7 +267,7 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|bugly|buluo|beacon|e|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
+(^|\.)(act|adsfile|bugly|buluo|e|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 
 # RenRen
@@ -281,7 +277,7 @@
 
 # Sina
 (^|\.)(adimg|pay|sax|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
-(^|\.)(ad|adbox|adm|atm|beacon|d\d|dcads|dmp|leju|sax|sax\d|slog|tjs)\.sina\.com(\.cn|)$
+(^|\.)(ad|adbox|adm|atm|d\d|dcads|dmp|leju|sax|sax\d|slog|tjs)\.sina\.com(\.cn|)$
 (^|\.)(alitui|biz|game|wax)\.weibo\.com(\.cn|)$
 (^|\.)cre\.dp\.sina\.cn$
 (^|\.)gw5\.push\.mcp\.weibo\.cn$
@@ -393,7 +389,6 @@
 (^|\.)c\.uaa\.iqiyi\.com$
 (^|\.)cloudpush\.iqiyi\.com$
 (^|\.)cm\.passport\.iqiyi\.com$
-(^|\.)cmts\.iqiyi\.com$
 (^|\.)emoticon\.sns\.iqiyi\.com$
 (^|\.)gamecenter\.iqiyi\.com$
 (^|\.)hotchat-im\.iqiyi\.com$
@@ -407,19 +402,13 @@
 (^|\.)paopao\.iqiyi\.com$
 (^|\.)paopao\d\.qiyipic\.com$
 (^|\.)policy\.video\.iqiyi\.com$
-(^|\.)rcd\.iqiyi\.com$
-101.227.14.80/29
-101.227.200.0/22
 112.13.64.0/22
 112.253.36.0/24
 117.139.16.0/22
 117.139.18.141/22
-119.188.13.32/29
 119.188.172.192/28
 119.188.173.0/27
 119.188.43.61/32
-123.125.116.0/22
-123.125.117.0/22
 123.130.122.128/28
 183.221.244.0/22
 183.221.247.189/22
@@ -470,7 +459,6 @@
 # QQ Live
 (^|\.)aiseet\.aa\.atianqi\.com$
 (^|\.)aiseet\.atianqi\.com$
-(^|\.)btrace\.video\.qq\.com$
 (^|\.)c\.l\.qq\.com$
 (^|\.)dp3\.play\.aiseet\.atianqi\.com$
 (^|\.)dp3\.qq\.com$
@@ -525,7 +513,6 @@
 (^|\.)ads\.youtube\.com$
 (^|\.)azabu-u\.ac\.jp$
 (^|\.)couchcoaster\.jp$
-(^|\.)crt\.comodoca\.com$
 (^|\.)delivery\.dmkt-sp\.jp$
 (^|\.)ehg-youtube\.hitbox\.com$
 (^|\.)m-78\.jp$
@@ -636,7 +623,6 @@
 (^|\.)600ad\.com$
 (^|\.)6dad\.com$
 (^|\.)86\.cc$
-(^|\.)8le8le\.com$
 (^|\.)8ox\.cn$
 (^|\.)95558000\.com$
 (^|\.)99click\.com$
@@ -760,6 +746,8 @@
 (^|\.)haoghost\.com$
 (^|\.)icast\.cn$
 (^|\.)igexin\.com$
+(^|\.)8le8le\.com$
+(^|\.)tanx\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
@@ -871,7 +859,6 @@
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
 (^|\.)tansuotv\.com$
-(^|\.)tanx\.com$
 (^|\.)tapjoy\.cn$
 (^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
