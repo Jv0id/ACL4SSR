@@ -1,6 +1,6 @@
 #**********************************************************************
-# 8.12
-# 2017年8月12日15:14:41
+# 8.14
+# 2017年8月14日 23:14:00
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -141,6 +141,7 @@
 (^|\.)boscdn\.bpc\.baidu\.com$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
+(^|\.)cpro\.baidustatic\.com$
 (^|\.)itsdata\.map\.baidu\.com$
 (^|\.)log\.nuomi\.com$
 (^|\.)push\.music\.baidu\.com$
@@ -746,6 +747,7 @@
 (^|\.)flurry\.com$
 (^|\.)getui\.com$
 (^|\.)go-mpulse$
+(^|\.)godloveme\.cn$
 (^|\.)growingio\.com$
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
