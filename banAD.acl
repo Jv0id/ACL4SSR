@@ -1,6 +1,6 @@
 #**********************************************************************
-# 8.14
-# 2017年8月14日 23:14:00
+# 8.18
+# 2017年8月18日 09:16:34
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -153,6 +153,7 @@
 (^|\.)ulog\.imap\.baidu\.com$
 (^|\.)wisepush\.video\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
+(^|\.)baikebcs\.bdimg\.com$
 
 # Apple
 (^|\.)adserver\.unityads\.unity3d\.com$
@@ -564,15 +565,6 @@
 (^|\.)(click|media|pv)\.(cheshi|cheshi-img)\.com$
 (^|\.)(d0|dw|pv)\.xcar\.com\.cn$
 (^|\.)a1\.itc\.cn$
-(^|\.)adhome\.1fangchan\.com$
-(^|\.)adm\.easou\.com$
-(^|\.)adm\d\.autoimg\.cn$
-(^|\.)ads\.feedly\.com$
-(^|\.)ads\.genieessp\.com$
-(^|\.)ads\.linkedin\.com$
-(^|\.)ads\.yahoo\.com$
-(^|\.)advert\.api\.thejoyrun\.com$
-(^|\.)adv\.ccb\.com$
 (^|\.)ad\.12306\.cn$
 (^|\.)ad\.3\.cn$
 (^|\.)ad\.95306\.cn$
@@ -581,6 +573,15 @@
 (^|\.)ad\.cmvideo\.cn$
 (^|\.)ad\.thepaper\.cn$
 (^|\.)ad\.unimhk\.com$
+(^|\.)adhome\.1fangchan\.com$
+(^|\.)adm\.easou\.com$
+(^|\.)adm\d\.autoimg\.cn$
+(^|\.)ads\.feedly\.com$
+(^|\.)ads\.genieessp\.com$
+(^|\.)ads\.linkedin\.com$
+(^|\.)ads\.yahoo\.com$
+(^|\.)adv\.ccb\.com$
+(^|\.)advert\.api\.thejoyrun\.com$
 (^|\.)api-deal\.kechenggezi\.com$
 (^|\.)api-z\.weidian\.com$
 (^|\.)bam\.nr-data\.net$
@@ -618,6 +619,11 @@
 (^|\.)tracker\.yhd\.com$
 (^|\.)up\.qingdaonews\.com$
 
+# 隐私追踪****************
+(^|\.)similarweb\.com$
+(^|\.)talkingdata\.com$
+(^|\.)userstyles\.org$
+
 # 广告联盟****************
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
@@ -629,6 +635,7 @@
 (^|\.)600ad\.com$
 (^|\.)6dad\.com$
 (^|\.)86\.cc$
+(^|\.)8le8le\.com$
 (^|\.)8ox\.cn$
 (^|\.)95558000\.com$
 (^|\.)99click\.com$
@@ -671,6 +678,7 @@
 (^|\.)adsmogo\.com$
 (^|\.)adsunflower\.com$
 (^|\.)adsunion\.com$
+(^|\.)adtrk\.me$
 (^|\.)adups\.com$
 (^|\.)aduu\.cn$
 (^|\.)advertising\.com$
@@ -717,6 +725,7 @@
 (^|\.)chmae\.com$
 (^|\.)clicktracks\.com$
 (^|\.)clickzs\.com$
+(^|\.)cloudmobi\.net$
 (^|\.)cmcore\.com$
 (^|\.)cnzz\.com$
 (^|\.)cnzzlink\.com$
@@ -735,6 +744,7 @@
 (^|\.)domob\.com\.cn$
 (^|\.)domob\.org$
 (^|\.)doubleverify\.com$
+(^|\.)duanat\.com$
 (^|\.)duomeng\.cn$
 (^|\.)edigitalsurvey\.com$
 (^|\.)effectivemeasure\.com$
@@ -746,6 +756,7 @@
 (^|\.)flashtalking\.com$
 (^|\.)flurry\.com$
 (^|\.)getui\.com$
+(^|\.)glispa\.com$
 (^|\.)go-mpulse$
 (^|\.)godloveme\.cn$
 (^|\.)growingio\.com$
@@ -754,8 +765,6 @@
 (^|\.)haoghost\.com$
 (^|\.)icast\.cn$
 (^|\.)igexin\.com$
-(^|\.)8le8le\.com$
-(^|\.)tanx\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
@@ -772,9 +781,9 @@
 (^|\.)istreamsche\.com$
 (^|\.)jesgoo\.com$
 (^|\.)jiaeasy\.net$
-(^|\.)jiayi1\.oss-cn-shanghai\.aliyuncs\.com$
 (^|\.)jiguang\.cn$
 (^|\.)jisucn\.com$
+(^|\.)jmgehn\.cn$
 (^|\.)jpush\.cn$
 (^|\.)jusha\.com$
 (^|\.)juzilm\.com$
@@ -815,18 +824,21 @@
 (^|\.)mpush\.cn$
 (^|\.)mxpnl\.com$
 (^|\.)mydas\.mobi$
+(^|\.)myhug\.cn$
 (^|\.)mzy2014\.com$
 (^|\.)networkbench\.com$
 (^|\.)newrelic\.com$
 (^|\.)nexage\.com$
 (^|\.)ninebox\.cn$
 (^|\.)ntalker\.com$
+(^|\.)nylalobghyhirgh\.com$
 (^|\.)o2omobi\.com$
 (^|\.)oadz\.com$
 (^|\.)oneapm\.com$
 (^|\.)onetad\.com$
 (^|\.)optaim\.com$
 (^|\.)optimix\.asia$
+(^|\.)optimizely\.com$
 (^|\.)optimizelyapis\.com$
 (^|\.)overture\.com$
 (^|\.)p0y\.cn$
@@ -866,9 +878,11 @@
 (^|\.)statcounter\.com$
 (^|\.)stg8\.com$
 (^|\.)switchadhub\.com$
+(^|\.)sycbbs\.com$
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
 (^|\.)tansuotv\.com$
+(^|\.)tanx\.com$
 (^|\.)tapjoy\.cn$
 (^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
@@ -877,6 +891,7 @@
 (^|\.)trafficjam\.cn$
 (^|\.)trafficmp\.com$
 (^|\.)ueadlian\.com$
+(^|\.)uerzyr\.cn$
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
