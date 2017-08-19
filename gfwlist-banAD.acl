@@ -617,7 +617,6 @@
 # 隐私追踪****************
 (^|\.)similarweb\.com$
 (^|\.)talkingdata\.com$
-(^|\.)userstyles\.org$
 
 # 广告联盟****************
 (^|\.)111cn\.net$
