@@ -1,6 +1,6 @@
 #**********************************************************************
-# 8.18
-# 2017年8月18日 09:16:34
+# 9.2
+# 2017年9月1日19:46:36
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -154,6 +154,7 @@
 (^|\.)wisepush\.video\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
 (^|\.)baikebcs\.bdimg\.com$
+(^|\.)mg09\.zhaopin\.com$
 
 # Apple
 (^|\.)adserver\.unityads\.unity3d\.com$
@@ -207,7 +208,7 @@
 (^|\.)service\.urchin\.com$
 
 # JD
-(^|\.)(c-nfa|du|jrclick|jzt|policy)\.jd\.com$
+(^|\.)(c-nfa|du|img-x|jrclick|jzt|policy)\.jd\.com$
 (^|\.)ads\.union\.jd\.com$
 (^|\.)click\.jr\.jd\.com$
 (^|\.)cps\.360buy\.com$
@@ -274,8 +275,9 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|bugly|buluo|e|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
+(^|\.)(act|adsfile|bugly|buluo|e|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu|yoyo)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
+(^|\.)res\.imtt\.qq\.com$
 
 # RenRen
 (^|\.)jebe\.renren\.com$
@@ -299,7 +301,8 @@
 
 # Sougou
 (^|\.)(123|adsence|brand|cpc|fair|files2|goto|inte|iwan|lu|pb|pd|pv|theta|wan|wangmeng)\.sogou\.com$
-(^|\.)(123|galaxy)\.sogoucdn\.com$
+(^|\.)(123|galaxy|lu)\.sogoucdn\.com$
+(^|\.)amfi\.gou\.sogou\.com$
 
 # Toutiao
 (^|\.)(ad|d|sm|dsp|nativeapp|partner)\.toutiao\.com$
@@ -409,14 +412,16 @@
 (^|\.)paopao\.iqiyi\.com$
 (^|\.)paopao\d\.qiyipic\.com$
 (^|\.)policy\.video\.iqiyi\.com$
+(^|\.)yuedu\.iqiyi\.com$
 112.13.64.0/22
 112.253.36.0/24
 117.139.16.0/22
-117.139.18.141/22
+117.139.18.132/22
 119.188.172.192/28
 119.188.173.0/27
 119.188.43.61/32
 123.130.122.128/28
+157.122.96.23/32
 183.221.244.0/22
 183.221.247.189/22
 27.221.89.128/28
@@ -492,7 +497,7 @@
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
-(^|\.)(actives|atm|dmapp|guanggaoad|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
+(^|\.)(actives|atm|dmapp|guanggaoad|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|pl|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\.tudou\.com$
 (^|\.)(ad|gamex)\.mobile\.youku\.com$
 (^|\.)(dev-push|push|sdk)\.m\.youku\.com$
@@ -510,11 +515,24 @@
 (^|\.)p-log\.ykimg\.com$
 (^|\.)p\.l\.ykimg\.com$
 (^|\.)s\.p\.youku\.com$
-(^|\.)service\.danmu\.youku\.com$
 (^|\.)store\.tv\.api\.3g\.youku\.com$
 (^|\.)store\.xl\.api\.3g\.youku\.com$
 (^|\.)test\.ott\.youku\.com$
 (^|\.)val\.api\.youku\.com$
+117.177.248.17/32
+117.177.248.41/32
+223.87.176.139/32
+223.87.176.176/32
+223.87.177.180/32
+223.87.177.182/32
+223.87.177.184/32
+223.87.177.43/32
+223.87.177.47/32
+223.87.177.80/32
+223.87.182.101/32
+223.87.182.102/32
+223.87.182.11/32
+223.87.182.52/32
 
 # Youtube
 (^|\.)ads\.youtube\.com$
@@ -619,10 +637,6 @@
 (^|\.)tracker\.yhd\.com$
 (^|\.)up\.qingdaonews\.com$
 
-# 隐私追踪****************
-(^|\.)similarweb\.com$
-(^|\.)talkingdata\.com$
-
 # 广告联盟****************
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
@@ -633,6 +647,7 @@
 (^|\.)51yes\.com$
 (^|\.)600ad\.com$
 (^|\.)6dad\.com$
+(^|\.)70e\.com$
 (^|\.)86\.cc$
 (^|\.)8le8le\.com$
 (^|\.)8ox\.cn$
@@ -711,6 +726,7 @@
 (^|\.)biddingos\.com$
 (^|\.)biddingx\.com$
 (^|\.)bjxiaohua\.com$
+(^|\.)branch\.io$
 (^|\.)bsdev\.cn$
 (^|\.)btyou\.com$
 (^|\.)bugtags\.com$
@@ -748,6 +764,7 @@
 (^|\.)edigitalsurvey\.com$
 (^|\.)effectivemeasure\.com$
 (^|\.)emarbox\.com$
+(^|\.)exosrv\.com$
 (^|\.)fancyapi\.com$
 (^|\.)fastapi\.net$
 (^|\.)fastclick\.net$
@@ -757,6 +774,7 @@
 (^|\.)getui\.com$
 (^|\.)glispa\.com$
 (^|\.)go-mpulse$
+(^|\.)go-mpulse\.net$
 (^|\.)godloveme\.cn$
 (^|\.)growingio\.com$
 (^|\.)guohead\.com$
@@ -764,6 +782,7 @@
 (^|\.)haoghost\.com$
 (^|\.)icast\.cn$
 (^|\.)igexin\.com$
+(^|\.)il8r\.com$
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
@@ -868,6 +887,7 @@
 (^|\.)serving-sys\.com$
 (^|\.)shuiguo\.com$
 (^|\.)shuzilm\.cn$
+(^|\.)similarweb\.com$
 (^|\.)sitemeter\.com$
 (^|\.)sitescout\.com$
 (^|\.)smartadserver\.com$
@@ -880,6 +900,7 @@
 (^|\.)sycbbs\.com$
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
+(^|\.)talkingdata\.com$
 (^|\.)tansuotv\.com$
 (^|\.)tanx\.com$
 (^|\.)tapjoy\.cn$
@@ -900,6 +921,7 @@
 (^|\.)unionsy\.com$
 (^|\.)unlitui\.com$
 (^|\.)uri6\.com$
+(^|\.)userstyles\.org$
 (^|\.)ushaqi\.com$
 (^|\.)usingde\.com$
 (^|\.)uyunad\.com$
@@ -951,7 +973,6 @@
 (^|\.)go\.10086\.cn$
 (^|\.)navi\.gd\.chinamobile\.com$
 (^|\.)hivedata\.cc$
-
 
 # China_mobile 移动
 # Beijing Mobile Float
