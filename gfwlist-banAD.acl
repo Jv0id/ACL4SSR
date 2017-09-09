@@ -1,6 +1,6 @@
 #**********************************************************************
-# 9.2
-# 2017年9月1日19:46:36
+# 9.9
+# 2017年9月9日14:05:02
 # 转载需要注明版权和来源
 # 
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -133,14 +133,17 @@
 (^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
+(^|\.)baikebcs\.bdimg\.com$
 (^|\.)boscdn\.bpc\.baidu\.com$
+(^|\.)cpro\.baidustatic\.com$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
-(^|\.)cpro\.baidustatic\.com$
 (^|\.)itsdata\.map\.baidu\.com$
 (^|\.)log\.nuomi\.com$
+(^|\.)mg09\.zhaopin\.com$
 (^|\.)push\.music\.baidu\.com$
 (^|\.)push\.zhanzhang\.baidu\.com$
+(^|\.)qchannel01\.cn$
 (^|\.)res\.limei\.com$
 (^|\.)shifen\.com$
 (^|\.)static\.map\.bdimg\.com$
@@ -148,8 +151,6 @@
 (^|\.)ulog\.imap\.baidu\.com$
 (^|\.)wisepush\.video\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
-(^|\.)baikebcs\.bdimg\.com$
-(^|\.)mg09\.zhaopin\.com$
 
 # Apple
 (^|\.)adserver\.unityads\.unity3d\.com$
@@ -467,7 +468,6 @@
 (^|\.)aiseet\.aa\.atianqi\.com$
 (^|\.)aiseet\.atianqi\.com$
 (^|\.)c\.l\.qq\.com$
-(^|\.)dp3\.play\.aiseet\.atianqi\.com$
 (^|\.)dp3\.qq\.com$
 (^|\.)livep\.l\.aiseet\.atianqi\.com$
 (^|\.)livep\.l\.qq\.com$
@@ -1033,6 +1033,7 @@
 111.206.13.80/32
 111.206.13.250/31
 111.206.22.0/24
+112.124.115.215/32
 113.207.57.24/32
 115.29.247.48/32
 116.206.22.7/32
@@ -1065,6 +1066,7 @@
 211.98.71.195/32
 211.98.71.196/32
 211.137.132.89/32
+218.93.127.0/24
 221.179.183.0/24
 221.179.191.0/24
 
@@ -1081,6 +1083,7 @@
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
+(^|\.)twimg\.org$
 
 #GFWList IP start
 85.17.73.31
