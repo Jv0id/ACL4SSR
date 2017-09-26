@@ -1,6 +1,6 @@
 #**********************************************************************
-# 9.16
-# 2017年9月16日13:16:56
+# 9.26
+# 2017年9月26日16:11:08
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -37,6 +37,7 @@
 (^|\.)\w*adwords\w*\..*$
 (^|\.)\w*analysis\w*\..*$
 (^|\.)\w*analytics\w*\..*$
+(^|\.)\w*applovin\w*\..*$
 (^|\.)\w*duomeng\w*\..*$
 (^|\.)\w*dwtrack\w*\..*$
 (^|\.)\w*guanggao\w*\..*$
@@ -45,6 +46,7 @@
 (^|\.)\w*openx\w*\..*$
 (^|\.)\w*partnerad\w*\..*$
 (^|\.)\w*pingfore\w*\..*$
+(^|\.)\w*socdm\w*\..*$
 (^|\.)\w*supersonicads\w*\..*$
 (^|\.)\w*tracking\w*\..*$
 (^|\.)\w*traffic\w*\..*$
@@ -144,7 +146,7 @@
 (^|\.)mg09\.zhaopin\.com$
 (^|\.)push\.music\.baidu\.com$
 (^|\.)push\.zhanzhang\.baidu\.com$
-(^|\.)qchannel01\.cn$
+(^|\.)qchannel0\d\.cn$
 (^|\.)res\.limei\.com$
 (^|\.)shifen\.com$
 (^|\.)static\.map\.bdimg\.com$
@@ -272,7 +274,7 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|bugly|buluo|e|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu|yoyo)\.qq\.com$
+(^|\.)(act|adsfile|bugly|buluo|e|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)res\.imtt\.qq\.com$
 
@@ -634,7 +636,7 @@
 (^|\.)tracker\.yhd\.com$
 (^|\.)up\.qingdaonews\.com$
 
-# 广告联盟****************
+# 广告联盟-国内****************
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
 (^|\.)123juzi\.net$
@@ -654,36 +656,35 @@
 (^|\.)acs86\.com$
 (^|\.)acxiom-online\.com$
 (^|\.)ad-brix\.com$
+(^|\.)ad-locus\.com$
 (^|\.)ad-plus\.cn$
 (^|\.)ad7\.com$
 (^|\.)adadapted\.com$
 (^|\.)adadvisor\.net$
 (^|\.)adap\.tv$
+(^|\.)adbana\.com$
 (^|\.)adbxb\.com$
 (^|\.)adchina\.com$
 (^|\.)adcolony\.com$
 (^|\.)adcome\.cn$
 (^|\.)ader\.mobi$
 (^|\.)adform\.net$
-(^|\.)adfurikun\.jp$
 (^|\.)adfuture\.cn$
 (^|\.)adhouyi\.com$
-(^|\.)adinall\.com$
 (^|\.)adinfuse\.com$
 (^|\.)adirects\.com$
 (^|\.)adjust\.com$
 (^|\.)adjust\.io$
 (^|\.)adkmob\.com$
 (^|\.)adlive\.cn$
+(^|\.)adlocus\.com$
 (^|\.)admin5\.com$
 (^|\.)admin6\.com$
 (^|\.)admon\.cn$
-(^|\.)adnxs\.com$
 (^|\.)adpolestar\.net$
 (^|\.)adpro\.cn$
 (^|\.)adpush\.cn$
 (^|\.)adquan\.com$
-(^|\.)adroll\.com$
 (^|\.)ads8\.com$
 (^|\.)adsame\.com$
 (^|\.)adsmogo\.com$
@@ -718,12 +719,14 @@
 (^|\.)appsflyer\.com$
 (^|\.)atdmt\.com$
 (^|\.)baifendian\.com$
+(^|\.)banmamedia\.com$
 (^|\.)baoyatu\.cc$
 (^|\.)baycode\.cn$
 (^|\.)behe\.com$
 (^|\.)biddingos\.com$
 (^|\.)biddingx\.com$
 (^|\.)bjxiaohua\.com$
+(^|\.)bloggerads\.net$
 (^|\.)branch\.io$
 (^|\.)bsdev\.cn$
 (^|\.)btyou\.com$
@@ -733,6 +736,7 @@
 (^|\.)casalemedia\.com$
 (^|\.)cdnmaster\.com$
 (^|\.)chance-ad\.com$
+(^|\.)chanet\.com\.cn$
 (^|\.)chartbeat\.com$
 (^|\.)chartboost\.com$
 (^|\.)chmae\.com$
@@ -745,21 +749,27 @@
 (^|\.)cocounion\.com$
 (^|\.)coolguang\.com$
 (^|\.)coremetrics\.com$
+(^|\.)cpmchina\.co$
 (^|\.)cpx24\.com$
-(^|\.)criteo\.com$
+(^|\.)crasheye\.cn$
 (^|\.)crosschannel\.com$
 (^|\.)crunchyroll\.com$
 (^|\.)customer-security\.online$
 (^|\.)daoyoudao\.com$
+(^|\.)datouniao\.com$
 (^|\.)ddapp\.cn$
+(^|\.)dianjoy\.com$
 (^|\.)dianru\.com$
 (^|\.)domob\.cn$
 (^|\.)domob\.com\.cn$
 (^|\.)domob\.org$
+(^|\.)dotmore\.com\.tw$
 (^|\.)doubleverify\.com$
 (^|\.)duanat\.com$
 (^|\.)duomeng\.cn$
+(^|\.)dxpmedia\.com$
 (^|\.)edigitalsurvey\.com$
+(^|\.)eduancm\.com$
 (^|\.)effectivemeasure\.com$
 (^|\.)emarbox\.com$
 (^|\.)exosrv\.com$
@@ -768,7 +778,7 @@
 (^|\.)fastclick\.net$
 (^|\.)feixin2\.com$
 (^|\.)flashtalking\.com$
-(^|\.)flurry\.com$
+(^|\.)gentags\.net$
 (^|\.)getui\.com$
 (^|\.)glispa\.com$
 (^|\.)go-mpulse$
@@ -784,7 +794,6 @@
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
-(^|\.)inmobi\.com$
 (^|\.)inmobicdn\.net$
 (^|\.)innity\.com$
 (^|\.)instabug\.com$
@@ -798,13 +807,16 @@
 (^|\.)jesgoo\.com$
 (^|\.)jiaeasy\.net$
 (^|\.)jiguang\.cn$
+(^|\.)jimdo\.com$
 (^|\.)jisucn\.com$
 (^|\.)jmgehn\.cn$
 (^|\.)jpush\.cn$
 (^|\.)jusha\.com$
+(^|\.)juzi\.cn$
 (^|\.)juzilm\.com$
 (^|\.)kejet\.com$
 (^|\.)kejet\.net$
+(^|\.)keydot\.net$
 (^|\.)keyrun\.cn$
 (^|\.)kmd365\.com$
 (^|\.)krux\.net$
@@ -815,6 +827,7 @@
 (^|\.)lotuseed\.com$
 (^|\.)lrswl\.com$
 (^|\.)lufax\.com$
+(^|\.)madhouse\.cn$
 (^|\.)madmini\.com$
 (^|\.)madserving\.com$
 (^|\.)magicwindow\.cn$
@@ -825,14 +838,16 @@
 (^|\.)megajoy\.com$
 (^|\.)mgogo\.com$
 (^|\.)miaozhen\.com$
+(^|\.)microad-cn\.com$
 (^|\.)miidi\.net$
+(^|\.)mijifen\.com$
 (^|\.)mixpanel\.com$
 (^|\.)mjmobi.com$
 (^|\.)mng-ads\.com$
+(^|\.)moad\.cn$
 (^|\.)moatads\.com$
 (^|\.)mobaders\.com$
 (^|\.)mobclix\.com$
-(^|\.)mobfox\.com$
 (^|\.)mobgi\.com$
 (^|\.)mobisage\.cn$
 (^|\.)mobvista\.com$
@@ -840,12 +855,10 @@
 (^|\.)moquanad\.com$
 (^|\.)mpush\.cn$
 (^|\.)mxpnl\.com$
-(^|\.)mydas\.mobi$
 (^|\.)myhug\.cn$
 (^|\.)mzy2014\.com$
 (^|\.)networkbench\.com$
 (^|\.)newrelic\.com$
-(^|\.)nexage\.com$
 (^|\.)ninebox\.cn$
 (^|\.)ntalker\.com$
 (^|\.)nylalobghyhirgh\.com$
@@ -872,7 +885,6 @@
 (^|\.)qiyou\.com$
 (^|\.)qtmojo\.com$
 (^|\.)quantcount\.com$
-(^|\.)quantserve\.com$
 (^|\.)qucaigg\.com$
 (^|\.)qumi\.com$
 (^|\.)qxxys\.com$
@@ -882,7 +894,7 @@
 (^|\.)rlcdn\.com$
 (^|\.)rtbasia\.com$
 (^|\.)sanya1\.com$
-(^|\.)scorecardresearch\.com$
+(^|\.)scupio\.com$
 (^|\.)segment\.com$
 (^|\.)serving-sys\.com$
 (^|\.)shuiguo\.com$
@@ -890,8 +902,9 @@
 (^|\.)similarweb\.com$
 (^|\.)sitemeter\.com$
 (^|\.)sitescout\.com$
-(^|\.)smartadserver\.com$
+(^|\.)sitetag\.us$
 (^|\.)smartmad\.com$
+(^|\.)social-touch\.com$
 (^|\.)somecoding\.com$
 (^|\.)sponsorpay\.com$
 (^|\.)statcounter\.com$
@@ -901,13 +914,14 @@
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
 (^|\.)talkingdata\.com$
+(^|\.)talkingdata\.net$
 (^|\.)tansuotv\.com$
 (^|\.)tanx\.com$
 (^|\.)tapjoy\.cn$
-(^|\.)tapjoyads\.com$
 (^|\.)th7\.cn$
 (^|\.)thoughtleadr\.com$
 (^|\.)tiqcdn\.com$
+(^|\.)touclick\.com$
 (^|\.)trafficjam\.cn$
 (^|\.)trafficmp\.com$
 (^|\.)tuia\.cn$
@@ -941,12 +955,16 @@
 (^|\.)wooboo\.com\.cn$
 (^|\.)wqmobile\.com$
 (^|\.)wrating\.com$
+(^|\.)wumii\.cn$
+(^|\.)xdrig\.com$
 (^|\.)xiaozhen\.com$
 (^|\.)xibao100\.com$
+(^|\.)xtgreat\.com$
 (^|\.)xy\.com$
 (^|\.)yandui\.com$
 (^|\.)yigao\.com$
 (^|\.)yijifen\.com$
+(^|\.)yinooo\.com$
 (^|\.)yiqifa\.com$
 (^|\.)yiwk\.com$
 (^|\.)ylunion\.com$
@@ -955,6 +973,7 @@
 (^|\.)yooli\.com$
 (^|\.)youmi\.net$
 (^|\.)youxiaoad\.com$
+(^|\.)yoyi\.com\.cn$
 (^|\.)yrxmr\.com$
 (^|\.)ysjwj\.com$
 (^|\.)yunjiasu\.com$
@@ -962,7 +981,55 @@
 (^|\.)zedo\.com$
 (^|\.)zhidian3g\.cn$
 (^|\.)zhiziyun\.com$
+(^|\.)zqzxz\.com$
 (^|\.)zzsx8\.com$
+
+# 广告联盟-国外****************
+(^|\.)ad-stir\.com$
+(^|\.)ad4game\.com$
+(^|\.)adcloud\.jp$
+(^|\.)adfurikun\.jp$
+(^|\.)adinall\.com$
+(^|\.)adk2x\.com$
+(^|\.)admarvel\.com$
+(^|\.)admedia\.com$
+(^|\.)adnxs\.com$
+(^|\.)adriver\.ru$
+(^|\.)adroll\.com$
+(^|\.)adsymptotic\.com$
+(^|\.)am15\.net$
+(^|\.)bepolite\.eu$
+(^|\.)co\.jp$
+(^|\.)criteo\.com$
+(^|\.)directrev\.com$
+(^|\.)dumedia\.ru$
+(^|\.)exoclick\.com$
+(^|\.)flurry\.com$
+(^|\.)gtags\.net$
+(^|\.)imrworldwide\.com$
+(^|\.)inmobi\.com$
+(^|\.)jizzads\.com$
+(^|\.)juicyads\.com$
+(^|\.)marketgid\.com$
+(^|\.)mgid\.com$
+(^|\.)mobadme\.jp$
+(^|\.)mobfox\.com$
+(^|\.)mobilityware\.com$
+(^|\.)mookie1\.com$
+(^|\.)mydas\.mobi$
+(^|\.)nend\.net$
+(^|\.)netshelter\.net$
+(^|\.)nexage\.com$
+(^|\.)quantserve\.com$
+(^|\.)revdepo\.com$
+(^|\.)sape\.ru$
+(^|\.)scorecardresearch\.com$
+(^|\.)smartadserver\.com$
+(^|\.)tapjoyads\.com$
+(^|\.)viglink\.com$
+(^|\.)yadro\.ru$
+(^|\.)yandex\.ru$
+(^|\.)yengo\.com$
 
 # 垃圾网站
 (^|\.)appget\.cn$
@@ -1088,7 +1155,6 @@
 211.149.225.23/32
 211.167.105.131/32
 218.25.246.118/32
-218.93.127.0/24
 219.234.83.60/32
 220.115.251.25/32
 220.196.52.141/32
@@ -6829,16 +6895,19 @@
 (^|\.)twimg\.org$
 
 # 国外域名关键字
+(^|\.)\w*1e100\w*\.\w*$
+(^|\.)\w*appledaily\w*\.\w*$
+(^|\.)\w*blogspot\w*\.\w*$
 (^|\.)\w*dropbox\w*\.\w*$
 (^|\.)\w*facebook\w*\.\w*$
 (^|\.)\w*fbcdn\w*\.\w*$
 (^|\.)\w*gmail\w*\.\w*$
 (^|\.)\w*google\w*\.\w*$
-(^|\.)\w*1e100\w*\.\w*$
 (^|\.)\w*instagram\w*\.\w*$
 (^|\.)\w*spotify\w*\.\w*$
 (^|\.)\w*telegram\w*\.\w*$
 (^|\.)\w*twitter\w*\.\w*$
+(^|\.)\w*whatsapp\w*\.\w*$
 
 # Kakao Talk
 (^|\.)kakao\.com$
@@ -6846,10 +6915,13 @@
 (^|\.)kakaocdn\.net$
 
 # Line
-(^|\.)line\.me$
-(^|\.)line-cdn\.net$
+(^|\.)lin\.ee$
 (^|\.)line-apps\.com$
+(^|\.)line-cdn\.net$
+(^|\.)line-scdn\.net$
+(^|\.)line\.me$
 (^|\.)line\.naver\.jp$
+(^|\.)nhncorp\.jp$
 
 # MytvSUPER & Netflix
 (^|\.)\w*nowtv100\w*\.\w*$
@@ -6866,6 +6938,12 @@
 # Whatsapp
 (^|\.)whatsapp\.com$
 (^|\.)whatsapp\.net$
+
+# Twitch
+(^|\.)twitch\.tv$
+(^|\.)ttvnw\.net$
+(^|\.)jtvnw\.net$
+(^|\.)akamaized\.net$
 
 # kakao Talk
 1.201.0.0/24
