@@ -25,6 +25,8 @@
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
+(^|\.)eu-west-1\.compute\.amazonaws\.com$
+
 #GFWList IP start
 85.17.73.31
 174.142.105.153
