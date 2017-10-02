@@ -1177,6 +1177,7 @@
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
 (^|\.)twimg\.org$
+(^|\.)eu-west-1\.compute\.amazonaws\.com$
 
 #GFWList IP start
 85.17.73.31
