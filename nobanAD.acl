@@ -1,6 +1,6 @@
 #**********************************************************************
-# 9.27
-# 2017年9月27日 23:07:28
+# 10.3
+# 2017年10月3日 22:15:00
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -67,6 +67,41 @@
 (^|\.)tbcache\.com$
 (^|\.)tbcdn\.com$
 (^|\.)tmall\.com$
+
+# GFWList Whitelist
+(^|\.)connectivitycheck\.gstatic\.com$
+(^|\.)cwb\.gov\.tw$
+(^|\.)dbnsa\.gov\.tw$
+(^|\.)eastcoast-nsa\.gov\.tw$
+(^|\.)erv-nsa\.gov\.tw$
+(^|\.)khm\.google\.com$
+(^|\.)khm\.googleapis\.com$
+(^|\.)khm0\.google\.com$
+(^|\.)khm0\.googleapis\.com$
+(^|\.)khm1\.google\.com$
+(^|\.)khm1\.googleapis\.com$
+(^|\.)khm2\.google\.com$
+(^|\.)khm2\.googleapis\.com$
+(^|\.)khm3\.google\.com$
+(^|\.)khm3\.googleapis\.com$
+(^|\.)khmdb\.google\.com$
+(^|\.)khmdb\.googleapis\.com$
+(^|\.)maolin-nsa\.gov\.tw$
+(^|\.)matsu-nsa\.gov\.tw$
+(^|\.)matsucc\.gov\.tw$
+(^|\.)nankan\.gov\.tw$
+(^|\.)necoast-nsa\.gov\.tw$
+(^|\.)northguan-nsa\.gov\.tw$
+(^|\.)penghu-nsa\.gov\.tw$
+(^|\.)post\.gov\.tw$
+(^|\.)redirector\.gvt1\.com$
+(^|\.)share\.dmhy\.org$
+(^|\.)siraya-nsa\.gov\.tw$
+(^|\.)sunmoonlake\.gov\.tw$
+(^|\.)tools\.google\.com$
+(^|\.)trimt-nsa\.gov\.tw$
+(^|\.)uluai\.com\.cn$
+(^|\.)yda\.gov\.tw$
 
 # Accelerate direct sites
 (^|\.)12306\.com$
