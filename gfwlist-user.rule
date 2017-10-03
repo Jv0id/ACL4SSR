@@ -1,6 +1,6 @@
 #**********************************************************************
-# 8.9
-# 2017年8月9日 23:26:45
+# 10.3
+# 2017年10月3日 22:45:24
 # 适用于SSR C#客户端
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
@@ -24,6 +24,7 @@
 .tumbex.com remoteproxy
 .twdvd.com remoteproxy
 .xn--i2ru8q2qg.com remoteproxy
+.eu-west-1.compute.amazonaws.com remoteproxy
 
 # GFWList
 
@@ -46,7 +47,10 @@
 .173ng.com remoteproxy
 .177pic.info remoteproxy
 .17t17p.com remoteproxy
+.18board.com remoteproxy
+.18board.info remoteproxy
 .18onlygirls.com remoteproxy
+.18p2p.com remoteproxy
 .18virginsex.com remoteproxy
 .1949er.org remoteproxy
 .1984bbs.com remoteproxy
@@ -183,21 +187,25 @@
 .afantibbs.com remoteproxy
 .agnesb.fr remoteproxy
 .agoogleaday.com remoteproxy
+.agro.hk remoteproxy
 .ai-kan.net remoteproxy
 .ai-wen.net remoteproxy
 .aiph.net remoteproxy
 .airconsole.com remoteproxy
 .airvpn.org remoteproxy
 .aisex.com remoteproxy
+.aiss.anws.gov.tw remoteproxy
 .ait.org.tw remoteproxy
 .aiweiwei.com remoteproxy
 .aiweiweiblog.com remoteproxy
 .akademiye.org remoteproxy
 .akiba-online.com remoteproxy
 .akiba-web.com remoteproxy
+.al-islam.com remoteproxy
 .al-qimmah.net remoteproxy
 .alabout.com remoteproxy
 .alanhou.com remoteproxy
+.alarab.qa remoteproxy
 .alasbarricadas.org remoteproxy
 .alexlur.org remoteproxy
 .alforattv.net remoteproxy
@@ -216,7 +224,8 @@
 .allinfa.com remoteproxy
 .alljackpotscasino.com remoteproxy
 .allmovie.com remoteproxy
-.allonlinux.free.fr remoteproxy
+.allowed.org remoteproxy
+.almasdarnews.com remoteproxy
 .almostmy.com remoteproxy
 .alphaporno.com remoteproxy
 .alternate-tools.com remoteproxy
@@ -235,6 +244,7 @@
 .amigobbs.net remoteproxy
 .amitabhafoundation.us remoteproxy
 .amnesty.org remoteproxy
+.amnesty.org.hk remoteproxy
 .amnesty.tw remoteproxy
 .amnestyusa.org remoteproxy
 .amnyemachen.org remoteproxy
@@ -273,9 +283,13 @@
 .aolchannels.aol.com remoteproxy
 .aomiwang.com remoteproxy
 .apetube.com remoteproxy
+.api-secure.recaptcha.net remoteproxy
+.api-verify.recaptcha.net remoteproxy
+.api.ai remoteproxy
 .api.dropboxapi.com remoteproxy
 .api.linksalpha.com remoteproxy
 .api.proxlet.com remoteproxy
+.api.recaptcha.net remoteproxy
 .apiary.io remoteproxy
 .apidocs.linksalpha.com remoteproxy
 .apigee.com remoteproxy
@@ -300,6 +314,7 @@
 .archive.is remoteproxy
 .archive.org remoteproxy
 .archives.gov remoteproxy
+.archives.gov.tw remoteproxy
 .arctosia.com remoteproxy
 .areca-backup.org remoteproxy
 .arena.taipei remoteproxy
@@ -325,6 +340,7 @@
 .askstudent.com remoteproxy
 .askynz.net remoteproxy
 .assembla.com remoteproxy
+.assimp.org remoteproxy
 .astrill.com remoteproxy
 .atc.org.au remoteproxy
 .atchinese.com remoteproxy
@@ -374,6 +390,8 @@
 .bangyoulater.com remoteproxy
 .bannedbook.org remoteproxy
 .bannednews.org remoteproxy
+.banorte.com remoteproxy
+.baramangaonline.com remoteproxy
 .barenakedislam.com remoteproxy
 .barnabu.co.uk remoteproxy
 .barracuda.com remoteproxy
@@ -435,6 +453,7 @@
 .berlintwitterwall.com remoteproxy
 .berm.co.nz remoteproxy
 .bestforchina.org remoteproxy
+.bestgore.com remoteproxy
 .bestvpn.com remoteproxy
 .bestvpnserver.com remoteproxy
 .bestvpnservice.com remoteproxy
@@ -470,6 +489,7 @@
 .bitcointalk.org remoteproxy
 .bitshare.com remoteproxy
 .bitsnoop.com remoteproxy
+.bitvise.com remoteproxy
 .bizhat.com remoteproxy
 .bjnewlife.org remoteproxy
 .bjs.org remoteproxy
@@ -477,6 +497,7 @@
 .bl-doujinsouko.com remoteproxy
 .blacklogic.com remoteproxy
 .blackvpn.com remoteproxy
+.blewpass.com remoteproxy
 .blinkx.com remoteproxy
 .blinw.com remoteproxy
 .blip.tv remoteproxy
@@ -506,6 +527,7 @@
 .blog.ranxiang.com remoteproxy
 .blog.sina.com.tw remoteproxy
 .blog.sogoo.org remoteproxy
+.blog.soylent.com remoteproxy
 .blog.syx86.cn remoteproxy
 .blog.syx86.com remoteproxy
 .blog.taragana.com remoteproxy
@@ -526,6 +548,7 @@
 .blogs.myspace.com remoteproxy
 .blogs.tampabay.com remoteproxy
 .blogs.yahoo.co.jp remoteproxy
+.blogspot(.(?!-)[a-zA-Z0-9-]{1,63}(?<!-)){1,2} remoteproxy
 .blogspot.com remoteproxy
 .blogspot.hk remoteproxy
 .blogspot.jp remoteproxy
@@ -559,7 +582,7 @@
 .botanwang.com remoteproxy
 .bowenpress.com remoteproxy
 .boxpn.com remoteproxy
-.boxun*.azurewebsites.net remoteproxy
+.boxun.azurewebsites.net remoteproxy
 .boxun.com remoteproxy
 .boxun.tv remoteproxy
 .boxunblog.com remoteproxy
@@ -577,11 +600,13 @@
 .brazzers.com remoteproxy
 .break.com remoteproxy
 .breakgfw.com remoteproxy
+.breaking911.com remoteproxy
 .breakingtweets.com remoteproxy
 .breakwall.net remoteproxy
 .briefdream.com remoteproxy
 .briian.com remoteproxy
 .brizzly.com remoteproxy
+.brkmd.com remoteproxy
 .broadbook.com remoteproxy
 .broadpressinc.com remoteproxy
 .brucewang.net remoteproxy
@@ -589,6 +614,7 @@
 .bt2mag.com remoteproxy
 .bt95.com remoteproxy
 .btaia.com remoteproxy
+.btbtav.com remoteproxy
 .btdigg.org remoteproxy
 .btku.me remoteproxy
 .btku.org remoteproxy
@@ -610,8 +636,10 @@
 .buzzhand.com remoteproxy
 .buzzhand.net remoteproxy
 .buzzorange.com remoteproxy
+.bvpn.com remoteproxy
 .bwsj.hk remoteproxy
 .bx.tl remoteproxy
+.bynet.co.il remoteproxy
 .c-est-simple.com remoteproxy
 .c-spanvideo.org remoteproxy
 .c100tibet.org remoteproxy
@@ -634,6 +662,7 @@
 .cams.com remoteproxy
 .cams.org.sg remoteproxy
 .canadameet.com remoteproxy
+.canalporno.com remoteproxy
 .canyu.org remoteproxy
 .cao.im remoteproxy
 .caobian.info remoteproxy
@@ -681,14 +710,14 @@
 .cdef.org remoteproxy
 .cdig.info remoteproxy
 .cdjp.org remoteproxy
-.cdn*.abc.com remoteproxy
-.cdn*.i-scmp.com remoteproxy
-.cdn*.search.xxx remoteproxy
-.cdn*.xda-developers.com remoteproxy
+.cdn.abc.com remoteproxy
 .cdn.helixstudios.net remoteproxy
+.cdn.i-scmp.com remoteproxy
 .cdn.printfriendly.com remoteproxy
+.cdn.search.xxx remoteproxy
 .cdn.softlayer.net remoteproxy
 .cdn.sstatic.net remoteproxy
+.cdn.xda-developers.com remoteproxy
 .cdn1.lp.saboom.com remoteproxy
 .cdnews.com.tw remoteproxy
 .cdninstagram.com remoteproxy
@@ -722,6 +751,7 @@
 .changeip.org remoteproxy
 .changp.com remoteproxy
 .changsa.net remoteproxy
+.channel8news.sg remoteproxy
 .chapm25.com remoteproxy
 .chatnook.com remoteproxy
 .chaturbate.com remoteproxy
@@ -736,6 +766,7 @@
 .china-mmm.jp.net remoteproxy
 .china-mmm.net remoteproxy
 .china-mmm.sa.com remoteproxy
+.china-review.com.ua remoteproxy
 .china-week.com remoteproxy
 .china.hket.com remoteproxy
 .china.ucanews.com remoteproxy
@@ -924,6 +955,7 @@
 .cpj.org remoteproxy
 .cq99.us remoteproxy
 .crackle.com remoteproxy
+.crazys.cc remoteproxy
 .crchina.org remoteproxy
 .crd-net.org remoteproxy
 .creaders.net remoteproxy
@@ -936,6 +968,8 @@
 .csdparty.com remoteproxy
 .css.pixnet.in remoteproxy
 .csuchen.de remoteproxy
+.csw.org.uk remoteproxy
+.ct.org.tw remoteproxy
 .ctao.org remoteproxy
 .ctfriend.net remoteproxy
 .cthlo.github.io remoteproxy
@@ -969,6 +1003,7 @@
 .dadi360.com remoteproxy
 .dafagood.com remoteproxy
 .dafahao.com remoteproxy
+.dagelijksestandaard.nl remoteproxy
 .daidostup.ru remoteproxy
 .dailidaili.com remoteproxy
 .dailymotion.com remoteproxy
@@ -1008,7 +1043,9 @@
 .darpa.mil remoteproxy
 .dastrassi.org remoteproxy
 .data-vocabulary.org remoteproxy
+.data.gov.tw remoteproxy
 .david-kilgour.com remoteproxy
+.dawangidc.com remoteproxy
 .daxa.cn remoteproxy
 .daylife.com remoteproxy
 .db.tt remoteproxy
@@ -1020,12 +1057,12 @@
 .ddns.info remoteproxy
 .ddns.me.uk remoteproxy
 .ddns.mobi remoteproxy
-.ddns.ms remoteproxy
 .ddns.name remoteproxy
 .ddns.net remoteproxy
 .ddns.us remoteproxy
 .de-sci.org remoteproxy
 .deaftone.com remoteproxy
+.debug.com remoteproxy
 .deck.ly remoteproxy
 .decodet.co remoteproxy
 .deepmind.com remoteproxy
@@ -1060,7 +1097,7 @@
 .digitalnomadsproject.org remoteproxy
 .diigo.com remoteproxy
 .dilber.se remoteproxy
-.dimitrik.free.fr remoteproxy
+.dingchin.com.tw remoteproxy
 .dipity.com remoteproxy
 .directcreative.com remoteproxy
 .discogs.com remoteproxy
@@ -1111,6 +1148,7 @@
 .dorjeshugden.com remoteproxy
 .dotplane.com remoteproxy
 .dotsub.com remoteproxy
+.dotvpn.com remoteproxy
 .doub.io remoteproxy
 .dougscripts.com remoteproxy
 .douhokanko.net remoteproxy
@@ -1149,6 +1187,7 @@
 .duihua.org remoteproxy
 .duihuahrjournal.org remoteproxy
 .dumb1.com remoteproxy
+.dunyabulteni.net remoteproxy
 .duoweitimes.com remoteproxy
 .duping.net remoteproxy
 .duplicati.com remoteproxy
@@ -1173,6 +1212,9 @@
 .dyndns.org remoteproxy
 .dyndns.pro remoteproxy
 .dynssl.com remoteproxy
+.dynu.com remoteproxy
+.dynu.net remoteproxy
+.dynupdate.no-ip.com remoteproxy
 .dzze.com remoteproxy
 .e-classical.com.tw remoteproxy
 .e-gold.com remoteproxy
@@ -1218,6 +1260,7 @@
 .efksoft.com remoteproxy
 .efukt.com remoteproxy
 .eic-av.com remoteproxy
+.eireinikotaerukai.com remoteproxy
 .eisbb.com remoteproxy
 .eksisozluk.com remoteproxy
 .electionsmeter.com remoteproxy
@@ -1237,6 +1280,7 @@
 .enanyang.my remoteproxy
 .enewstree.com remoteproxy
 .enfal.de remoteproxy
+.engagedaily.org remoteproxy
 .englishforeveryone.org remoteproxy
 .englishfromengland.co.uk remoteproxy
 .englishpen.org remoteproxy
@@ -1244,6 +1288,7 @@
 .entermap.com remoteproxy
 .entnt.com remoteproxy
 .environment.google remoteproxy
+.epa.gov.tw remoteproxy
 .epac.to remoteproxy
 .episcopalchurch.org remoteproxy
 .epochhk.com remoteproxy
@@ -1314,6 +1359,7 @@
 .ezpc.tk remoteproxy
 .ezpeer.com remoteproxy
 .ezua.com remoteproxy
+.fa.gov.tw remoteproxy
 .facebook.br remoteproxy
 .facebook.com remoteproxy
 .facebook.design remoteproxy
@@ -1339,6 +1385,7 @@
 .falunart.org remoteproxy
 .falunasia.info remoteproxy
 .falunau.org remoteproxy
+.falunaz.net remoteproxy
 .falundafa-dc.org remoteproxy
 .falundafa-florida.org remoteproxy
 .falundafa-nc.org remoteproxy
@@ -1365,6 +1412,7 @@
 .fangong.forums-free.com remoteproxy
 .fangong.org remoteproxy
 .fangongheike.com remoteproxy
+.fanhaodang.com remoteproxy
 .fanqiang.tk remoteproxy
 .fanqianghou.com remoteproxy
 .fanqiangyakexi.net remoteproxy
@@ -1387,13 +1435,14 @@
 .faydao.com remoteproxy
 .fb.com remoteproxy
 .fb.me remoteproxy
-.fbcdn*.akamaihd.net remoteproxy
+.fbcdn.akamaihd.net remoteproxy
 .fbcdn.net remoteproxy
 .fbsbx.com remoteproxy
 .fc2.com remoteproxy
 .fc2blog.net remoteproxy
 .fc2china.com remoteproxy
 .fc2cn.com remoteproxy
+.fda.gov.tw remoteproxy
 .fdc64.de remoteproxy
 .fdc64.org remoteproxy
 .fdc89.jp remoteproxy
@@ -1433,6 +1482,7 @@
 .findyoutube.com remoteproxy
 .fingerdaily.com remoteproxy
 .finler.net remoteproxy
+.firearmsworld.net remoteproxy
 .fireofliberty.org remoteproxy
 .firetweet.io remoteproxy
 .firstfivefollowers.com remoteproxy
@@ -1445,6 +1495,7 @@
 .flgjustice.org remoteproxy
 .flickr.com remoteproxy
 .flickrhivemind.net remoteproxy
+.flickriver.com remoteproxy
 .fling.com remoteproxy
 .flipboard.com remoteproxy
 .flipkart.com remoteproxy
@@ -1472,7 +1523,6 @@
 .forum.xinbao.de remoteproxy
 .forum4hk.com remoteproxy
 .fotile.me remoteproxy
-.fotop.net remoteproxy
 .fourface.nodesnoop.com remoteproxy
 .foursquare.com remoteproxy
 .fourthinternational.org remoteproxy
@@ -1491,6 +1541,7 @@
 .freakshare.com remoteproxy
 .free-gate.org remoteproxy
 .free-hada-now.org remoteproxy
+.free-proxy.cz remoteproxy
 .free-ssh.com remoteproxy
 .free.fr remoteproxy
 .free4u.com.ar remoteproxy
@@ -1499,6 +1550,7 @@
 .freechal.com remoteproxy
 .freechina.net remoteproxy
 .freeddns.com remoteproxy
+.freeddns.org remoteproxy
 .freedomchina.info remoteproxy
 .freedomcollection.org remoteproxy
 .freedomhouse.org remoteproxy
@@ -1553,6 +1605,7 @@
 .ftchinese.com remoteproxy
 .ftp1.biz remoteproxy
 .ftpserver.biz remoteproxy
+.ftv.com.tw remoteproxy
 .fucd.com remoteproxy
 .fuckcnnic.net remoteproxy
 .fuckgfw.org remoteproxy
@@ -1602,6 +1655,7 @@
 .gardennetworks.com remoteproxy
 .gardennetworks.org remoteproxy
 .gartlive.com remoteproxy
+.gate-project.com remoteproxy
 .gather.com remoteproxy
 .gati.org.tw remoteproxy
 .gaybubble.com remoteproxy
@@ -1630,6 +1684,7 @@
 .geometrictools.com remoteproxy
 .gerefoundation.org remoteproxy
 .get.how remoteproxy
+.getastrill.com remoteproxy
 .getchu.com remoteproxy
 .getcloak.com remoteproxy
 .getcloudapp.com remoteproxy
@@ -1643,6 +1698,7 @@
 .getmdl.io remoteproxy
 .getsmartlinks.com remoteproxy
 .getsocialscope.com remoteproxy
+.getsync.com remoteproxy
 .gettrials.com remoteproxy
 .gettyimages.com remoteproxy
 .getuploader.com remoteproxy
@@ -1656,18 +1712,18 @@
 .ghost.org remoteproxy
 .ghostpath.com remoteproxy
 .ghut.org remoteproxy
+.giantessnight.com remoteproxy
 .gifree.com remoteproxy
 .giga-web.jp remoteproxy
 .gigporno.ru remoteproxy
 .girlbanker.com remoteproxy
 .gist.github.com remoteproxy
-.git-scm.com remoteproxy
 .git.io remoteproxy
-.github.com remoteproxy
 .github.io remoteproxy
 .gizlen.net remoteproxy
 .gjczz.com remoteproxy
 .glass8.eu remoteproxy
+.global.bing.com remoteproxy
 .globaljihad.net remoteproxy
 .globalmediaoutreach.com remoteproxy
 .globalmuseumoncommunism.org remoteproxy
@@ -1708,6 +1764,7 @@
 .goldbetsports.com remoteproxy
 .goldeneyevault.com remoteproxy
 .goldenfrog.com remoteproxy
+.goldjizz.com remoteproxy
 .goldstep.net remoteproxy
 .goldwave.com remoteproxy
 .gongm.in remoteproxy
@@ -1740,7 +1797,7 @@
 .google.bt remoteproxy
 .google.by remoteproxy
 .google.ca remoteproxy
-.google.cat remoteproxy
+.google.calstate.edu remoteproxy
 .google.cc remoteproxy
 .google.cd remoteproxy
 .google.cf remoteproxy
@@ -1959,9 +2016,11 @@
 .goproxing.net remoteproxy
 .gospelherald.com remoteproxy
 .got-game.org remoteproxy
+.gotdns.ch remoteproxy
 .gotgeeks.com remoteproxy
 .gotrusted.com remoteproxy
 .gotw.ca remoteproxy
+.gov.taipei remoteproxy
 .gr8domain.biz remoteproxy
 .gr8name.biz remoteproxy
 .grammaly.com remoteproxy
@@ -2079,6 +2138,7 @@
 .hideipvpn.com remoteproxy
 .hideman.net remoteproxy
 .hideme.nl remoteproxy
+.hidemy.name remoteproxy
 .hidemyass.com remoteproxy
 .hidemycomp.com remoteproxy
 .higfw.com remoteproxy
@@ -2099,7 +2159,6 @@
 .hizb-ut-tahrir.org remoteproxy
 .hizbuttahrir.org remoteproxy
 .hjclub.info remoteproxy
-.hk*.nextmedia.com remoteproxy
 .hk-pub.com remoteproxy
 .hk.frienddy.com remoteproxy
 .hk.geocities.com remoteproxy
@@ -2109,14 +2168,17 @@
 .hk.knowledge.yahoo.com remoteproxy
 .hk.myblog.yahoo.com remoteproxy
 .hk.news.yahoo.com remoteproxy
+.hk.nextmedia.com remoteproxy
 .hk.rd.yahoo.com remoteproxy
 .hk.search.yahoo.com remoteproxy
 .hk.video.news.yahoo.com remoteproxy
 .hk.yahoo.com remoteproxy
 .hk01.com remoteproxy
 .hk32168.com remoteproxy
+.hka8964.wordpress.com remoteproxy
 .hkacg.com remoteproxy
 .hkacg.net remoteproxy
+.hkanews.wordpress.com remoteproxy
 .hkatvnews.com remoteproxy
 .hkbc.net remoteproxy
 .hkbf.org remoteproxy
@@ -2138,7 +2200,7 @@
 .hkgolden.com remoteproxy
 .hkgreenradio.org remoteproxy
 .hkheadline.com remoteproxy
-.hkheadline.com*blog remoteproxy
+.hkheadline.comblog remoteproxy
 .hkhkhk.com remoteproxy
 .hkhrc.org.hk remoteproxy
 .hkhrm.org.hk remoteproxy
@@ -2177,7 +2239,9 @@
 .hopedialogue.org remoteproxy
 .hopto.org remoteproxy
 .hornygamer.com remoteproxy
+.hornytrip.com remoteproxy
 .hotav.tv remoteproxy
+.hotels.cn remoteproxy
 .hotfrog.com.tw remoteproxy
 .hotgoo.com remoteproxy
 .hotpornshow.com remoteproxy
@@ -2187,6 +2251,7 @@
 .hotvpn.com remoteproxy
 .hougaige.com remoteproxy
 .howtoforge.com remoteproxy
+.hpa.gov.tw remoteproxy
 .hqcdp.org remoteproxy
 .hqjapanesesex.com remoteproxy
 .hqmovies.com remoteproxy
@@ -2226,7 +2291,7 @@
 .hulkshare.com remoteproxy
 .hulu.com remoteproxy
 .huluim.com remoteproxy
-.hum*.uchicago.edu remoteproxy
+.hum.uchicago.edu remoteproxy
 .humanrightsbriefing.org remoteproxy
 .hung-ya.com remoteproxy
 .hungerstrikeforaids.org remoteproxy
@@ -2269,6 +2334,7 @@
 .iconpaper.org remoteproxy
 .icu-project.org remoteproxy
 .id.hao123.com remoteproxy
+.iddddg.com remoteproxy
 .idemocracy.asia remoteproxy
 .identi.ca remoteproxy
 .idiomconnection.com remoteproxy
@@ -2295,6 +2361,7 @@
 .ihakka.net remoteproxy
 .ihao.org remoteproxy
 .iicns.com remoteproxy
+.ikstar.com remoteproxy
 .ikwb.com remoteproxy
 .illusionfactory.com remoteproxy
 .ilove80.be remoteproxy
@@ -2311,9 +2378,9 @@
 .imagezilla.net remoteproxy
 .imb.org remoteproxy
 .imdb.com remoteproxy
-.img*.picturedip.com remoteproxy
 .img.dlsite.jp remoteproxy
 .img.ly remoteproxy
+.img.picturedip.com remoteproxy
 .imgchili.net remoteproxy
 .imgmega.com remoteproxy
 .imgur.com remoteproxy
@@ -2336,6 +2403,7 @@
 .innermongolia.org remoteproxy
 .inote.tw remoteproxy
 .insecam.org remoteproxy
+.insidevoa.com remoteproxy
 .instagram.com remoteproxy
 .instanthq.com remoteproxy
 .institut-tibetain.org remoteproxy
@@ -2351,7 +2419,6 @@
 .iownyour.biz remoteproxy
 .iownyour.org remoteproxy
 .ipalter.com remoteproxy
-.ipcf.org.tw remoteproxy
 .iphone4hongkong.com remoteproxy
 .iphonehacks.com remoteproxy
 .iphonetaiwan.org remoteproxy
@@ -2364,6 +2431,7 @@
 .ippotv.com remoteproxy
 .ipredator.se remoteproxy
 .iptv.com.tw remoteproxy
+.iptvbin.com remoteproxy
 .ipvanish.com remoteproxy
 .iredmail.org remoteproxy
 .ironbigfools.compython.net remoteproxy
@@ -2375,6 +2443,7 @@
 .isaacmao.com remoteproxy
 .isasecret.com remoteproxy
 .isgreat.org remoteproxy
+.islahhaber.net remoteproxy
 .islam.org.hk remoteproxy
 .islamawareness.net remoteproxy
 .islamhouse.com remoteproxy
@@ -2393,6 +2462,7 @@
 .isunaffairs.com remoteproxy
 .isuntv.com remoteproxy
 .itaboo.info remoteproxy
+.itaiwan.gov.tw remoteproxy
 .italiatibet.org remoteproxy
 .itasoftware.com remoteproxy
 .itemdb.com remoteproxy
@@ -2421,6 +2491,7 @@
 .janwongphoto.com remoteproxy
 .japan-whores.com remoteproxy
 .japanfirst.asianfreeforum.com remoteproxy
+.jav101.com remoteproxy
 .jav2be.com remoteproxy
 .jav68.tv remoteproxy
 .javakiba.org remoteproxy
@@ -2451,7 +2522,9 @@
 .jiaoyou8.com remoteproxy
 .jiehua.cz remoteproxy
 .jieshibaobao.com remoteproxy
+.jigglegifs.com remoteproxy
 .jigong1024.com remoteproxy
+.jihadology.net remoteproxy
 .jims.net remoteproxy
 .jinbushe.org remoteproxy
 .jingpin.org remoteproxy
@@ -2516,7 +2589,6 @@
 .karkhung.com remoteproxy
 .karmapa-teachings.org remoteproxy
 .karmapa.org remoteproxy
-.kat.cr remoteproxy
 .kawaiikawaii.jp remoteproxy
 .kb.monitorware.com remoteproxy
 .kba-tx.org remoteproxy
@@ -2526,6 +2598,7 @@
 .kechara.com remoteproxy
 .keepandshare.com remoteproxy
 .keepvid.com remoteproxy
+.keezmovies.com remoteproxy
 .kendatire.com remoteproxy
 .kendincos.net remoteproxy
 .kenengba.com remoteproxy
@@ -2536,6 +2609,7 @@
 .khatrimaza.org remoteproxy
 .khmusic.com.tw remoteproxy
 .kichiku-doujinko.com remoteproxy
+.kik.com remoteproxy
 .killwall.com remoteproxy
 .kindleren.com remoteproxy
 .kineox.free.fr remoteproxy
@@ -2543,12 +2617,15 @@
 .kinghost.com remoteproxy
 .kingstone.com.tw remoteproxy
 .kink.com remoteproxy
+.kinmen.org.tw remoteproxy
+.kinmen.travel remoteproxy
 .kir.jp remoteproxy
 .kissbbao.cn remoteproxy
 .kiwi.kz remoteproxy
 .kk-whys.co.jp remoteproxy
 .kkbox.com remoteproxy
 .kmt.org.tw remoteproxy
+.kmuh.org.tw remoteproxy
 .knowledgerush.com remoteproxy
 .kobo.com remoteproxy
 .kobobooks.com remoteproxy
@@ -2570,9 +2647,11 @@
 .kusocity.com remoteproxy
 .kwcg.ca remoteproxy
 .kwongwah.com.my remoteproxy
+.kxsw.life remoteproxy
 .kyofun.com remoteproxy
 .kyohk.net remoteproxy
 .kyoyue.com remoteproxy
+.kyzyhello.com remoteproxy
 .kzeng.info remoteproxy
 .la-forum.org remoteproxy
 .labiennale.org remoteproxy
@@ -2605,6 +2684,7 @@
 .left21.hk remoteproxy
 .legalporno.com remoteproxy
 .legaltech.law.com remoteproxy
+.legsjapan.com remoteproxy
 .leirentv.ca remoteproxy
 .leisurecafe.ca remoteproxy
 .leisurepro.com remoteproxy
@@ -2628,10 +2708,12 @@
 .libertytimes.com.tw remoteproxy
 .library.usc.cuhk.edu.hk remoteproxy
 .lidecheng.com remoteproxy
+.lifemiles.comlifemiles.com remoteproxy
 .lighten.org.tw remoteproxy
 .like.com remoteproxy
 .limiao.net remoteproxy
 .line-apps.com remoteproxy
+.line-scdn.net remoteproxy
 .line.me remoteproxy
 .line.naver.jp remoteproxy
 .linglingfa.com remoteproxy
@@ -2643,12 +2725,14 @@
 .linuxtoy.org remoteproxy
 .lionsroar.com remoteproxy
 .lipuman.com remoteproxy
+.liquidvpn.com remoteproxy
 .listentoyoutube.com remoteproxy
 .listorious.com remoteproxy
 .lists.w3.org remoteproxy
 .liudejun.com remoteproxy
 .liuhanyu.com remoteproxy
 .liujianshu.com remoteproxy
+.liuxiaobo.net remoteproxy
 .liuxiaotong.com remoteproxy
 .livedoor.jp remoteproxy
 .liveleak.com remoteproxy
@@ -2725,6 +2809,7 @@
 .maiplus.com remoteproxy
 .maizhong.org remoteproxy
 .makemymood.com remoteproxy
+.makkahnewspaper.com remoteproxy
 .makzhou.warehouse333.com remoteproxy
 .malaysiakini.com remoteproxy
 .mangafox.com remoteproxy
@@ -2738,7 +2823,7 @@
 .marc.info remoteproxy
 .marguerite.su remoteproxy
 .marines.mil remoteproxy
-.markmail.org*message remoteproxy
+.markmail.orgmessage remoteproxy
 .martau.com remoteproxy
 .martincartoons.com remoteproxy
 .martsangkagyuofficial.org remoteproxy
@@ -2766,6 +2851,7 @@
 .mcreasite.com remoteproxy
 .md-t.org remoteproxy
 .meansys.com remoteproxy
+.media.nu.nl remoteproxy
 .media.org.hk remoteproxy
 .mediachinese.com remoteproxy
 .mediafire.com remoteproxy
@@ -2856,6 +2942,7 @@
 .mixpod.com remoteproxy
 .mixx.com remoteproxy
 .mizzmona.com remoteproxy
+.mjib.gov.tw remoteproxy
 .mjlsh.usc.cuhk.edu.hk remoteproxy
 .mk5000.com remoteproxy
 .mlcool.com remoteproxy
@@ -2867,12 +2954,15 @@
 .mobileways.de remoteproxy
 .moby.to remoteproxy
 .mobypicture.com remoteproxy
+.moeaic.gov.tw remoteproxy
 .moeerolibrary.com remoteproxy
 .mofaxiehui.com remoteproxy
 .mofos.com remoteproxy
 .mog.com remoteproxy
+.mol.gov.tw remoteproxy
 .molihua.org remoteproxy
 .mondex.org remoteproxy
+.money-link.com.tw remoteproxy
 .moneyhome.biz remoteproxy
 .monitorchina.org remoteproxy
 .monster.com remoteproxy
@@ -2893,6 +2983,7 @@
 .mpfinance.com remoteproxy
 .mpinews.com remoteproxy
 .mponline.hk remoteproxy
+.mqxd.org remoteproxy
 .mrbasic.com remoteproxy
 .mrbonus.com remoteproxy
 .mrface.com remoteproxy
@@ -2915,6 +3006,7 @@
 .muzi.com remoteproxy
 .muzi.net remoteproxy
 .muzu.tv remoteproxy
+.mvdis.gov.tw remoteproxy
 .mvg.jp remoteproxy
 .mx.hao123.com remoteproxy
 .mx981.com remoteproxy
@@ -2928,6 +3020,7 @@
 .myaudiocast.com remoteproxy
 .myav.com.tw remoteproxy
 .mybbs.us remoteproxy
+.mybet.com remoteproxy
 .myca168.com remoteproxy
 .mycanadanow.com remoteproxy
 .mychinamyhome.com remoteproxy
@@ -2986,12 +3079,15 @@
 .nanzao.com remoteproxy
 .naol.ca remoteproxy
 .naol.cc remoteproxy
+.nat.gov.tw remoteproxy
+.nat.moe remoteproxy
 .national-lottery.co.uk remoteproxy
 .nationsonline.org remoteproxy
 .nationwide.com remoteproxy
 .naughtyamerica.com remoteproxy
 .navyfamily.navy.mil remoteproxy
 .navyreserve.navy.mil remoteproxy
+.naweeklytimes.com remoteproxy
 .nbtvpn.com remoteproxy
 .nccwatch.org.tw remoteproxy
 .nch.com.tw remoteproxy
@@ -3002,6 +3098,7 @@
 .nekoslovakia.net remoteproxy
 .nemesis2.qx.net remoteproxy
 .neo-miracle.com remoteproxy
+.nepusoku.com remoteproxy
 .netbirds.com remoteproxy
 .netcolony.com remoteproxy
 .netflix.com remoteproxy
@@ -3009,6 +3106,7 @@
 .netsneak.com remoteproxy
 .network54.com remoteproxy
 .networkedblogs.com remoteproxy
+.networktunnel.net remoteproxy
 .neverforget8964.org remoteproxy
 .new-3lunch.net remoteproxy
 .new-akiba.com remoteproxy
@@ -3028,6 +3126,7 @@
 .news.nationalgeographic.com remoteproxy
 .news.now.com remoteproxy
 .news.omy.sg remoteproxy
+.news.seehua.com remoteproxy
 .news.sina.com.hk remoteproxy
 .news.sina.com.tw remoteproxy
 .news.sinchew.com.my remoteproxy
@@ -3056,9 +3155,15 @@
 .nexttv.com.tw remoteproxy
 .nf.id.au remoteproxy
 .nfjtyd.com remoteproxy
+.nflxext.com remoteproxy
+.nflximg.com remoteproxy
+.nflximg.net remoteproxy
+.nflxso.net remoteproxy
+.nflxvideo.net remoteproxy
 .nga.mil remoteproxy
 .ngensis.com remoteproxy
 .nhentai.net remoteproxy
+.nhi.gov.tw remoteproxy
 .nhk-ondemand.jp remoteproxy
 .nic.cz.cc remoteproxy
 .nic.google remoteproxy
@@ -3094,6 +3199,7 @@
 .nowtorrents.com remoteproxy
 .noypf.com remoteproxy
 .npa.go.jp remoteproxy
+.npa.gov.tw remoteproxy
 .npnt.me remoteproxy
 .nps.gov remoteproxy
 .nrk.no remoteproxy
@@ -3106,6 +3212,8 @@
 .ns1.name remoteproxy
 .ns2.name remoteproxy
 .ns3.name remoteproxy
+.ntbk.gov.tw remoteproxy
+.ntbt.gov.tw remoteproxy
 .ntd.tv remoteproxy
 .ntdtv.ca remoteproxy
 .ntdtv.co.kr remoteproxy
@@ -3124,6 +3232,7 @@
 .nuuvem.com remoteproxy
 .nuvid.com remoteproxy
 .nuzcom.com remoteproxy
+.nvdst.com remoteproxy
 .nvquan.org remoteproxy
 .nvtongzhisheng.org remoteproxy
 .nwtca.org remoteproxy
@@ -3142,6 +3251,7 @@
 .nytimes.com remoteproxy
 .nytimes.map.fastly.net remoteproxy
 .nytimg.com remoteproxy
+.nytstyle.com remoteproxy
 .nzchinese.com remoteproxy
 .nzchinese.net.nz remoteproxy
 .observechina.net remoteproxy
@@ -3153,6 +3263,7 @@
 .ocry.com remoteproxy
 .october-review.org remoteproxy
 .oculus.com remoteproxy
+.oculuscdn.com remoteproxy
 .offbeatchina.com remoteproxy
 .officeoftibet.com remoteproxy
 .ofile.org remoteproxy
@@ -3161,6 +3272,7 @@
 .oikos.com.tw remoteproxy
 .oiktv.com remoteproxy
 .oizoblog.com remoteproxy
+.ok.ru remoteproxy
 .okayfreedom.com remoteproxy
 .okk.tw remoteproxy
 .old-cat.net remoteproxy
@@ -3247,6 +3359,7 @@
 .paltalk.com remoteproxy
 .panacom.co.jp remoteproxy
 .panamapapers.sueddeutsche.de remoteproxy
+.pandapow.co remoteproxy
 .pandapow.net remoteproxy
 .pandavpn-jp.com remoteproxy
 .pandora.com remoteproxy
@@ -3271,6 +3384,7 @@
 .pbxes.com remoteproxy
 .pbxes.org remoteproxy
 .pcanywhere.net remoteproxy
+.pcc.gov.tw remoteproxy
 .pcdvd.com.tw remoteproxy
 .pchome.com.tw remoteproxy
 .pcij.org remoteproxy
@@ -3306,8 +3420,9 @@
 .phayul.com remoteproxy
 .philborges.com remoteproxy
 .philly.com remoteproxy
+.phmsociety.org remoteproxy
 .phncdn.com remoteproxy
-.phobos.apple.com* remoteproxy
+.phobos.apple.com remoteproxy
 .phosphation13.rssing.com remoteproxy
 .photodharma.net remoteproxy
 .photofocus.com remoteproxy
@@ -3322,8 +3437,18 @@
 .pinimg.com remoteproxy
 .pinkrod.com remoteproxy
 .pinoy-n.com remoteproxy
+.pinterest.at remoteproxy
+.pinterest.co.kr remoteproxy
+.pinterest.co.uk remoteproxy
 .pinterest.com remoteproxy
+.pinterest.de remoteproxy
+.pinterest.dk remoteproxy
+.pinterest.fr remoteproxy
+.pinterest.jp remoteproxy
+.pinterest.nl remoteproxy
+.pinterest.se remoteproxy
 .pioneer-worker.forums-free.com remoteproxy
+.pipii.tv remoteproxy
 .piposay.com remoteproxy
 .piraattilahti.org remoteproxy
 .piring.com remoteproxy
@@ -3345,11 +3470,13 @@
 .pmatehunter.com remoteproxy
 .pmates.com remoteproxy
 .po2b.com remoteproxy
+.pobieramy.top remoteproxy
 .pocoo.org remoteproxy
 .podictionary.com remoteproxy
 .pokerstars.net remoteproxy
 .politicalchina.org remoteproxy
 .politicalconsultation.org remoteproxy
+.poloniex.com remoteproxy
 .polymer-project.org remoteproxy
 .polymerhk.com remoteproxy
 .popo.tw remoteproxy
@@ -3365,6 +3492,7 @@
 .pornhd.com remoteproxy
 .pornhost.com remoteproxy
 .pornhub.com remoteproxy
+.pornhubdeutsch.net remoteproxy
 .pornmm.net remoteproxy
 .pornoxo.com remoteproxy
 .pornrapidshare.com remoteproxy
@@ -3379,9 +3507,11 @@
 .portablevpn.nl remoteproxy
 .poskotanews.com remoteproxy
 .post01.com remoteproxy
+.post76.com remoteproxy
 .post852.com remoteproxy
 .postadult.com remoteproxy
 .postimg.org remoteproxy
+.potvpn.com remoteproxy
 .power.com remoteproxy
 .powerapple.com remoteproxy
 .powercx.com remoteproxy
@@ -3389,6 +3519,7 @@
 .prayforchina.net remoteproxy
 .premeforwindows7.com remoteproxy
 .presentationzen.com remoteproxy
+.presidentlee.tw remoteproxy
 .prestige-av.com remoteproxy
 .prisoneralert.com remoteproxy
 .pritunl.com remoteproxy
@@ -3417,6 +3548,7 @@
 .proyectoclubes.com remoteproxy
 .prozz.net remoteproxy
 .psblog.name remoteproxy
+.pscp.tv remoteproxy
 .psiphon.ca remoteproxy
 .psiphon.civisec.org remoteproxy
 .psiphon3.com remoteproxy
@@ -3441,7 +3573,6 @@
 .putihome.org remoteproxy
 .putlocker.com remoteproxy
 .putty.org remoteproxy
-.puttycm.free.fr remoteproxy
 .puuko.com remoteproxy
 .pwned.com remoteproxy
 .python.com remoteproxy
@@ -3463,6 +3594,7 @@
 .qtrac.eu remoteproxy
 .qtweeter.com remoteproxy
 .quannengshen.org remoteproxy
+.quantumbooter.net remoteproxy
 .questvisual.com remoteproxy
 .quitccp.net remoteproxy
 .quitccp.org remoteproxy
@@ -3497,6 +3629,8 @@
 .rapidvpn.com remoteproxy
 .raremovie.cc remoteproxy
 .raremovie.net remoteproxy
+.rawgit.com remoteproxy
+.rawgithub.com remoteproxy
 .rayfme.com remoteproxy
 .razyboard.com remoteproxy
 .rcinet.ca remoteproxy
@@ -3512,10 +3646,10 @@
 .realraptalk.com remoteproxy
 .realsexpass.com remoteproxy
 .rebatesrule.net remoteproxy
-.recaptcha.net remoteproxy
 .recordhistory.org remoteproxy
 .recovery.org.tw remoteproxy
 .recoveryversion.com.tw remoteproxy
+.red-lang.org remoteproxy
 .redchinacn.net remoteproxy
 .redchinacn.org remoteproxy
 .redhotlabs.com remoteproxy
@@ -3530,6 +3664,7 @@
 .renminbao.com remoteproxy
 .renyurenquan.org remoteproxy
 .research.jmsc.hku.hk remoteproxy
+.resilio.com remoteproxy
 .retweeteffect.com remoteproxy
 .retweetist.com remoteproxy
 .retweetrank.com remoteproxy
@@ -3560,7 +3695,6 @@
 .roc-taiwan.org remoteproxy
 .rocket-inc.net remoteproxy
 .rocksdb.org remoteproxy
-.rocmp.org remoteproxy
 .rojo.com remoteproxy
 .rolia.net remoteproxy
 .ronjoneswriter.com remoteproxy
@@ -3586,11 +3720,14 @@
 .s-dragon.org remoteproxy
 .s.gravatar.com remoteproxy
 .s1.nudezz.com remoteproxy
+.s1.nyt.com remoteproxy
 .s1heng.com remoteproxy
 .s1s1s1.com remoteproxy
 .s3-ap-northeast-1.amazonaws.com remoteproxy
+.s3.amazonaws.com remoteproxy
 .s8forum.com remoteproxy
 .sa.hao123.com remoteproxy
+.sacks.com remoteproxy
 .sacom.hk remoteproxy
 .sadistic-v.com remoteproxy
 .sadpanda.us remoteproxy
@@ -3604,6 +3741,7 @@
 .sambhota.org remoteproxy
 .sanmin.com.tw remoteproxy
 .sapikachu.net remoteproxy
+.saveliuxiaobo.com remoteproxy
 .savemedia.com remoteproxy
 .savethedate.foo remoteproxy
 .savetibet.de remoteproxy
@@ -3611,6 +3749,7 @@
 .savetibet.nl remoteproxy
 .savetibet.org remoteproxy
 .savetibet.ru remoteproxy
+.savetibetstore.org remoteproxy
 .savevid.com remoteproxy
 .say2.info remoteproxy
 .sbme.me remoteproxy
@@ -3627,6 +3766,7 @@
 .seapuff.com remoteproxy
 .search.aol.com remoteproxy
 .search.disconnect.me remoteproxy
+.search.yahoo.co.jp remoteproxy
 .searchtruth.com remoteproxy
 .secretchina.com remoteproxy
 .secretgarden.no remoteproxy
@@ -3643,6 +3783,7 @@
 .sellclassics.com remoteproxy
 .sendsmtp.com remoteproxy
 .sendspace.com remoteproxy
+.servehttp.com remoteproxy
 .serveuser.com remoteproxy
 .serveusers.com remoteproxy
 .sesawe.net remoteproxy
@@ -3670,6 +3811,7 @@
 .shadeyouvpn.com remoteproxy
 .shadow.ma remoteproxy
 .shadowsky.xyz remoteproxy
+.shadowsocks-r.com remoteproxy
 .shadowsocks.asia remoteproxy
 .shadowsocks.com remoteproxy
 .shadowsocks.org remoteproxy
@@ -3720,6 +3862,7 @@
 .sijihuisuo.club remoteproxy
 .sijihuisuo.com remoteproxy
 .silkbook.com remoteproxy
+.simbolostwitter.com remoteproxy
 .simplecd.org remoteproxy
 .simpleproductivityblog.com remoteproxy
 .sinchew.com.my remoteproxy
@@ -3750,10 +3893,9 @@
 .sketchappsources.com remoteproxy
 .skimtube.com remoteproxy
 .skybet.com remoteproxy
-.skyhighpremium.com remoteproxy
 .skyvegas.com remoteproxy
+.skyxvpn.com remoteproxy
 .slacker.com remoteproxy
-.slavasoft.com remoteproxy
 .slaytizle.com remoteproxy
 .sleazydream.com remoteproxy
 .slheng.com remoteproxy
@@ -3775,10 +3917,7 @@
 .snaptu.com remoteproxy
 .sndcdn.com remoteproxy
 .sneakme.net remoteproxy
-.snooper.co.uk remoteproxy
 .snowlionpub.com remoteproxy
-.so-ga.net remoteproxy
-.so-news.com remoteproxy
 .sobees.com remoteproxy
 .soc.mil remoteproxy
 .socialwhale.com remoteproxy
@@ -3801,6 +3940,7 @@
 .sokmil.com remoteproxy
 .solarsystem.nasa.gov remoteproxy
 .solidaritetibet.org remoteproxy
+.solidfiles.com remoteproxy
 .somee.com remoteproxy
 .songjianjun.com remoteproxy
 .sonicbbs.cc remoteproxy
@@ -3838,6 +3978,7 @@
 .sports.williamhill.com remoteproxy
 .spotflux.com remoteproxy
 .spotify.com remoteproxy
+.spreadshirt.es remoteproxy
 .spring4u.info remoteproxy
 .springboardplatform.com remoteproxy
 .sprite.org remoteproxy
@@ -3846,8 +3987,8 @@
 .squirly.info remoteproxy
 .srcf.ucam.org remoteproxy
 .srocket.us remoteproxy
-.ss*.4sqi.net remoteproxy
 .ss-link.com remoteproxy
+.ss.4sqi.net remoteproxy
 .ssglobal.me remoteproxy
 .ssh91.com remoteproxy
 .ssl.webpack.de remoteproxy
@@ -3863,10 +4004,11 @@
 .starfishfx.com remoteproxy
 .starp2p.com remoteproxy
 .startpage.com remoteproxy
-.static*.businessinsider.com remoteproxy
-.static*.nextmedia.com remoteproxy
+.stat.gov.tw remoteproxy
 .static-economist.com remoteproxy
+.static.businessinsider.com remoteproxy
 .static.comico.tw remoteproxy
+.static.nextmedia.com remoteproxy
 .static01.nyt.com remoteproxy
 .staticflickr.com remoteproxy
 .statueofdemocracy.org remoteproxy
@@ -3902,6 +4044,7 @@
 .stumbleupon.com remoteproxy
 .stupidvideos.com remoteproxy
 .subacme.rerouted.org remoteproxy
+.successfn.com remoteproxy
 .sugarsync.com remoteproxy
 .sugobbs.com remoteproxy
 .sugumiru18.com remoteproxy
@@ -3916,6 +4059,8 @@
 .sunta.com.tw remoteproxy
 .sunvpn.net remoteproxy
 .suoluo.org remoteproxy
+.superfreevpn.com remoteproxy
+.superokayama.com remoteproxy
 .superpages.com remoteproxy
 .supervpn.net remoteproxy
 .suppig.net remoteproxy
@@ -3952,6 +4097,7 @@
 .tagwa.org.au remoteproxy
 .tagwalk.com remoteproxy
 .tahr.org.tw remoteproxy
+.taipei.gov.tw remoteproxy
 .taipeisociety.org remoteproxy
 .taiwan-sex.com remoteproxy
 .taiwanbible.com remoteproxy
@@ -3959,6 +4105,7 @@
 .taiwandaily.net remoteproxy
 .taiwandc.org remoteproxy
 .taiwanembassy.org remoteproxy
+.taiwanjobs.gov.tw remoteproxy
 .taiwanjustice.com remoteproxy
 .taiwankiss.com remoteproxy
 .taiwannation.50webs.com remoteproxy
@@ -4017,6 +4164,7 @@
 .teeniefuck.net remoteproxy
 .teensinasia.com remoteproxy
 .telecomspace.com remoteproxy
+.telegram.dog remoteproxy
 .telegram.org remoteproxy
 .telegramdownload.com remoteproxy
 .telegraph.co.uk remoteproxy
@@ -4026,6 +4174,7 @@
 .tew.org remoteproxy
 .th.hao123.com remoteproxy
 .thaicn.com remoteproxy
+.thb.gov.tw remoteproxy
 .theatrum-belli.com remoteproxy
 .thebcomplex.com remoteproxy
 .theblemish.com remoteproxy
@@ -4093,6 +4242,7 @@
 .tibet.nu remoteproxy
 .tibet.org remoteproxy
 .tibet.org.tw remoteproxy
+.tibet.sk remoteproxy
 .tibet.to remoteproxy
 .tibet3rdpole.org remoteproxy
 .tibetaction.net remoteproxy
@@ -4137,6 +4287,7 @@
 .tibetinfonet.net remoteproxy
 .tibetjustice.org remoteproxy
 .tibetkomite.dk remoteproxy
+.tibetlibre.free.fr remoteproxy
 .tibetmuseum.org remoteproxy
 .tibetnetwork.org remoteproxy
 .tibetoffice.ch remoteproxy
@@ -4157,6 +4308,7 @@
 .tibettimes.net remoteproxy
 .tibetwrites.org remoteproxy
 .ticket.com.tw remoteproxy
+.tigervpn.com remoteproxy
 .tiltbrush.com remoteproxy
 .timdir.com remoteproxy
 .time.com remoteproxy
@@ -4167,6 +4319,7 @@
 .tiny.cc remoteproxy
 .tinychat.com remoteproxy
 .tinypaste.com remoteproxy
+.tipo.gov.tw remoteproxy
 .tistory.com remoteproxy
 .tkcs-collins.com remoteproxy
 .tl.gd remoteproxy
@@ -4266,6 +4419,7 @@
 .tumview.com remoteproxy
 .tunein.com remoteproxy
 .tunnelbear.com remoteproxy
+.tunnelr.com remoteproxy
 .tuo8.blue remoteproxy
 .tuo8.cc remoteproxy
 .tuo8.club remoteproxy
@@ -4292,7 +4446,6 @@
 .tvmost.com.hk remoteproxy
 .tvplayvideos.com remoteproxy
 .tvunetworks.com remoteproxy
-.tw*.nextmedia.com remoteproxy
 .tw-blog.com remoteproxy
 .tw-npo.org remoteproxy
 .tw.answers.yahoo.com remoteproxy
@@ -4305,6 +4458,7 @@
 .tw.mobi.yahoo.com remoteproxy
 .tw.myblog.yahoo.com remoteproxy
 .tw.news.yahoo.com remoteproxy
+.tw.nextmedia.com remoteproxy
 .tw.streetvoice.com remoteproxy
 .tw.tomonews.net remoteproxy
 .tw.voa.mobi remoteproxy
@@ -4313,6 +4467,7 @@
 .twaitter.com remoteproxy
 .twapperkeeper.com remoteproxy
 .twaud.io remoteproxy
+.twavi.com remoteproxy
 .twbbs.net.tw remoteproxy
 .twbbs.org remoteproxy
 .twbbs.tw remoteproxy
@@ -4324,6 +4479,7 @@
 .tweetbackup.com remoteproxy
 .tweetboard.com remoteproxy
 .tweetboner.biz remoteproxy
+.tweetcs.com remoteproxy
 .tweetdeck.com remoteproxy
 .tweete.net remoteproxy
 .tweetedtimes.com remoteproxy
@@ -4336,6 +4492,7 @@
 .tweettunnel.com remoteproxy
 .tweetwally.com remoteproxy
 .tweetymail.com remoteproxy
+.twelve.today remoteproxy
 .twerkingbutt.com remoteproxy
 .twftp.org remoteproxy
 .twibase.com remoteproxy
@@ -4404,6 +4561,7 @@
 .typeface.nyt.com remoteproxy
 .typepad.com remoteproxy
 .tzangms.com remoteproxy
+.u9un.com remoteproxy
 .ub0.cc remoteproxy
 .ubddns.org remoteproxy
 .uberproxy.net remoteproxy
@@ -4411,6 +4569,7 @@
 .ucdc1998.org remoteproxy
 .uderzo.it remoteproxy
 .udn.com remoteproxy
+.udn.com.tw remoteproxy
 .udnbkk.com remoteproxy
 .uforadio.com.tw remoteproxy
 .ufreevpn.com remoteproxy
@@ -4423,12 +4582,14 @@
 .ukcdp.co.uk remoteproxy
 .ukliferadio.co.uk remoteproxy
 .ulike.net remoteproxy
+.ulop.net remoteproxy
 .ultravpn.fr remoteproxy
 .ultraxs.com remoteproxy
 .umich.edu remoteproxy
 .unblock-us.com remoteproxy
 .unblock.cn.com remoteproxy
 .unblockdmm.com remoteproxy
+.unblocker.yt remoteproxy
 .unblocksit.es remoteproxy
 .uncyclomedia.org remoteproxy
 .uncyclopedia.hk remoteproxy
@@ -4491,7 +4652,6 @@
 .uygur.fc2web.com remoteproxy
 .uygur.org remoteproxy
 .uymaarip.com remoteproxy
-.v2ex.com remoteproxy
 .v2ray.com remoteproxy
 .van001.com remoteproxy
 .van698.com remoteproxy
@@ -4508,6 +4668,7 @@
 .velkaepocha.sk remoteproxy
 .venbbs.com remoteproxy
 .venchina.com remoteproxy
+.venetianmacao.com remoteproxy
 .ventureswell.com remoteproxy
 .veoh.com remoteproxy
 .vermonttibet.org remoteproxy
@@ -4566,10 +4727,12 @@
 .voatibetanenglish.com remoteproxy
 .vocativ.com remoteproxy
 .vocn.tv remoteproxy
+.vod.wwe.com remoteproxy
 .vot.org remoteproxy
 .vovo2000.com remoteproxy
 .voxer.com remoteproxy
 .voy.com remoteproxy
+.vpn.ac remoteproxy
 .vpn.cjb.net remoteproxy
 .vpn.cmu.edu remoteproxy
 .vpn.sv.cmu.edu remoteproxy
@@ -4591,6 +4754,7 @@
 .vpninja.net remoteproxy
 .vpnintouch.com remoteproxy
 .vpnintouch.net remoteproxy
+.vpnjack.com remoteproxy
 .vpnmaster.com remoteproxy
 .vpnpick.com remoteproxy
 .vpnpop.com remoteproxy
@@ -4599,6 +4763,7 @@
 .vpnreviewz.com remoteproxy
 .vpnsecure.me remoteproxy
 .vpnshazam.com remoteproxy
+.vpnshieldapp.com remoteproxy
 .vpnsp.com remoteproxy
 .vpntraffic.com remoteproxy
 .vpntunnel.com remoteproxy
@@ -4609,10 +4774,10 @@
 .vporn.com remoteproxy
 .vpser.net remoteproxy
 .vraiesagesse.net remoteproxy
+.vrmtr.com remoteproxy
 .vtunnel.com remoteproxy
 .vuku.cc remoteproxy
 .w.idaiwan.com remoteproxy
-.w.org remoteproxy
 .w3schools.com remoteproxy
 .waffle1999.com remoteproxy
 .wahas.com remoteproxy
@@ -4644,6 +4809,7 @@
 .wav.tv remoteproxy
 .waveprotocol.org remoteproxy
 .waymo.com remoteproxy
+.wda.gov.tw remoteproxy
 .wdf5.com remoteproxy
 .wearehairy.com remoteproxy
 .wearn.com remoteproxy
@@ -4692,6 +4858,7 @@
 .wha.la remoteproxy
 .whatblocked.com remoteproxy
 .whatbrowser.org remoteproxy
+.whatsapp.net remoteproxy
 .wheatseeds.org remoteproxy
 .wheelockslatin.com remoteproxy
 .whereiswerner.com remoteproxy
@@ -4700,6 +4867,7 @@
 .whitebear.freebearblog.org remoteproxy
 .who.is remoteproxy
 .whodns.xyz remoteproxy
+.whoer.net remoteproxy
 .whotalking.com remoteproxy
 .whylover.com remoteproxy
 .whyx.org remoteproxy
@@ -4716,6 +4884,7 @@
 .wikidata.org remoteproxy
 .wikileaks-forum.com remoteproxy
 .wikileaks.ch remoteproxy
+.wikileaks.com remoteproxy
 .wikileaks.de remoteproxy
 .wikileaks.eu remoteproxy
 .wikileaks.lu remoteproxy
@@ -4726,7 +4895,6 @@
 .wikimedia.org remoteproxy
 .wikimediafoundation.org remoteproxy
 .wikinews.org remoteproxy
-.wikipedia.org remoteproxy
 .wikiquote.org remoteproxy
 .wikisource.org remoteproxy
 .wikiversity.org remoteproxy
@@ -4736,7 +4904,9 @@
 .wildammo.com remoteproxy
 .willw.net remoteproxy
 .windowsphoneme.com remoteproxy
+.windscribe.com remoteproxy
 .wingamestore.com remoteproxy
+.wingy.site remoteproxy
 .winning11.com remoteproxy
 .winwhispers.info remoteproxy
 .wiredbytes.com remoteproxy
@@ -4899,11 +5069,17 @@
 .xlfmwz.info remoteproxy
 .xml-training-guide.com remoteproxy
 .xmovies.com remoteproxy
+.xn--4gq171p.com remoteproxy
+.xn--czq75pvv1aj5c.org remoteproxy
+.xn--i2ru8q2qg.com remoteproxy
+.xn--ngstr-lra8j.com remoteproxy
+.xn--p8j9a0d9c9a.xn--q9jyb4c remoteproxy
 .xnxx.com remoteproxy
 .xpdo.net remoteproxy
 .xpud.org remoteproxy
 .xrentdvd.com remoteproxy
 .xskywalker.com remoteproxy
+.xskywalker.net remoteproxy
 .xtube.com remoteproxy
 .xuchao.net remoteproxy
 .xuchao.org remoteproxy
@@ -4932,7 +5108,6 @@
 .yanghengjun.com remoteproxy
 .yangjianli.com remoteproxy
 .yasni.co.uk remoteproxy
-.yasukuni.or.jp remoteproxy
 .yayabay.com remoteproxy
 .ydy.com remoteproxy
 .yeahteentube.com remoteproxy
@@ -4945,6 +5120,7 @@
 .yes123.com.tw remoteproxy
 .yesasia.com remoteproxy
 .yesasia.com.hk remoteproxy
+.yespornplease.com remoteproxy
 .yfrog.com remoteproxy
 .ygto.com remoteproxy
 .yhcw.net remoteproxy
@@ -4955,6 +5131,7 @@
 .yingsuoss.com remoteproxy
 .yinlei.org remoteproxy
 .yipub.com remoteproxy
+.yizhihongxing.com remoteproxy
 .yobt.com remoteproxy
 .yogichen.org remoteproxy
 .yong.hu remoteproxy
@@ -4999,7 +5176,6 @@
 .zacebook.com remoteproxy
 .zalmos.com remoteproxy
 .zannel.com remoteproxy
-.zaobao.com remoteproxy
 .zaobao.com.sg remoteproxy
 .zaozon.com remoteproxy
 .zapto.org remoteproxy
@@ -5007,11 +5183,14 @@
 .zdnet.com.tw remoteproxy
 .zello.com remoteproxy
 .zengjinyan.org remoteproxy
+.zenmate.com remoteproxy
+.zenmate.com.ru remoteproxy
 .zeutch.com remoteproxy
 .zfreet.com remoteproxy
 .zgsddh.com remoteproxy
 .zgzcjj.net remoteproxy
 .zh-yue.wikipedia.org remoteproxy
+.zh.ecdm.wikia.com remoteproxy
 .zh.m.wikipedia.org remoteproxy
 .zh.pokerstrategy.com remoteproxy
 .zh.uncyclopedia.wikia.com remoteproxy
@@ -5042,6 +5221,7 @@
 .zhuichaguoji.org remoteproxy
 .ziddu.com remoteproxy
 .zillionk.com remoteproxy
+.zim.vn remoteproxy
 .zinio.com remoteproxy
 .ziplib.com remoteproxy
 .ziporn.com remoteproxy
@@ -5056,6 +5236,7 @@
 .zootool.com remoteproxy
 .zoozle.net remoteproxy
 .zozotown.com remoteproxy
+.zpn.im remoteproxy
 .zshare.net remoteproxy
 .zsrhao.com remoteproxy
 .zuo.la remoteproxy
@@ -5210,7 +5391,6 @@
 .m.simba.taobao.com reject
 .redirect.simba.taobao.com reject
 .srd.simba.taobao.com reject
-.textlink.simba.taobao.com reject
 .tns.simba.taobao.com reject
 .nbsdk-baichuan.taobao.com reject
 .sdkinit.taobao.com reject
@@ -5220,7 +5400,6 @@
 .afp.alicdn.com reject
 .atanx.alicdn.com reject
 .atanx2.alicdn.com reject
-.dorangesource.alicdn.com reject
 .gma.alicdn.com reject
 .gtmsdd.alicdn.com reject
 .nbsdk-baichuan.alicdn.com reject
@@ -5234,7 +5413,6 @@
 .g.click.taobao.com reject
 .g.tbcdn.cn reject
 .hydra.alibaba.com reject
-.pics.taobaocdn.com reject
 .pindao.huoban.taobao.com reject
 .show.re.taobao.com reject
 .strip.taobaocdn.com reject
@@ -5243,18 +5421,15 @@
 
 # Baidu
 .a.baidu.com reject
-.adapp.baidu.com reject
 .adm.baidu.com reject
 .as.baidu.com reject
-.baichuan.baidu.com reject
-.baidutv.baidu.com reject
-.bar.baidu.com reject
+.baikebcs.bdimg.com reject
 .c.baidu.com reject
 .cb.baidu.com reject
 .cbjs.baidu.com reject
 .cbjslog.baidu.com reject
 .cjhq.baidu.com reject
-.cpro.baidu.com reject
+.cpro.baidustatic.com reject
 .cpro2.baidu.com reject
 .crs.baidu.com reject
 .datax.baidu.com reject
@@ -5270,6 +5445,8 @@
 .hm.baidu.com reject
 .hmma.baidu.com reject
 .imageplus.baidu.com reject
+.log.nuomi.com reject
+.mg09.zhaopin.com reject
 .ma.baidu.com reject
 .mobads-logs.baidu.com reject
 .mobads.baidu.com reject
@@ -5297,7 +5474,6 @@
 .baidu9635.com reject
 .bj.bcebos.com reject
 .boscdn.bpc.baidu.com reject
-.cpro.baidu.com.cn reject
 .cpro.tieba.baidu.com reject
 .cpro.zhidao.baidu.com reject
 .itsdata.map.baidu.com reject
@@ -5307,8 +5483,6 @@
 .res.limei.com reject
 .shifen.com reject
 .static.map.bdimg.com reject
-.static.su.baidu.com reject
-.static.tieba.baidu.com reject
 .ubmcmm.baidustatic.com reject
 .ulog.imap.baidu.com reject
 .wisepush.video.baidu.com reject
@@ -5380,7 +5554,7 @@
 .jrclick.jd.com reject
 .jzt.jd.com reject
 .policy.jd.com reject
-.x.jd.com reject
+.img-x.jd.com reject
 .ads.union.jd.com reject
 .click.jr.jd.com reject
 .cps.360buy.com reject
@@ -5461,6 +5635,8 @@
 .xiuxiu.mobile.meitudata.com reject
 
 # Miui 小米
+.a.market.xiaomi.com reject
+.wtradv.market.xiaomi.com reject
 .abtest.mistat.xiaomi.com reject
 .data.mistat.xiaomi.com reject
 .ad.xiaomi.com reject
@@ -5517,6 +5693,7 @@
 .tcss.qq.com reject
 .uu.qq.com reject
 .ad.qun.qq.com reject
+.res.imtt.qq.com reject
 
 # RenRen
 .jebe.renren.com reject
@@ -5537,7 +5714,6 @@
 .adbox.sina.com reject
 .adm.sina.com reject
 .atm.sina.com reject
-.beacon.sina.com reject
 .dd.sina.com reject
 .dcads.sina.com reject
 .dmp.sina.com reject
@@ -5588,6 +5764,8 @@
 .wangmeng.sogou.com reject
 .123.sogoucdn.com reject
 .galaxy.sogoucdn.com reject
+.lu.sogoucdn.com reject
+.amfi.gou.sogou.com reject
 
 # Toutiao
 .ad.toutiao.com reject
@@ -5734,7 +5912,7 @@
 .paopao.iqiyi.com reject
 .paopaod.qiyipic.com reject
 .policy.video.iqiyi.com reject
-.rcd.iqiyi.com reject
+.yuedu.iqiyi.com reject
 .cmts.iqiyi.com reject
 .data.video.qiyi.com reject
 .msg.71.am reject
@@ -5808,9 +5986,7 @@
 # QQ Live
 .aiseet.aa.atianqi.com reject
 .aiseet.atianqi.com reject
-.btrace.video.qq.com reject
 .c.l.qq.com reject
-.dp3.play.aiseet.atianqi.com reject
 .dp3.qq.com reject
 .livep.l.aiseet.atianqi.com reject
 .livep.l.qq.com reject
@@ -5999,10 +6175,12 @@
 .ads.genieessp.com reject
 .ads.linkedin.com reject
 .ads.yahoo.com reject
+.adv.ccb.com reject
 .advert.api.thejoyrun.com reject
 .api-deal.kechenggezi.com reject
 .api-z.weidian.com reject
 .bam.nr-data.net reject
+.mobileads.msn.com reject
 .bat.bing.com reject
 .beacon.tingyun.com reject
 .cdn.jiuzhilan.com reject
@@ -6037,7 +6215,7 @@
 .tracker.yhd.com reject
 .up.qingdaonews.com reject
 
-# 广告联盟
+# 广告联盟-国内****************
 .111cn.net reject
 .114la.com reject
 .123juzi.net reject
@@ -6045,8 +6223,11 @@
 .3gmimo.com reject
 .51.la reject
 .51yes.com reject
+.600ad.com reject
 .6dad.com reject
+.70e.com reject
 .86.cc reject
+.8le8le.com reject
 .8ox.cn reject
 .95558000.com reject
 .99click.com reject
@@ -6054,40 +6235,41 @@
 .acs86.com reject
 .acxiom-online.com reject
 .ad-brix.com reject
+.ad-locus.com reject
 .ad-plus.cn reject
 .ad7.com reject
 .adadapted.com reject
 .adadvisor.net reject
 .adap.tv reject
+.adbana.com reject
 .adbxb.com reject
 .adchina.com reject
 .adcolony.com reject
 .adcome.cn reject
 .ader.mobi reject
 .adform.net reject
-.adfurikun.jp reject
 .adfuture.cn reject
 .adhouyi.com reject
-.adinall.com reject
 .adinfuse.com reject
 .adirects.com reject
 .adjust.com reject
 .adjust.io reject
+.adkmob.com reject
 .adlive.cn reject
+.adlocus.com reject
 .admin5.com reject
 .admin6.com reject
 .admon.cn reject
-.adnxs.com reject
 .adpolestar.net reject
 .adpro.cn reject
 .adpush.cn reject
 .adquan.com reject
-.adroll.com reject
 .ads8.com reject
 .adsame.com reject
 .adsmogo.com reject
 .adsunflower.com reject
 .adsunion.com reject
+.adtrk.me reject
 .adups.com reject
 .aduu.cn reject
 .advertising.com reject
@@ -6106,19 +6288,25 @@
 .angsrvr.com reject
 .anquan.org reject
 .anysdk.com reject
+.appadhoc.com reject
 .appads.com reject
 .appboy.com reject
 .appdriver.cn reject
+.appjiagu.com reject
 .applifier.com reject
 .applovin.com reject
 .appsflyer.com reject
 .atdmt.com reject
 .baifendian.com reject
+.banmamedia.com reject
 .baoyatu.cc reject
 .baycode.cn reject
 .behe.com reject
 .biddingos.com reject
 .biddingx.com reject
+.bjxiaohua.com reject
+.bloggerads.net reject
+.branch.io reject
 .bsdev.cn reject
 .btyou.com reject
 .bugtags.com reject
@@ -6127,52 +6315,67 @@
 .casalemedia.com reject
 .cdnmaster.com reject
 .chance-ad.com reject
+.chanet.com.cn reject
 .chartbeat.com reject
 .chartboost.com reject
 .chmae.com reject
 .clicktracks.com reject
 .clickzs.com reject
+.cloudmobi.net reject
 .cmcore.com reject
 .cnzz.com reject
 .cnzzlink.com reject
 .cocounion.com reject
 .coolguang.com reject
 .coremetrics.com reject
+.cpmchina.co reject
 .cpx24.com reject
-.criteo.com reject
+.crasheye.cn reject
 .crosschannel.com reject
 .crunchyroll.com reject
 .customer-security.online reject
 .daoyoudao.com reject
+.datouniao.com reject
 .ddapp.cn reject
+.dianjoy.com reject
 .dianru.com reject
 .domob.cn reject
 .domob.com.cn reject
 .domob.org reject
+.dotmore.com.tw reject
 .doubleverify.com reject
+.duanat.com reject
 .duomeng.cn reject
+.dxpmedia.com reject
 .edigitalsurvey.com reject
+.eduancm.com reject
 .effectivemeasure.com reject
 .emarbox.com reject
+.exosrv.com reject
 .fancyapi.com reject
 .fastapi.net reject
 .fastclick.net reject
+.feixin2.com reject
 .flashtalking.com reject
-.flurry.com reject
+.gentags.net reject
 .getui.com reject
+.glispa.com reject
 .go-mpulse reject
+.go-mpulse.net reject
+.godloveme.cn reject
 .growingio.com reject
 .guohead.com reject
 .guomob.com reject
 .haoghost.com reject
 .icast.cn reject
 .igexin.com reject
+.il8r.com reject
 .imageter.com reject
 .immob.cn reject
 .inad.com reject
-.inmobi.com reject
 .inmobicdn.net reject
 .innity.com reject
+.instabug.com reject
 .intely.cn reject
 .iperceptions.com reject
 .ipinyou.com reject
@@ -6181,12 +6384,18 @@
 .irs09.com reject
 .istreamsche.com reject
 .jesgoo.com reject
+.jiaeasy.net reject
 .jiguang.cn reject
+.jimdo.com reject
 .jisucn.com reject
+.jmgehn.cn reject
 .jpush.cn reject
 .jusha.com reject
+.juzi.cn reject
+.juzilm.com reject
 .kejet.com reject
 .kejet.net reject
+.keydot.net reject
 .keyrun.cn reject
 .kmd365.com reject
 .krux.net reject
@@ -6195,7 +6404,9 @@
 .localytics.com reject
 .lomark.cn reject
 .lotuseed.com reject
+.lrswl.com reject
 .lufax.com reject
+.madhouse.cn reject
 .madmini.com reject
 .madserving.com reject
 .magicwindow.cn reject
@@ -6206,37 +6417,44 @@
 .megajoy.com reject
 .mgogo.com reject
 .miaozhen.com reject
+.microad-cn.com reject
 .miidi.net reject
+.mijifen.com reject
 .mixpanel.com reject
+.mjmobi.com reject
 .mng-ads.com reject
+.moad.cn reject
 .moatads.com reject
 .mobaders.com reject
 .mobclix.com reject
-.mobfox.com reject
 .mobgi.com reject
 .mobisage.cn reject
 .mobvista.com reject
 .mopub.com reject
+.moquanad.com reject
 .mpush.cn reject
 .mxpnl.com reject
-.mydas.mobi reject
+.myhug.cn reject
 .mzy2014.com reject
 .networkbench.com reject
 .newrelic.com reject
-.nexage.com reject
 .ninebox.cn reject
 .ntalker.com reject
+.nylalobghyhirgh.com reject
 .o2omobi.com reject
 .oadz.com reject
 .oneapm.com reject
 .onetad.com reject
 .optaim.com reject
 .optimix.asia reject
+.optimizely.com reject
 .optimizelyapis.com reject
 .overture.com reject
 .p0y.cn reject
 .pagechoice.net reject
 .pingdom.net reject
+.plugrush.com reject
+.popin.cc reject
 .pro.cn reject
 .publicidad.net reject
 .publicidad.tv reject
@@ -6246,7 +6464,6 @@
 .qiyou.com reject
 .qtmojo.com reject
 .quantcount.com reject
-.quantserve.com reject
 .qucaigg.com reject
 .qumi.com reject
 .qxxys.com reject
@@ -6256,30 +6473,39 @@
 .rlcdn.com reject
 .rtbasia.com reject
 .sanya1.com reject
-.scorecardresearch.com reject
+.scupio.com reject
 .segment.com reject
 .serving-sys.com reject
 .shuiguo.com reject
 .shuzilm.cn reject
+.similarweb.com reject
 .sitemeter.com reject
 .sitescout.com reject
-.smartadserver.com reject
+.sitetag.us reject
 .smartmad.com reject
+.social-touch.com reject
 .somecoding.com reject
 .sponsorpay.com reject
 .statcounter.com reject
 .stg8.com reject
 .switchadhub.com reject
+.sycbbs.com reject
 .synacast.com reject
 .sysdig.com reject
+.talkingdata.com reject
+.talkingdata.net reject
 .tansuotv.com reject
+.tanx.com reject
 .tapjoy.cn reject
-.tapjoyads.com reject
 .th7.cn reject
 .thoughtleadr.com reject
 .tiqcdn.com reject
+.touclick.com reject
 .trafficjam.cn reject
 .trafficmp.com reject
+.tuia.cn reject
+.ueadlian.com reject
+.uerzyr.cn reject
 .ugvip.com reject
 .ujian.cc reject
 .ukeiae.com reject
@@ -6289,11 +6515,13 @@
 .unionsy.com reject
 .unlitui.com reject
 .uri6.com reject
+.userstyles.org reject
 .ushaqi.com reject
 .usingde.com reject
 .uyunad.com reject
 .vamaker.com reject
 .voiceads.cn reject
+.voiceads.com reject
 .vpon.com reject
 .vungle.cn reject
 .waps.cn reject
@@ -6306,12 +6534,16 @@
 .wooboo.com.cn reject
 .wqmobile.com reject
 .wrating.com reject
+.wumii.cn reject
+.xdrig.com reject
 .xiaozhen.com reject
 .xibao100.com reject
+.xtgreat.com reject
 .xy.com reject
 .yandui.com reject
 .yigao.com reject
 .yijifen.com reject
+.yinooo.com reject
 .yiqifa.com reject
 .yiwk.com reject
 .ylunion.com reject
@@ -6320,6 +6552,7 @@
 .yooli.com reject
 .youmi.net reject
 .youxiaoad.com reject
+.yoyi.com.cn reject
 .yrxmr.com reject
 .ysjwj.com reject
 .yunjiasu.com reject
@@ -6327,7 +6560,55 @@
 .zedo.com reject
 .zhidian3g.cn reject
 .zhiziyun.com reject
+.zqzxz.com reject
 .zzsx8.com reject
+
+# 广告联盟-国外****************
+.ad-stir.com reject
+.ad4game.com reject
+.adcloud.jp reject
+.adfurikun.jp reject
+.adinall.com reject
+.adk2x.com reject
+.admarvel.com reject
+.admedia.com reject
+.adnxs.com reject
+.adriver.ru reject
+.adroll.com reject
+.adsymptotic.com reject
+.am15.net reject
+.bepolite.eu reject
+.co.jp reject
+.criteo.com reject
+.directrev.com reject
+.dumedia.ru reject
+.exoclick.com reject
+.flurry.com reject
+.gtags.net reject
+.imrworldwide.com reject
+.inmobi.com reject
+.jizzads.com reject
+.juicyads.com reject
+.marketgid.com reject
+.mgid.com reject
+.mobadme.jp reject
+.mobfox.com reject
+.mobilityware.com reject
+.mookie1.com reject
+.mydas.mobi reject
+.nend.net reject
+.netshelter.net reject
+.nexage.com reject
+.quantserve.com reject
+.revdepo.com reject
+.sape.ru reject
+.scorecardresearch.com reject
+.smartadserver.com reject
+.tapjoyads.com reject
+.viglink.com reject
+.yadro.ru reject
+.yandex.ru reject
+.yengo.com reject
 
 # 垃圾网站
 .appget.cn reject
@@ -6477,9 +6758,7 @@
 23.66.147.48 23.66.147.48 reject
 59.110.16.35 59.110.16.35 reject
 101.227.12.0 101.227.13.255 reject
-101.227.14.0 101.227.14.255 reject
 101.227.119.0 101.227.119.255 reject
-101.227.200.0 101.227.200.255 reject
 106.11.11.86 106.11.11.86 reject
 107.20.211.189 107.20.211.189 reject
 107.21.113.76 107.21.113.76 reject
@@ -6533,15 +6812,28 @@
 112.253.36.0 112.253.36.255 reject
 117.139.16.0 117.139.19.255 reject
 117.139.16.0 117.139.19.255 reject
-119.188.13.32 119.188.13.39 reject
 119.188.172.192 119.188.172.207 reject
-119.188.173.0 119.188.173.31 reject
 119.188.43.61 119.188.43.61 reject
-123.125.116.0 123.125.119.255 reject
-123.125.116.0 123.125.119.255 reject
 123.130.122.128 123.130.122.143 reject
 183.221.244.0 183.221.247.255 reject
 183.221.244.0 183.221.247.255 reject
 27.221.89.128 27.221.89.143 reject
 60.211.171.128 60.211.171.135 reject
 60.211.211.1 60.211.211.1 reject
+157.122.96.23 157.122.96.23 reject
+
+# Youku IPs
+117.177.248.17 117.177.248.17 reject
+117.177.248.41 117.177.248.41 reject
+223.87.176.139 223.87.176.139 reject
+223.87.176.176 223.87.176.176 reject
+223.87.177.180 223.87.177.180 reject
+223.87.177.182 223.87.177.182 reject
+223.87.177.184 223.87.177.184 reject
+223.87.177.43 223.87.177.43 reject
+223.87.177.47 223.87.177.47 reject
+223.87.177.80 223.87.177.80 reject
+223.87.182.101 223.87.182.101 reject
+223.87.182.102 223.87.182.102 reject
+223.87.182.11 223.87.182.11 reject
+223.87.182.52 223.87.182.52 reject
