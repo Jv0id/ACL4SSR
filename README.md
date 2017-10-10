@@ -22,7 +22,6 @@
 # 安卓 SS/SSR 去广告ACL规则
 * 屏蔽小米手机和魅族flyme rom系统广告
 * 国内网站均直接连接
-* 国外常用域名后缀均代理！！！
 * 屏蔽常用视频网站广告
 * 屏蔽常用网站广告、其他流媒体网站广告
 * 屏蔽部分应用程序开屏广告
@@ -39,6 +38,7 @@
 * SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
 
 
+* SS：https://github.com/shadowsocks
 * SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 * SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
