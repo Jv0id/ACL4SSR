@@ -43,9 +43,7 @@
 * SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
 # ♻️ Surge/Shadowrocket Config File Download：
-* Surge Config File 更新地址：https://raw.githubusercontent.com/lhie1/Surge/master/Surge.conf
-						 或：https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
-* Shadowrocket Config File 更新地址：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket.conf
+* 请到相关项目页面根据说明配置 https://github.com/lhie1/Surge
 
 📋 教程 / 说明：
 * 打开SSR->路由->自定义acl文件->输入下载地址->更新
