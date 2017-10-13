@@ -1,6 +1,6 @@
 #**********************************************************************
-# 10.3
-# 2017年10月3日 23:59:24
+# 10.13
+# 2017年10月13日 19:46:16
 # 适用于SSR C#客户端
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
@@ -6199,6 +6199,7 @@
 .m.12306media.com reject
 .n.cosbot.cn reject
 .pdl.gionee.com reject
+.pica-juicy.picacomic.com reject
 .picture.duokan.com reject
 .pixel.wp.com reject
 .pub.mop.com reject
