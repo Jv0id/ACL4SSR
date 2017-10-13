@@ -28,7 +28,7 @@
 * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
-# ♻️ SS/SSR Download：
+# ♻️ SS/SSR ACL Files Download：
 * ACL更新地址（**白名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
 * ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
 * ACL更新地址（**全局**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
