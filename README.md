@@ -1,4 +1,5 @@
 # SS/SSR去广告规则
+[![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
 * 项目基于CC-BY-SA-4.0协议发布
 * 仅推荐未root的安卓手机使用。
 * Telegram频道订阅地址：**https://t.me/ACL4SSR**
@@ -8,7 +9,8 @@
 * 1.自带去广告的VIA浏览器 http://www.coolapk.com/apk/mark.via
 * 2.HOSTS 广告快走中国版 http://www.coolapk.com/apk/mark.via
 * 3.HOSTS 广告快走开AdAway http://www.coolapk.com/apk/org.adaway
-* https://raw.githubusercontent.com/vokins/yhosts/master/hosts
+* https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/hosts
+* Google Hosts 请移步 https://github.com/googlehosts/hosts
 
 # 版本解释
 * banAD.acl （默认代理）去广告+局域网直连+国内IP段直连+国内常用域名直连+国外代理
@@ -59,4 +61,5 @@
 * temp文件夹为历史存档 要找以前的版本可以下那个
 		
 # License		
+[![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
 * CC-BY-SA-4.0
