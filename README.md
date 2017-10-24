@@ -9,7 +9,7 @@
 * 1.自带去广告的VIA浏览器 http://www.coolapk.com/apk/mark.via
 * 2.HOSTS 广告快走中国版 http://www.coolapk.com/apk/mark.via
 * 3.HOSTS 广告快走开AdAway http://www.coolapk.com/apk/org.adaway
-* https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/hosts
+* https://github.com/neko-dev/neohosts
 * Google Hosts 请移步 https://github.com/googlehosts/hosts
 
 # 版本解释
