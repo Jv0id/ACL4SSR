@@ -5746,7 +5746,7 @@
 .mobileads.dx.cn reject
 .newspush.sinajs.cn reject
 .sdkapp.uve.weibo.com reject
-.tjs.sjs.sinajs.cn reject
+# .tjs.sjs.sinajs.cn reject
 .tui.weibo.com reject
 .wbapp.uve.weibo.com reject
 .zymo.mps.weibo.com reject

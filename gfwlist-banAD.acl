@@ -290,7 +290,7 @@
 (^|\.)mobileads\.dx\.cn$
 (^|\.)newspush\.sinajs\.cn$
 (^|\.)sdkapp\.uve\.weibo\.com$
-(^|\.)tjs\.sjs\.sinajs\.cn$
+#(^|\.)tjs\.sjs\.sinajs\.cn$
 (^|\.)tui\.weibo\.com$
 (^|\.)wbapp\.uve\.weibo\.com$
 (^|\.)zymo\.mps\.weibo\.com$
