@@ -1,6 +1,6 @@
 #**********************************************************************
-# 10.13
-# 2017年10月13日 19:46:16
+# 10.24
+# 2017年10月24日 18:46:03
 # 适用于SSR C#客户端
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
@@ -6283,6 +6283,8 @@
 .ajapk.com reject
 .allyes.cn reject
 .allyes.com reject
+.alog.umeng.co reject
+.alog.umeng.com reject
 .amazon-adsystem.com reject
 .analysys.cn reject
 .angsrvr.com reject
