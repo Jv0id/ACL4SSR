@@ -1,6 +1,6 @@
 #**********************************************************************
 # 10.24
-# 2017年10月24日 18:46:03
+# 2017年10月24日19:33:56
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -284,7 +284,7 @@
 
 # Sina
 (^|\.)(adimg|pay|sax|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
-(^|\.)(ad|adbox|adm|atm|d\d|dcads|dmp|leju|sax|sax\d|slog|tjs)\.sina\.com(\.cn|)$
+(^|\.)(ad|adbox|adm|atm|d\d|dcads|dmp|leju|sax|sax\d|slog)\.sina\.com(\.cn|)$
 (^|\.)(alitui|biz|game|wax)\.weibo\.com(\.cn|)$
 (^|\.)cre\.dp\.sina\.cn$
 (^|\.)gw5\.push\.mcp\.weibo\.cn$
@@ -292,7 +292,6 @@
 (^|\.)mobileads\.dx\.cn$
 (^|\.)newspush\.sinajs\.cn$
 (^|\.)sdkapp\.uve\.weibo\.com$
-#(^|\.)tjs\.sjs\.sinajs\.cn$
 (^|\.)tui\.weibo\.com$
 (^|\.)wbapp\.uve\.weibo\.com$
 (^|\.)zymo\.mps\.weibo\.com$
@@ -301,6 +300,10 @@
 (^|\.)(123|adsence|brand|cpc|epro|fair|files2|goto|golden1|inte|iwan|lu|pb|pd|pv|theta|wan|wangmeng)\.sogou\.com$
 (^|\.)(123|galaxy|lu)\.sogoucdn\.com$
 (^|\.)amfi\.gou\.sogou\.com$
+
+# Teleplus
+(^|\.)applovin\.com$
+(^|\.)guangzhuiyuan\.com$
 
 # Toutiao
 (^|\.)(ad|d|sm|dsp|nativeapp|partner)\.toutiao\.com$
@@ -359,6 +362,9 @@
 (^|\.)biz5\.kankan\.com$
 (^|\.)float\.kankan\.com$
 (^|\.)logic\.cpm\.cm\.kankan\.com$
+(^|\.)hub5btmain\.sandai\.net$
+(^|\.)hub5emu\.sandai\.net$
+(^|\.)upgrade\.xl9\.xunlei\.com$
 
 # Yahoo
 (^|\.)beap\.gemini\.yahoo\.com$
@@ -702,8 +708,8 @@
 (^|\.)ajapk\.com$
 (^|\.)allyes\.cn$
 (^|\.)allyes\.com$
-(^|\.)alog\.umeng\.co$
-(^|\.)alog\.umeng\.com$
+(^|\.)umeng\.co$
+(^|\.)umeng\.com$
 (^|\.)amazon-adsystem\.com$
 (^|\.)analysys\.cn$
 (^|\.)angsrvr\.com$
@@ -753,7 +759,6 @@
 (^|\.)cpx24\.com$
 (^|\.)crasheye\.cn$
 (^|\.)crosschannel\.com$
-(^|\.)crunchyroll\.com$
 (^|\.)customer-security\.online$
 (^|\.)daoyoudao\.com$
 (^|\.)datouniao\.com$
@@ -786,7 +791,6 @@
 (^|\.)go-mpulse$
 (^|\.)go-mpulse\.net$
 (^|\.)godloveme\.cn$
-(^|\.)growingio\.com$
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
 (^|\.)haoghost\.com$
@@ -1008,6 +1012,7 @@
 (^|\.)exoclick\.com$
 (^|\.)flurry\.com$
 (^|\.)gtags\.net$
+(^|\.)i-mobile\.co\.jp$
 (^|\.)imrworldwide\.com$
 (^|\.)inmobi\.com$
 (^|\.)jizzads\.com$
@@ -1031,7 +1036,6 @@
 (^|\.)tapjoyads\.com$
 (^|\.)viglink\.com$
 (^|\.)yadro\.ru$
-(^|\.)yandex\.ru$
 (^|\.)yengo\.com$
 
 # 垃圾网站
