@@ -13,13 +13,17 @@
 * Google Hosts 请移步 https://github.com/googlehosts/hosts
 
 # 版本解释
-* banAD.acl （默认代理）去广告+局域网直连+国内IP段直连+国内常用域名直连+国外代理
-* gfwlist-banAD.acl （默认直连）去广告+局域网直连+国外gfwlist列表代理
-* onlybanAD.acl （默认代理）去广告+局域网直连+全局代理
-* fullgfwlist.acl （默认直连）国外gfwlist列表代理，没有去广告，没有白名单（原版SS可直接复制文件内容使用）
-* backcn-banAD.acl （默认直连）去广告+国内IP段代理+国内常用域名代理+局域网直连+国外直连
-* nobanAD.acl （默认代理）局域网直连+国内IP段直连+国内常用域名直连+国外代理
-* SSR C#规则 gfwlist-user.rule （默认直连）去广告+局域网直连+国外gfwlist列表代理
+
+文件               | 默认  | 去广告  | 局域网 |   国内IP段  |   国内域名    |     国外
+----              | ----  |  ----  | ----  |   ----     |     ----     |    ----
+banAD.acl         |  代理  |   是   |  直连  |    有-直连  | 常用域名-直连  |  代理-常用国外域名增强
+onlybanAD.acl     |  代理  |   是   |  直连  |    无      |    无         |  代理-常用国外域名增强
+nobanAD.acl       |  代理  |   否   |  直连  |    有-直连  |  常用域名-代理 |  全局代理
+backcn-banAD.acl  |  直连  |   是   |  直连  |    有-代理  |    无         |  直连
+gfwlist-banAD.acl |  直连  |   是   |  直连  |    无      |    无         |  代理-gfwlist列表 
+fullgfwlist.acl   |  直连  |   否   |  直连  |    无      |    无         |  代理-gfwlist列表  
+gfwlist-user.rule |  直连  |   是   |  直连  |    无      |     无        |  代理-gfwlist列表 
+
 
 # 安卓 SS/SSR 去广告ACL规则
 * 屏蔽小米手机和魅族flyme rom系统广告
