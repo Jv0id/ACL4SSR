@@ -1,6 +1,6 @@
 #**********************************************************************
-# 10.24
-# 2017年10月24日19:33:56
+# 10.25
+# 2017年10月25日14:13:30
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -711,8 +711,6 @@
 (^|\.)ajapk\.com$
 (^|\.)allyes\.cn$
 (^|\.)allyes\.com$
-(^|\.)umeng\.co$
-(^|\.)umeng\.com$
 (^|\.)amazon-adsystem\.com$
 (^|\.)analysys\.cn$
 (^|\.)angsrvr\.com$
@@ -753,6 +751,7 @@
 (^|\.)clickzs\.com$
 (^|\.)cloudmobi\.net$
 (^|\.)cmcore\.com$
+(^|\.)cnxad\.com$
 (^|\.)cnzz\.com$
 (^|\.)cnzzlink\.com$
 (^|\.)cocounion\.com$
@@ -794,6 +793,7 @@
 (^|\.)go-mpulse$
 (^|\.)go-mpulse\.net$
 (^|\.)godloveme\.cn$
+(^|\.)growingio\.com$
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
 (^|\.)haoghost\.com$
@@ -939,6 +939,8 @@
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
+(^|\.)umeng\.co$
+(^|\.)umeng\.com$
 (^|\.)umengcloud\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
@@ -984,6 +986,7 @@
 (^|\.)youmi\.net$
 (^|\.)youxiaoad\.com$
 (^|\.)yoyi\.com\.cn$
+(^|\.)yoyi\.tv$
 (^|\.)yrxmr\.com$
 (^|\.)ysjwj\.com$
 (^|\.)yunjiasu\.com$
@@ -1044,6 +1047,9 @@
 # 垃圾网站
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
+(^|\.)coinhive\.com$
+(^|\.)minghui\.org$
+(^|\.)win-stock\.com\.cn$
 
 ### 运营商广告
 (^|\.)\w\w(\w|)dnserror\d(\d|)\.wo\.com\.cn

@@ -708,8 +708,6 @@
 (^|\.)ajapk\.com$
 (^|\.)allyes\.cn$
 (^|\.)allyes\.com$
-(^|\.)umeng\.co$
-(^|\.)umeng\.com$
 (^|\.)amazon-adsystem\.com$
 (^|\.)analysys\.cn$
 (^|\.)angsrvr\.com$
@@ -750,6 +748,7 @@
 (^|\.)clickzs\.com$
 (^|\.)cloudmobi\.net$
 (^|\.)cmcore\.com$
+(^|\.)cnxad\.com$
 (^|\.)cnzz\.com$
 (^|\.)cnzzlink\.com$
 (^|\.)cocounion\.com$
@@ -791,6 +790,7 @@
 (^|\.)go-mpulse$
 (^|\.)go-mpulse\.net$
 (^|\.)godloveme\.cn$
+(^|\.)growingio\.com$
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
 (^|\.)haoghost\.com$
@@ -936,6 +936,8 @@
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
+(^|\.)umeng\.co$
+(^|\.)umeng\.com$
 (^|\.)umengcloud\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
@@ -981,6 +983,7 @@
 (^|\.)youmi\.net$
 (^|\.)youxiaoad\.com$
 (^|\.)yoyi\.com\.cn$
+(^|\.)yoyi\.tv$
 (^|\.)yrxmr\.com$
 (^|\.)ysjwj\.com$
 (^|\.)yunjiasu\.com$
@@ -1041,6 +1044,9 @@
 # 垃圾网站
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
+(^|\.)coinhive\.com$
+(^|\.)minghui\.org$
+(^|\.)win-stock\.com\.cn$
 
 ### 运营商广告
 (^|\.)\w\w(\w|)dnserror\d(\d|)\.wo\.com\.cn
