@@ -1,5 +1,5 @@
 # SS/SSR去广告规则
-[![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+[![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 * 项目基于CC-BY-SA-4.0协议发布
 * 仅推荐未root的安卓手机使用。
 * Telegram频道订阅地址：**https://t.me/ACL4SSR**
@@ -20,9 +20,9 @@ banAD.acl         |  代理  |   是   |  直连  |    有-直连  | 常用域�
 onlybanAD.acl     |  代理  |   是   |  直连  |    无      |    无         |  代理-常用国外域名增强
 nobanAD.acl       |  代理  |   否   |  直连  |    有-直连  |  常用域名-代理 |  全局代理
 backcn-banAD.acl  |  直连  |   是   |  直连  |    有-代理  |    无         |  直连
-gfwlist-banAD.acl |  直连  |   是   |  直连  |    无      |    无         |  代理-gfwlist列表 
-fullgfwlist.acl   |  直连  |   否   |  直连  |    无      |    无         |  代理-gfwlist列表  
-gfwlist-user.rule |  直连  |   是   |  直连  |    无      |     无        |  代理-gfwlist列表 
+gfwlist-banAD.acl |  直连  |   是   |  直连  |    无      |    无         |  代理-gfwlist列表
+fullgfwlist.acl   |  直连  |   否   |  直连  |    无      |    无         |  代理-gfwlist列表
+gfwlist-user.rule |  直连  |   是   |  直连  |    无      |     无        |  代理-gfwlist列表
 
 
 # 安卓 SS/SSR 去广告ACL规则
@@ -64,5 +64,5 @@ gfwlist-user.rule |  直连  |   是   |  直连  |    无      |     无       
 * temp文件夹为历史存档 要找以前的版本可以下那个
 		
 # License		
-[![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+[![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 * CC-BY-SA-4.0
