@@ -1,4 +1,4 @@
-* 有关此issue的规则名称：(请将“[ ]”中的空格替换为“x”以勾选)
+* 有关此issue的规则名称：(请将“[ ]”中的空格替换为小写英文字母“x”以勾选)
 - [ ] backcn-banAD.acl
 - [ ] banAD.acl
 - [ ] fullgfwlist.acl
