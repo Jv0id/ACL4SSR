@@ -279,6 +279,7 @@
 (^|\.)(act|adsfile|bugly|buluo|e|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)res\.imtt\.qq\.com$
+(^|\.)gdt\.qq\.com$
 
 # RenRen
 (^|\.)jebe\.renren\.com$
