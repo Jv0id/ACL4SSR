@@ -74,6 +74,21 @@
 114.199.145.219
 220.132.16.173
 
+# 国外域名关键字
+(^|\.)\w*1e100\w*\.\w*$
+(^|\.)\w*appledaily\w*\.\w*$
+(^|\.)\w*blogspot\w*\.\w*$
+(^|\.)\w*dropbox\w*\.\w*$
+(^|\.)\w*facebook\w*\.\w*$
+(^|\.)\w*fbcdn\w*\.\w*$
+(^|\.)\w*gmail\w*\.\w*$
+(^|\.)\w*google\w*\.\w*$
+(^|\.)\w*instagram\w*\.\w*$
+(^|\.)\w*spotify\w*\.\w*$
+(^|\.)\w*telegram\w*\.\w*$
+(^|\.)\w*twitter\w*\.\w*$
+(^|\.)\w*whatsapp\w*\.\w*$
+
 #GFWList
 (^|\.)(.*)\.2\.bahamut\.com\.tw$
 (^|\.)(.*)\.global\.ssl\.fastly\.net$
