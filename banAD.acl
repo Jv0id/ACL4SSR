@@ -386,7 +386,7 @@
 
 # Fenghuang 凤凰TV
 (^|\.)(aoodoo|push|yes1)\.feng\.com$
-(^|\.)(game|ifashion|stadig)\.ifeng\.com$
+(^|\.)(game|stadig)\.ifeng\.com$
 (^|\.)api\.newad\.ifeng\.com$
 (^|\.)exp\.3g\.ifeng\.com$
 (^|\.)iis3g\.deliver\.ifeng\.com$
