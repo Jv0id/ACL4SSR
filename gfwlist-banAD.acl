@@ -1,6 +1,6 @@
 #**********************************************************************
-# 12.07
-# 2017年12月7日13:27:39
+# 12.28
+# 2017年12月28日13:27:09
 # 转载需要注明版权和来源
 # 
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -107,7 +107,7 @@
 (^|\.)(brandshow|jing|track)\.58\.com$
 
 # Ali
-(^|\.)(adash|adsh|adashx4yt|adash-c|ai|re|rj|simaba)\.m\.taobao\.com$
+(^|\.)(adashx4yt|adash-c|ai|re|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|gma|gtms\d\d)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|tns)\.simba\.taobao\.com$
 (^|\.)(sdkinit|simaba|tyh)\.taobao\.com$
@@ -6533,6 +6533,11 @@
 54.86.0.0/16
 52.0.0.0/8
 54.0.0.0/16
+
+# Onenote
+(^|\.)live\.net$
+(^|\.)live\.com$
+(^|\.)onenote\.com$
 
 # Whatsapp
 (^|\.)whatsapp\.com$
