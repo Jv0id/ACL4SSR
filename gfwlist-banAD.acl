@@ -1,6 +1,6 @@
 #**********************************************************************
-# 12.28
-# 2017年12月28日13:27:09
+# 01.05
+# 2018年1月5日12:13:19
 # 转载需要注明版权和来源
 # 
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -184,7 +184,6 @@
 (^|\.)tongji\.home\.soufun\.com$
 
 # Google
-(^|\.)2mdn\.net$
 (^|\.)admob\.com$
 (^|\.)ads\.gmodules\.com$
 (^|\.)ads\.google\.com$
@@ -211,7 +210,7 @@
 (^|\.)stat\.m\.jd\.com$
 
 # Kugou
-(^|\.)(d|downmobile|fanxing|gad|game|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
+(^|\.)(adserviceretry|bssdlbig|d|downmobile|fanxing|gad|game|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
 (^|\.)(msg|push|update)\.mobile\.kugou\.com$
 (^|\.)ads\.service\.kugou\.com$
 (^|\.)gcapi\.sy\.kugou\.com$
@@ -6502,6 +6501,9 @@
 (^|\.)line\.me$
 (^|\.)line\.naver\.jp$
 (^|\.)nhncorp\.jp$
+125.209.208.0/20
+125.209.220.0/22
+125.209.222.202/32
 
 # MytvSUPER & Netflix
 (^|\.)\w*nowtv100\w*\.\w*$
@@ -6564,6 +6566,11 @@
 (^|\.)jtvnw\.net$
 (^|\.)akamaized\.net$
 
+#飞流直播
+(^|\.)neulion\.com$
+(^|\.)icntv\.xyz$
+(^|\.)flzbcdn\.xyz$
+
 # kakao Talk
 1.201.0.0/24
 103.246.56.0/22
@@ -6602,8 +6609,3 @@
 54.235.182.157/32
 (^|\.)config\.getsync\.com$
 (^|\.)config\.resilio\.com$
-
-#飞流直播
-(^|\.)neulion\.com$
-(^|\.)icntv\.xyz$
-(^|\.)flzbcdn\.xyz$
