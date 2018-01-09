@@ -1,6 +1,6 @@
 #**********************************************************************
-# 01.05
-# 2018年1月5日12:13:19
+# 01.09
+# 2018年1月9日09:18:17
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -369,7 +369,17 @@
 (^|\.)upgrade\.xl9\.xunlei\.com$
 
 # Yahoo
-(^|\.)beap\.gemini\.yahoo\.com$
+(^|\.)(ads|adserver|adss|analytics|beap-bc|comet|geo|gemini|p3p|ybp)\.yahoo\.com$
+(^|\.)(analytics|locdrop|onepush)\.query\.yahoo\.com$
+(^|\.)(ard|ane|yads)\.yahoo\.co\.jp$
+(^|\.)(js-apac-ss|partnerads)\.ysm\.yahoo\.com$
+(^|\.)ad\.wretch\.cc$
+(^|\.)clicks\.beap\.bc\.yahoo\.com$
+(^|\.)doubleplay-conf-yql\.media\.yahoo\.com$
+(^|\.)flurry\.com$
+(^|\.)m\.yap\.yahoo\.com$
+(^|\.)uservoice\.com$
+(^|\.)ws\.progrss\.yahoo\.com$
 
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
@@ -703,6 +713,7 @@
 (^|\.)adwhirl\.com$
 (^|\.)adwo\.com$
 (^|\.)adxmi\.com$
+(^|\.)adyun\.com$
 (^|\.)adzerk\.net$
 (^|\.)agrantsem\.com$
 (^|\.)ajapk\.com$
@@ -1002,6 +1013,7 @@
 (^|\.)adnxs\.com$
 (^|\.)adriver\.ru$
 (^|\.)adroll\.com$
+(^|\.)adservice\.com$
 (^|\.)adsymptotic\.com$
 (^|\.)airpush\.com$
 (^|\.)am15\.net$
@@ -1032,6 +1044,7 @@
 (^|\.)inmobi\.com$
 (^|\.)jizzads\.com$
 (^|\.)juicyads\.com$
+(^|\.)leadbolt\.com$
 (^|\.)leadbolt\.net$
 (^|\.)leadboltads\.net$
 (^|\.)leadboltapps\.net$
@@ -1071,6 +1084,7 @@
 (^|\.)zedo\.com$
 
 # 垃圾网站
+(^|\.)11h5\.com$
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
 (^|\.)coinhive\.com$
