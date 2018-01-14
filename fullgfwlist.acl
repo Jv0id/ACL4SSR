@@ -1,6 +1,6 @@
 #**********************************************************************
-# 01.05
-# 2018年1月5日12:13:19
+# 01.14
+# 2018年1月14日 22:06:29
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -26,6 +26,9 @@
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
 (^|\.)eu-west-1\.compute\.amazonaws\.com$
+(^|\.)ec2-52\w*\.compute-1\.amazonaws\.com$
+(^|\.)fra53\.r\.cloudfront\.net$
+(^|\.)textnow\.me$
 
 #GFWList IP start
 85.17.73.31
