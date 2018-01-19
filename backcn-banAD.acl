@@ -1,6 +1,6 @@
 #**********************************************************************
-# 01.09
-# 2018年1月9日09:18:17
+# 01.19
+# 2018年1月19日09:07:56
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -14,9 +14,9 @@
 # 参数解释：
 # [proxy_all] 默认代理-本规则使用
 # [bypass_all] 默认直连
-# [outbound_block_list] 禁止访问列表 在26行
-# [bypass_list] 直连列表 在6471多行
-# [proxy_list] 代理列表 在998多行
+# [outbound_block_list] 禁止访问列表 在28行
+# [bypass_list] 直连列表 在6816多行
+# [proxy_list] 代理列表 在1210多行
 # [remote_dns] 远程 DNS 解析 -不加使用本地 DNS
 #
 #**********************************************************************
@@ -208,9 +208,8 @@
 (^|\.)service\.urchin\.com$
 
 # JD
-(^|\.)(c-nfa|du|img-x|jrclick|jzt|policy)\.jd\.com$
+(^|\.)(c-nfa|img-x|jrclick|jzt|policy)\.jd\.com$
 (^|\.)ads\.union\.jd\.com$
-(^|\.)click\.jr\.jd\.com$
 (^|\.)cps\.360buy\.com$
 (^|\.)stat\.m\.jd\.com$
 
