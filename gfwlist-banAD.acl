@@ -1203,20 +1203,21 @@
 [proxy_list]
 
 # MyList
+(^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.cc$
+(^|\.)cloudfront\.net$
+(^|\.)dmm\.co\.jp$
 (^|\.)gvt\w\.com$
 (^|\.)ip138\.com$
+(^|\.)microsoft\.com$
+(^|\.)ping\.pe$
 (^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
+(^|\.)tvb\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
-(^|\.)twimg\.org$
-(^|\.)eu-west-1\.compute\.amazonaws\.com$
-(^|\.)ec2-52\w*\.compute-1\.amazonaws\.com$
-(^|\.)fra53\.r\.cloudfront\.net$
-(^|\.)textnow\.me$
 
 #GFWList IP start
 85.17.73.31

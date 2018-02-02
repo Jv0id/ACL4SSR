@@ -5689,15 +5689,19 @@
 ^.*\.tw$
 
 # MyList
+(^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.cc$
+(^|\.)cloudfront\.net$
+(^|\.)dmm\.co\.jp$
 (^|\.)gvt\w\.com$
 (^|\.)ip138\.com$
 (^|\.)microsoft\.com$
-(^|\.)cloudfront\.net$
+(^|\.)ping\.pe$
 (^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
+(^|\.)tvb\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
 
