@@ -1,6 +1,6 @@
 #**********************************************************************
-# 02.02
-# 2018年2月2日15:16:51
+# 02.17
+# 2018年2月17日15:58:58
 # 转载需要注明版权和来源
 # 
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -54,6 +54,7 @@
 (^|\.)\w*zjtoolbar\w*\..*$
 (^|\.)ad\d{0,3}\..*$
 (^|\.)ads\d{0,3}\..*$
+(^|\.)tracking\..*$
 
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
@@ -457,7 +458,7 @@
 
 # Sohu 搜狐
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
-(^|\.)(aty|bd|click|click2|ctr|mb|pv|pb|wl|um)\.hd\.sohu\.com$
+(^|\.)(aty|bd|click|click2|ctr|pv|pb|wl|um)\.hd\.sohu\.com$
 (^|\.)(aty|hui|wan|yule|pv)\.sohu\.com$
 (^|\.)api\.k\.sohu\.com$
 (^|\.)count\.vrs\.sohu\.com$
@@ -602,7 +603,6 @@
 (^|\.)ads\.feedly\.com$
 (^|\.)ads\.genieessp\.com$
 (^|\.)ads\.linkedin\.com$
-(^|\.)ads\.yahoo\.com$
 (^|\.)adv\.ccb\.com$
 (^|\.)advert\.api\.thejoyrun\.com$
 (^|\.)api-deal\.kechenggezi\.com$
@@ -644,11 +644,12 @@
 (^|\.)up\.qingdaonews\.com$
 
 # 广告联盟-国内****************
-(^|\.)111cn\.net$
 (^|\.)114la\.com$
 (^|\.)123juzi\.net$
+(^|\.)138lm\.com$
 (^|\.)2cnt\.net$
 (^|\.)3gmimo\.com$
+(^|\.)3xx\.vip$
 (^|\.)51\.la$
 (^|\.)51yes\.com$
 (^|\.)600ad\.com$
@@ -660,6 +661,7 @@
 (^|\.)95558000\.com$
 (^|\.)99click\.com$
 (^|\.)99youmeng\.com$
+(^|\.)a3p4\.net$
 (^|\.)acs86\.com$
 (^|\.)acxiom-online\.com$
 (^|\.)ad-brix\.com$
@@ -670,7 +672,6 @@
 (^|\.)adadvisor\.net$
 (^|\.)adap\.tv$
 (^|\.)adbana\.com$
-(^|\.)adbxb\.com$
 (^|\.)adchina\.com$
 (^|\.)adcome\.cn$
 (^|\.)ader\.mobi$
@@ -691,6 +692,7 @@
 (^|\.)adpro\.cn$
 (^|\.)adpush\.cn$
 (^|\.)adquan\.com$
+(^|\.)adreal\.cn$
 (^|\.)ads8\.com$
 (^|\.)adsame\.com$
 (^|\.)adsmogo\.com$
@@ -793,6 +795,7 @@
 (^|\.)guohead\.com$
 (^|\.)guomob\.com$
 (^|\.)haoghost\.com$
+(^|\.)hivecn\.cn$
 (^|\.)icast\.cn$
 (^|\.)igexin\.com$
 (^|\.)il8r\.com$
@@ -920,6 +923,7 @@
 (^|\.)talkingdata\.com$
 (^|\.)talkingdata\.net$
 (^|\.)tansuotv\.com$
+(^|\.)tanv\.com$
 (^|\.)tanx\.com$
 (^|\.)tapjoy\.cn$
 (^|\.)th7\.cn$
@@ -963,6 +967,7 @@
 (^|\.)wqmobile\.com$
 (^|\.)wrating\.com$
 (^|\.)wumii\.cn$
+(^|\.)xcy8\.com$
 (^|\.)xdrig\.com$
 (^|\.)xiaozhen\.com$
 (^|\.)xibao100\.com$
@@ -988,6 +993,7 @@
 (^|\.)zampdsp\.com$
 (^|\.)zhidian3g\.cn$
 (^|\.)zhiziyun\.com$
+(^|\.)zhjfad\.com$
 (^|\.)zqzxz\.com$
 (^|\.)zzsx8\.com$
 
