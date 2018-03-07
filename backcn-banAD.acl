@@ -1,6 +1,6 @@
 #**********************************************************************
-# 02.17
-# 2018年2月17日15:58:58
+# 03.07
+# 2018年3月7日18:29:51
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -136,11 +136,10 @@
 # Baidu
 (^|\.)(a|adm|als|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|drmcmm|e|eclick|eiv|entry)\.baidu\.com$
 (^|\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
-(^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.com$
+(^|\.)(pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
 (^|\.)baikebcs\.bdimg\.com$
-(^|\.)boscdn\.bpc\.baidu\.com$
 (^|\.)cpro\.baidustatic\.com$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
@@ -152,7 +151,6 @@
 (^|\.)qchannel0\d\.cn$
 (^|\.)res\.limei\.com$
 (^|\.)shifen\.com$
-(^|\.)static\.map\.bdimg\.com$
 (^|\.)ubmcmm\.baidustatic\.com$
 (^|\.)ulog\.imap\.baidu\.com$
 (^|\.)wisepush\.video\.baidu\.com$
@@ -169,6 +167,7 @@
 (^|\.)o\.if\.qidian\.com$
 (^|\.)s1\.cmfu\.com$
 (^|\.)ut2\.shuqistat\.com$
+(^|\.)sdk\.cferw\.com$
 
 # Dangdang
 (^|\.)(a|click|schprompt|t)\.dangdang\.com$
@@ -382,7 +381,7 @@
 (^|\.)ws\.progrss\.yahoo\.com$
 
 # Zhihu
-(^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
+(^|\.)(sugar|zhihu-web-analytics)\.zhihu\.com$
 
 # Ads in Video apps********************下面都是
 
@@ -626,7 +625,6 @@
 (^|\.)hosting\.miarroba\.info$
 (^|\.)iadsdk\.apple\.com$
 (^|\.)image\.gentags\.com$
-(^|\.)lm\.admin5\.com$
 (^|\.)log\.outbrain\.com$
 (^|\.)m\.12306media\.com$
 (^|\.)n\.cosbot\.cn$
@@ -690,7 +688,6 @@
 (^|\.)adkmob\.com$
 (^|\.)adlive\.cn$
 (^|\.)adlocus\.com$
-(^|\.)admin5\.com$
 (^|\.)admin6\.com$
 (^|\.)admon\.cn$
 (^|\.)adpolestar\.net$
@@ -1093,6 +1090,8 @@
 (^|\.)coinhive\.com$
 (^|\.)minghui\.org$
 (^|\.)win-stock\.com\.cn$
+(^|\.)wanfeng1\.com$
+(^|\.)zantainet\.com$
 
 ### 运营商广告
 (^|\.)\w\w(\w|)dnserror\d(\d|)\.wo\.com\.cn
@@ -1168,6 +1167,7 @@
 120.55.199.139/32
 120.80.57.123/32
 120.132.63.203/32
+120.198.116.0/24
 121.43.75.169/32
 121.201.11.95/32
 121.201.108.2/32
@@ -1209,6 +1209,7 @@
 221.204.213.222/32
 221.228.17.152/32
 221.228.214.101/32
+222.73.156.235/32
 
 #**********************************************************************
 [proxy_list]
