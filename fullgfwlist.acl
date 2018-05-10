@@ -1,6 +1,6 @@
 #**********************************************************************
-# 04.12
-# 2018年4月12日09:14:04
+# 05.10
+# 2018年5月10日 20:39:49
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -16,19 +16,26 @@
 [proxy_list]
 
 # MyList
+(^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.cc$
+(^|\.)cloudfront\.net$
+(^|\.)dmm\.co\.jp$
 (^|\.)gvt\w\.com$
-(^|\.)ip138\.com$
+(^|\.)microsoft\.com$
+(^|\.)ping\.pe$
 (^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
+(^|\.)tvb\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
-(^|\.)eu-west-1\.compute\.amazonaws\.com$
-(^|\.)ec2-52\w*\.compute-1\.amazonaws\.com$
-(^|\.)fra53\.r\.cloudfront\.net$
-(^|\.)textnow\.me$
+(^|\.)ec2-54-210-142-85\.computer-1\.amazonaws\.com$
+(^|\.)ec2-54-174-24-124\.computer-1\.amazonaws\.com$
+(^|\.)ec2-54-174-178-70\.computer-1\.amazonaws\.com$
+(^|\.)ec2-54-175-2-194\.computer-1\.amazonaws\.com$
+(^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
+(^|\.)raw\.githubusercontent\.com$
 
 #GFWList IP start
 85.17.73.31
