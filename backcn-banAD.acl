@@ -1,6 +1,6 @@
 #**********************************************************************
-# 06.03
-# 2018年6月3日15:57:26
+# 06.11
+# 2018年6月11日21:28:53
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -680,9 +680,11 @@
 (^|\.)up\.qingdaonews\.com$
 
 # 广告联盟-国内****************
+(^|\.)100peng\.com$
 (^|\.)114la\.com$
 (^|\.)123juzi\.net$
 (^|\.)138lm\.com$
+(^|\.)17un\.com$
 (^|\.)2cnt\.net$
 (^|\.)3gmimo\.com$
 (^|\.)3xx\.vip$
@@ -769,6 +771,7 @@
 (^|\.)banmamedia\.com$
 (^|\.)baoyatu\.cc$
 (^|\.)baycode\.cn$
+(^|\.)bayimob\.com$
 (^|\.)behe\.com$
 (^|\.)bfshan\.cn$
 (^|\.)biddingos\.com$
@@ -999,12 +1002,14 @@
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
+(^|\.)union001\.com$
 (^|\.)unionsy\.com$
 (^|\.)unlitui\.com$
 (^|\.)uri6\.com$
 (^|\.)userstyles\.org$
 (^|\.)ushaqi\.com$
 (^|\.)usingde\.com$
+(^|\.)uuzu\.com$
 (^|\.)uyunad\.com$
 (^|\.)vamaker\.com$
 (^|\.)voiceads\.cn$
@@ -1037,6 +1042,7 @@
 (^|\.)ylunion\.com$
 (^|\.)ymapp\.com$
 (^|\.)ymcdn\.cn$
+(^|\.)yongyuelm\.com$
 (^|\.)yooli\.com$
 (^|\.)youmi\.net$
 (^|\.)youxiaoad\.com$
