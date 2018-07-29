@@ -27,7 +27,9 @@
 (^|\.)\w*admarvel\w*\..*$
 (^|\.)\w*admaster\w*\..*$
 (^|\.)\w*adsage\w*\..*$
-(^|\.)\w*adsensor\w*\..*$
+(^|\.)\w*adsensor\
+#**********************************************************************
+w*\..*$
 (^|\.)\w*adservice\w*\..*$
 (^|\.)\w*adsh\w*\..*$
 (^|\.)\w*adsmogo\w*\..*$
@@ -44,7 +46,6 @@
 (^|\.)\w*monitor\w*\..*$
 (^|\.)\w*openx\w*\..*$
 (^|\.)\w*partnerad\w*\..*$
-(^|\.)\w*pingfore\w*\..*$
 (^|\.)\w*socdm\w*\..*$
 (^|\.)\w*supersonicads\w*\..*$
 (^|\.)\w*tracking\w*\..*$
@@ -116,7 +117,7 @@
 
 # Ali
 (^|\.)(adashx4yt|adash-c|ai|re|rj|simaba)\.m\.taobao\.com$
-(^|\.)(appdownload|afp|atanx|atanx2|gma|gtms\d\d)\.alicdn\.com$
+(^|\.)(afp|atanx|atanx2|gma|gtms\d\d)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|tns)\.simba\.taobao\.com$
 (^|\.)(sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
@@ -175,6 +176,7 @@
 (^|\.)ehxyz\.com$
 (^|\.)ethod\.gzgmjcx\.com$
 (^|\.)focuscat\.com$
+(^|\.)hdswgc\.com$
 (^|\.)jyd\.fjzdmy\.com$
 (^|\.)m\.ourlj\.com$
 (^|\.)m\.txtxr\.com$
@@ -1100,7 +1102,6 @@
 (^|\.)fastapi\.net$
 (^|\.)fastclick\.com$
 (^|\.)fastclick\.net$
-(^|\.)flurry\.com$
 (^|\.)gosquared\.com$
 (^|\.)gtags\.net$
 (^|\.)heyzap\.com$
@@ -1199,6 +1200,7 @@
 60.190.139.164/32
 60.191.124.196/32
 60.210.17.0/24
+61.129.70.132/32
 61.132.216.232/32
 61.132.221.146/32
 61.132.255.128/25
@@ -6615,6 +6617,12 @@
 (^|\.)zzcartoon\.com$
 (^|\.)zzux\.com$
 
+# Other
+(^|\.)unsplash\.com$
+
+# Apple
+(^|\.)itunes.apple\.com$
+
 # Instagram
 (^|\.)\w*instagram\w*\.\w*$
 (^|\.)cdninstagram\.com$
@@ -6671,7 +6679,6 @@
 23.246.0.0/18
 37.77.184.0/21
 45.57.0.0/17
-207.45.72.0/22
 64.120.128.0/17
 66.197.128.0/17
 69.53.224.0/19
@@ -6681,29 +6688,20 @@
 192.173.64.0/18
 198.38.96.0/19
 198.45.48.0/20
-69.53.230.0/24
-69.53.231.0/24
-69.53.233.0/24
-69.53.235.0/24
-69.53.240.0/24
-69.53.241.0/24
-69.53.242.0/24
-69.53.245.0/24
-69.53.246.0/24
-69.53.254.0/24
-192.173.64.0/24
-192.173.65.0/24
-192.173.66.0/24
-192.173.67.0/24
-192.173.68.0/24
-192.173.69.0/24
+207.45.72.0/22
 208.75.76.0/24
-
 
 # Onenote
 (^|\.)live\.net$
 (^|\.)live\.com$
 (^|\.)onenote\.com$
+
+# Potato Chat
+(^|\.)potato\.im$
+13.251.24.157/24
+13.251.41.203/24
+17.252.156.147/24
+17.252.157.26/24
 
 #ResiloSync
 (^|\.)config\.getsync\.com$
