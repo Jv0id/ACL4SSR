@@ -1,6 +1,6 @@
 #**********************************************************************
-# 08.26
-# 2018年8月26日19:23:06
+# 09.16
+# 2018年9月16日01:27:51
 # 转载需要注明版权和来源
 # 
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -631,6 +631,7 @@
 
 # PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
+(^|\.)ads\.aplus\.pptv\.com$
 (^|\.)afp\.pplive\.com$
 (^|\.)asimgs\.pplive\.cn$
 (^|\.)pp2\.pptv\.com$
@@ -1137,6 +1138,7 @@
 (^|\.)voiceads\.com$
 (^|\.)vpon\.com$
 (^|\.)vungle\.cn$
+(^|\.)vungle\.com$
 (^|\.)waps\.cn$
 (^|\.)wapx\.cn$
 (^|\.)webterren\.com$
@@ -6781,6 +6783,11 @@
 (^|\.)zzux\.com$
 
 # Other
+(^|\.)doub\.io$
+(^|\.)gameloft\.com$
+(^|\.)quora\.com$
+(^|\.)reddit\.com$
+(^|\.)teddysun\.com$
 (^|\.)unsplash\.com$
 
 # Apple
