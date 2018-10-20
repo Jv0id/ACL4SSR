@@ -1,6 +1,6 @@
 #**********************************************************************
-# 09.16
-# 2018年9月16日01:27:51
+# 10.20
+# 2018年10月20日15:55:33
 # 转载需要注明版权和来源
 # 
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -24,35 +24,35 @@
 # 禁止访问列表
 
 # 广告关键词
-(^|\.)\w*admarvel\w*\..*$
-(^|\.)\w*admaster\w*\..*$
-(^|\.)\w*adsage\w*\..*$
-(^|\.)\w*adsensor\w*\..*$
-(^|\.)\w*adservice\w*\..*$
-(^|\.)\w*adsh\w*\..*$
-(^|\.)\w*adsmogo\w*\..*$
-(^|\.)\w*adsrvmedia\w*\..*$
-(^|\.)\w*adsserving\w*\..*$
-(^|\.)\w*adwords\w*\..*$
-(^|\.)\w*analysis\w*\..*$
-(^|\.)\w*analytics\w*\..*$
-(^|\.)\w*applovin\w*\..*$
-(^|\.)\w*duomeng\w*\..*$
-(^|\.)\w*dwtrack\w*\..*$
-(^|\.)\w*guanggao\w*\..*$
-(^|\.)\w*lianmeng\w*\..*$
-(^|\.)\w*monitor\w*\..*$
-(^|\.)\w*openx\w*\..*$
-(^|\.)\w*partnerad\w*\..*$
-(^|\.)\w*socdm\w*\..*$
-(^|\.)\w*supersonicads\w*\..*$
-(^|\.)\w*tracking\w*\..*$
-(^|\.)\w*traffic\w*\..*$
-(^|\.)\w*uedas\w*\..*$
-(^|\.)\w*umeng\w*\..*$
-(^|\.)\w*usage\w*\..*$
-(^|\.)\w*wlmonitor\w*\..*$
-(^|\.)\w*zjtoolbar\w*\..*$
+(^|\.)\w*admarvel\w*\.\w*$
+(^|\.)\w*admaster\w*\.\w*$
+(^|\.)\w*adsage\w*\.\w*$
+(^|\.)\w*adsensor\w*\.\w*$
+(^|\.)\w*adservice\w*\.\w*$
+(^|\.)\w*adsh\w*\.\w*$
+(^|\.)\w*adsmogo\w*\.\w*$
+(^|\.)\w*adsrvmedia\w*\.\w*$
+(^|\.)\w*adsserving\w*\.\w*$
+(^|\.)\w*adwords\w*\.\w*$
+(^|\.)\w*analysis\w*\.\w*$
+(^|\.)\w*analytics\w*\.\w*$
+(^|\.)\w*applovin\w*\.\w*$
+(^|\.)\w*duomeng\w*\.\w*$
+(^|\.)\w*dwtrack\w*\.\w*$
+(^|\.)\w*guanggao\w*\.\w*$
+(^|\.)\w*lianmeng\w*\.\w*$
+(^|\.)\w*monitor\w*\.\w*$
+(^|\.)\w*openx\w*\.\w*$
+(^|\.)\w*partnerad\w*\.\w*$
+(^|\.)\w*socdm\w*\.\w*$
+(^|\.)\w*supersonicads\w*\.\w*$
+(^|\.)\w*tracking\w*\.\w*$
+(^|\.)\w*traffic\w*\.\w*$
+(^|\.)\w*uedas\w*\.\w*$
+(^|\.)\w*umeng\w*\.\w*$
+(^|\.)\w*usage\w*\.\w*$
+(^|\.)\w*wlmonitor\w*\.\w*$
+(^|\.)\w*zjtoolbar\w*\.\w*$
 (^|\.)ad\d{0,3}\..*$
 (^|\.)ads\d{0,3}\..*$
 (^|\.)tracking\..*$
@@ -178,7 +178,6 @@
 (^|\.)bce\.baidu\.com$
 (^|\.)bdimg\.share\.baidu\.com$
 (^|\.)bdplus\.baidu\.com$
-(^|\.)bj\.bcebos\.com$
 (^|\.)btlaunch\.baidu\.com$
 (^|\.)cleaner\.baidu\.com$
 (^|\.)click\.bes\.baidu\.com$
@@ -468,7 +467,7 @@
 (^|\.)guangzhuiyuan\.com$
 
 # Toutiao
-(^|\.)(ad|d|sm|dsp|nativeapp|partner)\.toutiao\.com$
+(^|\.)(ad|sm|dsp|nativeapp|partner)\.toutiao\.com$
 
 # Twitter
 (^|\.)(ads|syndication|syndication-o|analytics|scribe|p)\.twitter\.com$
@@ -1082,7 +1081,6 @@
 (^|\.)rtbasia\.com$
 (^|\.)sanya1\.com$
 (^|\.)scupio\.com$
-(^|\.)segment\.com$
 (^|\.)serving-sys\.com$
 (^|\.)shuiguo\.com$
 (^|\.)shuzilm\.cn$
@@ -1294,7 +1292,6 @@
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
 (^|\.)coinhive\.com$
-(^|\.)minghui\.org$
 (^|\.)wanfeng1\.com$
 (^|\.)win-stock\.com\.cn$
 (^|\.)zantainet\.com$
@@ -6792,6 +6789,18 @@
 
 # Apple
 (^|\.)itunes.apple\.com$
+
+# BBC
+(^|\.)\w*uk-live\w*\.\w*$
+(^|\.)bbc\.co$
+(^|\.)bbc\.com$
+
+# Epicgames
+(^|\.)\w*epicgames\w*\.\w*$
+(^|\.)helpshift\.com$
+
+# Hulu
+(^|\.)hulu\.com$
 
 # Instagram
 (^|\.)\w*instagram\w*\.\w*$
