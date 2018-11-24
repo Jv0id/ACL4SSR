@@ -1,6 +1,6 @@
 #**********************************************************************
-# 11.01
-# 2018年11月1日 22:09:37
+# 11.24
+# 2018年11月24日11:17:11
 # 转载需要注明版权和来源
 # 
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -331,6 +331,7 @@
 
 # Douyin
 (^|\.)log\.snssdk\.com$
+(^|\.)ic\.snssdk\.com$
 
 # Duomi
 (^|\.)ad\.duomi\.com$
@@ -435,7 +436,7 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|bugly|buluo|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
+(^|\.)(act|adsfile|bugly|buluo|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 
 # RenRen
@@ -602,6 +603,7 @@
 
 # LeTV 乐视
 (^|\.)(ark|dc|fz|g3|minisite|pro|stat)\.letv\.com$
+(^|\.)(1|2)\.letvlive\.com$
 (^|\.)(i0|i3)\.letvimg\.com$
 (^|\.)game\.letvstore\.com$
 (^|\.)n\.mark\.letv\.com$
@@ -630,7 +632,7 @@
 
 # PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
-(^|\.)ads\.aplus\.pptv\.com$
+(^|\.)(app|as)\.aplus\.pptv\.com$
 (^|\.)afp\.pplive\.com$
 (^|\.)asimgs\.pplive\.cn$
 (^|\.)pp2\.pptv\.com$
@@ -700,7 +702,6 @@
 223.87.182.52/32
 
 # Youtube
-(^|\.)ads\.youtube\.com$
 (^|\.)azabu-u\.ac\.jp$
 (^|\.)couchcoaster\.jp$
 (^|\.)delivery\.dmkt-sp\.jp$
@@ -801,6 +802,7 @@
 (^|\.)up\.qingdaonews\.com$
 
 # 广告联盟-国内****************
+(^|\.)09mk\.cn$
 (^|\.)100peng\.com$
 (^|\.)114la\.com$
 (^|\.)123juzi\.net$
@@ -854,6 +856,7 @@
 (^|\.)ads8\.com$
 (^|\.)adsame\.com$
 (^|\.)adsmogo\.com$
+(^|\.)adsmogo\.org$
 (^|\.)adsunflower\.com$
 (^|\.)adsunion\.com$
 (^|\.)adtrk\.me$
@@ -952,6 +955,7 @@
 (^|\.)edigitalsurvey\.com$
 (^|\.)eduancm\.com$
 (^|\.)emarbox\.com$
+(^|\.)epsilon\.com$
 (^|\.)exosrv\.com$
 (^|\.)fancyapi\.com$
 (^|\.)feixin2\.com$
@@ -978,6 +982,7 @@
 (^|\.)imageter\.com$
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
+(^|\.)inmobi\.cn$
 (^|\.)inmobicdn\.net$
 (^|\.)innity\.com$
 (^|\.)instabug\.com$
@@ -1172,7 +1177,9 @@
 (^|\.)yrxmr\.com$
 (^|\.)ysjwj\.com$
 (^|\.)yunjiasu\.com$
+(^|\.)yunpifu\.cn$
 (^|\.)zampdsp\.com$
+(^|\.)zamplus\.com$
 (^|\.)zcdsp\.com$
 (^|\.)zhidian3g\.cn$
 (^|\.)zhiziyun\.com$
@@ -1249,6 +1256,7 @@
 (^|\.)mdotm\.com$
 (^|\.)mgid\.com$
 (^|\.)millennialmedia\.com$
+(^|\.)moatads \.com$
 (^|\.)mobadme\.jp$
 (^|\.)mobfox\.com$
 (^|\.)mobilityware\.com$
@@ -7074,13 +7082,17 @@
 (^|\.)teddysun\.com$
 (^|\.)unsplash\.com$
 
-# Apple
-(^|\.)itunes.apple\.com$
+# APKPURE
+(^|\.)apkpure\.com$
 
 # BBC
 (^|\.)\w*uk-live\w*\.\w*$
 (^|\.)bbc\.co$
 (^|\.)bbc\.com$
+
+# Discord
+(^|\.)discordapp\.com$
+(^|\.)discordapp\.net$
 
 # Epicgames
 (^|\.)\w*epicgames\w*\.\w*$
