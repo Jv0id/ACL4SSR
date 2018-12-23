@@ -1,6 +1,6 @@
 #**********************************************************************
-# 11.24
-# 2018年11月24日11:17:11
+# 12.23
+# 2018年12月23日22:35:08
 # 转载需要注明版权和来源
 # 
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -848,6 +848,7 @@
 (^|\.)adlocus\.com$
 (^|\.)admin6\.com$
 (^|\.)admon\.cn$
+(^|\.)adnyg\.com$
 (^|\.)adpolestar\.net$
 (^|\.)adpro\.cn$
 (^|\.)adpush\.cn$
@@ -1097,11 +1098,13 @@
 (^|\.)social-touch\.com$
 (^|\.)somecoding\.com$
 (^|\.)sponsorpay\.com$
+(^|\.)stargame\.com$
 (^|\.)stg8\.com$
 (^|\.)switchadhub\.com$
 (^|\.)sycbbs\.com$
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
+(^|\.)tagtic\.cn$
 (^|\.)talkingdata\.com$
 (^|\.)talkingdata\.net$
 (^|\.)tansuotv\.com$
@@ -1118,6 +1121,7 @@
 (^|\.)tuia\.cn$
 (^|\.)ueadlian\.com$
 (^|\.)uerzyr\.cn$
+(^|\.)ugdtimg\.com$
 (^|\.)ugvip\.com$
 (^|\.)ujian\.cc$
 (^|\.)ukeiae\.com$
@@ -1300,6 +1304,7 @@
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
 (^|\.)coinhive\.com$
+(^|\.)huodonghezi\.cn$
 (^|\.)wanfeng1\.com$
 (^|\.)win-stock\.com\.cn$
 (^|\.)zantainet\.com$
