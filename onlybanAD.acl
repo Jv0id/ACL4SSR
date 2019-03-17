@@ -471,7 +471,7 @@
 (^|\.)applovin\.com$
 (^|\.)guangzhuiyuan\.com$
 
-# Toutiao
+# Toutiao	
 (^|\.)(ad|sm|dsp|nativeapp|partner)\.toutiao\.com$
 
 # Twitter
@@ -622,17 +622,9 @@
 # Sohu 搜狐
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
 (^|\.)(aty|bd|click|click2|ctr|pv|pb|wl|um)\.hd\.sohu\.com$
-(^|\.)(ads|adnet|aty|epro|golden1|hui|inte|uranus|wan|yule|pv)\.sohu\.com$
+(^|\.)(ads|adnet|aty|epro|go|golden1|hui|inte|uranus|wan|yule|pv)\.sohu\.com$
+(^|\.)(epro|golden1|inte|uranus|pv)\.sogou\.com$
 (^|\.)(inte|lu|theta)\.sogoucdn\.com$
-(^|\.)api\.k\.sohu\.com$
-(^|\.)count\.vrs\.sohu\.com$
-(^|\.)data\.vod\.itc\.cn$
-(^|\.)go\.sohu\.com$
-(^|\.)goto\.sms\.sohu\.com$
-(^|\.)imp\.optaim\.com$
-(^|\.)pv\.ott\.hd\.sohu\.com$
-(^|\.)score\.my\.tv\.sohu\.com$
-(^|\.)zz\.m\.sohu\.com$
 
 # PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
@@ -723,7 +715,6 @@
 (^|\.)c\.algovid\.com$
 (^|\.)cc\.xtgreat\.com$
 (^|\.)d\.dsp\.imageter\.com$
-(^|\.)dotcounter\.douyutv\.com$
 (^|\.)gg\.jtertp\.com$
 (^|\.)gridsum-vd\.cntv\.cn$
 (^|\.)kwflvcdn\.000dn\.com$
@@ -798,7 +789,6 @@
 (^|\.)ssp\.kssws\.ks-cdn\.com$
 (^|\.)stats\.chinaz\.com$
 (^|\.)stats\.developingperspective\.com$
-(^|\.)stats\.jpush\.cn$
 (^|\.)tjlog\.easou\.com$
 (^|\.)tjlog\.ps\.easou\.com$
 (^|\.)track\.hujiang\.com$
@@ -884,7 +874,7 @@
 (^|\.)allyes\.com$
 (^|\.)amazon-adsystem\.com$
 (^|\.)amplitude\.com$
-(^|\.)analysys\.cn$
+(^|\.)analysys\.cn
 (^|\.)angsrvr\.com$
 (^|\.)anquan\.org$
 (^|\.)anysdk\.com$
@@ -1487,6 +1477,7 @@
 222.186.61.97/32
 222.187.226.96/32
 223.6.255.99/32
+
 
 #**********************************************************************
 [proxy_list]
