@@ -1,6 +1,6 @@
 #**********************************************************************
-# 04.21
-# 2019年4月21日23:10:52
+# 04.29
+# 2019年4月29日 20:32:24
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -7622,6 +7622,7 @@
 (^|\.)edgecastcdn\.net$
 (^|\.)edgekey\.net$
 (^|\.)edgesuite\.net$
+(^|\.)en\.wikipedia\.org$
 (^|\.)eu-west-1\.console\.aws\.amazon\.com$
 (^|\.)eurekavpt\.com$
 (^|\.)facebook\.com$
@@ -7702,6 +7703,7 @@
 (^|\.)vox-cdn\.com$
 (^|\.)wikileaks\.org$
 (^|\.)wuu\.wikipedia\.org$
+(^|\.)www\.wikipedia\.org$
 (^|\.)www\.youtube-nocookie\.com$
 (^|\.)youtu\.be$
 (^|\.)youtube\.com$
