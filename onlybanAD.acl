@@ -1576,6 +1576,7 @@
 (^|\.)edgecastcdn\.net$
 (^|\.)edgekey\.net$
 (^|\.)edgesuite\.net$
+(^|\.)en\.m\.wikipedia\.org$
 (^|\.)en\.wikipedia\.org$
 (^|\.)eu-west-1\.console\.aws\.amazon\.com$
 (^|\.)eurekavpt\.com$
