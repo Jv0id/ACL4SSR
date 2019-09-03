@@ -3,7 +3,7 @@
 * 项目基于CC-BY-SA-4.0协议发布
 * 仅推荐未root的安卓手机使用。
 * Telegram频道订阅地址：**https://t.me/ACL4SSR**
-* [关于中国的互联网](https://github.com/ACL4SSR/ACL4SSR/wiki/关于中国的互联网)
+* [关于中国的互联网](https://github.com/Jv0id/ACL4SSR/wiki/关于中国的互联网)
 
 
 # root手机推荐：
@@ -36,13 +36,13 @@ gfwlist-user.rule |  直连  |   是   |  直连  |    无      |     无       
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
 # ♻️ SS/SSR ACL Files Download：
-* ACL更新地址（**白名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
-* ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
-* ACL更新地址（**全局**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
-* ACL更新地址（**仅GFWList**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/fullgfwlist.acl （原版SS**能且仅能**使用此规则）
-* ACL更新地址（**国内代理**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
-* ACL更新地址（**白名单，无去广告**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/nobanAD.acl
-* SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
+* ACL更新地址（**白名单**）：https://raw.githubusercontent.com/Jv0id/ACL4SSR/master/banAD.acl
+* ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/Jv0id/ACL4SSR/master/gfwlist-banAD.acl
+* ACL更新地址（**全局**）：https://raw.githubusercontent.com/Jv0id/ACL4SSR/master/onlybanAD.acl
+* ACL更新地址（**仅GFWList**）：https://raw.githubusercontent.com/Jv0id/ACL4SSR/master/fullgfwlist.acl （原版SS**能且仅能**使用此规则）
+* ACL更新地址（**国内代理**）：https://raw.githubusercontent.com/Jv0id/ACL4SSR/master/backcn-banAD.acl
+* ACL更新地址（**白名单，无去广告**）：https://raw.githubusercontent.com/Jv0id/ACL4SSR/master/nobanAD.acl
+* SSR C# GFWList user.rule ：https://raw.githubusercontent.com/Jv0id/ACL4SSR/master/gfwlist-user.rule
 
 
 * SS：https://github.com/shadowsocks
